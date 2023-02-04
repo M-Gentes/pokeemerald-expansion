@@ -5399,3 +5399,69 @@ const u8 gEnamorusPokedexText[] = _(
     "Pokémon's love gives rise to the\n"
     "budding of fresh life across the land.");
 #endif
+
+const u8 gSmashbagPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Delibird, but is\n"
+    "much stronger. It can smash everything in\n"
+    "its way with his mace-like tail.");
+
+const u8 gClawhillPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Hariyama, but is\n"
+    "much stronger. It has burning claws\n"
+    "tearing and burning its foes.");
+
+const u8 gMagicornPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Gallade, but is\n"
+    "much stronger. Big rocky horns raise\n"
+    "the power of its brutal melee attacks.");
+
+const u8 gMagicoatPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Gardevoir, but is\n"
+    "much stronger. With the power of nature\n"
+    "it can create earthquakes.");
+
+const u8 gSwirlheadPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Hydreigon, but is\n"
+    "much stronger. It can create whirlpools\n"
+    "pulling unaware victims into the abyss.");
+
+const u8 gTerrorkingPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Tyranitar, but is\n"
+    "much stronger. An extremely evil beast\n"
+    "with no mercy for invaders of its territory.");
+
+const u8 gIronbloonPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Wigglytuff, but is\n"
+    "much stronger. It floats through the air\n"
+    "and can produce shocking sound waves.");
+
+const u8 gIronhutPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Amoonguss, but is\n"
+    "much stronger. It can shoot with his hands\n"
+    "shocking and paralyzing laser beams.");
+
+const u8 gIrontitanPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Magnezone, but is\n"
+    "much stronger. It fuzed with other\n"
+    "Magnemites to form an powerful warrior.");
+
+const u8 gIronwingsPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Salamence, but is\n"
+    "much stronger. Flying through the sky at an\n"
+    "incredible speed slicing all obstacles in its way.");
+
+const u8 gIronwitchPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Misdreavus, but is\n"
+    "much stronger. It combines the power of\n"
+    "technologies and magic to fight.");

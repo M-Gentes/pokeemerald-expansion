@@ -33485,3 +33485,47 @@ static const u16 sCalyrexShadowRiderTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif
+
+static const u16 sSmashbagTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sClawhillTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sMagicornTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sMagicoatTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sSwirlheadTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sTerrorkingTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronbloonTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronhutTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIrontitanTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronwingsTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronwitchTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};

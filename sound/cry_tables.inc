@@ -1439,6 +1439,18 @@ gCryTable::
 	cry Cry_Unown
 	cry Cry_Unown
 .endif
+@ Paradox
+	cry Cry_Smashbag
+	cry Cry_Clawhill
+	cry Cry_Magicorn
+	cry Cry_Magicoat
+	cry Cry_Swirlhead
+	cry Cry_Terrorking
+	cry Cry_Ironbloon
+	cry Cry_Ironhut
+	cry Cry_Irontitan
+	cry Cry_Ironwings
+	cry Cry_Ironwitch
 	@ Megas
 	cry Cry_VenusaurMega
 	cry Cry_CharizardMegaX
@@ -3456,13 +3468,13 @@ gCryTable_Reverse::
 	cry_reverse Cry_Glastrier
 	cry_reverse Cry_Spectrier
 	cry_reverse Cry_Calyrex
-	cry_reverse Cry_Unown //Cry_Wyrdeer
-	cry_reverse Cry_Unown //Cry_Kleavor
-	cry_reverse Cry_Unown //Cry_Ursaluna
-	cry_reverse Cry_Unown //Cry_Basculegion
-	cry_reverse Cry_Unown //Cry_Sneasler
-	cry_reverse Cry_Unown //Cry_Overqwil
-	cry_reverse Cry_Unown //Cry_Enamorus
+	cry_reverse Cry_Unown // Cry_Wyrdeer
+	cry_reverse Cry_Unown // Cry_Kleavor
+	cry_reverse Cry_Unown // Cry_Ursaluna
+	cry_reverse Cry_Unown // Cry_Basculegion
+	cry_reverse Cry_Unown // Cry_Sneasler
+	cry_reverse Cry_Unown // Cry_Overqwil
+	cry_reverse Cry_Unown // Cry_Enamorus
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
@@ -3561,6 +3573,18 @@ gCryTable_Reverse::
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
 .endif
+	@ Paradox
+	cry_reverse Cry_Smashbag
+	cry_reverse Cry_Clawhill
+	cry_reverse Cry_Magicorn
+	cry_reverse Cry_Magicoat
+	cry_reverse Cry_Swirlhead
+	cry_reverse Cry_Terrorking
+	cry_reverse Cry_Ironbloon
+	cry_reverse Cry_Ironhut
+	cry_reverse Cry_Irontitan
+	cry_reverse Cry_Ironwings
+	cry_reverse Cry_Ironwitch
 	@ Megas
 	cry_reverse Cry_VenusaurMega
 	cry_reverse Cry_CharizardMegaX

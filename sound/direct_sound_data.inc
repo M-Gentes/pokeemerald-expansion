@@ -4018,6 +4018,40 @@ Cry_Enamorus::
 .endif
 
 	.align 2
+Cry_Smashbag::
+	.incbin "sound/direct_sound_samples/cries/delibird.bin"
+		.align 2
+Cry_Clawhill::
+	.incbin "sound/direct_sound_samples/cries/hariyama.bin"
+		.align 2
+Cry_Magicorn::
+	.incbin "sound/direct_sound_samples/cries/golem.bin"
+		.align 2
+Cry_Magicoat::
+	.incbin "sound/direct_sound_samples/cries/gardevoir.bin"
+		.align 2
+Cry_Swirlhead::
+	.incbin "sound/direct_sound_samples/cries/dragonite.bin"
+		.align 2
+Cry_Terrorking::
+	.incbin "sound/direct_sound_samples/cries/tyranitar.bin"
+		.align 2
+Cry_Ironbloon::
+	.incbin "sound/direct_sound_samples/cries/wigglytuff.bin"
+		.align 2
+Cry_Ironhut::
+	.incbin "sound/direct_sound_samples/cries/deoxys.bin"
+		.align 2
+Cry_Irontitan::
+	.incbin "sound/direct_sound_samples/cries/magneton.bin"
+		.align 2
+Cry_Ironwings::
+	.incbin "sound/direct_sound_samples/cries/salamence.bin"
+		.align 2
+Cry_Ironwitch::
+	.incbin "sound/direct_sound_samples/cries/misdreavus.bin"
+
+	.align 2
 Cry_VenusaurMega::
 	.incbin "sound/direct_sound_samples/cries/mega_venusaur.bin"
 

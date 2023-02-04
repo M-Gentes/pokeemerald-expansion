@@ -915,7 +915,18 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_OVERQWIL] = _("Overqwil"),
     [SPECIES_ENAMORUS] = _("Enamorus"),
 #endif
-
+    // Paradox
+    [SPECIES_SMASHBAG] = _("Smashbag"),
+    [SPECIES_CLAWHILL] = _("Clawhill"),
+    [SPECIES_MAGICORN] = _("Magicorn"),
+    [SPECIES_MAGICOAT] = _("Magicoat"),
+    [SPECIES_SWIRLHEAD] = _("Swirlhead"),
+    [SPECIES_TERRORKING] = _("Terrorking"),
+    [SPECIES_IRONBLOON] = _("Iron Bloon"),
+    [SPECIES_IRONHUT] = _("Iron Hut"),
+    [SPECIES_IRONTITAN] = _("Iron Titan"),
+    [SPECIES_IRONWINGS] = _("Iron Wings"),
+    [SPECIES_IRONWITCH] = _("Iron Witch"),
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),
     [SPECIES_CHARIZARD_MEGA_X] = _("Charizard"),
@@ -1018,7 +1029,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_STUNFISK_GALARIAN] = _("Stunfisk"),
 #endif
 
-//Hisuian Forms
+    //Hisuian Forms
     [SPECIES_GROWLITHE_HISUIAN] = _("Growlithe"),
     [SPECIES_ARCANINE_HISUIAN] = _("Arcanine"),
     [SPECIES_VOLTORB_HISUIAN] = _("Voltorb"),
