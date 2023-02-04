@@ -1100,6 +1100,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
         [SPECIES_CASTFORM_SUNNY] = sCastformLevelUpLearnset,
         [SPECIES_CASTFORM_RAINY] = sCastformLevelUpLearnset,
         [SPECIES_CASTFORM_SNOWY] = sCastformLevelUpLearnset,
+        [SPECIES_CASTFORM_SANDY] = sCastformLevelUpLearnset,
         // Deoxys
         [SPECIES_DEOXYS_ATTACK] = sDeoxysAttackLevelUpLearnset,
         [SPECIES_DEOXYS_DEFENSE] = sDeoxysDefenseLevelUpLearnset,

@@ -3958,7 +3958,7 @@ u8 TryWeatherFormChange(u8 battler)
             }
         }
 #endif
-        else if (holdEffect == HOLD_EFFECT_UTILITY_UMBRELLA || (!(gBattleWeather & (B_WEATHER_RAIN | B_WEATHER_SUN | B_WEATHER_HAIL)) && !IS_BATTLER_OF_TYPE(battler, TYPE_NORMAL)))
+        else if (holdEffect == HOLD_EFFECT_UTILITY_UMBRELLA || (!(gBattleWeather & (B_WEATHER_RAIN | B_WEATHER_SUN | B_WEATHER_HAIL | B_WEATHER_SANDSTORM)) && !IS_BATTLER_OF_TYPE(battler, TYPE_NORMAL)))
         {
             SET_BATTLER_TYPE(battler, TYPE_NORMAL);
             ret = CASTFORM_NORMAL + 1;
@@ -3977,6 +3977,11 @@ u8 TryWeatherFormChange(u8 battler)
         {
             SET_BATTLER_TYPE(battler, TYPE_ICE);
             ret = CASTFORM_ICE + 1;
+        }
+        else if (gBattleWeather & B_WEATHER_SANDSTORM && !IS_BATTLER_OF_TYPE(battler, TYPE_ROCK))
+        {
+            SET_BATTLER_TYPE(battler, TYPE_ROCK);
+            ret = CASTFORM_ROCK + 1;
         }
         break;
     case SPECIES_CHERRIM:
