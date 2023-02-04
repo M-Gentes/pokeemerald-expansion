@@ -285,6 +285,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                     #endif
                                        },
     [SPECIES_GARDEVOIR]             = {{EVO_MEGA_EVOLUTION, ITEM_GARDEVOIRITE, SPECIES_GARDEVOIR_MEGA}},
+    [SPECIES_LUVDISC]               = {{EVO_ITEM, ITEM_HEART_SCALE, SPECIES_ALOMOMOLA}},
     [SPECIES_BAGON]                 = {{EVO_LEVEL, 30, SPECIES_SHELGON}},
     [SPECIES_SHELGON]               = {{EVO_LEVEL, 50, SPECIES_SALAMENCE}},
     [SPECIES_SALAMENCE]             = {{EVO_MEGA_EVOLUTION, ITEM_SALAMENCITE, SPECIES_SALAMENCE_MEGA}},
