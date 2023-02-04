@@ -1447,6 +1447,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
         [SPECIES_CASTFORM_SUNNY - 1] = NATIONAL_DEX_CASTFORM,
         [SPECIES_CASTFORM_RAINY - 1] = NATIONAL_DEX_CASTFORM,
         [SPECIES_CASTFORM_SNOWY - 1] = NATIONAL_DEX_CASTFORM,
+        [SPECIES_CASTFORM_SANDY - 1] = NATIONAL_DEX_CASTFORM,
         // Deoxys
         [SPECIES_DEOXYS_ATTACK - 1] = NATIONAL_DEX_DEOXYS,
         [SPECIES_DEOXYS_DEFENSE - 1] = NATIONAL_DEX_DEOXYS,
@@ -8222,7 +8223,7 @@ const u8 *GetTrainerNameFromId(u16 trainerId)
 
 bool8 HasTwoFramesAnimation(u16 species)
 {
-    return (species != SPECIES_CASTFORM && species != SPECIES_SPINDA && species != SPECIES_UNOWN && species != SPECIES_CHERRIM && species != SPECIES_CASTFORM_SUNNY && species != SPECIES_CASTFORM_RAINY && species != SPECIES_CASTFORM_SNOWY);
+    return (species != SPECIES_CASTFORM && species != SPECIES_SPINDA && species != SPECIES_UNOWN && species != SPECIES_CHERRIM && species != SPECIES_CASTFORM_SUNNY && species != SPECIES_CASTFORM_RAINY && species != SPECIES_CASTFORM_SNOWY && species != SPECIES_CASTFORM_SANDY);
 }
 
 static bool8 ShouldSkipFriendshipChange(void)
