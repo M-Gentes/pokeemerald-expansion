@@ -8195,7 +8195,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_FLUCTUATING,
                 .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
-                .abilities = {ABILITY_VEGETARIAN, ABILITY_GLUTTONY, ABILITY_STICKY_HOLD},
+                .abilities = {ABILITY_SAP_SIPPER, ABILITY_GLUTTONY, ABILITY_STICKY_HOLD},
                 .bodyColor = BODY_COLOR_PURPLE,
                 .noFlip = FALSE,
             },
