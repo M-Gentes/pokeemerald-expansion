@@ -1370,6 +1370,6 @@ const struct CompressedSpritePalette gMonShinyPaletteTableFemale[] =
         SPECIES_SHINY_PAL(PYROAR, gMonShinyPalette_Pyroar),
 #endif
 #if P_GEN_8_POKEMON == TRUE
-        SPECIES_SHINY_PAL(BASCULEGION, gMonShinyPalette_CircledQuestionMark), // gMonShinyPalette_BasculegionF),
+        SPECIES_SHINY_PAL(BASCULEGION, gMonShinyPalette_BasculegionF),
 #endif
 };
