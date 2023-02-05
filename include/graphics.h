@@ -7163,11 +7163,11 @@ extern const u8 gMonFootprint_Regidrago[];
 extern const u8 gMonFootprint_Glastrier[];
 extern const u8 gMonFootprint_Spectrier[];
 extern const u8 gMonFootprint_Calyrex[];
-//extern const u8 gMonFootprint_Wyrdeer[];
+extern const u8 gMonFootprint_Wyrdeer[];
 //extern const u8 gMonFootprint_Kleavor[];
 //extern const u8 gMonFootprint_Ursaluna[];
 //extern const u8 gMonFootprint_Basculegion[];
-//extern const u8 gMonFootprint_Sneasler[];
+extern const u8 gMonFootprint_Sneasler[];
 //extern const u8 gMonFootprint_Overqwil[];
 //extern const u8 gMonFootprint_Enamorus[];
 #endif

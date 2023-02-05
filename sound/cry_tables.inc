@@ -1334,13 +1334,13 @@ gCryTable::
 	cry Cry_Glastrier
 	cry Cry_Spectrier
 	cry Cry_Calyrex
-	cry Cry_Unown //Cry_Wyrdeer
-	cry Cry_Unown //Cry_Kleavor
-	cry Cry_Unown //Cry_Ursaluna
-	cry Cry_Unown //Cry_Basculegion
-	cry Cry_Unown //Cry_Sneasler
-	cry Cry_Unown //Cry_Overqwil
-	cry Cry_Unown //Cry_Enamorus
+	cry Cry_Wyrdeer
+	cry Cry_Kleavor
+	cry Cry_Ursaluna
+	cry Cry_Basculegion
+	cry Cry_Sneasler
+	cry Cry_Overqwil
+	cry Cry_Enamorus
 .else
 	cry Cry_Unown
 	cry Cry_Unown
