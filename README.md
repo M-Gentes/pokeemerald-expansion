@@ -1,3 +1,27 @@
+# Timeless Emerald
+
+## Credits
+
+- Credits go to pokeemerald-expansion from rh-hideout and its contributors for being the basis of the hack.
+    - See: https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits
+- Thanks to Team Aqua's Hideout for its tutorial videos on Pokémon ROM Hacking.
+- Thanks to KingOfThe-X-Roads for the hisuian Pokémon front Sprites being adapted in this hack.
+- Thanks to kiriaura fot the Paradox Pokémon front Sprites being adapted in this hack.
+- Using the Draconeon Sprites from Pokémon Infinity
+
+## About
+
+This is a Pokémon Emerald ROM-Hack being mostly based on Emerald but especially adding some Hisuian, Paradox and Custom Paradox Mons.
+
+Additional Features
+- Hisuian, Paradox and Custom Paradox Mons are added.
+- Features of the pokeemerald-expansion are included such as Fairy Type, move category split, newer moves and some Mons up to Gen 8.
+- Enemy Teams are adapted and changed.
+- Some weaker Pokémon are changed and buffed
+    - Castform e.g. has a basis of 90 in all stats and gets a sandstorm form
+    - Eevee gets finally its Dragon Evolution (from Pokémon Infinity)
+. Some Events and Map Tiles are changed/added
+
 # pokeemerald Expansion
 
 ## What is the pokeemerald Expansion?
