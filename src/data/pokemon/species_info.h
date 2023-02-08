@@ -63,15 +63,15 @@
         .noFlip = flip,                                                     \
     }
 
-#define UNOWN_SPECIES_INFO(flip)                                       \
+#define UNOWN_SPECIES_INFO(flip, type1, type2)                         \
     {                                                                  \
-        .baseHP = 48,                                                  \
-        .baseAttack = 72,                                              \
-        .baseDefense = 48,                                             \
-        .baseSpeed = 48,                                               \
-        .baseSpAttack = 72,                                            \
-        .baseSpDefense = 48,                                           \
-        .types = {TYPE_PSYCHIC, TYPE_PSYCHIC},                         \
+        .baseHP = 48 + 26,                                             \
+        .baseAttack = 72 + 26,                                         \
+        .baseDefense = 48 + 26,                                        \
+        .baseSpeed = 48 + 26,                                          \
+        .baseSpAttack = 72 + 26,                                       \
+        .baseSpDefense = 48 + 26,                                      \
+        .types = {type1, type2},                                       \
         .catchRate = 225,                                              \
         .expYield = 118,                                               \
         .evYield_Attack = 1,                                           \
@@ -81,9 +81,8 @@
         .friendship = 70,                                              \
         .growthRate = GROWTH_MEDIUM_FAST,                              \
         .eggGroups = {EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED}, \
-        .abilities = {ABILITY_LEVITATE, ABILITY_NONE},                 \
-        .bodyColor = BODY_COLOR_BLACK,                                 \
-        .noFlip = flip,                                                \
+        .abilities = {ABILITY_ADAPTABILITY, ABILITY_LEVITATE},         \
+        .bodyColor = BODY_COLOR_BLACK, .noFlip = flip,                 \
     }
 
 #define CASTFORM_SPECIES_INFO(type, color)                   \
@@ -3508,7 +3507,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_MONSTER},
-                .abilities = {ABILITY_EARLY_BIRD, ABILITY_SCRAPPY, ABILITY_INNER_FOCUS},
+                .abilities = {ABILITY_PARENTAL_BOND, ABILITY_SCRAPPY, ABILITY_INNER_FOCUS},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
             },
@@ -5462,7 +5461,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
-        [SPECIES_UNOWN] = UNOWN_SPECIES_INFO(FLIP),
+        [SPECIES_UNOWN] = UNOWN_SPECIES_INFO(FLIP, TYPE_PSYCHIC, TYPE_PSYCHIC),
 
         [SPECIES_WOBBUFFET] =
             {
@@ -7837,7 +7836,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 35,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE},
-                .abilities = {ABILITY_KEEN_EYE, ABILITY_STALL, ABILITY_PRANKSTER},
+                .abilities = {ABILITY_PRANKSTER, ABILITY_KEEN_EYE, ABILITY_STALL},
                 .bodyColor = BODY_COLOR_PURPLE,
                 .noFlip = FALSE,
             },
@@ -7865,7 +7864,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FAIRY},
-                .abilities = {ABILITY_HYPER_CUTTER, ABILITY_INTIMIDATE, ABILITY_SHEER_FORCE},
+                .abilities = {ABILITY_HUGE_POWER, ABILITY_INTIMIDATE, ABILITY_SHEER_FORCE},
                 .bodyColor = BODY_COLOR_BLACK,
                 .noFlip = FALSE,
             },
@@ -8078,7 +8077,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .baseHP = 65,
                 .baseAttack = 73 + 20,
                 .baseSpeed = 85,
-                .baseSpAttack = 47+30,
+                .baseSpAttack = 47 + 30,
 #if P_UPDATED_STATS >= GEN_7
                 .baseDefense = 75,
                 .baseSpDefense = 85,
@@ -8103,7 +8102,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_ILLUMISE] =
             {
-                .baseHP = 65 +30,
+                .baseHP = 65 + 30,
                 .baseAttack = 47,
                 .baseSpeed = 85,
                 .baseSpAttack = 73 + 20,
@@ -8353,7 +8352,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_WHITE_SMOKE, ABILITY_DROUGHT, ABILITY_SHELL_ARMOR},
+                .abilities = {ABILITY_DROUGHT, ABILITY_WHITE_SMOKE, ABILITY_SHELL_ARMOR},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
             },
@@ -8383,10 +8382,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_GRUMPIG] =
             {
                 .baseHP = 80,
-                .baseAttack = 45+50,
+                .baseAttack = 45 + 50,
                 .baseDefense = 65,
                 .baseSpeed = 80,
-                .baseSpAttack = 90+5,
+                .baseSpAttack = 90 + 5,
                 .baseSpDefense = 110,
                 .types = {TYPE_PSYCHIC, TYPE_NORMAL},
                 .catchRate = 60,
@@ -8480,12 +8479,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_FLYGON] =
             {
-                .baseHP = 80+20,
+                .baseHP = 80 + 20,
                 .baseAttack = 100,
-                .baseDefense = 80+20,
+                .baseDefense = 80 + 20,
                 .baseSpeed = 100,
-                .baseSpAttack = 80+20,
-                .baseSpDefense = 80+20,
+                .baseSpAttack = 80 + 20,
+                .baseSpDefense = 80 + 20,
                 .types = {TYPE_GROUND, TYPE_DRAGON},
                 .catchRate = 45,
                 .expYield = 234,
@@ -8530,10 +8529,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_CACTURNE] =
             {
-                .baseHP = 70+20,
+                .baseHP = 70 + 20,
                 .baseAttack = 115,
                 .baseDefense = 60,
-                .baseSpeed = 55+20,
+                .baseSpeed = 55 + 20,
                 .baseSpAttack = 115,
                 .baseSpDefense = 60,
                 .types = {TYPE_GRASS, TYPE_DARK},
@@ -8896,7 +8895,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_ERRATIC,
                 .eggGroups = {EGG_GROUP_WATER_3, EGG_GROUP_WATER_3},
-                .abilities = { ABILITY_TINTED_LENS, ABILITY_BATTLE_ARMOR, ABILITY_SWIFT_SWIM},
+                .abilities = {ABILITY_TINTED_LENS, ABILITY_BATTLE_ARMOR, ABILITY_SWIFT_SWIM},
                 .bodyColor = BODY_COLOR_GRAY,
                 .noFlip = FALSE,
             },
@@ -8971,11 +8970,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_KECLEON] =
             {
-                .baseHP = 60+50,
+                .baseHP = 60 + 50,
                 .baseAttack = 90,
                 .baseDefense = 70,
                 .baseSpeed = 40,
-                .baseSpAttack = 60+30,
+                .baseSpAttack = 60 + 30,
                 .baseSpDefense = 120,
                 .types = {TYPE_NORMAL, TYPE_NORMAL},
                 .catchRate = 200,
@@ -8986,7 +8985,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_COLOR_CHANGE, ABILITY_PROTEAN, ABILITY_WONDER_SKIN},
+                .abilities = {ABILITY_COLOR_CHANGE, ABILITY_PROTEAN, ABILITY_MIMICRY},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -14437,7 +14436,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_FAST,
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_2},
-                .abilities = {ABILITY_HEALER, ABILITY_HYDRATION, ABILITY_REGENERATOR},
+                .abilities = {ABILITY_REGENERATOR, ABILITY_HYDRATION, ABILITY_HEALER},
                 .bodyColor = BODY_COLOR_PINK,
                 .noFlip = FALSE,
             },
@@ -23471,33 +23470,33 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_PICHU_SPIKY_EARED] = PICHU_SPECIES_INFO(NO_FLIP),
 
-        [SPECIES_UNOWN_B] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_C] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_D] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_E] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_F] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_G] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_H] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_I] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_J] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_K] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_L] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_M] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_N] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_O] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_P] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_Q] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_R] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_S] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_T] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_U] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_V] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_W] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_X] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_Y] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_Z] = UNOWN_SPECIES_INFO(NO_FLIP),
-        [SPECIES_UNOWN_EMARK] = UNOWN_SPECIES_INFO(FLIP),
-        [SPECIES_UNOWN_QMARK] = UNOWN_SPECIES_INFO(NO_FLIP),
+        [SPECIES_UNOWN_B] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_BUG, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_C] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_ICE, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_D] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_DRAGON, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_E] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_ELECTRIC, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_F] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_FIRE, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_G] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_GROUND, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_H] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_GHOST, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_I] = UNOWN_SPECIES_INFO(FLIP, TYPE_ICE, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_J] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_ELECTRIC, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_K] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_FIGHTING, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_L] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_FLYING, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_M] = UNOWN_SPECIES_INFO(FLIP, TYPE_STEEL, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_N] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_NORMAL, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_O] = UNOWN_SPECIES_INFO(FLIP, TYPE_POISON, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_P] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_POISON, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_Q] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_WATER, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_R] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_ROCK, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_S] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_STEEL, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_T] = UNOWN_SPECIES_INFO(FLIP, TYPE_STEEL, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_U] = UNOWN_SPECIES_INFO(FLIP, TYPE_PSYCHIC, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_V] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_GRASS, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_W] = UNOWN_SPECIES_INFO(FLIP, TYPE_WATER, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_X] = UNOWN_SPECIES_INFO(FLIP, TYPE_FAIRY, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_Y] = UNOWN_SPECIES_INFO(FLIP, TYPE_DARK, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_Z] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_DRAGON, TYPE_PSYCHIC),
+        [SPECIES_UNOWN_EMARK] = UNOWN_SPECIES_INFO(FLIP, TYPE_MYSTERY, TYPE_MYSTERY),
+        [SPECIES_UNOWN_QMARK] = UNOWN_SPECIES_INFO(NO_FLIP, TYPE_MYSTERY, TYPE_MYSTERY),
 
         [SPECIES_CASTFORM_SUNNY] = CASTFORM_SPECIES_INFO(TYPE_FIRE, BODY_COLOR_RED),
         [SPECIES_CASTFORM_RAINY] = CASTFORM_SPECIES_INFO(TYPE_WATER, BODY_COLOR_BLUE),
