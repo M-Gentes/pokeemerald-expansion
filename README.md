@@ -7,7 +7,10 @@
 - Thanks to Team Aqua's Hideout for its tutorial videos on Pokémon ROM Hacking.
 - Thanks to KingOfThe-X-Roads for the hisuian Pokémon front Sprites being adapted in this hack.
 - Thanks to kiriaura fot the Paradox Pokémon front Sprites being adapted in this hack.
-- Using the Draconeon Sprites from Pokémon Infinity
+- Credits for some gen 9 sprites and icons go to vent, red7246, axelloquedo, AlexandreV2.0, erkey830, kalibre, tay, soupercell, juniornoriega, lykeron, pcl.g, nikorasu[whackahack]
+- Credits to Ezerart for some gen 9 icon sprites.
+- Using the Draconeon Sprites from Pokémon Infinity.
+- Using the Wyrdeer Back Sprite from darklight177.
 
 ## About
 
@@ -20,6 +23,7 @@ Additional Features
 - Some weaker Pokémon are changed and buffed
     - Castform e.g. has a basis of 90 in all stats and gets a sandstorm form
     - Eevee gets finally its Dragon Evolution (from Pokémon Infinity)
+    - Changes to Pokémon in this hack are documented in [mon_changelog.md](./mon_changelog.md)
 . Some Events and Map Tiles are changed/added
 
 # pokeemerald Expansion
