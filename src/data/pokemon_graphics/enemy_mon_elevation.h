@@ -271,4 +271,8 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
         [SPECIES_ETERNATUS_ETERNAMAX] = 13,
         [SPECIES_IRONWINGS] = 10,
         [SPECIES_IRONWITCH] = 12,
+        [SPECIES_FLUTTERMANE] = 12,
+        [SPECIES_ROARINGMOON] = 12,
+        [SPECIES_IRONJUGULIS] = 12,
+        [SPECIES_CASTSTORM] = 12,
 };

@@ -4050,6 +4050,98 @@ Cry_Ironwings::
 		.align 2
 Cry_Ironwitch::
 	.incbin "sound/direct_sound_samples/cries/misdreavus.bin"
+	
+		.align 2
+Cry_Brutebonnet::
+	.incbin "sound/direct_sound_samples/cries/parasect.bin"
+	
+		.align 2
+Cry_Greattusk::
+	.incbin "sound/direct_sound_samples/cries/donphan.bin"
+
+		.align 2
+Cry_Slitherwing::
+	.incbin "sound/direct_sound_samples/cries/volcarona.bin"
+
+		.align 2
+Cry_Screamtail::
+	.incbin "sound/direct_sound_samples/cries/jigglypuff.bin"
+
+		.align 2
+Cry_Sandyshocks::
+	.incbin "sound/direct_sound_samples/cries/magneton.bin"
+
+		.align 2
+Cry_Fluttermane::
+	.incbin "sound/direct_sound_samples/cries/misdreavus.bin"
+
+		.align 2
+Cry_Roaringmoon::
+	.incbin "sound/direct_sound_samples/cries/salamence.bin"
+
+		.align 2
+Cry_Ironbundle::
+	.incbin "sound/direct_sound_samples/cries/delibird.bin"
+
+			.align 2
+Cry_Ironhands::
+	.incbin "sound/direct_sound_samples/cries/regirock.bin"
+
+			.align 2
+Cry_Ironjugulis::
+	.incbin "sound/direct_sound_samples/cries/hydreigon.bin"
+
+		.align 2
+Cry_Ironmoth::
+	.incbin "sound/direct_sound_samples/cries/naganadel.bin"
+
+		.align 2
+Cry_Ironthorns::
+	.incbin "sound/direct_sound_samples/cries/relicanth.bin"
+
+		.align 2
+Cry_Irontreads::
+	.incbin "sound/direct_sound_samples/cries/stakataka.bin"
+
+		.align 2
+Cry_Ironvaliant::
+	.incbin "sound/direct_sound_samples/cries/deoxys.bin"
+
+		.align 2
+Cry_Pawmi::
+	.incbin "sound/direct_sound_samples/cries/yamper.bin"
+
+		.align 2
+Cry_Pawmo::
+	.incbin "sound/direct_sound_samples/cries/nickit.bin"
+
+		.align 2
+Cry_Pawmot::
+	.incbin "sound/direct_sound_samples/cries/zeraora.bin"
+
+		.align 2
+Cry_Annihilape::
+	.incbin "sound/direct_sound_samples/cries/primeape.bin"
+
+		.align 2
+Cry_Dudunsparce::
+	.incbin "sound/direct_sound_samples/cries/dunsparce.bin"
+
+		.align 2
+Cry_Farigiraf::
+	.incbin "sound/direct_sound_samples/cries/girafarig.bin"
+
+		.align 2
+Cry_Kingambit::
+	.incbin "sound/direct_sound_samples/cries/bisharp.bin"
+
+		.align 2
+Cry_Caststorm::
+	.incbin "sound/direct_sound_samples/cries/thundurus.bin"
+
+		.align 2
+Cry_Meraki::
+	.incbin "sound/direct_sound_samples/cries/blitzle.bin"
 
 	.align 2
 Cry_VenusaurMega::

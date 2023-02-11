@@ -5465,3 +5465,141 @@ const u8 gIronwitchPokedexText[] = _(
     "quite resembles Misdreavus, but is\n"
     "much stronger. It combines the power of\n"
     "technologies and magic to fight.");
+
+const u8 gBrutebonnetPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Amoonguss, but is\n"
+    "much stronger. It hates intruders,\n"
+    "so it's raging until they leave.");
+
+const u8 gGreattuskPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Donphan, but is\n"
+    "much stronger. A tough opponent\n"
+    "challenging anything in its way.");
+
+const u8 gSlitherwingPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Volcarona, but is\n"
+    "much stronger. It is a bit slower\n"
+    "but has a great physical power and defense.");
+
+const u8 gScreamtailPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Jigglypuff, but is\n"
+    "much stronger. With its screams\n"
+    "it can reach thousands of miles.");
+
+const u8 gSandyshocksPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Magneton, but is\n"
+    "much stronger. It can use iron sand\n"
+    "to boost its power make the ground shake.");
+
+const u8 gFluttermanePokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Misdreavus, but is\n"
+    "much stronger. A mystical pokemon\n"
+    "with devastating energy of the moon.");
+
+const u8 gRoaringmoonPokedexText[] = _(
+    "A prehistoric POKéMON which\n"
+    "quite resembles Salamence, but is\n"
+    "much stronger. A flying predator gliding\n"
+    "through the air and thursting for blood.");
+
+const u8 gIronbundlePokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Delibird, but is\n"
+    "much stronger. A cold-headed robot\n"
+    "cooling its companions but freezing its foes.");
+
+const u8 gIronhandsPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Hariyama, but is\n"
+    "much stronger. With stunnings fists\n"
+    "and a tough body, it can win each fight.");
+
+const u8 gIronjugulisPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Hydreigon, but is\n"
+    "much stronger. It is flying through\n"
+    "the air shooting lasers and wind waves.");
+
+const u8 gIronmothPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Volcarona, but is\n"
+    "much stronger. It is relentlessly invading\n"
+    "places of high energy stores.");
+
+const u8 gIronthornsPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Tyranitar, but is\n"
+    "much stronger. With its iron body, it is\n"
+    "perfectly protected for storming cities.");
+
+const u8 gIrontreadsPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite resembles Donphan, but is\n"
+    "much stronger. For some reason it\n"
+    "has a tendency to roll through deserts.");
+
+const u8 gIronvaliantPokedexText[] = _(
+    "A POKéMON of the future even today which\n"
+    "quite looks like a fusion of Gallada and Gardevoir.\n"
+    "It combines the powers of both entities\n"
+    "and is annihilating all threads in its way.");
+
+const u8 gPawmiPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Pawmi rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gPawmoPokedexText[] = _(
+    "Pawmo uses a unique fighting technique\n"
+    "in which it uses its forepaws to strike\n"
+    "foes and zap them with electricity\n"
+    "from its paw pads simultaneously.");
+
+const u8 gPawmotPokedexText[] = _(
+    "Pawmot's fluffy fur acts as\n"
+    "a battery. It can store the\n"
+    "same amount of electricity\n"
+    "as an electric car.");
+
+const u8 gAnnihilapePokedexText[] = _(
+    "When its anger rose beyond\n"
+    "a critical point, this Pokémon gained\n"
+    "power that is unfettered by\n"
+    "the limits of its physical body.");
+
+const u8 gDudunsparcePokedexText[] = _(
+    "It drives enemies out of its nest\n"
+    "by sucking in enough air to fill its long,\n"
+    "narrow lungs, then releasing the air\n"
+    "in an intense blast.");
+
+const u8 gFarigirafPokedexText[] = _(
+    "Now that the brain waves from\n"
+    "the head and tail are synced up,\n"
+    "the psychic power of this Pokémon\n"
+    "is 10 times stronger than Girafarig’s.");
+
+const u8 gKingambitPokedexText[] = _(
+    "Though it commands a massive army\n"
+    "in battle, it's not skilled at\n"
+    "devising complex strategies. It just\n"
+    "uses brute strength to keep pushing. ");
+
+const u8 gCaststormPokedexText[] = _(
+    "It is using the weather particles\n"
+    "to boost its attacks. Caststorm casts\n"
+    "devastating storms of all kinds\n"
+    "demonstrating the power of nature.");
+
+const u8 gMerakiPokedexText[] = _(
+    "The leader of the fluff, you know\n"
+    "him well. It is finally there to\n"
+    "share some fluff and love.\n"
+    "Meraki, the guinea pig is here!");

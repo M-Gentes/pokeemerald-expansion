@@ -33857,3 +33857,95 @@ static const u16 sIronwingsTeachableLearnset[] = {
 static const u16 sIronwitchTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
+
+static const u16 sBrutebonnetTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sGreattuskTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sSlitherwingTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sScreamtailTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sSandyshocksTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFluttermaneTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sRoaringmoonTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronbundleTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronhandsTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronjugulisTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronmothTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronthornsTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIrontreadsTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sIronvaliantTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sPawmiTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sPawmoTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sPawmotTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sAnnihilapeTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sDudunsparceTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFarigirafTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sKingambitTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sCaststormTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sMerakiTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};

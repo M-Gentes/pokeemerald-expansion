@@ -9582,6 +9582,167 @@ static const union AnimCmd sAnim_Ironwitch_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Brutebonnet_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Greattusk_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Slitherwing_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Screamtail_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sandyshocks_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Fluttermane_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Roaringmoon_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ironbundle_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ironhands_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ironjugulis_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ironmoth_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ironthorns_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Irontreads_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ironvaliant_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pawmi_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pawmo_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pawmot_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Annihilape_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Dudunsparce_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Farigiraf_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Kingambit_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Caststorm_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Meraki_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_VenusaurMega_1[] =
     {
         ANIMCMD_FRAME(0, 1),
@@ -10946,6 +11107,7 @@ static const union AnimCmd *const sAnims_Castform[] = {
     sAnim_Castform_1,
     sAnim_Castform_2,
     sAnim_Castform_3,
+    sAnim_Castform_4,
 };
 SINGLE_ANIMATION(Volbeat);
 SINGLE_ANIMATION(Illumise);
@@ -11547,6 +11709,29 @@ SINGLE_ANIMATION(Ironhut);
 SINGLE_ANIMATION(Irontitan);
 SINGLE_ANIMATION(Ironwings);
 SINGLE_ANIMATION(Ironwitch);
+SINGLE_ANIMATION(Brutebonnet);
+SINGLE_ANIMATION(Greattusk);
+SINGLE_ANIMATION(Slitherwing);
+SINGLE_ANIMATION(Screamtail);
+SINGLE_ANIMATION(Sandyshocks);
+SINGLE_ANIMATION(Fluttermane);
+SINGLE_ANIMATION(Roaringmoon);
+SINGLE_ANIMATION(Ironbundle);
+SINGLE_ANIMATION(Ironhands);
+SINGLE_ANIMATION(Ironjugulis);
+SINGLE_ANIMATION(Ironmoth);
+SINGLE_ANIMATION(Ironthorns);
+SINGLE_ANIMATION(Irontreads);
+SINGLE_ANIMATION(Ironvaliant);
+SINGLE_ANIMATION(Pawmi);
+SINGLE_ANIMATION(Pawmo);
+SINGLE_ANIMATION(Pawmot);
+SINGLE_ANIMATION(Annihilape);
+SINGLE_ANIMATION(Dudunsparce);
+SINGLE_ANIMATION(Farigiraf);
+SINGLE_ANIMATION(Kingambit);
+SINGLE_ANIMATION(Caststorm);
+SINGLE_ANIMATION(Meraki);
 
 #endif
 SINGLE_ANIMATION(VenusaurMega);
@@ -12646,6 +12831,29 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_IRONTITAN] = sAnims_Irontitan,
         [SPECIES_IRONWINGS] = sAnims_Ironwings,
         [SPECIES_IRONWITCH] = sAnims_Ironwitch,
+        [SPECIES_BRUTEBONNET] = sAnims_Brutebonnet,
+        [SPECIES_GREATTUSK] = sAnims_Greattusk,
+        [SPECIES_SLITHERWING] = sAnims_Slitherwing,
+        [SPECIES_SCREAMTAIL] = sAnims_Screamtail,
+        [SPECIES_SANDYSHOCKS] = sAnims_Sandyshocks,
+        [SPECIES_FLUTTERMANE] = sAnims_Fluttermane,
+        [SPECIES_ROARINGMOON] = sAnims_Roaringmoon,
+        [SPECIES_IRONBUNDLE] = sAnims_Ironbundle,
+        [SPECIES_IRONHANDS] = sAnims_Ironhands,
+        [SPECIES_IRONJUGULIS] = sAnims_Ironjugulis,
+        [SPECIES_IRONMOTH] = sAnims_Ironmoth,
+        [SPECIES_IRONTHORNS] = sAnims_Ironthorns,
+        [SPECIES_IRONTREADS] = sAnims_Irontreads,
+        [SPECIES_IRONVALIANT] = sAnims_Ironvaliant,
+        [SPECIES_PAWMI] = sAnims_Pawmi,
+        [SPECIES_PAWMO] = sAnims_Pawmo,
+        [SPECIES_PAWMOT] = sAnims_Pawmot,
+        [SPECIES_ANNIHILAPE] = sAnims_Annihilape,
+        [SPECIES_DUDUNSPARCE] = sAnims_Dudunsparce,
+        [SPECIES_FARIGIRAF] = sAnims_Farigiraf,
+        [SPECIES_KINGAMBIT] = sAnims_Kingambit,
+        [SPECIES_CASTSTORM] = sAnims_Caststorm,
+        [SPECIES_MERAKI] = sAnims_Meraki,
 #endif
         [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
         [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,

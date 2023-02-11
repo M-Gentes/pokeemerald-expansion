@@ -1451,6 +1451,30 @@ gCryTable::
 	cry Cry_Irontitan
 	cry Cry_Ironwings
 	cry Cry_Ironwitch
+	cry Cry_Brutebonnet
+	cry Cry_Greattusk
+	cry Cry_Slitherwing
+	cry Cry_Screamtail
+	cry Cry_Sandyshocks
+	cry Cry_Fluttermane
+	cry Cry_Roaringmoon
+	cry Cry_Ironhands
+	cry Cry_Ironjugulis
+	cry Cry_Ironmoth
+	cry Cry_Ironthorns
+	cry Cry_Irontreads
+	cry Cry_Ironvaliant
+	@ Paldea
+	cry Cry_Pawmi
+	cry Cry_Pawmo
+	cry Cry_Pawmot
+	cry Cry_Annihilape
+	cry Cry_Dudunsparce
+	cry Cry_Farigiraf
+	cry Cry_Kingambit
+	@ Custom
+	cry Cry_Caststorm
+	cry Cry_Meraki
 	@ Megas
 	cry Cry_VenusaurMega
 	cry Cry_CharizardMegaX
@@ -3585,6 +3609,30 @@ gCryTable_Reverse::
 	cry_reverse Cry_Irontitan
 	cry_reverse Cry_Ironwings
 	cry_reverse Cry_Ironwitch
+	cry_reverse Cry_Brutebonnet
+	cry_reverse Cry_Greattusk
+	cry_reverse Cry_Slitherwing
+	cry_reverse Cry_Screamtail
+	cry_reverse Cry_Sandyshocks
+	cry_reverse Cry_Fluttermane
+	cry_reverse Cry_Roaringmoon
+	cry_reverse Cry_Ironhands
+	cry_reverse Cry_Ironjugulis
+	cry_reverse Cry_Ironmoth
+	cry_reverse Cry_Ironthorns
+	cry_reverse Cry_Irontreads
+	cry_reverse Cry_Ironvaliant
+	@Paldea
+	cry_reverse Cry_Pawmi
+	cry_reverse Cry_Pawmo
+	cry_reverse Cry_Pawmot
+	cry_reverse Cry_Annihilape
+	cry_reverse Cry_Dudunsparce
+	cry_reverse Cry_Farigiraf
+	cry_reverse Cry_Kingambit
+	@Custom
+	cry_reverse Cry_Caststorm
+	cry_reverse Cry_Meraki
 	@ Megas
 	cry_reverse Cry_VenusaurMega
 	cry_reverse Cry_CharizardMegaX
