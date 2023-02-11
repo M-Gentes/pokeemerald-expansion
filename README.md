@@ -26,7 +26,8 @@ Additional Features
     - Changes to Pokémon in this hack are documented in [mon_changelog.md](./mon_changelog.md)
 . Some Events and Map Tiles are changed/added
 
-# pokeemerald Expansion
+# pokeemerald Expansion README (2023/02/11)
+[Link to pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion
 
 ## What is the pokeemerald Expansion?
 
