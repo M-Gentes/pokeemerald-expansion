@@ -1458,6 +1458,7 @@ gCryTable::
 	cry Cry_Sandyshocks
 	cry Cry_Fluttermane
 	cry Cry_Roaringmoon
+	cry Cry_Ironbundle
 	cry Cry_Ironhands
 	cry Cry_Ironjugulis
 	cry Cry_Ironmoth
@@ -1474,6 +1475,7 @@ gCryTable::
 	cry Cry_Kingambit
 	@ Custom
 	cry Cry_Caststorm
+	cry Cry_Draconeon
 	cry Cry_Meraki
 	@ Megas
 	cry Cry_VenusaurMega
@@ -3616,6 +3618,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sandyshocks
 	cry_reverse Cry_Fluttermane
 	cry_reverse Cry_Roaringmoon
+	cry_reverse Cry_Ironbundle
 	cry_reverse Cry_Ironhands
 	cry_reverse Cry_Ironjugulis
 	cry_reverse Cry_Ironmoth
@@ -3632,6 +3635,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kingambit
 	@Custom
 	cry_reverse Cry_Caststorm
+	cry_reverse Cry_Draconeon
 	cry_reverse Cry_Meraki
 	@ Megas
 	cry_reverse Cry_VenusaurMega

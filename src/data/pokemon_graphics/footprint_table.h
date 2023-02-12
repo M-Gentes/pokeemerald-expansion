@@ -942,6 +942,7 @@ const u8 *const gMonFootprintTable[] =
         [SPECIES_FARIGIRAF] = gMonFootprint_Farigiraf,
         [SPECIES_KINGAMBIT] = gMonFootprint_Kingambit,
         [SPECIES_CASTSTORM] = gMonFootprint_Caststorm,
+        [SPECIES_DRACONEON] = gMonFootprint_Draconeon,
         [SPECIES_MERAKI] = gMonFootprint_Meraki,
         [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

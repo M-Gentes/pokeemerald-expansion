@@ -196,6 +196,7 @@ const u16 gPokedexOrder_Alphabetical[] =
         NATIONAL_DEX_DONPHAN,
         NATIONAL_DEX_DOTTLER,
         NATIONAL_DEX_DOUBLADE,
+        NATIONAL_DEX_DRACONEON,
         NATIONAL_DEX_DRACOVISH,
         NATIONAL_DEX_DRACOZOLT,
         NATIONAL_DEX_DRAGALGE,
@@ -2049,8 +2050,9 @@ const u16 gPokedexOrder_Weight[] =
         NATIONAL_DEX_FARIGIRAF,
         NATIONAL_DEX_KINGAMBIT,
         NATIONAL_DEX_CASTSTORM,
+        NATIONAL_DEX_DRACONEON,
         NATIONAL_DEX_MERAKI,
-        };
+};
 
 const u16 gPokedexOrder_Height[] =
     {
@@ -3208,5 +3210,6 @@ const u16 gPokedexOrder_Height[] =
         NATIONAL_DEX_FARIGIRAF,
         NATIONAL_DEX_KINGAMBIT,
         NATIONAL_DEX_CASTSTORM,
+        NATIONAL_DEX_DRACONEON,
         NATIONAL_DEX_MERAKI,
 };

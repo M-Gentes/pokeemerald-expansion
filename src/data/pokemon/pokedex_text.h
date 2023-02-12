@@ -5598,6 +5598,12 @@ const u8 gCaststormPokedexText[] = _(
     "devastating storms of all kinds\n"
     "demonstrating the power of nature.");
 
+const u8 gDraconeonPokedexText[] = _(
+    "Draconeon are considered exotic and are\n"
+    "rarely seen outside of Blackthorn City in Johto.\n"
+    "Though smaller than most dragons,\n"
+    "Draconeon are fierce and passionate.");
+
 const u8 gMerakiPokedexText[] = _(
     "The leader of the fluff, you know\n"
     "him well. It is finally there to\n"

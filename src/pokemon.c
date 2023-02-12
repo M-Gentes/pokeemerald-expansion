@@ -365,6 +365,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
         SPECIES_TO_HOENN(FARIGIRAF),
         SPECIES_TO_HOENN(KINGAMBIT),
         SPECIES_TO_HOENN(CASTSTORM),
+        SPECIES_TO_HOENN(DRACONEON),
         SPECIES_TO_HOENN(MERAKI),
 };
 
@@ -1319,6 +1320,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
         SPECIES_TO_NATIONAL(FARIGIRAF),
         SPECIES_TO_NATIONAL(KINGAMBIT),
         SPECIES_TO_NATIONAL(CASTSTORM),
+        SPECIES_TO_NATIONAL(DRACONEON),
         SPECIES_TO_NATIONAL(MERAKI),
 
         // Megas
@@ -2017,6 +2019,7 @@ static const u16 sHoennToNationalOrder[HOENN_DEX_COUNT - 1] =
         HOENN_TO_NATIONAL(FARIGIRAF),
         HOENN_TO_NATIONAL(KINGAMBIT),
         HOENN_TO_NATIONAL(CASTSTORM),
+        HOENN_TO_NATIONAL(DRACONEON),
         HOENN_TO_NATIONAL(MERAKI),
 };
 
@@ -3022,6 +3025,7 @@ const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
         [SPECIES_FARIGIRAF - 1] = ANIM_H_JUMPS,
         [SPECIES_KINGAMBIT - 1] = ANIM_H_JUMPS,
         [SPECIES_CASTSTORM - 1] = ANIM_H_JUMPS,
+        [SPECIES_DRACONEON - 1] = ANIM_H_JUMPS,
         [SPECIES_MERAKI - 1] = ANIM_H_JUMPS,
 
         [SPECIES_DEOXYS_ATTACK - 1] = ANIM_GROW_VIBRATE,
@@ -3272,6 +3276,7 @@ static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
         [SPECIES_FARIGIRAF - 1] = 10,
         [SPECIES_KINGAMBIT - 1] = 10,
         [SPECIES_CASTSTORM - 1] = 10,
+        [SPECIES_DRACONEON - 1] = 10,
         [SPECIES_MERAKI - 1] = 10,
 #if P_GEN_7_POKEMON == TRUE
         [SPECIES_TAPU_FINI - 1] = 5,

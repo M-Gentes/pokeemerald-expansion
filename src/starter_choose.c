@@ -110,7 +110,7 @@ static const u16 sStarterMon[STARTER_MON_COUNT] =
     {
         SPECIES_SMASHBAG,
         SPECIES_DELIBIRD,
-        SPECIES_BRAVIARY_HISUIAN,
+        SPECIES_IRONBUNDLE,
 };
 
 static const struct BgTemplate sBgTemplates[3] =

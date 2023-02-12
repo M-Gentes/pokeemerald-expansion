@@ -951,6 +951,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_KINGAMBIT] = _("Gladimperio"),
     //Custom
     [SPECIES_CASTSTORM] = _("Caststorm"),
+    [SPECIES_DRACONEON] = _("Draconeon"),
     [SPECIES_MERAKI] = _("Meraki"),
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),

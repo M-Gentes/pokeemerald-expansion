@@ -1715,10 +1715,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_JIGGLYPUFF] =
             {
                 .baseHP = 115,
-                .baseAttack = 45,
+                .baseAttack = 45 + 20,
                 .baseDefense = 20,
                 .baseSpeed = 20,
-                .baseSpAttack = 45,
+                .baseSpAttack = 45 + 20,
                 .baseSpDefense = 25,
 #if P_UPDATED_TYPES >= GEN_6
                 .types = {TYPE_NORMAL, TYPE_FAIRY},
@@ -1743,11 +1743,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
             {
                 .baseHP = 140,
                 .baseAttack = 70,
-                .baseDefense = 45,
+                .baseDefense = 45 + 20,
                 .baseSpeed = 45,
-                .baseSpDefense = 50,
+                .baseSpDefense = 50 + 20,
 #if P_UPDATED_STATS >= GEN_6
-                .baseSpAttack = 85,
+                .baseSpAttack = 85 + 40,
 #else
                 .baseSpAttack = 75,
 #endif
@@ -25517,11 +25517,33 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
+        [SPECIES_DRACONEON] =
+            {
+                .baseHP = 80,
+                .baseAttack = 127,
+                .baseDefense = 80,
+                .baseSpeed = 118,
+                .baseSpAttack = 90,
+                .baseSpDefense = 50,
+                .types = {TYPE_DRAGON, TYPE_DRAGON},
+                .catchRate = 45,
+                .expYield = 147,
+                .evYield_Attack = 3,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 25,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_FAST,
+                .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_AMORPHOUS},
+                .abilities = {ABILITY_TOUGH_CLAWS, ABILITY_NONE, ABILITY_MULTISCALE},
+                .bodyColor = BODY_COLOR_PURPLE,
+                .noFlip = FALSE,
+            },
+
         [SPECIES_MERAKI] =
             {
-                .baseHP = 67,
-                .baseAttack = 89,
-                .baseDefense = 57,
+                .baseHP = 98,
+                .baseAttack = 100,
+                .baseDefense = 71,
                 .baseSpeed = 101,
                 .baseSpAttack = 71,
                 .baseSpDefense = 67,

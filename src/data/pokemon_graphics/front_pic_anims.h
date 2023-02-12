@@ -9736,6 +9736,13 @@ static const union AnimCmd sAnim_Caststorm_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Draconeon_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Meraki_1[] =
     {
         ANIMCMD_FRAME(1, 30),
@@ -11731,6 +11738,7 @@ SINGLE_ANIMATION(Dudunsparce);
 SINGLE_ANIMATION(Farigiraf);
 SINGLE_ANIMATION(Kingambit);
 SINGLE_ANIMATION(Caststorm);
+SINGLE_ANIMATION(Draconeon);
 SINGLE_ANIMATION(Meraki);
 
 #endif
@@ -12853,6 +12861,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_FARIGIRAF] = sAnims_Farigiraf,
         [SPECIES_KINGAMBIT] = sAnims_Kingambit,
         [SPECIES_CASTSTORM] = sAnims_Caststorm,
+        [SPECIES_DRACONEON] = sAnims_Draconeon,
         [SPECIES_MERAKI] = sAnims_Meraki,
 #endif
         [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,

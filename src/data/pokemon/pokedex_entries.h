@@ -11277,6 +11277,18 @@ const struct PokedexEntry gPokedexEntries[] =
                 .trainerOffset = 0,
             },
 
+        [NATIONAL_DEX_DRACONEON] =
+            {
+                .categoryName = _("Scaled Canine"),
+                .height = 12,
+                .weight = 50,
+                .description = gDraconeonPokedexText,
+                .pokemonScale = 435,
+                .pokemonOffset = -5,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
         [NATIONAL_DEX_MERAKI] =
             {
                 .categoryName = _("Fluffy"),
