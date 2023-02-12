@@ -11147,7 +11147,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
         [NATIONAL_DEX_IRONTHORNS] =
             {
-                .categoryName = _("Thunder Spike"),
+                .categoryName = _("ThunderSpike"),
                 .height = 20,
                 .weight = 2020,
                 .description = gIronthornsPokedexText,
@@ -11171,7 +11171,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
         [NATIONAL_DEX_IRONVALIANT] =
             {
-                .categoryName = _("Future Knight"),
+                .categoryName = _("Future"),
                 .height = 16,
                 .weight = 520,
                 .description = gIronvaliantPokedexText,
@@ -11267,7 +11267,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
         [NATIONAL_DEX_CASTSTORM] =
             {
-                .categoryName = _("Weather Storm"),
+                .categoryName = _("Storm"),
                 .height = 5,
                 .weight = 8,
                 .description = gCaststormPokedexText,
@@ -11279,7 +11279,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
         [NATIONAL_DEX_DRACONEON] =
             {
-                .categoryName = _("Scaled Canine"),
+                .categoryName = _("Scale"),
                 .height = 12,
                 .weight = 50,
                 .description = gDraconeonPokedexText,

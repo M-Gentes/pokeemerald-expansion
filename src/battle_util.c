@@ -3981,7 +3981,8 @@ u8 TryWeatherFormChange(u8 battler)
         else if (gBattleWeather & B_WEATHER_SANDSTORM && !IS_BATTLER_OF_TYPE(battler, TYPE_ROCK))
         {
             SET_BATTLER_TYPE(battler, TYPE_ROCK);
-            ret = CASTFORM_ROCK + 1;
+            // ret = CASTFORM_ROCK + 1;
+            ret = CASTFORM_NORMAL + 1;
         }
         break;
     case SPECIES_CHERRIM:
@@ -5012,6 +5013,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
             switch (gLastUsedAbility)
             {
             case ABILITY_VOLT_ABSORB:
+            case ABILITY_WEATHER_FORCE:
                 if (moveType == TYPE_ELECTRIC)
                     effect = 1;
                 break;
@@ -8372,6 +8374,10 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     case ABILITY_SAND_FORCE:
         if ((moveType == TYPE_STEEL || moveType == TYPE_ROCK || moveType == TYPE_GROUND) && gBattleWeather & B_WEATHER_SANDSTORM && WEATHER_HAS_EFFECT)
             MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case ABILITY_WEATHER_FORCE:
+        if ((moveType == TYPE_WATER || moveType == TYPE_ROCK || moveType == TYPE_GRASS || moveType == TYPE_ICE || moveType == TYPE_FIRE || moveType == TYPE_FLYING || moveType == TYPE_ELECTRIC) && (gBattleWeather & B_WEATHER_SANDSTORM || gBattleWeather & B_WEATHER_RAIN || gBattleWeather & B_WEATHER_SUN || gBattleWeather & B_WEATHER_HAIL) && WEATHER_HAS_EFFECT)
+            MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_RIVALRY:
         if (GetGenderFromSpeciesAndPersonality(gBattleMons[battlerAtk].species, gBattleMons[battlerAtk].personality) != MON_GENDERLESS && GetGenderFromSpeciesAndPersonality(gBattleMons[battlerDef].species, gBattleMons[battlerDef].personality) != MON_GENDERLESS)

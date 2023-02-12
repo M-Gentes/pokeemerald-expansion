@@ -945,18 +945,18 @@ const u32 gMonFrontPic_Slitherwing[] = INCBIN_U32("graphics/pokemon/slitherwing/
 const u32 gMonFrontPic_Screamtail[] = INCBIN_U32("graphics/pokemon/screamtail/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sandyshocks[] = INCBIN_U32("graphics/pokemon/sandyshocks/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Fluttermane[] = INCBIN_U32("graphics/pokemon/fluttermane/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Roaringmoon[] = INCBIN_U32("graphics/pokemon/roaringmoon/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Roaringmoon[] = INCBIN_U32("graphics/pokemon/roaringmoon/front.4bpp.lz");
 const u32 gMonFrontPic_Ironbundle[] = INCBIN_U32("graphics/pokemon/ironbundle/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Ironhands[] = INCBIN_U32("graphics/pokemon/ironhands/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Ironjugulis[] = INCBIN_U32("graphics/pokemon/ironjugulis/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Ironmoth[] = INCBIN_U32("graphics/pokemon/ironmoth/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Ironthorns[] = INCBIN_U32("graphics/pokemon/ironthorns/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Irontreads[] = INCBIN_U32("graphics/pokemon/irontreads/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/front.4bpp.lz");
 
 const u32 gMonFrontPic_Pawmi[] = INCBIN_U32("graphics/pokemon/pawmi/front.4bpp.lz");
 const u32 gMonFrontPic_Pawmo[] = INCBIN_U32("graphics/pokemon/pawmo/front.4bpp.lz");
-const u32 gMonFrontPic_Pawmi[] = INCBIN_U32("graphics/pokemon/pawmot/front.4bpp.lz");
+const u32 gMonFrontPic_Pawmot[] = INCBIN_U32("graphics/pokemon/pawmot/front.4bpp.lz");
 const u32 gMonFrontPic_Annihilape[] = INCBIN_U32("graphics/pokemon/annihilape/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Dudunsparce[] = INCBIN_U32("graphics/pokemon/dudunsparce/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Farigiraf[] = INCBIN_U32("graphics/pokemon/farigiraf/anim_front.4bpp.lz");
@@ -7229,13 +7229,6 @@ const u32 gMonBackPic_Irontreads[] = INCBIN_U32("graphics/pokemon/irontreads/bac
 const u32 gMonShinyPalette_Irontreads[] = INCBIN_U32("graphics/pokemon/irontreads/shiny.gbapal.lz");
 const u8 gMonIcon_Irontreads[] = INCBIN_U8("graphics/pokemon/irontreads/icon.4bpp");
 const u8 gMonFootprint_Irontreads[] = INCBIN_U8("graphics/pokemon/irontreads/footprint.1bpp");
-
-const u32 gMonStillFrontPic_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/front.4bpp.lz");
-const u32 gMonPalette_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/normal.gbapal.lz");
-const u32 gMonBackPic_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/back.4bpp.lz");
-const u32 gMonShinyPalette_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/shiny.gbapal.lz");
-const u8 gMonIcon_Ironvaliant[] = INCBIN_U8("graphics/pokemon/ironvaliant/icon.4bpp");
-const u8 gMonFootprint_Ironvaliant[] = INCBIN_U8("graphics/pokemon/ironvaliant/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/front.4bpp.lz");
 const u32 gMonPalette_Ironvaliant[] = INCBIN_U32("graphics/pokemon/ironvaliant/normal.gbapal.lz");
