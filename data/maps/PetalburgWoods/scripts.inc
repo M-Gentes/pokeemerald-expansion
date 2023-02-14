@@ -2,6 +2,8 @@
 .set LOCALID_DEVON_EMPLOYEE, 4
 
 PetalburgWoods_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, PetalburgWoods_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgWoods_OnTransition
 	.byte 0
 
 PetalburgWoods_EventScript_DevonResearcherLeft::
@@ -474,3 +476,44 @@ PetalburgWoods_Text_TrainerTipsPP:
 	.string "If a POKéMON runs out of PP, it must be\n"
 	.string "taken to a POKéMON CENTER.$"
 
+PetalburgWoods_OnResume:
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, PetalburgWoods_EventScript_TryRemoveBrutebonnet
+	end
+
+PetalburgWoods_EventScript_TryRemoveBrutebonnet::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+PetalburgWoods_OnTransition:
+	call_if_unset FLAG_DEFEATED_BRUTEBONNET_1_PETALBURG_WOODS, PetalburgWoods_EventScript_ShowBrutebonnet1
+	end
+
+PetalburgWoods_EventScript_ShowBrutebonnet1::
+	clearflag FLAG_HIDE_PETALBURG_WOODS_BRUTEBONNET_1
+	return
+
+PetalburgWoods_EventScript_Brutebonnet1::
+	lock
+	faceplayer
+	setwildbattle SPECIES_BRUTEBONNET, 15
+	waitse
+	playmoncry SPECIES_BRUTEBONNET, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PetalburgWoods_EventScript_DefeatedBrutebonnet1
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PetalburgWoods_EventScript_DefeatedBrutebonnet1
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PetalburgWoods_EventScript_DefeatedBrutebonnet1
+	setflag FLAG_DEFEATED_BRUTEBONNET_1_PETALBURG_WOODS
+	release
+	end
+
+PetalburgWoods_EventScript_DefeatedBrutebonnet1::
+	setflag FLAG_DEFEATED_BRUTEBONNET_1_PETALBURG_WOODS
+	goto Common_EventScript_RemoveStaticPokemon
+	end
