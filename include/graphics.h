@@ -1347,7 +1347,7 @@ extern const u32 gMonFrontPic_TyphlosionHisuian[];
 extern const u32 gMonFrontPic_QwilfishHisuian[];
 extern const u32 gMonFrontPic_SneaselHisuian[];
 #if P_GEN_5_POKEMON == TRUE
-//extern const u32 gMonFrontPic_SamurottHisuian[];
+extern const u32 gMonFrontPic_SamurottHisuian[];
 extern const u32 gMonFrontPic_LilligantHisuian[];
 extern const u32 gMonFrontPic_ZoruaHisuian[];
 extern const u32 gMonFrontPic_ZoroarkHisuian[];
@@ -1359,7 +1359,7 @@ extern const u32 gMonFrontPic_GoodraHisuian[];
 extern const u32 gMonFrontPic_AvaluggHisuian[];
 #endif
 #if P_GEN_7_POKEMON == TRUE
-//extern const u32 gMonFrontPic_DecidueyeHisuian[];
+extern const u32 gMonFrontPic_DecidueyeHisuian[];
 #endif
 extern const u32 gMonFrontPic_PikachuCosplay[];
 extern const u32 gMonFrontPic_PikachuRockStar[];
@@ -2562,7 +2562,7 @@ extern const u32 gMonBackPic_TyphlosionHisuian[];
 extern const u32 gMonBackPic_QwilfishHisuian[];
 extern const u32 gMonBackPic_SneaselHisuian[];
 #if P_GEN_5_POKEMON == TRUE
-//extern const u32 gMonBackPic_SamurottHisuian[];
+extern const u32 gMonBackPic_SamurottHisuian[];
 extern const u32 gMonBackPic_LilligantHisuian[];
 extern const u32 gMonBackPic_ZoruaHisuian[];
 extern const u32 gMonBackPic_ZoroarkHisuian[];
@@ -2574,7 +2574,7 @@ extern const u32 gMonBackPic_GoodraHisuian[];
 extern const u32 gMonBackPic_AvaluggHisuian[];
 #endif
 #if P_GEN_7_POKEMON == TRUE
-//extern const u32 gMonBackPic_DecidueyeHisuian[];
+extern const u32 gMonBackPic_DecidueyeHisuian[];
 #endif
 extern const u32 gMonBackPic_PikachuCosplay[];
 extern const u32 gMonBackPic_PikachuRockStar[];
@@ -3769,7 +3769,7 @@ extern const u32 gMonPalette_TyphlosionHisuian[];
 extern const u32 gMonPalette_QwilfishHisuian[];
 extern const u32 gMonPalette_SneaselHisuian[];
 #if P_GEN_5_POKEMON == TRUE
-//extern const u32 gMonPalette_SamurottHisuian[];
+extern const u32 gMonPalette_SamurottHisuian[];
 extern const u32 gMonPalette_LilligantHisuian[];
 extern const u32 gMonPalette_ZoruaHisuian[];
 extern const u32 gMonPalette_ZoroarkHisuian[];
@@ -3781,7 +3781,7 @@ extern const u32 gMonPalette_GoodraHisuian[];
 extern const u32 gMonPalette_AvaluggHisuian[];
 #endif
 #if P_GEN_7_POKEMON == TRUE
-//extern const u32 gMonPalette_DecidueyeHisuian[];
+extern const u32 gMonPalette_DecidueyeHisuian[];
 #endif
 extern const u32 gMonPalette_PikachuCosplay[];
 extern const u32 gMonPalette_PikachuRockStar[];
@@ -5003,7 +5003,7 @@ extern const u32 gMonShinyPalette_TyphlosionHisuian[];
 extern const u32 gMonShinyPalette_QwilfishHisuian[];
 extern const u32 gMonShinyPalette_SneaselHisuian[];
 #if P_GEN_5_POKEMON == TRUE
-//extern const u32 gMonShinyPalette_SamurottHisuian[];
+extern const u32 gMonShinyPalette_SamurottHisuian[];
 extern const u32 gMonShinyPalette_LilligantHisuian[];
 extern const u32 gMonShinyPalette_ZoruaHisuian[];
 extern const u32 gMonShinyPalette_ZoroarkHisuian[];
@@ -5015,7 +5015,7 @@ extern const u32 gMonShinyPalette_GoodraHisuian[];
 extern const u32 gMonShinyPalette_AvaluggHisuian[];
 #endif
 #if P_GEN_7_POKEMON == TRUE
-//extern const u32 gMonShinyPalette_DecidueyeHisuian[];
+extern const u32 gMonShinyPalette_DecidueyeHisuian[];
 #endif
 extern const u32 gMonShinyPalette_PikachuCosplay[];
 extern const u32 gMonShinyPalette_PikachuRockStar[];

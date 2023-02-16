@@ -1059,7 +1059,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
         SPECIES_PAL(QWILFISH_HISUIAN, gMonPalette_QwilfishHisuian),
 #if P_GEN_5_POKEMON == TRUE
         SPECIES_PAL(SNEASEL_HISUIAN, gMonPalette_SneaselHisuian),
-        SPECIES_PAL(SAMUROTT_HISUIAN, gMonPalette_CircledQuestionMark), //gMonPalette_SamurottHisuian),
+        SPECIES_PAL(SAMUROTT_HISUIAN, gMonPalette_SamurottHisuian),
         SPECIES_PAL(LILLIGANT_HISUIAN, gMonPalette_LilligantHisuian),
         SPECIES_PAL(ZORUA_HISUIAN, gMonPalette_ZoruaHisuian),
         SPECIES_PAL(ZOROARK_HISUIAN, gMonPalette_ZoroarkHisuian),
@@ -1071,7 +1071,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
         SPECIES_PAL(AVALUGG_HISUIAN, gMonPalette_AvaluggHisuian),
 #endif
 #if P_GEN_7_POKEMON == TRUE
-        SPECIES_PAL(DECIDUEYE_HISUIAN, gMonPalette_CircledQuestionMark), //gMonPalette_DecidueyeHisuian),
+        SPECIES_PAL(DECIDUEYE_HISUIAN, gMonPalette_DecidueyeHisuian),
 #endif
 
         SPECIES_PAL(PIKACHU_COSPLAY, gMonPalette_PikachuCosplay),

@@ -1061,7 +1061,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
         SPECIES_SPRITE(QWILFISH_HISUIAN, gMonBackPic_QwilfishHisuian),
         SPECIES_SPRITE(SNEASEL_HISUIAN, gMonBackPic_SneaselHisuian),
 #if P_GEN_5_POKEMON == TRUE
-        SPECIES_SPRITE(SAMUROTT_HISUIAN, gMonBackPic_CircledQuestionMark), //gMonBackPic_SamurottHisuian),
+        SPECIES_SPRITE(SAMUROTT_HISUIAN, gMonBackPic_SamurottHisuian),
         SPECIES_SPRITE(LILLIGANT_HISUIAN, gMonBackPic_LilligantHisuian),
         SPECIES_SPRITE(ZORUA_HISUIAN, gMonBackPic_ZoruaHisuian),
         SPECIES_SPRITE(ZOROARK_HISUIAN, gMonBackPic_ZoroarkHisuian),
@@ -1073,7 +1073,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
         SPECIES_SPRITE(AVALUGG_HISUIAN, gMonBackPic_AvaluggHisuian),
 #endif
 #if P_GEN_8_POKEMON == TRUE
-        SPECIES_SPRITE(DECIDUEYE_HISUIAN, gMonBackPic_CircledQuestionMark), //gMonBackPic_DecidueyeHisuian),
+        SPECIES_SPRITE(DECIDUEYE_HISUIAN, gMonBackPic_DecidueyeHisuian),
 #endif
 
         SPECIES_SPRITE(PIKACHU_COSPLAY, gMonBackPic_PikachuCosplay),
