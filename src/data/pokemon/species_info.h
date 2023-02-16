@@ -198,7 +198,7 @@
         .noFlip = FALSE,                                                             \
     }
 
-#define ROTOM_FORM_SPECIES_INFO(type, flip)                      \
+#define ROTOM_FORM_SPECIES_INFO(type, flip, ability)             \
     {                                                            \
         .baseHP = 50,                                            \
         .baseAttack = 65,                                        \
@@ -216,7 +216,7 @@
         .friendship = 70,                                        \
         .growthRate = GROWTH_MEDIUM_FAST,                        \
         .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS}, \
-        .abilities = {ABILITY_LEVITATE, ABILITY_NONE},           \
+        .abilities = {ability, ABILITY_NONE},                    \
         .bodyColor = BODY_COLOR_RED,                             \
         .noFlip = flip,                                          \
     }
@@ -10121,7 +10121,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
-                .abilities = {ABILITY_SHED_SKIN, ABILITY_NONE, ABILITY_RUN_AWAY},
+                .abilities = {ABILITY_SHED_SKIN, ABILITY_RATTLED, ABILITY_LIQUID_VOICE},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
                 .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
@@ -10131,10 +10131,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
             {
                 .baseHP = 77,
                 .baseAttack = 85,
-                .baseDefense = 51,
+                .baseDefense = 51 + 10,
                 .baseSpeed = 65,
-                .baseSpAttack = 55,
-                .baseSpDefense = 51,
+                .baseSpAttack = 55 + 30,
+                .baseSpDefense = 51 + 10,
                 .types = {TYPE_BUG, TYPE_BUG},
                 .catchRate = 45,
                 .expYield = 134,
@@ -10145,7 +10145,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
-                .abilities = {ABILITY_SWARM, ABILITY_NONE, ABILITY_TECHNICIAN},
+                .abilities = {ABILITY_SWARM, ABILITY_TECHNICIAN, ABILITY_LIQUID_VOICE},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
                 .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
@@ -10168,7 +10168,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_RIVALRY, ABILITY_INTIMIDATE, ABILITY_GUTS},
+                .abilities = {ABILITY_INTIMIDATE, ABILITY_GUTS, ABILITY_RIVALRY},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
                 .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
@@ -10191,7 +10191,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 100,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_RIVALRY, ABILITY_INTIMIDATE, ABILITY_GUTS},
+                .abilities = {ABILITY_INTIMIDATE, ABILITY_GUTS, ABILITY_RIVALRY},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -10204,7 +10204,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .baseSpeed = 70,
                 .baseSpAttack = 95,
                 .baseSpDefense = 79,
-                .types = {TYPE_ELECTRIC, TYPE_ELECTRIC},
+                .types = {TYPE_ELECTRIC, TYPE_DARK},
                 .catchRate = 45,
                 .expYield = 235,
                 .evYield_Attack = 3,
@@ -10213,7 +10213,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_RIVALRY, ABILITY_INTIMIDATE, ABILITY_GUTS},
+                .abilities = {ABILITY_INTIMIDATE, ABILITY_GUTS, ABILITY_RIVALRY},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -23628,11 +23628,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_GASTRODON_EAST_SEA] = GASTRODON_SPECIES_INFO(BODY_COLOR_BLUE),
 
-        [SPECIES_ROTOM_HEAT] = ROTOM_FORM_SPECIES_INFO(TYPE_FIRE, FLIP),
-        [SPECIES_ROTOM_WASH] = ROTOM_FORM_SPECIES_INFO(TYPE_WATER, NO_FLIP),
-        [SPECIES_ROTOM_FROST] = ROTOM_FORM_SPECIES_INFO(TYPE_ICE, FLIP),
-        [SPECIES_ROTOM_FAN] = ROTOM_FORM_SPECIES_INFO(TYPE_FLYING, FLIP),
-        [SPECIES_ROTOM_MOW] = ROTOM_FORM_SPECIES_INFO(TYPE_GRASS, FLIP),
+        [SPECIES_ROTOM_HEAT] = ROTOM_FORM_SPECIES_INFO(TYPE_FIRE, FLIP, ABILITY_LEVITATE),
+        [SPECIES_ROTOM_WASH] = ROTOM_FORM_SPECIES_INFO(TYPE_WATER, NO_FLIP, ABILITY_LEVITATE),
+        [SPECIES_ROTOM_FROST] = ROTOM_FORM_SPECIES_INFO(TYPE_ICE, FLIP, ABILITY_LEVITATE),
+        [SPECIES_ROTOM_FAN] = ROTOM_FORM_SPECIES_INFO(TYPE_FLYING, FLIP, ABILITY_WIND_POWER),
+        [SPECIES_ROTOM_MOW] = ROTOM_FORM_SPECIES_INFO(TYPE_GRASS, FLIP, ABILITY_LEVITATE),
 
         [SPECIES_DIALGA_ORIGIN] =
             {
