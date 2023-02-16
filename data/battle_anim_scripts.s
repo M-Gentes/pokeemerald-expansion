@@ -14438,7 +14438,6 @@ Move_TIDY_UP::
 Move_SNOWSCAPE::
 Move_POUNCE::
 Move_TRAILBLAZE::
-Move_CHILLING_WATER::
 Move_HYPER_DRILL::
 Move_TWIN_BEAM::
 Move_RAGE_FIST::
@@ -14454,6 +14453,9 @@ Move_NOXIOUS_TORQUE::
 Move_COMBAT_TORQUE::
 Move_MAGICAL_TORQUE::
 	end @to do
+
+Move_CHILLING_WATER::
+	goto Move_FROST_BREATH
 
 @@@@@@@@@@@@@@@@@@@@@@@ GEN 1-3 @@@@@@@@@@@@@@@@@@@@@@@
 Move_NONE:
