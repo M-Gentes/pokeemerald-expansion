@@ -7,6 +7,7 @@
 
 MossdeepCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, MossdeepCity_OnResume
 	.byte 0
 
 MossdeepCity_OnTransition:
@@ -15,6 +16,7 @@ MossdeepCity_OnTransition:
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_3
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_4
 	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
+	call_if_unset FLAG_DEFEATED_IRONVALIANT_1_MOSSDEEP_CITY, MossdeepCity_EventScript_ShowIronvaliant1
 	end
 
 MossdeepCity_EventScript_PokefanF::
@@ -432,4 +434,42 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "LEADER come in.\p"
 	.string "People tell me the new LEADER once\n"
 	.string "mentored WALLACE.$"
+
+MossdeepCity_OnResume:
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, MossdeepCity_EventScript_TryRemoveIronvaliant
+	end
+
+MossdeepCity_EventScript_TryRemoveIronvaliant::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+MossdeepCity_EventScript_ShowIronvaliant1::
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_IRONVALIANT_1
+	return
+
+MossdeepCity_EventScript_Ironvaliant1::
+	lock
+	faceplayer
+	setwildbattle SPECIES_IRONVALIANT, 42
+	waitse
+	playmoncry SPECIES_IRONVALIANT, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, MossdeepCity_EventScript_DefeatedIronvaliant1
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, MossdeepCity_EventScript_DefeatedIronvaliant1
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, MossdeepCity_EventScript_DefeatedIronvaliant1
+	setflag FLAG_DEFEATED_IRONVALIANT_1_MOSSDEEP_CITY
+	release
+	end
+
+MossdeepCity_EventScript_DefeatedIronvaliant1::
+	setflag FLAG_DEFEATED_IRONVALIANT_1_MOSSDEEP_CITY
+	goto Common_EventScript_RemoveStaticPokemon
+	end
 
