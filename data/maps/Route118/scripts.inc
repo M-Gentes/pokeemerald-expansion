@@ -95,6 +95,8 @@ Route118_EventScript_StevenTrigger::
 	waitmovement 0
 	delay 30
 	msgbox Route118_Text_StevenQuestions, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_RING
+	//setflag FLAG_RECEIVED_MEGA_RING
 	closemessage
 	call_if_eq VAR_0x8008, 0, Route118_EventScript_StevenExit0
 	call_if_eq VAR_0x8008, 1, Route118_EventScript_StevenExit1
