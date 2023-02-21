@@ -1243,6 +1243,31 @@ extern const u32 gMonStillFrontPic_Meraki[];
 extern const u8 gMonIcon_Meraki[];
 extern const u8 gMonFootprint_Meraki[];
 
+//Custom Megas
+extern const u32 gMonFrontPic_TentacruelMega[];
+extern const u32 gMonPalette_TentacruelMega[];
+extern const u32 gMonBackPic_TentacruelMega[];
+extern const u32 gMonShinyPalette_TentacruelMega[];
+extern const u32 gMonStillFrontPic_TentacruelMega[];
+extern const u8 gMonIcon_TentacruelMega[];
+// extern const u8 gMonFootprint_TentacruelMega[];
+
+extern const u32 gMonFrontPic_FlygonMega[];
+extern const u32 gMonPalette_FlygonMega[];
+extern const u32 gMonBackPic_FlygonMega[];
+extern const u32 gMonShinyPalette_FlygonMega[];
+extern const u32 gMonStillFrontPic_FlygonMega[];
+extern const u8 gMonIcon_FlygonMega[];
+// extern const u8 gMonFootprint_FlygonMega[];
+
+extern const u32 gMonFrontPic_LuxrayMega[];
+extern const u32 gMonPalette_LuxrayMega[];
+extern const u32 gMonBackPic_LuxrayMega[];
+extern const u32 gMonShinyPalette_LuxrayMega[];
+extern const u32 gMonStillFrontPic_LuxrayMega[];
+extern const u8 gMonIcon_LuxrayMega[];
+// extern const u8 gMonFootprint_LuxrayMega[];
+
 //Megas
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
@@ -8442,6 +8467,10 @@ extern const u32 gItemIcon_Audinite[];
 extern const u32 gItemIconPalette_Audinite[];
 extern const u32 gItemIcon_Diancite[];
 extern const u32 gItemIconPalette_Diancite[];
+extern const u32 gItemIconPalette_Caststormite[];
+extern const u32 gItemIconPalette_Tentacruelite[];
+extern const u32 gItemIconPalette_Flygonite[];
+extern const u32 gItemIconPalette_Luxraytite[];
 // Gems
 extern const u32 gItemIcon_NormalGem[];
 extern const u32 gItemIconPalette_NormalGem[];

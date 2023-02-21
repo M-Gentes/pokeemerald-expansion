@@ -9738,6 +9738,22 @@ static const union AnimCmd sAnim_Draconeon_1[] =
 };
 
 static const union AnimCmd sAnim_Meraki_1[] =
+
+static const union AnimCmd sAnim_TentacruelMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_FlygonMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_LuxrayMega_1[] =
     {
         ANIMCMD_FRAME(1, 30),
         ANIMCMD_FRAME(0, 20),
@@ -11699,6 +11715,7 @@ SINGLE_ANIMATION(Basculegion);
 SINGLE_ANIMATION(Sneasler);
 SINGLE_ANIMATION(Overqwil);
 SINGLE_ANIMATION(Enamorus);
+#endif
 SINGLE_ANIMATION(Smashbag);
 SINGLE_ANIMATION(Clawhill);
 SINGLE_ANIMATION(Magicorn);
@@ -11734,6 +11751,9 @@ SINGLE_ANIMATION(Kingambit);
 SINGLE_ANIMATION(Caststorm);
 SINGLE_ANIMATION(Draconeon);
 SINGLE_ANIMATION(Meraki);
+SINGLE_ANIMATION(TentacruelMega);
+SINGLE_ANIMATION(FlygonMega);
+SINGLE_ANIMATION(LuxrayMega);
 
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
@@ -12857,7 +12877,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_CASTSTORM] = sAnims_Caststorm,
         [SPECIES_DRACONEON] = sAnims_Draconeon,
         [SPECIES_MERAKI] = sAnims_Meraki,
-#endif
+        [SPECIES_TENTACRUEL_MEGA] = sAnims_TentacruelMega,
+        [SPECIES_FLYGON_MEGA] = sAnims_FlygonMega,
+        [SPECIES_LUXRAY_MEGA] = sAnims_LuxrayMega,
         [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
         [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,
         [SPECIES_CHARIZARD_MEGA_Y] = sAnims_CHARIZARD_MEGA_Y,

@@ -2157,6 +2157,10 @@ gCryTable::
 	cry Cry_Unown
 	cry Cry_Unown
 .endif
+	@ Custom Megas
+	cry Cry_TentacruelMega
+	cry Cry_FlygonMega
+	cry Cry_LuxrayMega
 
 	.align 2
 gCryTable_Reverse::
@@ -4264,3 +4268,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
 .endif
+	cry_reverse Cry_TentacruelMega
+	cry_reverse Cry_FlygonMega
+	cry_reverse Cry_LuxrayMega
+

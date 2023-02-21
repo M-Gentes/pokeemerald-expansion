@@ -977,6 +977,10 @@ const struct MonCoords gMonBackPicCoords[] =
         [SPECIES_DRACONEON] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 10},
         [SPECIES_MERAKI] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 10},
 
+        [SPECIES_TENTACRUEL_MEGA] = {.size = MON_COORDS_SIZE(64, 48), .y_offset = 11},
+        [SPECIES_FLYGON_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 3},
+        [SPECIES_LUXRAY_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 0},
+
         [SPECIES_VENUSAUR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
         [SPECIES_CHARIZARD_MEGA_X] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 1},
         [SPECIES_CHARIZARD_MEGA_Y] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 1},

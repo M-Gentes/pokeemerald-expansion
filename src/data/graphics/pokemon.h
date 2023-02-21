@@ -965,6 +965,10 @@ const u32 gMonFrontPic_Caststorm[] = INCBIN_U32("graphics/pokemon/caststorm/fron
 const u32 gMonFrontPic_Draconeon[] = INCBIN_U32("graphics/pokemon/draconeon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Meraki[] = INCBIN_U32("graphics/pokemon/meraki/front.4bpp.lz");
 
+const u32 gMonFrontPic_TentacruelMega[] = INCBIN_U32("graphics/pokemon/tentacruel/mega/anim_front.4bpp.lz");
+const u32 gMonFrontPic_FlygonMega[] = INCBIN_U32("graphics/pokemon/flygon/mega/anim_front.4bpp.lz");
+const u32 gMonFrontPic_LuxrayMega[] = INCBIN_U32("graphics/pokemon/luxray/mega/anim_front.4bpp.lz");
+
 const u32 gMonFrontPic_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/front.4bpp.lz");
 const u32 gMonFrontPic_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/front.4bpp.lz");
 const u32 gMonFrontPic_CharizardMegaY[] = INCBIN_U32("graphics/pokemon/charizard/mega_y/front.4bpp.lz");
@@ -7306,3 +7310,24 @@ const u32 gMonBackPic_Meraki[] = INCBIN_U32("graphics/pokemon/meraki/back.4bpp.l
 const u32 gMonShinyPalette_Meraki[] = INCBIN_U32("graphics/pokemon/meraki/shiny.gbapal.lz");
 const u8 gMonIcon_Meraki[] = INCBIN_U8("graphics/pokemon/meraki/icon.4bpp");
 const u8 gMonFootprint_Meraki[] = INCBIN_U8("graphics/pokemon/meraki/footprint.1bpp");
+
+const u32 gMonStillFrontPic_TentacruelMega[] = INCBIN_U32("graphics/pokemon/tentacruel/mega/front.4bpp.lz");
+const u32 gMonPalette_TentacruelMega[] = INCBIN_U32("graphics/pokemon/tentacruel/mega/normal.gbapal.lz");
+const u32 gMonBackPic_TentacruelMega[] = INCBIN_U32("graphics/pokemon/tentacruel/mega/back.4bpp.lz");
+const u32 gMonShinyPalette_TentacruelMega[] = INCBIN_U32("graphics/pokemon/tentacruel/mega/shiny.gbapal.lz");
+const u8 gMonIcon_TentacruelMega[] = INCBIN_U8("graphics/pokemon/tentacruel/mega/icon.4bpp");
+// const u8 gMonFootprint_TentacruelMega[] = INCBIN_U8("graphics/pokemon/tentacruel/mega/footprint.1bpp");
+
+const u32 gMonStillFrontPic_FlygonMega[] = INCBIN_U32("graphics/pokemon/flygon/mega/front.4bpp.lz");
+const u32 gMonPalette_FlygonMega[] = INCBIN_U32("graphics/pokemon/flygon/mega/normal.gbapal.lz");
+const u32 gMonBackPic_FlygonMega[] = INCBIN_U32("graphics/pokemon/flygon/mega/back.4bpp.lz");
+const u32 gMonShinyPalette_FlygonMega[] = INCBIN_U32("graphics/pokemon/flygon/mega/shiny.gbapal.lz");
+const u8 gMonIcon_FlygonMega[] = INCBIN_U8("graphics/pokemon/flygon/mega/icon.4bpp");
+// const u8 gMonFootprint_FlygonMega[] = INCBIN_U8("graphics/pokemon/flygon/mega/footprint.1bpp");
+
+const u32 gMonStillFrontPic_LuxrayMega[] = INCBIN_U32("graphics/pokemon/luxray/mega/front.4bpp.lz");
+const u32 gMonPalette_LuxrayMega[] = INCBIN_U32("graphics/pokemon/luxray/mega/normal.gbapal.lz");
+const u32 gMonBackPic_LuxrayMega[] = INCBIN_U32("graphics/pokemon/luxray/mega/back.4bpp.lz");
+const u32 gMonShinyPalette_LuxrayMega[] = INCBIN_U32("graphics/pokemon/luxray/mega/shiny.gbapal.lz");
+const u8 gMonIcon_LuxrayMega[] = INCBIN_U8("graphics/pokemon/luxray/mega/icon.4bpp");
+// const u8 gMonFootprint_LuxrayMega[] = INCBIN_U8("graphics/pokemon/luxray/mega/footprint.1bpp");

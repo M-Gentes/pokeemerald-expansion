@@ -974,6 +974,10 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
         [SPECIES_RAYQUAZA_MEGA] = sRayquazaTeachableLearnset,
         [SPECIES_KYOGRE_PRIMAL] = sKyogreTeachableLearnset,
         [SPECIES_GROUDON_PRIMAL] = sGroudonTeachableLearnset,
+        // Custom Mega
+        [SPECIES_TENTACRUEL_MEGA] = sTentacruelTeachableLearnset,
+        [SPECIES_FLYGON_MEGA] = sFlygonTeachableLearnset,
+        [SPECIES_LUXRAY_MEGA] = sLuxrayTeachableLearnset,
         // Alolan Forms
         [SPECIES_RATTATA_ALOLAN] = sRattataAlolanTeachableLearnset,
         [SPECIES_RATICATE_ALOLAN] = sRaticateAlolanTeachableLearnset,

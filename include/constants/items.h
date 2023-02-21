@@ -927,8 +927,12 @@
 #define ITEM_TEA 755
 #define ITEM_RUBY 756
 #define ITEM_SAPPHIRE 757
+#define ITEM_CASTSTORMITE 758
+#define ITEM_TENTACRUELITE 759
+#define ITEM_FLYGONITE 760
+#define ITEM_LUXRAYTITE 761
 
-#define ITEMS_COUNT 758
+#define ITEMS_COUNT ITEM_LUXRAYTITE + 1
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

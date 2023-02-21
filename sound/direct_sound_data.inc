@@ -4490,6 +4490,18 @@ Cry_CalyrexIceRider::
 Cry_CalyrexShadowRider::
 	.incbin "sound/direct_sound_samples/cries/calyrex_shadow_rider.bin"
 
+	.align 2
+Cry_TentacruelMega::
+	.incbin "sound/direct_sound_samples/cries/tentacruel.bin"
+
+	.align 2
+Cry_FlygonMega::
+	.incbin "sound/direct_sound_samples/cries/flygon.bin"
+
+	.align 2
+Cry_LuxrayMega::
+	.incbin "sound/direct_sound_samples/cries/luxray.bin"
+
 /*
 	.align 2
 Cry_EnamorusTherian::

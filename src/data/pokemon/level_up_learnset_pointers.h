@@ -951,6 +951,10 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
         [SPECIES_CASTSTORM] = sCaststormLevelUpLearnset,
         [SPECIES_DRACONEON] = sDraconeonLevelUpLearnset,
         [SPECIES_MERAKI] = sMerakiLevelUpLearnset,
+        // Custom Megas
+        [SPECIES_TENTACRUEL_MEGA] = sTentacruelLevelUpLearnset,
+        [SPECIES_FLYGON_MEGA] = sFlygonLevelUpLearnset,
+        [SPECIES_LUXRAY_MEGA] = sLuxrayLevelUpLearnset,
         // Megas
         [SPECIES_VENUSAUR_MEGA] = sVenusaurLevelUpLearnset,
         [SPECIES_CHARIZARD_MEGA_X] = sCharizardLevelUpLearnset,

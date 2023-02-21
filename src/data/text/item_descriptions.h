@@ -1761,6 +1761,26 @@ static const u8 sDianciteDesc[] = _(
     "Diancie to Mega\n"
     "Evolve in battle.");
 
+static const u8 sCaststormiteDesc[] = _(
+    "This stone enables\n"
+    "Castform to Mega\n"
+    "Evolve in battle to Caststorm.");
+
+static const u8 sTentacrueliteDesc[] = _(
+    "This stone enables\n"
+    "Tentacruel to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sFlygoniteDesc[] = _(
+    "This stone enables\n"
+    "Flygon to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sLuxraytiteDesc[] = _(
+    "This stone enables\n"
+    "Luxray to Mega\n"
+    "Evolve in battle.");
+
 // Gems
 static const u8 sNormalGemDesc[] = _(
     "Increases the\n"

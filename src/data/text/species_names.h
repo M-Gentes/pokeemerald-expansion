@@ -953,6 +953,10 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_CASTSTORM] = _("Caststorm"),
     [SPECIES_DRACONEON] = _("Draconeon"),
     [SPECIES_MERAKI] = _("Meraki"),
+    //Custom Megas
+    [SPECIES_TENTACRUEL_MEGA] = _("Tentacruel"),
+    [SPECIES_FLYGON_MEGA] = _("Flygon"),
+    [SPECIES_LUXRAY_MEGA] = _("Luxray"),
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),
     [SPECIES_CHARIZARD_MEGA_X] = _("Charizard"),

@@ -956,6 +956,10 @@ const struct MonCoords gMonFrontPicCoords[] =
         [SPECIES_CASTSTORM] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_DRACONEON] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_MERAKI] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
+        // Custom Megas
+        [SPECIES_TENTACRUEL_MEGA] = {.size = MON_COORDS_SIZE(64, 56), .y_offset = 4},
+        [SPECIES_FLYGON_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 1},
+        [SPECIES_LUXRAY_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 2},
 
         // Megas
         [SPECIES_VENUSAUR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 3},
