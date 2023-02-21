@@ -9738,6 +9738,10 @@ static const union AnimCmd sAnim_Draconeon_1[] =
 };
 
 static const union AnimCmd sAnim_Meraki_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
 
 static const union AnimCmd sAnim_TentacruelMega_1[] =
     {
