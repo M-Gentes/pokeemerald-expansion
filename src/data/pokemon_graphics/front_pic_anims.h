@@ -9626,8 +9626,7 @@ static const union AnimCmd sAnim_Fluttermane_1[] =
 
 static const union AnimCmd sAnim_Roaringmoon_1[] =
     {
-        ANIMCMD_FRAME(1, 30),
-        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_FRAME(0, 1),
         ANIMCMD_END,
 };
 
@@ -9675,29 +9674,25 @@ static const union AnimCmd sAnim_Irontreads_1[] =
 
 static const union AnimCmd sAnim_Ironvaliant_1[] =
     {
-        ANIMCMD_FRAME(1, 30),
-        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_FRAME(0, 1),
         ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_Pawmi_1[] =
     {
-        ANIMCMD_FRAME(1, 30),
-        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_FRAME(0, 1),
         ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_Pawmo_1[] =
     {
-        ANIMCMD_FRAME(1, 30),
-        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_FRAME(0, 1),
         ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_Pawmot_1[] =
     {
-        ANIMCMD_FRAME(1, 30),
-        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_FRAME(0, 1),
         ANIMCMD_END,
 };
 
@@ -9731,8 +9726,7 @@ static const union AnimCmd sAnim_Kingambit_1[] =
 
 static const union AnimCmd sAnim_Caststorm_1[] =
     {
-        ANIMCMD_FRAME(1, 30),
-        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_FRAME(0, 1),
         ANIMCMD_END,
 };
 
@@ -11741,7 +11735,6 @@ SINGLE_ANIMATION(Caststorm);
 SINGLE_ANIMATION(Draconeon);
 SINGLE_ANIMATION(Meraki);
 
-#endif
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
 SINGLE_ANIMATION(CHARIZARD_MEGA_Y);
@@ -12828,6 +12821,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_SNEASLER] = sAnims_Sneasler,
         [SPECIES_OVERQWIL] = sAnims_Overqwil,
         [SPECIES_ENAMORUS] = sAnims_Enamorus,
+#endif
         [SPECIES_SMASHBAG] = sAnims_Smashbag,
         [SPECIES_CLAWHILL] = sAnims_Clawhill,
         [SPECIES_MAGICORN] = sAnims_Magicorn,

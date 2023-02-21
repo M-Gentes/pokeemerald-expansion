@@ -3494,12 +3494,12 @@ gCryTable_Reverse::
 	cry_reverse Cry_Glastrier
 	cry_reverse Cry_Spectrier
 	cry_reverse Cry_Calyrex
-	cry_reverse Cry_Unown // Cry_Wyrdeer
-	cry_reverse Cry_Unown // Cry_Kleavor
-	cry_reverse Cry_Unown // Cry_Ursaluna
-	cry_reverse Cry_Unown // Cry_Basculegion
-	cry_reverse Cry_Unown // Cry_Sneasler
-	cry_reverse Cry_Unown // Cry_Overqwil
+	cry_reverse Cry_Wyrdeer
+	cry_reverse Cry_Kleavor
+	cry_reverse Cry_Ursaluna
+	cry_reverse Cry_Basculegion
+	cry_reverse Cry_Sneasler
+	cry_reverse Cry_Overqwil
 	cry_reverse Cry_Unown // Cry_Enamorus
 .else
 	cry_reverse Cry_Unown
