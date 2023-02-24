@@ -14173,7 +14173,7 @@ Move_SCALE_SHOT::
 	end @to do:
 
 Move_METEOR_BEAM::
-	end @to do:
+	goto Move_DRACO_METEOR
 
 Move_SHELL_SIDE_ARM::
 	launchtask AnimTask_ShellSideArm 0x5 0x0
@@ -14225,7 +14225,7 @@ Move_MISTY_EXPLOSION::
 	end @to do:
 
 Move_GRASSY_GLIDE::
-	end @to do:
+	goto Move_QUICK_ATTACK
 
 Move_RISING_VOLTAGE::
 	end @to do:
@@ -14362,11 +14362,11 @@ Move_POLTERGEIST::
 
 Move_CORROSIVE_GAS::
 Move_COACHING::
-Move_FLIP_TURN::
-Move_TRIPLE_AXEL::
-Move_DUAL_WINGBEAT::
 Move_SCORCHING_SANDS::
 	end @to do
+
+Move_TRIPLE_AXEL::
+	goto Move_ICICLE_SPEAR
 
 Move_JUNGLE_HEALING::
 	goto Move_AROMATHERAPY
@@ -14380,26 +14380,8 @@ Move_FIERY_WRATH::
 Move_THUNDEROUS_KICK::
 Move_GLACIAL_LANCE::
 Move_ASTRAL_BARRAGE::
-Move_EERIE_SPELL::
-Move_DIRE_CLAW::
-Move_PSYSHIELD_BASH::
 Move_POWER_SHIFT::
-Move_STONE_AXE::
 Move_SPRINGTIDE_STORM::
-Move_MYSTICAL_POWER::
-Move_RAGING_FURY::
-Move_WAVE_CRASH::
-Move_CHLOROBLAST::
-Move_MOUNTAIN_GALE::
-Move_VICTORY_DANCE::
-Move_HEADLONG_RUSH::
-Move_BARB_BARRAGE::
-Move_ESPER_WING::
-Move_BITTER_MALICE::
-Move_SHELTER::
-Move_TRIPLE_ARROWS::
-Move_INFERNAL_PARADE::
-Move_CEASELESS_EDGE::
 Move_BLEAKWIND_STORM::
 Move_WILDBOLT_STORM::
 Move_SANDSEAR_STORM::
@@ -14437,9 +14419,7 @@ Move_CHILLY_RECEPTION::
 Move_TIDY_UP::
 Move_SNOWSCAPE::
 Move_POUNCE::
-Move_TRAILBLAZE::
 Move_TWIN_BEAM::
-Move_RAGE_FIST::
 Move_ARMOR_CANNON::
 Move_BITTER_BLADE::
 Move_DOUBLE_SHOCK::
@@ -14453,10 +14433,104 @@ Move_COMBAT_TORQUE::
 Move_MAGICAL_TORQUE::
 	end @to do
 
+@@ Placeholder Graphics @@
+
 Move_CHILLING_WATER::
 	goto Move_FROST_BREATH
 Move_HYPER_DRILL::
 	goto Move_HORN_DRILL
+
+Move_RAGING_FURY::
+	goto Move_BURN_UP
+
+Move_WAVE_CRASH::
+	goto Move_GIGA_IMPACT
+
+Move_ESPER_WING::
+	goto Move_SYCHRONOISE
+
+Move_TRIPLE_ARROWS::
+	goto Move_SINISTER_ARROW_RAID
+
+Move_INFERNAL_PARADE::
+	goto Move_MYSTICAL_FIRE
+
+Move_TRAILBLAZE::
+	goto Move_GRASSY_GLIDE
+
+Move_MOUNTAIN_GALE::
+	goto Move_ICICLE_SPEAR
+
+Move_MYSTICAL_POWER::
+	goto Move_PSYSHOCK
+
+Move_CHLOROBLAST::
+	goto Move_HYPER_BEAM
+
+Move_VICTORY_DANCE::
+	goto Move_REVELATION_DANCE
+
+Move_EERIE_SPELL::
+	goto Move_GRUDGE
+
+Move_PSYSHIELD_BASH::
+	goto Move_ZEN_HEADBUTT
+
+Move_HEADLONG_RUSH::
+	goto Move_HEAD_CHARGE
+
+Move_BARB_BARRAGE::
+	goto Move_TWINEEDLE
+
+Move_BITTER_MALICE::
+	goto Move_NIGHTMARE
+
+Move_SHELTER::
+	goto Move_WITHDRAW
+
+Move_CEASELESS_EDGE::
+	goto Move_NIGHT_SLASH
+
+Move_STONE_AXE::
+	goto Move_ROCK_SMASH
+
+Move_DIRE_CLAW::
+	goto Move_POISON_JAB
+
+Move_FLIP_TURN::
+	goto Move_AQUA_JET
+
+Move_RAGE_FIST::
+	goto Move_FOCUS_PUNCH
+
+Move_DUAL_WINGBEAT::
+	loadspritegfx ANIM_TAG_GUST
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_DEF_PARTNER
+	splitbgprio ANIM_TARGET
+	setalpha 12, 8
+	loopsewithpan SE_M_WING_ATTACK, SOUND_PAN_ATTACKER, 20, 2
+	createvisualtask AnimTask_TranslateMonElliptical, 2, 0, 12, 4, 1, 4
+	createvisualtask AnimTask_AnimateGustTornadoPalette, 5, 1, 70
+	createsprite gGustToTargetSpriteTemplate, ANIM_ATTACKER, 2, -25, 0, 0, 0, 20
+	createsprite gGustToTargetSpriteTemplate, ANIM_ATTACKER, 2, 25, 0, 0, 0, 20
+	delay 10
+	loopsewithpan SE_M_WING_ATTACK, SOUND_PAN_ATTACKER, 20, 2
+	createvisualtask AnimTask_TranslateMonElliptical, 2, 0, 12, 4, 1, 4
+	createvisualtask AnimTask_AnimateGustTornadoPalette, 5, 1, 70
+	createsprite gGustToTargetSpriteTemplate, ANIM_ATTACKER, 2, -25, 0, 0, 0, 20
+	createsprite gGustToTargetSpriteTemplate, ANIM_ATTACKER, 2, 25, 0, 0, 0, 20
+	createsprite gSlideMonToOffsetSpriteTemplate, ANIM_ATTACKER, 2, 0, 24, 0, 0, 9
+	delay 17
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 2, 16, 0, ANIM_TARGET, 1
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 2, -16, 0, ANIM_TARGET, 1
+	loopsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET, 5, 2
+	waitforvisualfinish
+	createsprite gSlideMonToOriginalPosSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, 11
+	waitforvisualfinish
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	end
 
 @@@@@@@@@@@@@@@@@@@@@@@ GEN 1-3 @@@@@@@@@@@@@@@@@@@@@@@
 Move_NONE:
