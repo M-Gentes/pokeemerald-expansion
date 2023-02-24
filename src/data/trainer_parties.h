@@ -2832,7 +2832,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cameron1[] = {
     {
         .iv = 0,
         .lvl = 36,
-        .heldItem = {ITEM_SCEPTILITE},
+        .heldItem = ITEM_SCEPTILITE,
         .species = SPECIES_SCEPTILE,
     },
 };
