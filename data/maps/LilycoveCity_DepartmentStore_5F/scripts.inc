@@ -61,7 +61,7 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Cushions:
 	.2byte ITEM_LEEK
 	.2byte ITEM_LUCKY_PUNCH
 	.2byte ITEM_THICK_CLUB
-	.2byte ITEM_HEAT_ORB
+	.2byte ITEM_FLAME_ORB
 	.2byte ITEM_TOXIC_ORB
 	.2byte ITEM_METRONOME
 	.2byte ITEM_SCOPE_LENS
@@ -70,6 +70,7 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Cushions:
 	.2byte ITEM_EVIOLITE
 	.2byte ITEM_BIG_ROOT
 	.2byte ITEM_POWER_HERB
+	.2byte ITEM_BINDING_BAND
 	.2byte ITEM_NONE
 	release
 	end
