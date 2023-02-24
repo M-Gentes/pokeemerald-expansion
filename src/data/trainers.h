@@ -2866,7 +2866,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Cameron1),
+            .party = ITEM_DEFAULT_MOVES(sParty_Cameron1),
         },
 
     [TRAINER_CAMERON_2] =
