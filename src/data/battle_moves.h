@@ -13275,15 +13275,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         #else
             .power = 60,
         #endif
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_DIRE_CLAW,
+        .effect = EFFECT_TRI_ATTACK, // EFFECT_DIRE_CLAW,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 50,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_HIGH_CRIT | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_PHYSICAL,
+        .argument = STATUS1_POISON,
         .zMovePower = 120,
         .zMoveEffect = Z_EFFECT_NONE,
     },
@@ -13322,13 +13323,13 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_STONE_AXE] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_STONE_AXE,
+        .effect = EFFECT_DEFENSE_DOWN_HIT, // EFFECT_STONE_AXE,
         .power = 65,
         .type = TYPE_ROCK,
         .accuracy = 90,
         .pp = 15,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_USER,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_SLICING_MOVE,
         .split = SPLIT_PHYSICAL,
@@ -13486,16 +13487,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_BARB_BARRAGE] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_BARB_BARRAGE,
+        .effect = EFFECT_HEX, // EFFECT_BARB_BARRAGE,
         .power = 60,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 50,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_PHYSICAL,
+        .argument = STATUS1_POISON,
         .zMovePower = 120,
         .zMoveEffect = Z_EFFECT_NONE,
     },
@@ -13563,7 +13565,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         #else
             .power = 50,
         #endif
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_TRIPLE_ARROWS,
+        .effect = EFFECT_TRI_ATTACK, // EFFECT_TRIPLE_ARROWS,
         .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 15,
@@ -13578,28 +13580,29 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_INFERNAL_PARADE] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_INFERNAL_PARADE,
+        .effect = EFFECT_HEX, // EFFECT_INFERNAL_PARADE,
         .power = 60,
         .type = TYPE_GHOST,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_SPECIAL,
+        .argument = STATUS1_BURN,
         .zMovePower = 120,
         .zMoveEffect = Z_EFFECT_NONE,
     },
 
     [MOVE_CEASELESS_EDGE] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_CEASELESS_EDGE,
+        .effect =  EFFECT_DEFENSE_DOWN_HIT, // EFFECT_CEASELESS_EDGE,
         .power = 65,
         .type = TYPE_DARK,
         .accuracy = 90,
         .pp = 15,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_SLICING_MOVE,
@@ -14298,7 +14301,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_RAGE_FIST] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_RAGE_FIST
+        .effect = EFFECT_RAGE, // EFFECT_RAGE_FIST
         .power = 50,
         .type = TYPE_GHOST,
         .accuracy = 100,
