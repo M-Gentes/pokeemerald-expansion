@@ -99,6 +99,10 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Posters:
 	.2byte ITEM_RAZOR_FANG
 	.2byte ITEM_PROTECTOR
 	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_YELLOW_NECTAR
+	.2byte ITEM_RED_NECTAR
+	.2byte ITEM_PINK_NECTAR
+	.2byte ITEM_PURPLE_NECTAR
 	.2byte DECOR_NONE
 	release
 	end
