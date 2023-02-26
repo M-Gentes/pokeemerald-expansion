@@ -49,6 +49,19 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM10  @ Hidden Power
 	.2byte ITEM_TM15  @ Hyper Beam
 	.2byte ITEM_TM68  @ Giga Impact
+	.2byte ITEM_TM52  @ Focus Blast
+	.2byte ITEM_TM53  @ Energy Ball
+	.2byte ITEM_TM59  @ Dragon Pulse
+	.2byte ITEM_TM60  @ Drain Punch
+	.2byte ITEM_TM71  @ Stone Edge
+	.2byte ITEM_TM80  @ Rock Slide
+	.2byte ITEM_TM79  @ Dark Pulse
+	.2byte ITEM_TM81  @ X-Scissor
+	.2byte ITEM_TM89  @ U-Turn
+	.2byte ITEM_TM84  @ Poison Jab
+	.2byte ITEM_TM91  @ Flash Cannon
+	.2byte ITEM_TM99  @ Dazzling Gleam
+	.2byte ITEM_TM100  @ Play Rough
 	.2byte ITEM_NONE
 	release
 	end
@@ -73,10 +86,17 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	.2byte ITEM_TM06  @ Toxic
 	.2byte ITEM_TM12  @ Taunt
 	.2byte ITEM_TM44  @ Rest
+	.2byte ITEM_TM82  @ Sleep Talk
 	.2byte ITEM_TM07  @ Hail
 	.2byte ITEM_TM11  @ Sunny Day
 	.2byte ITEM_TM18  @ Rain Dance
 	.2byte ITEM_TM37  @ Sandstorm
+	.2byte ITEM_TM51  @ Roost
+	.2byte ITEM_TM92  @ Trick Room
+	.2byte ITEM_TM95  @ Electric Terrain
+	.2byte ITEM_TM96  @ Grassy Terrain
+	.2byte ITEM_TM97  @ Misty Terrain
+	.2byte ITEM_TM98  @ Psychic Terrain
 	.2byte ITEM_NONE
 	release
 	end
