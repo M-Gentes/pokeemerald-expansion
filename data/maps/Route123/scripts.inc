@@ -69,6 +69,8 @@ Route123_EventScript_RegisterCameron::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route123_Text_CameronRegister, MSGBOX_DEFAULT
+	giveitem ITEM_SCEPTILITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	register_matchcall TRAINER_CAMERON_1
 	release
 	end

@@ -173,6 +173,8 @@ Route110_EventScript_Edward::
 Route110_EventScript_Jaclyn::
 	trainerbattle_single TRAINER_JACLYN, Route110_Text_JaclynIntro, Route110_Text_JaclynDefeated
 	msgbox Route110_Text_JaclynPostBattle, MSGBOX_AUTOCLOSE
+	giveitem ITEM_ALAKAZITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
 
 Route110_EventScript_Edwin::

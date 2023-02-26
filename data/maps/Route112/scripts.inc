@@ -97,6 +97,8 @@ Route112_EventScript_Larry::
 Route112_EventScript_Carol::
 	trainerbattle_single TRAINER_CAROL, Route112_Text_CarolIntro, Route112_Text_CarolDefeat
 	msgbox Route112_Text_CarolPostBattle, MSGBOX_AUTOCLOSE
+	giveitem ITEM_AUDINITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
 
 Route112_EventScript_Bryant::

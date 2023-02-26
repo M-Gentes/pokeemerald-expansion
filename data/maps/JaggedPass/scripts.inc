@@ -110,6 +110,8 @@ JaggedPass_EventScript_Diana::
 JaggedPass_EventScript_RegisterDiana::
 	special PlayerFaceTrainerAfterBattle
 	msgbox JaggedPass_Text_DianaRegister, MSGBOX_DEFAULT
+	giveitem ITEM_AERODACTYLITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	register_matchcall TRAINER_DIANA_1
 	release
 	end

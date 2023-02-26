@@ -46,6 +46,9 @@ LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters:
 	.2byte ITEM_BLAZIKENITE
 	.2byte ITEM_SWAMPERTITE
 	.2byte ITEM_SCEPTILITE
+	.2byte ITEM_TENTACRUELITE
+	.2byte ITEM_FLYGONITE
+	.2byte ITEM_LUXRAYTITE
 	.2byte ITEM_NONE
 	release
 	end

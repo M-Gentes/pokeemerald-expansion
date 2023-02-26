@@ -294,6 +294,8 @@ PetalburgWoods_EventScript_TryRegisterJames::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	goto_if_set FLAG_HAS_MATCH_CALL, PetalburgWoods_EventScript_RegisterJames
+	giveitem ITEM_BEEDRILLITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	release
 	end
 
