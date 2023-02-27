@@ -939,6 +939,9 @@ SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
 	waitmovement 0
 	msgbox SootopolisCity_Text_HereWereAreHelpWallace, MSGBOX_DEFAULT
 	closemessage
+	trainerbattle_no_intro TRAINER_STEVEN_CUSTOM, SootopolisCity_Text_KnowWhatsNeededToHelpHim
+	giveitem ITEM_METAGROSSITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerEnterCaveOfOrigin
 	waitmovement 0
@@ -1661,7 +1664,8 @@ SootopolisCity_Text_HereWereAreHelpWallace:
 	.string "Inside here you'll find someone named\n"
 	.string "WALLACE.\p"
 	.string "I think you have what's needed to\n"
-	.string "help him…$"
+	.string "help him…\n"
+	.string "But first let me test you!$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
 	.string "STEVEN: I think you have what's\n"
