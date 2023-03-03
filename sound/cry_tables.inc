@@ -1475,6 +1475,7 @@ gCryTable::
 	cry Cry_Kingambit
 	@ Custom
 	cry Cry_Caststorm
+	cry Cry_Brynxess
 	cry Cry_Draconeon
 	cry Cry_Meraki
 	@ Megas
@@ -3639,6 +3640,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kingambit
 	@Custom
 	cry_reverse Cry_Caststorm
+	cry_reverse Cry_Brynxess
 	cry_reverse Cry_Draconeon
 	cry_reverse Cry_Meraki
 	@ Megas

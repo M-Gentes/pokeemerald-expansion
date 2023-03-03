@@ -4140,6 +4140,10 @@ Cry_Caststorm::
 	.incbin "sound/direct_sound_samples/cries/thundurus.bin"
 
 	.align 2
+Cry_Brynxess::
+	.incbin "sound/direct_sound_samples/cries/jynx.bin"
+
+	.align 2
 Cry_Draconeon::
 	.incbin "sound/direct_sound_samples/cries/dragonair.bin"
 

@@ -11277,6 +11277,18 @@ const struct PokedexEntry gPokedexEntries[] =
                 .trainerOffset = 0,
             },
 
+        [NATIONAL_DEX_BRYNXESS] =
+            {
+                .categoryName = _("Valkyrie"),
+                .height = 14,
+                .weight = 406,
+                .description = gBrynxessPokedexText,
+                .pokemonScale = 256,
+                .pokemonOffset = 3,
+                .trainerScale = 300,
+                .trainerOffset = 1,
+            },
+
         [NATIONAL_DEX_DRACONEON] =
             {
                 .categoryName = _("Scale"),

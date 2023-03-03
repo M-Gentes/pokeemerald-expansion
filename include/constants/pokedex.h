@@ -957,6 +957,8 @@ enum
     NATIONAL_DEX_KINGAMBIT,
     // Caststorm
     NATIONAL_DEX_CASTSTORM,
+    // Brynxess
+    NATIONAL_DEX_BRYNXESS,
     // Draconeon
     NATIONAL_DEX_DRACONEON,
     // Meraki
@@ -1251,6 +1253,8 @@ enum
     HOENN_DEX_KINGAMBIT,
     // Caststorm
     HOENN_DEX_CASTSTORM,
+    // Brynxess
+    HOENN_DEX_BRYNXESS,
     // Draconeon
     HOENN_DEX_DRACONEON,
     // Meraki

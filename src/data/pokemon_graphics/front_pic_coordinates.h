@@ -954,6 +954,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         [SPECIES_FARIGIRAF] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_KINGAMBIT] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_CASTSTORM] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
+        [SPECIES_BRYNXESS] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_DRACONEON] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_MERAKI] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         // Custom Megas

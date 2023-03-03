@@ -5598,6 +5598,12 @@ const u8 gCaststormPokedexText[] = _(
     "devastating storms of all kinds\n"
     "demonstrating the power of nature.");
 
+const u8 gBrynxessPokedexText[] = _(
+    "Brynxess can summon light energy\n"
+    "by singing. Its lures people and Pokémon\n"
+    "with its brightful rhythms. Anyone\n"
+    "misbehaving will be frozen instantly.");
+
 const u8 gDraconeonPokedexText[] = _(
     "Draconeon are considered exotic and are\n"
     "rarely seen outside of Blackthorn City in Johto.\n"

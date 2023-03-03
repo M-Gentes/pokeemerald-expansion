@@ -25517,6 +25517,28 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
+        [SPECIES_BRYNXESS] =
+            {
+                .baseHP = 65 + 30,
+                .baseAttack = 50 + 20,
+                .baseDefense = 35 + 20 + 30,
+                .baseSpeed = 95 + 10,
+                .baseSpAttack = 115 + 10 + 10,
+                .baseSpDefense = 95 + 10,
+                .types = {TYPE_ICE, TYPE_PSYCHIC},
+                .catchRate = 45,
+                .expYield = 159,
+                .evYield_SpAttack = 2,
+                .genderRatio = MON_FEMALE,
+                .eggCycles = 25,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_FAST,
+                .eggGroups = {EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE},
+                .abilities = {ABILITY_PIXILATE, ABILITY_REFRIGERATE, ABILITY_DRY_SKIN},
+                .bodyColor = BODY_COLOR_RED,
+                .noFlip = FALSE,
+            },
+
         [SPECIES_DRACONEON] =
             {
                 .baseHP = 80,
