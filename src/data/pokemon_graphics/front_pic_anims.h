@@ -11135,7 +11135,6 @@ static const union AnimCmd *const sAnims_Castform[] = {
     sAnim_Castform_1,
     sAnim_Castform_2,
     sAnim_Castform_3,
-    sAnim_Castform_4,
 };
 SINGLE_ANIMATION(Volbeat);
 SINGLE_ANIMATION(Illumise);

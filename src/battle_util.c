@@ -8725,6 +8725,18 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
 }
 #undef TERRAIN_TYPE_BOOST
 
+static bool32 CanEvolve(u32 species)
+{
+    u32 i;
+
+    for (i = 0; i < EVOS_PER_MON; i++)
+    {
+        if (gEvolutionTable[species][i].method && gEvolutionTable[species][i].method != EVO_MEGA_EVOLUTION && gEvolutionTable[species][i].method != EVO_MOVE_MEGA_EVOLUTION && gEvolutionTable[species][i].method != EVO_PRIMAL_REVERSION)
+            return TRUE;
+    }
+    return FALSE;
+}
+
 static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, bool32 isCrit, bool32 updateFlags)
 {
     u8 atkStage;
@@ -8913,7 +8925,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         break;
     // buff unevolved Pokémons' attack stats when equipped with Everstone
     case HOLD_EFFECT_PREVENT_EVOLVE:
-        if (CanEvolve(gBattleMons[battlerDef].species))
+        if (CanEvolve(gBattleMons[battlerAtk].species))
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     }
@@ -8926,18 +8938,6 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         MulModifier(&modifier, UQ_4_12(1.1));
 
     return ApplyModifier(modifier, atkStat);
-}
-
-static bool32 CanEvolve(u32 species)
-{
-    u32 i;
-
-    for (i = 0; i < EVOS_PER_MON; i++)
-    {
-        if (gEvolutionTable[species][i].method && gEvolutionTable[species][i].method != EVO_MEGA_EVOLUTION && gEvolutionTable[species][i].method != EVO_MOVE_MEGA_EVOLUTION && gEvolutionTable[species][i].method != EVO_PRIMAL_REVERSION)
-            return TRUE;
-    }
-    return FALSE;
 }
 
 static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, bool32 isCrit, bool32 updateFlags)
