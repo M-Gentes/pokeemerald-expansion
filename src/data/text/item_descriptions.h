@@ -1296,9 +1296,9 @@ static const u8 sRibbonSweetDesc[] = _(
     "Milcery.");
 
 static const u8 sEverstoneDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A wondrous item that\n"
+    "prevents evolutions and\n"
+    "boosts attacks of unevolved.");
 
 // Nectars
 static const u8 sRedNectarDesc[] = _(
