@@ -14419,7 +14419,6 @@ Move_CHILLY_RECEPTION::
 Move_TIDY_UP::
 Move_SNOWSCAPE::
 Move_POUNCE::
-Move_TWIN_BEAM::
 Move_ARMOR_CANNON::
 Move_BITTER_BLADE::
 Move_DOUBLE_SHOCK::
@@ -14434,6 +14433,9 @@ Move_MAGICAL_TORQUE::
 	end @to do
 
 @@ Placeholder Graphics @@
+
+Move_TWIN_BEAM::
+	goto Move_PSYBEAM
 
 Move_CHILLING_WATER::
 	goto Move_FROST_BREATH
