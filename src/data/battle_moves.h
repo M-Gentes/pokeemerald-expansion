@@ -13565,14 +13565,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         #else
             .power = 50,
         #endif
-        .effect = EFFECT_TRI_ATTACK, // EFFECT_TRIPLE_ARROWS,
+        .effect = EFFECT_DEFENSE_DOWN_HIT, // EFFECT_TRIPLE_ARROWS,
         .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 100,
+        .secondaryEffectChance = 50,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_HIGH_CRIT | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_PHYSICAL,
         .zMovePower = 100,
         .zMoveEffect = Z_EFFECT_NONE,
