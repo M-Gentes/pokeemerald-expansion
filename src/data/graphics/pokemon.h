@@ -7300,7 +7300,7 @@ const u8 gMonFootprint_Caststorm[] = INCBIN_U8("graphics/pokemon/caststorm/footp
 
 const u32 gMonStillFrontPic_Brynxess[] = INCBIN_U32("graphics/pokemon/brynxess/front.4bpp.lz");
 const u32 gMonPalette_Brynxess[] = INCBIN_U32("graphics/pokemon/brynxess/normal.gbapal.lz");
-const u32 gMonBackPic_Brynxess[] = INCBIN_U32("graphics/pokemon/jynx/back.4bpp.lz");
+const u32 gMonBackPic_Brynxess[] = INCBIN_U32("graphics/pokemon/brynxess/back.4bpp.lz");
 const u32 gMonShinyPalette_Brynxess[] = INCBIN_U32("graphics/pokemon/brynxess/shiny.gbapal.lz");
 const u8 gMonIcon_Brynxess[] = INCBIN_U8("graphics/pokemon/brynxess/icon.4bpp");
 const u8 gMonFootprint_Brynxess[] = INCBIN_U8("graphics/pokemon/brynxess/footprint.1bpp");
