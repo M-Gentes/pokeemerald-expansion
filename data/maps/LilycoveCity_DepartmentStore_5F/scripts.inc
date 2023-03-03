@@ -68,6 +68,7 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Cushions:
 	.2byte ITEM_WIDE_LENS
 	.2byte ITEM_ZOOM_LENS
 	.2byte ITEM_EVIOLITE
+	.2byte ITEM_EVERSTONE
 	.2byte ITEM_BIG_ROOT
 	.2byte ITEM_POWER_HERB
 	.2byte ITEM_BINDING_BAND

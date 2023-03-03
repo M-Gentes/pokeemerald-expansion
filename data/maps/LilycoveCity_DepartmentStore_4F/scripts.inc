@@ -49,6 +49,8 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM10  @ Hidden Power
 	.2byte ITEM_TM15  @ Hyper Beam
 	.2byte ITEM_TM68  @ Giga Impact
+	.2byte ITEM_TM93  @ Weather Ball
+	.2byte ITEM_TM94  @ Terrain Pulse
 	.2byte ITEM_TM52  @ Focus Blast
 	.2byte ITEM_TM53  @ Energy Ball
 	.2byte ITEM_TM59  @ Dragon Pulse
