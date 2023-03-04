@@ -11,10 +11,12 @@ Route133_EventScript_Debra::
 	msgbox Route133_Text_DebraPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+/**
 Route133_EventScript_Linda::
 	trainerbattle_single TRAINER_LINDA, Route133_Text_LindaIntro, Route133_Text_LindaDefeat
 	msgbox Route133_Text_LindaPostBattle, MSGBOX_AUTOCLOSE
 	end
+*/
 
 Route133_EventScript_Warren::
 	trainerbattle_single TRAINER_WARREN, Route133_Text_WarrenIntro, Route133_Text_WarrenDefeat

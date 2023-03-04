@@ -699,14 +699,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_AUSTINA] =
         {
-            .trainerClass = TRAINER_CLASS_TUBER_F,
-            .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_GIRL,
-            .trainerPic = TRAINER_PIC_TUBER_F,
-            .trainerName = _("AUSTINA"),
-            .items = {},
+            .trainerClass = TRAINER_CLASS_CHAMPION,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+            .trainerPic = TRAINER_PIC_DRAGON_TAMER,
+            .trainerName = _("Epikrates"),
+            .items = {ITEM_FULL_RESTORE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Austina),
+            .party = ITEM_CUSTOM_MOVES(sParty_Austina),
         },
 
     [TRAINER_GWEN] =
@@ -1839,14 +1839,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_DOUGLAS] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_M,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_M,
-            .trainerName = _("DOUGLAS"),
+            .trainerPic = TRAINER_PIC_SAILOR,
+            .trainerName = _("Rio"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Douglas),
+            .party = ITEM_CUSTOM_MOVES(sParty_Douglas),
         },
 
     [TRAINER_DARRIN] =
@@ -1899,14 +1899,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_DAVID] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_M,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_M,
-            .trainerName = _("DAVID"),
+            .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+            .trainerName = _("Ventus"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_David),
+            .party = ITEM_CUSTOM_MOVES(sParty_David),
         },
 
     [TRAINER_SPENCER] =
@@ -1971,10 +1971,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_DEAN] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_M,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_M,
-            .trainerName = _("DEAN"),
+            .trainerPic = TRAINER_PIC_GENTLEMAN,
+            .trainerName = _("Oscur"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
@@ -2067,14 +2067,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JACK] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_M,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_M,
-            .trainerName = _("JACK"),
+            .trainerPic = TRAINER_PIC_GUITARIST,
+            .trainerName = _("Rocky"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Jack),
+            .party = ITEM_CUSTOM_MOVES(sParty_Jack),
         },
 
     [TRAINER_DUDLEY] =
@@ -5295,14 +5295,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_BEVERLY] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_F,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
             .trainerPic = TRAINER_PIC_SWIMMER_F,
-            .trainerName = _("BEVERLY"),
+            .trainerName = _("Ceniza"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Beverly),
+            .party = ITEM_CUSTOM_MOVES(sParty_Beverly),
         },
 
     [TRAINER_IMANI] =
@@ -5355,14 +5355,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TARA] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_F,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_F,
-            .trainerName = _("TARA"),
+            .trainerPic = TRAINER_PIC_LADY,
+            .trainerName = _("Gaia"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Tara),
+            .party = ITEM_CUSTOM_MOVES(sParty_Tara),
         },
 
     [TRAINER_MISSY] =
@@ -5381,12 +5381,12 @@ const struct Trainer gTrainers[] = {
         {
             .trainerClass = TRAINER_CLASS_SWIMMER_F,
             .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_F,
-            .trainerName = _("ALICE"),
+            .trainerPic = TRAINER_PIC_INTERVIEWER,
+            .trainerName = _("Elise"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Alice),
+            .party = ITEM_CUSTOM_MOVES(sParty_Alice),
         },
 
     [TRAINER_JENNY_1] =
@@ -5415,14 +5415,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TANYA] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_F,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_F,
-            .trainerName = _("TANYA"),
+            .trainerPic = TRAINER_PIC_PICNICKER,
+            .trainerName = _("Nina"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Tanya),
+            .party = ITEM_CUSTOM_MOVES(sParty_Tanya),
         },
 
     [TRAINER_SHARON] =
@@ -5475,14 +5475,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_SUSIE] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_F,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_F,
-            .trainerName = _("SUSIE"),
+            .trainerPic = TRAINER_PIC_EXPERT_F,
+            .trainerName = _("Kazey"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Susie),
+            .party = ITEM_CUSTOM_MOVES(sParty_Susie),
         },
 
     [TRAINER_KARA] =
@@ -5535,10 +5535,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_LINDA] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_F,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-            .trainerPic = TRAINER_PIC_SWIMMER_F,
-            .trainerName = _("LINDA"),
+            .trainerPic = TRAINER_PIC_LASS,
+            .trainerName = _("Sannow"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
@@ -8019,14 +8019,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_HENRY] =
         {
-            .trainerClass = TRAINER_CLASS_FISHERMAN,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-            .trainerPic = TRAINER_PIC_FISHERMAN,
-            .trainerName = _("HENRY"),
+            .trainerPic = TRAINER_PIC_BUG_MANIAC,
+            .trainerName = _("BARIUM"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Henry),
+            .party = ITEM_CUSTOM_MOVES(sParty_Henry),
         },
 
     [TRAINER_ROGER] =

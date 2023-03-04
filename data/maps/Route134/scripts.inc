@@ -6,10 +6,12 @@ Route134_OnResume:
 	setdivewarp MAP_UNDERWATER_ROUTE134, 8, 6
 	end
 
+/**
 Route134_EventScript_Jack::
 	trainerbattle_single TRAINER_JACK, Route134_Text_JackIntro, Route134_Text_JackDefeat
 	msgbox Route134_Text_JackPostBattle, MSGBOX_AUTOCLOSE
 	end
+*/
 
 Route134_EventScript_Laurel::
 	trainerbattle_single TRAINER_LAUREL, Route134_Text_LaurelIntro, Route134_Text_LaurelDefeat

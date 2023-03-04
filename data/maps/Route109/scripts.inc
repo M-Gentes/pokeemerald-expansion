@@ -374,6 +374,7 @@ Route109_EventScript_TrainerTipsSign::
 	msgbox Route109_Text_TrainerTipsSign, MSGBOX_SIGN
 	end
 
+/**
 Route109_EventScript_David::
 	trainerbattle_single TRAINER_DAVID, Route109_Text_DavidIntro, Route109_Text_DavidDefeated
 	msgbox Route109_Text_DavidPostBattle, MSGBOX_AUTOCLOSE
@@ -383,6 +384,7 @@ Route109_EventScript_Alice::
 	trainerbattle_single TRAINER_ALICE, Route109_Text_AliceIntro, Route109_Text_AliceDefeated
 	msgbox Route109_Text_AlicePostBattle, MSGBOX_AUTOCLOSE
 	end
+*/
 
 Route109_EventScript_Huey::
 	trainerbattle_single TRAINER_HUEY, Route109_Text_HueyIntro, Route109_Text_HueyDefeated
@@ -436,10 +438,12 @@ Route109_EventScript_LolaRematch::
 	msgbox Route109_Text_LolaRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+/**
 Route109_EventScript_Austina::
 	trainerbattle_single TRAINER_AUSTINA, Route109_Text_AustinaIntro, Route109_Text_AustinaDefeated
 	msgbox Route109_Text_AustinaPostBattle, MSGBOX_AUTOCLOSE
 	end
+*/
 
 Route109_EventScript_Gwen::
 	trainerbattle_single TRAINER_GWEN, Route109_Text_GwenIntro, Route109_Text_GwenDefeated

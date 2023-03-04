@@ -702,7 +702,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lola1[] = {
         .species = SPECIES_AZURILL,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Austina[] = {
+// Custom Epikrates
+static const struct TrainerMonItemCustomMoves sParty_Austina[] = {
     {
         .iv = 0,
         .lvl = 26,
@@ -1833,7 +1834,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dominik[] = {
         .species = SPECIES_TENTACOOL,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Douglas[] = {
+// Custom Rio
+static const struct TrainerMonItemCustomMoves sParty_Douglas[] = {
     {
         .iv = 10,
         .lvl = 24,
@@ -1876,14 +1878,16 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerome[] = {
         .species = SPECIES_TENTACRUEL,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Matthew[] = {
+// Custom ochysP
+static const struct TrainerMonItemCustomMoves sParty_Matthew[] = {
     {
         .iv = 0,
         .lvl = 26,
         .species = SPECIES_CARVANHA,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
+// Custom Ventus
+static const struct TrainerMonItemCustomMoves sParty_David[] = {
     {
         .iv = 0,
         .lvl = 25,
@@ -1935,7 +1939,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Barry[] = {
         .species = SPECIES_GYARADOS,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Dean[] = {
+// Custom Oscur
+static const struct TrainerMonItemCustomMoves sParty_Dean[] = {
     {
         .iv = 0,
         .lvl = 31,
@@ -2011,7 +2016,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kevin[] = {
         .species = SPECIES_SPHEAL,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jack[] = {
+// Custom Rocky
+static const struct TrainerMonItemCustomMoves sParty_Jack[] = {
     {
         .iv = 0,
         .lvl = 34,
@@ -5250,7 +5256,8 @@ static const struct TrainerMonNoItemCustomMoves sParty_Madeline5[] = {
      .species = SPECIES_CAMERUPT,
      .moves = {MOVE_FLAMETHROWER, MOVE_TAKE_DOWN, MOVE_EARTHQUAKE, MOVE_SUNNY_DAY}}};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Beverly[] = {
+// Ceniza
+static const struct TrainerMonItemCustomMoves sParty_Beverly[] = {
     {
         .iv = 0,
         .lvl = 25,
@@ -5295,7 +5302,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Beth[] = {
         .species = SPECIES_GOLDEEN,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Tara[] = {
+// Custom Gaia
+static const struct TrainerMonItemCustomMoves sParty_Tara[] = {
     {
         .iv = 0,
         .lvl = 25,
@@ -5314,7 +5322,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Missy[] = {
         .species = SPECIES_GOLDEEN,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Alice[] = {
+// Custom Elise
+static const struct TrainerMonItemCustomMoves sParty_Alice[] = {
     {
         .iv = 0,
         .lvl = 24,
@@ -5345,7 +5354,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Grace[] = {
         .species = SPECIES_MARILL,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Tanya[] = {
+// Custom Nina
+static const struct TrainerMonItemCustomMoves sParty_Tanya[] = {
     {
         .iv = 0,
         .lvl = 34,
@@ -5390,7 +5400,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katie[] = {
         .species = SPECIES_SPHEAL,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Susie[] = {
+// Custom Kazey
+static const struct TrainerMonItemCustomMoves sParty_Susie[] = {
     {
         .iv = 0,
         .lvl = 34,
@@ -5430,7 +5441,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Debra[] = {
         .species = SPECIES_SEAKING,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Linda[] = {
+// Custom Sannow
+static const struct TrainerMonItemCustomMoves sParty_Linda[] = {
     {
         .iv = 0,
         .lvl = 33,
@@ -8391,7 +8403,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jonah[] = {
         .species = SPECIES_SHARPEDO,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Henry[] = {
+// Custom BARIUM
+static const struct TrainerMonItemCustomMoves sParty_Henry[] = {
     {
         .iv = 0,
         .lvl = 31,
