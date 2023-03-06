@@ -345,6 +345,8 @@ Route120_EventScript_Angelica::
 Route120_EventScript_Keigo::
 	trainerbattle_single TRAINER_KEIGO, Route120_Text_KeigoIntro, Route120_Text_KeigoDefeat
 	msgbox Route120_Text_KeigoPostBattle, MSGBOX_AUTOCLOSE
+	giveitem ITEM_PINSIRITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
 
 Route120_EventScript_Riley::

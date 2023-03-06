@@ -48,6 +48,8 @@ Route134_EventScript_Reyna::
 Route134_EventScript_Marley::
 	trainerbattle_single TRAINER_MARLEY, Route134_Text_MarleyIntro, Route134_Text_MarleyDefeat
 	msgbox Route134_Text_MarleyPostBattle, MSGBOX_AUTOCLOSE
+	giveitem ITEM_MANECTRITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
 
 Route134_EventScript_Kelvin::

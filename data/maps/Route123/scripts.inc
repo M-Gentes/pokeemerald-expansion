@@ -45,6 +45,8 @@ Route123_EventScript_BerryMastersHouseSign::
 Route123_EventScript_Wendy::
 	trainerbattle_single TRAINER_WENDY, Route123_Text_WendyIntro, Route123_Text_WendyDefeat
 	msgbox Route123_Text_WendyPostBattle, MSGBOX_AUTOCLOSE
+	giveitem ITEM_MAWILITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
 
 Route123_EventScript_Braxton::
