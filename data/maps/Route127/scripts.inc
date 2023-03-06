@@ -45,6 +45,8 @@ Route127_EventScript_Henry::
 Route127_EventScript_Roger::
 	trainerbattle_single TRAINER_ROGER, Route127_Text_RogerIntro, Route127_Text_RogerDefeat
 	msgbox Route127_Text_RogerPostBattle, MSGBOX_AUTOCLOSE
+	giveitem ITEM_SLOWBRONITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
 
 Route127_EventScript_Aidan::
@@ -70,6 +72,8 @@ Route127_EventScript_RegisterKoji::
 	waitmovement 0
 	msgbox Route127_Text_KojiRegister, MSGBOX_DEFAULT
 	register_matchcall TRAINER_KOJI_1
+	giveitem ITEM_LUCARIONITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	release
 	end
 
