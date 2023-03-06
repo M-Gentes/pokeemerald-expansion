@@ -1,6 +1,7 @@
 PacifidlogTown_House4_MapScripts::
 	.byte 0
 
+/**
 PacifidlogTown_House4_EventScript_LittleGirl::
 	msgbox PacifidlogTown_House4_Text_SkyPokemon, MSGBOX_NPC
 	end
@@ -50,8 +51,9 @@ PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
 	.string "You have to come from somewhere.\p"
 	.string "Oh! Wait! You're not going to say you\n"
 	.string "were born at the bottom of the sea?$"
+*/
 
-PacifidlogTown_House4_EventScript_Rio:
+PacifidlogTown_House4_EventScript_Rio::
 	trainerbattle_single TRAINER_DOUGLAS, PacifidlogTown_House4_Text_RioIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -61,7 +63,7 @@ PacifidlogTown_House4_Text_RioIntro:
 	.string "another region and also a firefighter.\n"
 	.string "I'll extinguish your fire!$"
 
-PacifidlogTown_House4_EventScript_Ventus:
+PacifidlogTown_House4_EventScript_Ventus::
 	trainerbattle_single TRAINER_DAVID, PacifidlogTown_House4_Text_VentusIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -71,7 +73,7 @@ PacifidlogTown_House4_Text_VentusIntro:
 	.string "another region and also a skydiver.\n"
 	.string "Let's do a barrel roll!$"
 
-PacifidlogTown_House4_EventScript_OchysP:
+PacifidlogTown_House4_EventScript_OchysP::
 	trainerbattle_single TRAINER_MATTHEW, PacifidlogTown_House4_Text_OchysPIntro, PacifidlogTown_House4_Text_OchysPDefeated
 	msgbox PacifidlogTown_House4_Text_OchysPPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -87,7 +89,7 @@ PacifidlogTown_House4_Text_OchysPDefeated:
 PacifidlogTown_House4_Text_OchysPPostBattle:
 	.string ".fight good a was That$"
 
-PacifidlogTown_House4_EventScript_Gaia:
+PacifidlogTown_House4_EventScript_Gaia::
 	trainerbattle_single TRAINER_TARA, PacifidlogTown_House4_Text_GaiaIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -97,7 +99,7 @@ PacifidlogTown_House4_Text_GaiaIntro:
 	.string "another region and also a gardener.\n"
 	.string "Let me put you into the ground!$"
 
-PacifidlogTown_House4_EventScript_Sannow:
+PacifidlogTown_House4_EventScript_Sannow::
 	trainerbattle_single TRAINER_LINDA, PacifidlogTown_House4_Text_SannowIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -107,7 +109,7 @@ PacifidlogTown_House4_Text_SannowIntro:
 	.string "another region and also a snowboarder.\n"
 	.string "I'll push you down the slope!$"
 
-PacifidlogTown_House4_EventScript_Rocky:
+PacifidlogTown_House4_EventScript_Rocky::
 	trainerbattle_single TRAINER_JACK, PacifidlogTown_House4_Text_RockyIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -117,7 +119,7 @@ PacifidlogTown_House4_Text_RockyIntro:
 	.string "another region and also a rock star.\n"
 	.string "Let's rock!$"
 
-PacifidlogTown_House4_EventScript_Barium:
+PacifidlogTown_House4_EventScript_Barium::
 	trainerbattle_single TRAINER_HENRY, PacifidlogTown_House4_Text_BariumIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -127,7 +129,7 @@ PacifidlogTown_House4_Text_BariumIntro:
 	.string "ANOTHER REGION AND ALSO A METAL DRUMMER.\n"
 	.string "I'LL CRUSH YOU WITH MY HEART OF STEEL!$"
 
-PacifidlogTown_House4_EventScript_Oscur:
+PacifidlogTown_House4_EventScript_Oscur::
 	trainerbattle_single TRAINER_DEAN, PacifidlogTown_House4_Text_OscurIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -137,7 +139,7 @@ PacifidlogTown_House4_Text_OscurIntro:
 	.string "another region and also... a business man.\n"
 	.string "Let us finish the meeting!$"
 
-PacifidlogTown_House4_EventScript_Nina:
+PacifidlogTown_House4_EventScript_Nina::
 	trainerbattle_single TRAINER_TANYA, PacifidlogTown_House4_Text_NinaIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -147,7 +149,7 @@ PacifidlogTown_House4_Text_NinaIntro:
 	.string "another region and also a Ranger.\n"
 	.string "Show me if I have made a good catch!$"
 
-PacifidlogTown_House4_EventScript_Kazey:
+PacifidlogTown_House4_EventScript_Kazey::
 	trainerbattle_single TRAINER_SUSIE, PacifidlogTown_House4_Text_KazeyIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -157,7 +159,7 @@ PacifidlogTown_House4_Text_KazeyIntro:
 	.string "another region and also a Shaolin master.\n"
 	.string "My old bones need to kick some butt!$"
 
-PacifidlogTown_House4_EventScript_Ceniza:
+PacifidlogTown_House4_EventScript_Ceniza::
 	trainerbattle_single TRAINER_BEVERLY, PacifidlogTown_House4_Text_CenizaIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -167,7 +169,7 @@ PacifidlogTown_House4_Text_CenizaIntro:
 	.string "another region and also a summer model.\n"
 	.string "Let's start a hot shooting!$"
 
-PacifidlogTown_House4_EventScript_Elise:
+PacifidlogTown_House4_EventScript_Elise::
 	trainerbattle_single TRAINER_ALICE, PacifidlogTown_House4_Text_EliseIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -177,7 +179,7 @@ PacifidlogTown_House4_Text_EliseIntro:
 	.string "another region and also an author.\n"
 	.string "Give me a flashing fight for my next book!$"
 
-PacifidlogTown_House4_EventScript_Epikrates:
+PacifidlogTown_House4_EventScript_Epikrates::
 	trainerbattle_single TRAINER_AUSTINA, PacifidlogTown_House4_Text_EpikratesIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -193,53 +195,3 @@ PacifidlogTown_House4_Text_CustomTrainersDefeated:
 
 PacifidlogTown_House4_Text_CustomTrainersPostBattle:
 	.string "That was a good fight.$"
-
-/**
-EverGrandeCity_DrakesRoom_EventScript_Drake::
-	lock
-	faceplayer
-	goto_if_set FLAG_DEFEATED_ELITE_4_DRAKE, EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech
-	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
-	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_Defeat
-	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
-	end
-EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech::
-	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
-	release
-	end
-EverGrandeCity_DrakesRoom_EventScript_Defeated::
-	setvar VAR_0x8004, FANCOUNTER_DEFEATED_DRAKE
-	special Script_TryGainNewFanFromCounter
-	setflag FLAG_DEFEATED_ELITE_4_DRAKE
-	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
-	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
-	release
-	end
-EverGrandeCity_DrakesRoom_Text_IntroSpeech:
-	.string "I am the last of the POKéMON LEAGUE\n"
-	.string "ELITE FOUR, DRAKE the DRAGON master!\p"
-	.string "In their natural state, POKéMON are\n"
-	.string "wild living things. They are free.\p"
-	.string "At times, they hinder us.\n"
-	.string "At times, they help us.\p"
-	.string "For us to battle with POKéMON as\n"
-	.string "partners, do you know what it takes?\p"
-	.string "Do you know what is needed?\p"
-	.string "If you don't, then you will never\n"
-	.string "prevail over me!$"
-EverGrandeCity_DrakesRoom_Text_Defeat:
-	.string "Superb, it should be said.$"
-EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
-	.string "You deserve every credit for coming\n"
-	.string "this far as a TRAINER of POKéMON.\p"
-	.string "You do seem to know what is needed.\p"
-	.string "Yes, what a TRAINER needs is a\n"
-	.string "virtuous heart.\p"
-	.string "POKéMON touch the good hearts of\n"
-	.string "TRAINERS and learn good from wrong.\p"
-	.string "They touch the good hearts of\n"
-	.string "TRAINERS and grow strong.\p"
-	.string "Go! Go onwards!\n"
-	.string "The CHAMPION is waiting!$"
-*/

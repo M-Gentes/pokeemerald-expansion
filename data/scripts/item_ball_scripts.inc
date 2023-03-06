@@ -295,7 +295,7 @@ Route133_EventScript_ItemMaxRevive::
 	end
 
 Route134_EventScript_ItemCarbos::
-	finditem ITEM_WISE_CLASSES
+	finditem ITEM_WISE_GLASSES
 	end
 
 Route134_EventScript_ItemStarPiece::
@@ -351,7 +351,7 @@ RusturfTunnel_EventScript_ItemMaxEther::
 	end
 
 GraniteCave_1F_EventScript_ItemEscapeRope::
-	finditem ITEM_QUCK_CLAW
+	finditem ITEM_QUICK_CLAW
 	end
 
 GraniteCave_B1F_EventScript_ItemPokeBall::
