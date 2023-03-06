@@ -14,8 +14,6 @@ MtPyre_6F_EventScript_RegisterValerie::
 	waitmovement 0
 	msgbox MtPyre_6F_Text_ValerieRegister, MSGBOX_DEFAULT
 	register_matchcall TRAINER_VALERIE_1
-	giveitem ITEM_GENGARITE
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	release
 	end
 
