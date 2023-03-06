@@ -1887,14 +1887,14 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_MATTHEW] =
         {
-            .trainerClass = TRAINER_CLASS_SWIMMER_M,
+            .trainerClass = TRAINER_CLASS_LEADER,
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
             .trainerPic = TRAINER_PIC_SWIMMER_M,
-            .trainerName = _("MATTHEW"),
+            .trainerName = _("ochysP"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Matthew),
+            .party = ITEM_CUSTOM_MOVES(sParty_Matthew),
         },
 
     [TRAINER_DAVID] =
@@ -1978,7 +1978,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Dean),
+            .party = ITEM_CUSTOM_MOVES(sParty_Dean),
         },
 
     [TRAINER_RODNEY] =
@@ -5542,7 +5542,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Linda),
+            .party = ITEM_CUSTOM_MOVES(sParty_Linda),
         },
 
     [TRAINER_KAYLEE] =

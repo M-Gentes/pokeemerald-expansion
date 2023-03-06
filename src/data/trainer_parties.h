@@ -2164,7 +2164,7 @@ static const struct TrainerMonItemCustomMoves sParty_Dean[] = {
         .iv = 0,
         .lvl = 50,
         .species = SPECIES_MALAMAR,
-        .heldItem = ITEM_CHOICE_SCARF
+        .heldItem = ITEM_CHOICE_SCARF,
         .moves = {MOVE_KNOCK_OFF, MOVE_SUPERPOWER, MOVE_PSYCHO_CUT, MOVE_DESTINY_BOND}
     },
     {
@@ -7311,7 +7311,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson5[] = {
         .species = SPECIES_BRELOOM,
     }};
 
-static const struct TrainerMonItemCustomMoves sParty_Catherine1[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Catherine1[] = {
     {
         .iv = 50,
         .lvl = 26,
