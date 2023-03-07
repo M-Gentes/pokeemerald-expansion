@@ -113,7 +113,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     {
         .iv = 0,
         .lvl = 9,
-        .species = SPECIES_POOCHYENA,
+        .species = SPECIES_CARVANHA,
     }};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Marcel[] = {
@@ -169,7 +169,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntRusturfTunnel[] = {
     {
         .iv = 0,
-        .lvl = 11,
+        .lvl = 9,
+        .species = SPECIES_CARVANHA,
+    },
+    {
+        .iv = 0,
+        .lvl = 10,
         .species = SPECIES_POOCHYENA,
     }};
 
@@ -3470,17 +3475,17 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {.iv = 100,
-     .lvl = 10,
+     .lvl = 8,
      .species = SPECIES_ARON,
      .heldItem = ITEM_NONE,
      .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_STEALTH_ROCK, MOVE_ROCK_TOMB}},
     {.iv = 100,
-     .lvl = 12,
+     .lvl = 10,
      .species = SPECIES_LILEEP,
      .heldItem = ITEM_NONE,
      .moves = {MOVE_SUNNY_DAY, MOVE_BULLET_SEED, MOVE_ANCIENT_POWER, MOVE_ROCK_TOMB}},
     {.iv = 100,
-     .lvl = 12,
+     .lvl = 10,
      .species = SPECIES_ANORITH,
      .heldItem = ITEM_NONE,
      .moves = {MOVE_SCRATCH, MOVE_DEFENSE_CURL, MOVE_FURY_CUTTER, MOVE_ROCK_TOMB}},
@@ -3490,7 +3495,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
      .heldItem = ITEM_ORAN_BERRY,
      .moves = {MOVE_BLOCK, MOVE_HARDEN, MOVE_FIRE_PUNCH, MOVE_ROCK_TOMB}},
     {.iv = 200,
-     .lvl = 14,
+     .lvl = 12,
      .species = SPECIES_SMASHBAG,
      .heldItem = ITEM_KINGS_ROCK,
      .moves = {MOVE_PECK, MOVE_ROCK_SMASH, MOVE_PRESENT, MOVE_ROCK_TOMB}},
@@ -4190,11 +4195,11 @@ static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
     {.iv = 100,
      .lvl = 9,
      .species = SPECIES_KABUTO,
-     .moves = {MOVE_FURY_CUTTER, MOVE_ROCK_TOMB, MOVE_NONE, MOVE_NONE}},
+     .moves = {MOVE_SCRATCH, MOVE_ABSORB, MOVE_FURY_CUTTER, MOVE_NONE}},
     {.iv = 100,
      .lvl = 9,
      .species = SPECIES_OMANYTE,
-     .moves = {MOVE_ROCK_TOMB, MOVE_BUBBLE, MOVE_NONE, MOVE_NONE}},
+     .moves = {MOVE_ROCK_THROW, MOVE_WATER_GUN, MOVE_DEFENSE_CURL, MOVE_NONE}},
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Tommy[] = {
