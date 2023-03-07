@@ -512,6 +512,7 @@ static const u16 sBeedrillTeachableLearnset[] = {
 
 static const u16 sPidgeyTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
+    MOVE_BULLET_SEED,
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -542,6 +543,7 @@ static const u16 sPidgeyTeachableLearnset[] = {
 
 static const u16 sPidgeottoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
+    MOVE_BULLET_SEED,
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -572,6 +574,7 @@ static const u16 sPidgeottoTeachableLearnset[] = {
 
 static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
+    MOVE_BULLET_SEED,
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -604,6 +607,7 @@ static const u16 sPidgeotTeachableLearnset[] = {
 static const u16 sRattataTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
+    MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -646,6 +650,7 @@ static const u16 sRattataTeachableLearnset[] = {
 static const u16 sRaticateTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
+    MOVE_BULLET_SEED,
     MOVE_BULK_UP,
     MOVE_CUT,
     MOVE_DIG,
@@ -33904,6 +33909,7 @@ static const u16 sSmashbagTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
+    MOVE_BULLET_SEED,
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -33933,6 +33939,7 @@ static const u16 sSmashbagTeachableLearnset[] = {
     MOVE_MUD_SLAP,
     MOVE_ROLLOUT,
     MOVE_ROCK_TOMB,
+    MOVE_ROCK_SMASH,
     MOVE_ROCK_SLIDE,
     MOVE_STONE_EDGE,
     MOVE_SEISMIC_TOSS,
