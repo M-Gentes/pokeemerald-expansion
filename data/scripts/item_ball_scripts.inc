@@ -147,7 +147,7 @@ Route116_EventScript_ItemPotion::
 	end
 
 Route117_EventScript_ItemGreatBall::
-	finditem ITEM_GREAT_BALL
+	finditem ITEM_MOON_STONE
 	end
 
 Route117_EventScript_ItemRevive::
