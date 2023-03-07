@@ -249,8 +249,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_CUT] =
     {
         .effect = EFFECT_HIT,
-        .power = 50,
-        .type = TYPE_NORMAL,
+        .power = 60,
+        .type = TYPE_STEEL,
         .accuracy = 95,
         .pp = 30,
         .secondaryEffectChance = 0,
@@ -321,7 +321,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_FLY] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
-            .power = 90,
+            .power = 100,
             .zMovePower = 175,
         #else
             .power = 70,
@@ -1250,12 +1250,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_STRENGTH] =
     {
-        .effect = EFFECT_HIT,
-        .power = 80,
+        .effect = EFFECT_ATTACK_UP_HIT,
+        .power = 95,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
@@ -1636,7 +1636,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_DIG] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
-            .power = 80,
+            .power = 90,
             .zMovePower = 160,
         #else
             .power = 60,
@@ -2659,15 +2659,15 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         #else
             .accuracy = 70,
         #endif
-        .effect = EFFECT_ACCURACY_DOWN,
-        .power = 0,
-        .type = TYPE_NORMAL,
+        .effect = EFFECT_ACCURACY_DOWN_HIT,
+        .power = 40,
+        .type = TYPE_ELECTRIC,
         .pp = 20,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_BOTH,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MAGIC_COAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-        .split = SPLIT_STATUS,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_KINGS_ROCK_AFFECTED,
+        .split = SPLIT_SPECIAL,
         .zMovePower = 0,
         .zMoveEffect = Z_EFFECT_EVSN_UP_1,
     },
@@ -5258,7 +5258,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_DIVE] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
-            .power = 80,
+            .power = 90,
             .zMovePower = 160,
         #else
             .power = 60,
