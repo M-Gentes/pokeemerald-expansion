@@ -2191,6 +2191,8 @@ static const struct LevelUpMove sTangelaLevelUpLearnset[] = {
 static const struct LevelUpMove sKangaskhanLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_COMET_PUNCH),
     LEVEL_UP_MOVE(1, MOVE_LEER),
+    LEVEL_UP_MOVE(1, MOVE_POWER_UP_PUNCH),
+    LEVEL_UP_MOVE(1, MOVE_BULLET_PUNCH),
     LEVEL_UP_MOVE(7, MOVE_FAKE_OUT),
     LEVEL_UP_MOVE(10, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE(13, MOVE_BITE),
