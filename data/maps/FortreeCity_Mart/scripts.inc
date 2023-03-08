@@ -23,6 +23,9 @@ FortreeCity_Mart_Pokemart:
 	.2byte ITEM_REVIVE
 	.2byte ITEM_SUPER_REPEL
 	.2byte ITEM_WOOD_MAIL
+	.2byte ITEM_TM50
+	.2byte ITEM_TM42
+	.2byte ITEM_TM51
 	.2byte ITEM_NONE
 	release
 	end
