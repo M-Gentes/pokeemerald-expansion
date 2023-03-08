@@ -8069,7 +8069,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kent[] = {
 static const struct TrainerMonItemDefaultMoves sParty_James1[] = {
     {
         .iv = 0,
-        .lvl = 12,
+        .lvl = 10,
         .heldItem = ITEM_BEEDRILLITE,
         .species = SPECIES_BEEDRILL,
     }};
