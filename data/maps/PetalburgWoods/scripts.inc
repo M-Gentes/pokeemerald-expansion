@@ -294,14 +294,14 @@ PetalburgWoods_EventScript_TryRegisterJames::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	goto_if_set FLAG_HAS_MATCH_CALL, PetalburgWoods_EventScript_RegisterJames
-	giveitem ITEM_BEEDRILLITE
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	release
 	end
 
 PetalburgWoods_EventScript_RegisterJames::
 	msgbox PetalburgWoods_Text_IWantRematch1, MSGBOX_DEFAULT
 	register_matchcall TRAINER_JAMES_1
+	giveitem ITEM_BEEDRILLITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	release
 	end
 
@@ -499,7 +499,7 @@ PetalburgWoods_EventScript_ShowBrutebonnet1::
 PetalburgWoods_EventScript_Brutebonnet1::
 	lock
 	faceplayer
-	setwildbattle SPECIES_BRUTEBONNET, 15
+	setwildbattle SPECIES_BRUTEBONNET, 12
 	waitse
 	playmoncry SPECIES_BRUTEBONNET, CRY_MODE_ENCOUNTER
 	delay 40
