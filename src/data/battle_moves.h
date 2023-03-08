@@ -2660,8 +2660,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
             .accuracy = 70,
         #endif
         .effect = EFFECT_ACCURACY_DOWN_HIT,
-        .power = 40,
-        .type = TYPE_ELECTRIC,
+        .power = 50,
+        .type = TYPE_FAIRY,
         .pp = 20,
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_BOTH,
