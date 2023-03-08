@@ -327,7 +327,7 @@ MossdeepCity_EventScript_ItemNetBall::
 	end
 
 PetalburgWoods_EventScript_ItemXAttack::
-	finditem ITEM_MEADOW_PLATE
+	finditem ITEM_BIG_ROOT
 	end
 
 PetalburgWoods_EventScript_ItemGreatBall::
@@ -335,7 +335,7 @@ PetalburgWoods_EventScript_ItemGreatBall::
 	end
 
 PetalburgWoods_EventScript_ItemEther::
-	finditem ITEM_ETHER
+	finditem ITEM_RAZOR_CLAW
 	end
 
 PetalburgWoods_EventScript_ItemParalyzeHeal::
@@ -351,7 +351,7 @@ RusturfTunnel_EventScript_ItemMaxEther::
 	end
 
 GraniteCave_1F_EventScript_ItemEscapeRope::
-	finditem ITEM_QUICK_CLAW
+	finditem ITEM_RAZOR_FANG
 	end
 
 GraniteCave_B1F_EventScript_ItemPokeBall::
