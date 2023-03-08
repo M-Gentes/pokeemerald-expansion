@@ -94,6 +94,8 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	.2byte ITEM_TM18  @ Rain Dance
 	.2byte ITEM_TM37  @ Sandstorm
 	.2byte ITEM_TM51  @ Roost
+	.2byte ITEM_TM04  @ Calm Mind
+	.2byte ITEM_TM08  @ Bulk Up
 	.2byte ITEM_TM92  @ Trick Room
 	.2byte ITEM_TM95  @ Electric Terrain
 	.2byte ITEM_TM96  @ Grassy Terrain
