@@ -8804,7 +8804,11 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
             MulModifier(&modifier, UQ_4_12(0.5));
         break;
     case ABILITY_SOLAR_POWER:
-        if (IS_MOVE_SPECIAL(move) && IsBattlerWeatherAffected(battlerAtk, B_WEATHER_SUN))
+        if (atkBaseSpeciesId == SPECIES_SWIRLHEAD && moveType == TYPE_WATER && IsBattlerWeatherAffected(battlerAtk, B_WEATHER_SUN)) {
+            MulModifier(&modifier, UQ_4_12(3));
+            break;
+        }
+        if (IsBattlerWeatherAffected(battlerAtk, B_WEATHER_SUN))
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_DEFEATIST:
