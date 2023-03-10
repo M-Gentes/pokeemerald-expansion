@@ -7869,7 +7869,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Janice[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Vivi[] = {
     {.iv = 0,
-     .lvl = 4,
+     .lvl = 14,
      .species = SPECIES_LOPUNNY,
      .heldItem = ITEM_LOPUNNITE,
      .moves = {MOVE_TACKLE}}};
