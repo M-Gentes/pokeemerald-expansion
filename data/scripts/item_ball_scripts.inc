@@ -43,7 +43,7 @@ Route109_EventScript_ItemPPUp::
 	end
 
 Route109_EventScript_ItemPotion::
-	finditem ITEM_POTION
+	finditem ITEM_MYSTIC_WATER
 	end
 
 Route110_EventScript_ItemRareCandy::
@@ -355,7 +355,7 @@ GraniteCave_1F_EventScript_ItemEscapeRope::
 	end
 
 GraniteCave_B1F_EventScript_ItemPokeBall::
-	finditem ITEM_ROCKY_HELMET
+	finditem ITEM_HARD_STONE
 	end
 
 GraniteCave_B2F_EventScript_ItemRepel::
