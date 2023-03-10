@@ -78,7 +78,7 @@ Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
 	.string "in battle.\p"
 	.string "Since you've beaten all of us here,\n"
 	.string "I don't know if you need them, but we\l"
-	.string "would like you to have some of our MEGA STONEs.$"
+	.string "would like you to have them.$"
 
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
 	.string "When it comes to POKéMON battles,\n"
