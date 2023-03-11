@@ -17492,6 +17492,7 @@ static const struct LevelUpMove sSmashbagLevelUpLearnset[] = {
 static const struct LevelUpMove sClawhillLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_ROCK_SMASH),
     LEVEL_UP_MOVE(2, MOVE_ANCIENT_POWER),
+    LEVEL_UP_MOVE(5, MOVE_EMBER),
     LEVEL_UP_MOVE(8, MOVE_FLAME_WHEEL),
     LEVEL_UP_MOVE(10, MOVE_ARM_THRUST),
     LEVEL_UP_MOVE(12, MOVE_ROCK_TOMB),
@@ -17500,7 +17501,7 @@ static const struct LevelUpMove sClawhillLevelUpLearnset[] = {
     LEVEL_UP_MOVE(20, MOVE_THUNDER_PUNCH),
     LEVEL_UP_MOVE(35, MOVE_SUPERPOWER),
     LEVEL_UP_MOVE(40, MOVE_DRAIN_PUNCH),
-    LEVEL_UP_MOVE(50, MOVE_FLARE_BLITZ),
+    LEVEL_UP_MOVE(45, MOVE_FLARE_BLITZ),
     LEVEL_UP_END};
 
 static const struct LevelUpMove sMagicornLevelUpLearnset[] = {

@@ -67,7 +67,7 @@ Route111_EventScript_ItemStardust::
 	end
 
 Route111_EventScript_ItemHPUp::
-	finditem ITEM_HP_UP
+	finditem ITEM_PP_UP
 	end
 
 Route111_EventScript_ItemElixir::
@@ -79,7 +79,7 @@ Route112_EventScript_ItemNugget::
 	end
 
 Route113_EventScript_ItemMaxEther::
-	finditem ITEM_MAX_ETHER
+	finditem ITEM_FULL_RESTORE
 	end
 
 Route113_EventScript_ItemSuperRepel::
@@ -131,15 +131,15 @@ Route116_EventScript_ItemXSpecial::
 	end
 
 Route116_EventScript_ItemEther::
-	finditem ITEM_ETHER
+	finditem ITEM_HEART_SCALE
 	end
 
 Route116_EventScript_ItemRepel::
-	finditem ITEM_REPEL
+	finditem ITEM_SITRUS_BERRY
 	end
 
 Route116_EventScript_ItemHPUp::
-	finditem ITEM_HP_UP
+	finditem ITEM_PP_UP
 	end
 
 Route116_EventScript_ItemPotion::
@@ -187,7 +187,7 @@ Route119_EventScript_ItemHyperPotion2::
 	end
 
 Route119_EventScript_ItemElixir2::
-	finditem ITEM_ELIXIR
+	finditem ITEM_EVIOLITE
 	end
 
 Route120_EventScript_ItemNugget::
@@ -271,7 +271,7 @@ Route127_EventScript_ItemCarbos::
 	end
 
 Route127_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_TM100
 	end
 
 Route132_EventScript_ItemRareCandy::
@@ -347,7 +347,7 @@ RusturfTunnel_EventScript_ItemPokeBall::
 	end
 
 RusturfTunnel_EventScript_ItemMaxEther::
-	finditem ITEM_MAX_ETHER
+	finditem ITEM_FULL_RESTORE
 	end
 
 GraniteCave_1F_EventScript_ItemEscapeRope::
@@ -475,7 +475,7 @@ SafariZone_Southwest_EventScript_ItemMaxRevive::
 	end
 
 SafariZone_Northeast_EventScript_ItemNugget::
-	finditem ITEM_NUGGET
+	finditem ITEM_TM89
 	end
 
 SafariZone_Southeast_EventScript_ItemBigPearl::
@@ -519,7 +519,7 @@ AquaHideout_B1F_EventScript_ItemNugget::
 	end
 
 AquaHideout_B1F_EventScript_ItemMaxElixir::
-	finditem ITEM_MAX_ELIXIR
+	finditem ITEM_TM03
 	end
 
 AquaHideout_B2F_EventScript_ItemNestBall::
@@ -623,11 +623,11 @@ VictoryRoad_B2F_EventScript_ItemFullHeal::
 	end
 
 ArtisanCave_B1F_EventScript_ItemHPUp::
-	finditem ITEM_HP_UP
+	finditem ITEM_PP_UP
 	end
 
 ArtisanCave_1F_EventScript_ItemCarbos::
-	finditem ITEM_CARBOS
+	finditem ITEM_TM92
 	end
 
 MagmaHideout_1F_EventScript_ItemRareCandy::
@@ -635,7 +635,7 @@ MagmaHideout_1F_EventScript_ItemRareCandy::
 	end
 
 MagmaHideout_2F_2R_EventScript_ItemMaxElixir::
-	finditem ITEM_MAX_ELIXIR
+	finditem ITEM_TM35
 	end
 
 MagmaHideout_2F_2R_EventScript_ItemFullRestore::

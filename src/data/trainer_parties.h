@@ -3489,7 +3489,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
      .species = SPECIES_ANORITH,
      .heldItem = ITEM_NONE,
      .moves = {MOVE_SCRATCH, MOVE_DEFENSE_CURL, MOVE_FURY_CUTTER, MOVE_NONE}},
-    {.iv = 100,
+    {.iv = 50,
      .lvl = 14,
      .species = SPECIES_NOSEPASS,
      .heldItem = ITEM_ORAN_BERRY,
@@ -3521,7 +3521,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
      .lvl = 18,
      .species = SPECIES_CLAWHILL,
      .heldItem = ITEM_ORAN_BERRY,
-     .moves = {MOVE_ROCK_SMASH, MOVE_FLAME_WHEEL, MOVE_SMELLING_SALTS, MOVE_SUNNY_DAY}},
+     .moves = {MOVE_ROCK_SMASH, MOVE_EMBER, MOVE_SMELLING_SALTS, MOVE_SUNNY_DAY}},
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
@@ -8247,17 +8247,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mike2[] = {
     {
         .iv = 0,
         .lvl = 16,
-        .species = SPECIES_GEODUDE,
+        .species = SPECIES_CARBINK,
     },
     {
         .iv = 0,
         .lvl = 16,
-        .species = SPECIES_GEODUDE,
+        .species = SPECIES_RHYHORN,
     },
     {
         .iv = 0,
         .lvl = 16,
-        .species = SPECIES_MACHOP,
+        .species = SPECIES_TIMBURR,
     }};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Trent2[] = {
@@ -9968,7 +9968,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brandi[] = {
         .iv = 0,
         .lvl = 17,
         .species = SPECIES_RALTS,
-    }};
+    },
+    {
+        .iv = 0,
+        .lvl = 16,
+        .species = SPECIES_ABRA,
+    },
+    {
+        .iv = 0,
+        .lvl = 15,
+        .species = SPECIES_NATU,
+    },
+};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Aisha[] = {
     {
