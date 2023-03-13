@@ -163,7 +163,7 @@ Route119_EventScript_ItemSuperRepel::
 	end
 
 Route119_EventScript_ItemZinc::
-	finditem ITEM_ZINC
+	finditem ITEM_HEART_SCALE
 	end
 
 Route119_EventScript_ItemElixir::
@@ -263,11 +263,11 @@ Route126_EventScript_ItemGreenShard::
 	end
 
 Route127_EventScript_ItemZinc::
-	finditem ITEM_ZINC
+	finditem ITEM_HEART_SCALE
 	end
 
 Route127_EventScript_ItemCarbos::
-	finditem ITEM_CARBOS
+	finditem ITEM_ABILITY_CAPSULE
 	end
 
 Route127_EventScript_ItemRareCandy::
@@ -363,7 +363,7 @@ GraniteCave_B2F_EventScript_ItemRepel::
 	end
 
 GraniteCave_B2F_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_KINGS_ROCK
 	end
 
 JaggedPass_EventScript_ItemBurnHeal::
@@ -487,7 +487,7 @@ MtPyre_2F_EventScript_ItemUltraBall::
 	end
 
 MtPyre_3F_EventScript_ItemSuperRepel::
-	finditem ITEM_SUPER_REPEL
+	finditem ITEM_SACRED_ASH
 	end
 
 MtPyre_4F_EventScript_ItemSeaIncense::
@@ -531,7 +531,7 @@ AquaHideout_B2F_EventScript_ItemMasterBall::
 	end
 
 Route119_EventScript_ItemNugget::
-	finditem ITEM_NUGGET
+	finditem ITEM_HEART_SCALE
 	end
 
 Route119_EventScript_ItemMaxElixir::
@@ -551,7 +551,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ItemRareCandy::
 	end
 
 ShoalCave_LowTideStairsRoom_EventScript_ItemIceHeal::
-	finditem ITEM_ICE_HEAL
+	finditem ITEM_ICE_STONE
 	end
 
 ShoalCave_LowTideIceRoom_EventScript_ItemTM07::
