@@ -16,14 +16,14 @@
     .baseSpDefense = 40
 #endif
 
-#define PIKACHU_SPECIES_INFO(gender, flip)                                  \
+#define PIKACHU_SPECIES_INFO(gender, flip, type)                                  \
     {                                                                       \
         .baseHP = 35,                                                       \
         .baseAttack = 55,                                                   \
         .baseSpeed = 90,                                                    \
         .baseSpAttack = 50,                                                 \
         PIKACHU_BASE_DEFENSES,                                              \
-        .types = {TYPE_ELECTRIC, TYPE_ELECTRIC},                            \
+        .types = {TYPE_ELECTRIC, type},                            \
         .catchRate = 190,                                                   \
         .expYield = 112,                                                    \
         .evYield_Speed = 2,                                                 \
@@ -33,13 +33,13 @@
         .friendship = 70,                                                   \
         .growthRate = GROWTH_MEDIUM_FAST,                                   \
         .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FAIRY},                    \
-        .abilities = {ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD}, \
+        .abilities = {ABILITY_STATIC, ABILITY_ELECTRIC_SURGE, ABILITY_LIGHTNING_ROD}, \
         .bodyColor = BODY_COLOR_YELLOW,                                     \
         .noFlip = flip,                                                     \
     }
 
-#define COSPLAY_PIKACHU_SPECIES_INFO(flip) PIKACHU_SPECIES_INFO(MON_FEMALE, flip)
-#define CAP_PIKACHU_SPECIES_INFO(flip) PIKACHU_SPECIES_INFO(MON_MALE, flip)
+#define COSPLAY_PIKACHU_SPECIES_INFO(flip, type) PIKACHU_SPECIES_INFO(MON_FEMALE, flip, type)
+#define CAP_PIKACHU_SPECIES_INFO(flip) PIKACHU_SPECIES_INFO(MON_MALE, flip, TYPE_ELECTRIC)
 
 #define PICHU_SPECIES_INFO(flip)                                            \
     {                                                                       \
@@ -58,7 +58,7 @@
         .friendship = 70,                                                   \
         .growthRate = GROWTH_MEDIUM_FAST,                                   \
         .eggGroups = {EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},      \
-        .abilities = {ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD}, \
+        .abilities = {ABILITY_STATIC, ABILITY_STATIC, ABILITY_LIGHTNING_ROD}, \
         .bodyColor = BODY_COLOR_YELLOW,                                     \
         .noFlip = flip,                                                     \
     }
@@ -1272,7 +1272,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_RUN_AWAY, ABILITY_GUTS, ABILITY_RATTLED},
+                .abilities = {ABILITY_RUN_AWAY, ABILITY_STRONG_JAW, ABILITY_RATTLED},
                 .bodyColor = BODY_COLOR_PURPLE,
                 .noFlip = FALSE,
             },
@@ -1294,7 +1294,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_HUSTLE, ABILITY_GUTS, ABILITY_RATTLED},
+                .abilities = {ABILITY_HUSTLE, ABILITY_STRONG_JAW, ABILITY_RATTLED},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
             },
@@ -6653,7 +6653,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_DRAGON},
-                .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_UNBURDEN},
+                .abilities = {ABILITY_MULTISCALE, ABILITY_OVERGROW, ABILITY_UNBURDEN},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -6675,7 +6675,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_DRAGON},
-                .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_UNBURDEN},
+                .abilities = {ABILITY_MULTISCALE, ABILITY_OVERGROW, ABILITY_UNBURDEN},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -6697,7 +6697,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_DRAGON},
-                .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_UNBURDEN},
+                .abilities = {ABILITY_MULTISCALE, ABILITY_OVERGROW, ABILITY_UNBURDEN},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -6719,7 +6719,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_BLAZE, ABILITY_NONE, ABILITY_SPEED_BOOST},
+                .abilities = {ABILITY_SPEED_BOOST, ABILITY_BLAZE, ABILITY_SPEED_BOOST},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
             },
@@ -6742,7 +6742,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_BLAZE, ABILITY_NONE, ABILITY_SPEED_BOOST},
+                .abilities = {ABILITY_SPEED_BOOST, ABILITY_BLAZE, ABILITY_SPEED_BOOST},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
             },
@@ -6764,7 +6764,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_BLAZE, ABILITY_NONE, ABILITY_SPEED_BOOST},
+                .abilities = {ABILITY_SPEED_BOOST, ABILITY_BLAZE, ABILITY_SPEED_BOOST},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
             },
@@ -6786,7 +6786,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_WATER_1},
-                .abilities = {ABILITY_TORRENT, ABILITY_NONE, ABILITY_DAMP},
+                .abilities = {ABILITY_WATER_COMPACTION, ABILITY_TORRENT, ABILITY_DAMP},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -6808,7 +6808,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_WATER_1},
-                .abilities = {ABILITY_TORRENT, ABILITY_NONE, ABILITY_DAMP},
+                .abilities = {ABILITY_WATER_COMPACTION, ABILITY_TORRENT, ABILITY_WATER_COMPACTION},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -6830,7 +6830,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_WATER_1},
-                .abilities = {ABILITY_TORRENT, ABILITY_NONE, ABILITY_DAMP},
+                .abilities = {ABILITY_WATER_COMPACTION, ABILITY_TORRENT, ABILITY_WATER_COMPACTION},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -8307,7 +8307,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_OBLIVIOUS, ABILITY_SIMPLE, ABILITY_OWN_TEMPO},
+                .abilities = {ABILITY_UNAWARE, ABILITY_SIMPLE, ABILITY_FLAME_BODY},
                 .bodyColor = BODY_COLOR_YELLOW,
                 .noFlip = FALSE,
             },
@@ -8330,7 +8330,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_SOLID_ROCK, ABILITY_SIMPLE, ABILITY_ANGER_POINT},
+                .abilities = {ABILITY_SOLID_ROCK, ABILITY_SIMPLE, ABILITY_FLAME_BODY},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
             },
@@ -10654,7 +10654,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 140,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE},
-                .abilities = {ABILITY_CUTE_CHARM, ABILITY_KLUTZ, ABILITY_LIMBER},
+                .abilities = {ABILITY_CUTE_CHARM, ABILITY_RATTLED, ABILITY_LIMBER},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
             },
@@ -23453,12 +23453,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
             },
 #endif
 
-        [SPECIES_PIKACHU_COSPLAY] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP),
-        [SPECIES_PIKACHU_ROCK_STAR] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP),
-        [SPECIES_PIKACHU_BELLE] = COSPLAY_PIKACHU_SPECIES_INFO(NO_FLIP),
-        [SPECIES_PIKACHU_POP_STAR] = COSPLAY_PIKACHU_SPECIES_INFO(NO_FLIP),
-        [SPECIES_PIKACHU_PH_D] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP),
-        [SPECIES_PIKACHU_LIBRE] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP),
+        [SPECIES_PIKACHU_COSPLAY] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP, TYPE_ELECTRIC),
+        [SPECIES_PIKACHU_ROCK_STAR] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP, TYPE_DARK),
+        [SPECIES_PIKACHU_BELLE] = COSPLAY_PIKACHU_SPECIES_INFO(NO_FLIP, TYPE_ICE),
+        [SPECIES_PIKACHU_POP_STAR] = COSPLAY_PIKACHU_SPECIES_INFO(NO_FLIP, TYPE_FAIRY),
+        [SPECIES_PIKACHU_PH_D] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP, TYPE_STEEL),
+        [SPECIES_PIKACHU_LIBRE] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP, TYPE_FIGHTING),
 
         [SPECIES_PIKACHU_ORIGINAL_CAP] = CAP_PIKACHU_SPECIES_INFO(NO_FLIP),
         [SPECIES_PIKACHU_HOENN_CAP] = CAP_PIKACHU_SPECIES_INFO(FLIP),
