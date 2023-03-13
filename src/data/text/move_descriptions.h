@@ -285,8 +285,8 @@ static const u8 sSeismicTossDescription[] = _(
     "to the user's level.");
 
 static const u8 sStrengthDescription[] = _(
-    "Builds enormous power,\n"
-    "then slams the foe.");
+    "Slams foe with enormous power.\n"
+    "May raise Attack Stat.");
 
 static const u8 sAbsorbDescription[] = _(
     "An attack that absorbs\n"
