@@ -1234,7 +1234,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .baseHP = 83,
                 .baseAttack = 80,
                 .baseDefense = 75,
-                .baseSpAttack = 70,
+                .baseSpAttack = 70 + 20,
                 .baseSpDefense = 70,
 #if P_UPDATED_STATS >= GEN_6
                 .baseSpeed = 101,
@@ -1250,7 +1250,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
-                .abilities = {ABILITY_KEEN_EYE, ABILITY_TANGLED_FEET, ABILITY_BIG_PECKS},
+                .abilities = {ABILITY_DOWNLOAD, ABILITY_TANGLED_FEET, ABILITY_BIG_PECKS},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
             },
