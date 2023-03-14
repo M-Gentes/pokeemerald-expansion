@@ -18088,6 +18088,8 @@ static const struct LevelUpMove sBrynxessLevelUpLearnset[] = {
     LEVEL_UP_MOVE(49, MOVE_WRING_OUT),
     LEVEL_UP_MOVE(55, MOVE_PERISH_SONG),
     LEVEL_UP_MOVE(60, MOVE_BLIZZARD),
+    LEVEL_UP_MOVE(60, MOVE_BOOMBURST),
+    LEVEL_UP_END};
 
 static const struct LevelUpMove sApokargoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(0, MOVE_SHELL_SMASH),
