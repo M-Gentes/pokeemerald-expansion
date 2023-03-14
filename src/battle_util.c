@@ -8871,6 +8871,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (gBattleMons[battlerAtk].status1 & STATUS1_ANY && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_TANGLED_FEET:
+        if (gBattleMons[battlerAtk].status2 & STATUS2_CONFUSION)
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;
     }
 
     // target's abilities
