@@ -104,6 +104,8 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Posters:
 	.2byte ITEM_RED_NECTAR
 	.2byte ITEM_PINK_NECTAR
 	.2byte ITEM_PURPLE_NECTAR
+	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_GALARICA_WREATH
 	.2byte DECOR_NONE
 	release
 	end
