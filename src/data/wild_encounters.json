@@ -7593,12 +7593,12 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_WOOBAT"
+                "species": "SPECIES_RALTS"
               },
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_WOOBAT"
               },
               {
                 "min_level": 18,
@@ -7618,7 +7618,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_ZUBAT"
               },
               {
                 "min_level": 18,
@@ -7628,12 +7628,12 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_LUNATONE"
               },
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SOLROCK"
               },
               {
                 "min_level": 20,
@@ -7643,7 +7643,7 @@
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SOLOSIS"
               },
               {
                 "min_level": 20,
@@ -11488,6 +11488,75 @@
                 "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_AGGRON"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_MAUVILLE_CITY",
+          "base_label": "gMauvilleCity0",
+          "land_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_COSPLAY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_HOENN_CAP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_BELLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_LIBRE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_PH_D"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_POP_STAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_ROCK_STAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PICHU"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PICHU_SPIKY_EARED"
+              },
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_PIKACHU_PARTNER_CAP"
+              },
+              {
+                "min_level": 12,
+                "max_level": 18,
+                "species": "SPECIES_RAICHU"
+              },
+              {
+                "min_level": 12,
+                "max_level": 18,
+                "species": "SPECIES_RAICHU_ALOLAN"
               }
             ]
           }
