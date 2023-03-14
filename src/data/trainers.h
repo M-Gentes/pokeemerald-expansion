@@ -970,7 +970,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Albert),
+            .party = ITEM_DEFAULT_MOVES(sParty_Albert),
         },
 
     [TRAINER_SAMUEL] =
@@ -1162,7 +1162,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Hope),
+            .party = ITEM_DEFAULT_MOVES(sParty_Hope),
         },
 
     [TRAINER_SHANNON] =
@@ -6490,7 +6490,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = NO_ITEM_CUSTOM_MOVES(sParty_Mitchell),
+            .party = ITEM_CUSTOM_MOVES(sParty_Mitchell),
         },
 
     [TRAINER_ISAAC_2] =
@@ -6562,7 +6562,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Halle),
+            .party = ITEM_CUSTOM_MOVES(sParty_Halle),
         },
 
     [TRAINER_GARRISON] =
