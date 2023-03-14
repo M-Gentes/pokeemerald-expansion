@@ -11289,6 +11289,42 @@ const struct PokedexEntry gPokedexEntries[] =
                 .trainerOffset = 1,
             },
 
+        [NATIONAL_DEX_APOKARGO] =
+            {
+                .categoryName = _("Shogun"),
+                .height = 8,
+                .weight = 600,
+                .description = gMagcargoPokedexText,
+                .pokemonScale = 332,
+                .pokemonOffset = 15,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_QUEZATU] =
+            {
+                .categoryName = _("Tribal"),
+                .height = 15,
+                .weight = 160,
+                .description = gXatuPokedexText,
+                .pokemonScale = 256,
+                .pokemonOffset = 6,
+                .trainerScale = 318,
+                .trainerOffset = 4,
+            },
+
+        [NATIONAL_DEX_RELICLIFFON] =
+            {
+                .categoryName = _("Explorer"),
+                .height = 10,
+                .weight = 240,
+                .description = gRelicanthPokedexText,
+                .pokemonScale = 316,
+                .pokemonOffset = 7,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
         [NATIONAL_DEX_DRACONEON] =
             {
                 .categoryName = _("Scale"),

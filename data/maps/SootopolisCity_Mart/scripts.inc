@@ -41,6 +41,7 @@ SootopolisCity_Mart_Pokemart:
 	.2byte ITEM_CAMERUPTITE
 	.2byte ITEM_HOUNDOOMINITE
 	.2byte ITEM_SCIZORITE
+	.2byte ITEM_ECLIMINARINITE
 	.2byte ITEM_NONE
 	release
 	end

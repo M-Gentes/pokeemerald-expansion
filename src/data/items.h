@@ -4524,6 +4524,19 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
+    [ITEM_ECLIMINARINITE] =
+    {
+        .name = _("Ecliminite"),
+        .itemId = ITEM_ECLIMINARINITE,
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sEcliminariniteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+    },
+
 // Gems
 
     [ITEM_NORMAL_GEM] =

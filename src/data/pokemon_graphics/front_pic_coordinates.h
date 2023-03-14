@@ -955,12 +955,16 @@ const struct MonCoords gMonFrontPicCoords[] =
         [SPECIES_KINGAMBIT] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_CASTSTORM] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_BRYNXESS] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
+        [SPECIES_APOKARGO] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
+        [SPECIES_QUEZATU] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
+        [SPECIES_RELICLIFFON] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_DRACONEON] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_MERAKI] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         // Custom Megas
         [SPECIES_TENTACRUEL_MEGA] = {.size = MON_COORDS_SIZE(64, 56), .y_offset = 4},
         [SPECIES_FLYGON_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 1},
         [SPECIES_LUXRAY_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 2},
+        [SPECIES_ECLIMINARY] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 0},
 
         // Megas
         [SPECIES_VENUSAUR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 3},

@@ -9737,6 +9737,27 @@ static const union AnimCmd sAnim_Brynxess_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Apokargo_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Quezatu_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Relicliffon_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Draconeon_1[] =
     {
         ANIMCMD_FRAME(1, 30),
@@ -9771,6 +9792,12 @@ static const union AnimCmd sAnim_LuxrayMega_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Ecliminary_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
 static const union AnimCmd sAnim_VenusaurMega_1[] =
     {
         ANIMCMD_FRAME(0, 1),
@@ -11760,11 +11787,15 @@ SINGLE_ANIMATION(Farigiraf);
 SINGLE_ANIMATION(Kingambit);
 SINGLE_ANIMATION(Caststorm);
 SINGLE_ANIMATION(Brynxess);
+SINGLE_ANIMATION(Apokargo);
+SINGLE_ANIMATION(Quezatu);
+SINGLE_ANIMATION(Relicliffon);
 SINGLE_ANIMATION(Draconeon);
 SINGLE_ANIMATION(Meraki);
 SINGLE_ANIMATION(TentacruelMega);
 SINGLE_ANIMATION(FlygonMega);
 SINGLE_ANIMATION(LuxrayMega);
+SINGLE_ANIMATION(Ecliminary);
 
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
@@ -12887,11 +12918,15 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_KINGAMBIT] = sAnims_Kingambit,
         [SPECIES_CASTSTORM] = sAnims_Caststorm,
         [SPECIES_BRYNXESS] = sAnims_Brynxess,
+        [SPECIES_APOKARGO] = sAnims_Apokargo,
+        [SPECIES_QUEZATU] = sAnims_Quezatu,
+        [SPECIES_RELICLIFFON] = sAnims_Relicliffon,
         [SPECIES_DRACONEON] = sAnims_Draconeon,
         [SPECIES_MERAKI] = sAnims_Meraki,
         [SPECIES_TENTACRUEL_MEGA] = sAnims_TentacruelMega,
         [SPECIES_FLYGON_MEGA] = sAnims_FlygonMega,
         [SPECIES_LUXRAY_MEGA] = sAnims_LuxrayMega,
+        [SPECIES_ECLIMINARY] = sAnims_Ecliminary,
         [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
         [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,
         [SPECIES_CHARIZARD_MEGA_Y] = sAnims_CHARIZARD_MEGA_Y,

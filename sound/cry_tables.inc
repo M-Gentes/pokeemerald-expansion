@@ -1476,6 +1476,9 @@ gCryTable::
 	@ Custom
 	cry Cry_Caststorm
 	cry Cry_Brynxess
+	cry Cry_Apokargo
+	cry Cry_Quezatu
+	cry Cry_Relicliffon
 	cry Cry_Draconeon
 	cry Cry_Meraki
 	@ Megas
@@ -1677,6 +1680,8 @@ gCryTable::
 	@ Castform
 	cry Cry_Castform
 	cry Cry_Castform
+	cry Cry_Castform
+	@ Castform rock placeholder
 	cry Cry_Castform
 	@ Deoxys
 	cry Cry_Deoxys
@@ -2162,6 +2167,7 @@ gCryTable::
 	cry Cry_TentacruelMega
 	cry Cry_FlygonMega
 	cry Cry_LuxrayMega
+	cry Cry_Ecliminary
 
 	.align 2
 gCryTable_Reverse::
@@ -3641,6 +3647,9 @@ gCryTable_Reverse::
 	@Custom
 	cry_reverse Cry_Caststorm
 	cry_reverse Cry_Brynxess
+	cry_reverse Cry_Apokargo
+	cry_reverse Cry_Quezatu
+	cry_reverse Cry_Relicliffon
 	cry_reverse Cry_Draconeon
 	cry_reverse Cry_Meraki
 	@ Megas
@@ -3842,6 +3851,8 @@ gCryTable_Reverse::
 	@ Castform
 	cry_reverse Cry_Castform
 	cry_reverse Cry_Castform
+	cry_reverse Cry_Castform
+	@ Castform rock placeholder
 	cry_reverse Cry_Castform
 	@ Deoxys
 	cry_reverse Cry_Deoxys
@@ -4273,4 +4284,5 @@ gCryTable_Reverse::
 	cry_reverse Cry_TentacruelMega
 	cry_reverse Cry_FlygonMega
 	cry_reverse Cry_LuxrayMega
+	cry_reverse Cry_Ecliminary
 

@@ -1781,6 +1781,11 @@ static const u8 sLuxraytiteDesc[] = _(
     "Luxray to Mega\n"
     "Evolve in battle.");
 
+static const u8 sEcliminariniteDesc[] = _(
+    "This stone enables\n"
+    "Solrock and Lunastone to\n"
+    "Mega Evolve in battle.");
+
 // Gems
 static const u8 sNormalGemDesc[] = _(
     "Increases the\n"

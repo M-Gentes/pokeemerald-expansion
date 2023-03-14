@@ -274,4 +274,5 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
         [SPECIES_FLUTTERMANE] = 12,
         [SPECIES_IRONJUGULIS] = 12,
         [SPECIES_CASTSTORM] = 12,
+        [SPECIES_ECLIMINARY] = 10,
 };

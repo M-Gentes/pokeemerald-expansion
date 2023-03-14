@@ -927,9 +927,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_IRONTITAN] = _("IronTitan"),
     [SPECIES_IRONWINGS] = _("IronWings"),
     [SPECIES_IRONWITCH] = _("IronWitch"),
-    [SPECIES_BRUTEBONNET] = _("BrutBonnt"),
     [SPECIES_GREATTUSK] = _("GreatTusk"),
-    [SPECIES_SLITHERWING] = _("SlitherIn"),
     [SPECIES_SCREAMTAIL] = _("ScreamTail"),
     [SPECIES_SANDYSHOCKS] = _("SandShocks"),
     [SPECIES_FLUTTERMANE] = _("FluttaMane"),
@@ -952,12 +950,16 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     //Custom
     [SPECIES_CASTSTORM] = _("Caststorm"),
     [SPECIES_BRYNXESS] = _("Brynxess"),
+    [SPECIES_APOKARGO] = _("Apokargo"),
+    [SPECIES_QUEZATU] = _("Quezatu"),
+    [SPECIES_RELICLIFFON] = _("Reliclifon"),
     [SPECIES_DRACONEON] = _("Draconeon"),
     [SPECIES_MERAKI] = _("Meraki"),
     //Custom Megas
     [SPECIES_TENTACRUEL_MEGA] = _("Tentacruel"),
     [SPECIES_FLYGON_MEGA] = _("Flygon"),
     [SPECIES_LUXRAY_MEGA] = _("Luxray"),
+    [SPECIES_ECLIMINARY] = _("Ecliminary"),
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),
     [SPECIES_CHARIZARD_MEGA_X] = _("Charizard"),

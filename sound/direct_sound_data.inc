@@ -4144,6 +4144,18 @@ Cry_Brynxess::
 	.incbin "sound/direct_sound_samples/cries/jynx.bin"
 
 	.align 2
+Cry_Apokargo::
+	.incbin "sound/direct_sound_samples/cries/magcargo.bin"
+
+	.align 2
+Cry_Quezatu::
+	.incbin "sound/direct_sound_samples/cries/xatu.bin"
+
+	.align 2
+Cry_Relicliffon::
+	.incbin "sound/direct_sound_samples/cries/relicanth.bin"
+
+	.align 2
 Cry_Draconeon::
 	.incbin "sound/direct_sound_samples/cries/dragonair.bin"
 
@@ -4505,6 +4517,10 @@ Cry_FlygonMega::
 	.align 2
 Cry_LuxrayMega::
 	.incbin "sound/direct_sound_samples/cries/luxray.bin"
+
+	.align 2
+Cry_Ecliminary::
+	.incbin "sound/direct_sound_samples/cries/lunatone.bin"
 
 /*
 	.align 2

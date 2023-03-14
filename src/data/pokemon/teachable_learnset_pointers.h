@@ -1375,6 +1375,9 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
         [SPECIES_KINGAMBIT] = sKingambitTeachableLearnset,
         [SPECIES_CASTSTORM] = sCaststormTeachableLearnset,
         [SPECIES_BRYNXESS] = sBrynxessTeachableLearnset,
+        [SPECIES_APOKARGO] = sApokargoTeachableLearnset,
+        [SPECIES_QUEZATU] = sQuezatuTeachableLearnset,
+        [SPECIES_RELICLIFFON] = sRelicliffonTeachableLearnset,
         [SPECIES_DRACONEON] = sDraconeonTeachableLearnset,
         [SPECIES_MERAKI] = sMerakiTeachableLearnset,
 
