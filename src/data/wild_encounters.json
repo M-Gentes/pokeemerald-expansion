@@ -9776,7 +9776,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_SLUGMA"
               },
               {
                 "min_level": 28,
@@ -9786,12 +9786,12 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_MINIOR"
               },
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_TORKOAL"
+                "species": "SPECIES_LARVITAR"
               },
               {
                 "min_level": 29,
@@ -9816,7 +9816,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_GRAVELER"
+                "species": "SPECIES_LARVESTA"
               },
               {
                 "min_level": 31,
@@ -9845,7 +9845,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_NUMEL"
               },
               {
                 "min_level": 28,
@@ -9855,7 +9855,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_SLUGMA"
               },
               {
                 "min_level": 30,
@@ -9865,12 +9865,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_MINIOR"
               },
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVESTA"
               },
               {
                 "min_level": 30,
@@ -9924,7 +9924,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVESTA"
               },
               {
                 "min_level": 30,
@@ -9983,7 +9983,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVESTA"
               },
               {
                 "min_level": 28,
@@ -9993,7 +9993,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVITAR"
               },
               {
                 "min_level": 30,
@@ -10052,7 +10052,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_MINIOR"
               },
               {
                 "min_level": 28,
@@ -10121,7 +10121,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVITAR"
               },
               {
                 "min_level": 28,
@@ -10190,7 +10190,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVITAR"
               },
               {
                 "min_level": 28,
@@ -10215,7 +10215,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVESTA"
               },
               {
                 "min_level": 30,
@@ -10259,7 +10259,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_LARVESTA"
               },
               {
                 "min_level": 28,
@@ -11496,7 +11496,7 @@
           "map": "MAP_MAUVILLE_CITY",
           "base_label": "gMauvilleCity0",
           "land_mons": {
-            "encounter_rate": 0,
+            "encounter_rate": 10,
             "mons": [
               {
                 "min_level": 5,
@@ -12318,7 +12318,6 @@
                 "max_level": 5,
                 "species": "SPECIES_MILOTIC"
               }
-                        "encounter_rate": 10,
             ]
           }
         }
