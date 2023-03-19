@@ -27,11 +27,11 @@ Route104_EventScript_ItemPotion::
 	end
 
 Route105_EventScript_ItemIron::
-	finditem ITEM_IRON
+	finditem ITEM_HEART_SCALE
 	end
 
 Route106_EventScript_ItemProtein::
-	finditem ITEM_PROTEIN
+	finditem ITEM_HEART_SCALE
 	end
 
 Route108_EventScript_ItemStarPiece::
@@ -195,7 +195,7 @@ Route120_EventScript_ItemNugget::
 	end
 
 Route120_EventScript_ItemFullHeal::
-	finditem ITEM_FULL_HEAL
+	finditem ITEM_SUN_STONE
 	end
 
 Route120_EventScript_ItemHyperPotion::
