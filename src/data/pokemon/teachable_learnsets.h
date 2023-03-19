@@ -8278,6 +8278,8 @@ static const u16 sUnownTeachableLearnset[] = {
 static const u16 sWobbuffetTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_COUNTER,
+    MOVE_REST,
+    MOVE_SLEEP_TALK,
     MOVE_UNAVAILABLE,
 };
 
@@ -14665,6 +14667,10 @@ static const u16 sKecleonTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_ELECTRIC_TERRAIN,
+    MOVE_PSYCHIC_TERRAIN,
+    MOVE_MISTY_TERRAIN,
+    MOVE_GRASSY_TERRAIN,
     MOVE_UNAVAILABLE,
 };
 
