@@ -6211,7 +6211,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
             .zMovePower = 100,
         #endif
         .effect = EFFECT_THIEF,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FAIRY,
         .accuracy = 100,
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
