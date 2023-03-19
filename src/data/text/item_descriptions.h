@@ -1764,7 +1764,7 @@ static const u8 sDianciteDesc[] = _(
 static const u8 sCaststormiteDesc[] = _(
     "This stone enables\n"
     "Castform to Mega\n"
-    "Evolve in battle to Caststorm.");
+    "Evolve in battle.");
 
 static const u8 sTentacrueliteDesc[] = _(
     "This stone enables\n"
@@ -3347,7 +3347,9 @@ static const u8 sTM67Desc[] = _( // Todo
     "?????");
 
 static const u8 sTM68Desc[] = _( // Todo
-    "?????");
+    "The user charges at the\n"
+    "target using every bit\n"
+    "of its power.");
 
 static const u8 sTM69Desc[] = _( // Todo
     "?????");
