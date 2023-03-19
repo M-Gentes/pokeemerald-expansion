@@ -415,7 +415,7 @@ const struct Trainer gTrainers[] = {
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
             .trainerPic = TRAINER_PIC_AQUA_LEADER_ARCHIE,
             .trainerName = _("ARCHIE"),
-            .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE},
+            .items = {ITEM_FULL_RESTORE, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
             .party = ITEM_CUSTOM_MOVES(sParty_Archie),
@@ -7219,7 +7219,7 @@ const struct Trainer gTrainers[] = {
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
             .trainerPic = TRAINER_PIC_MAGMA_LEADER_MAXIE,
             .trainerName = _("MAXIE"),
-            .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE},
+            .items = {ITEM_FULL_RESTORE, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
             .party = ITEM_CUSTOM_MOVES(sParty_MaxieMagmaHideout),
@@ -7966,7 +7966,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_BrendanLilycoveTorchic),
+            .party = ITEM_CUSTOM_MOVES(sParty_BrendanLilycoveTorchic),
         },
 
     [TRAINER_MAY_LILYCOVE_MUDKIP] =
@@ -8002,7 +8002,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_MayLilycoveTorchic),
+            .party = ITEM_CUSTOM_MOVES(sParty_MayLilycoveTorchic),
         },
 
     [TRAINER_JONAH] =
