@@ -95,8 +95,11 @@ Route112_EventScript_Larry::
 	end
 
 Route112_EventScript_Carol::
-	trainerbattle_single TRAINER_CAROL, Route112_Text_CarolIntro, Route112_Text_CarolDefeat
+	trainerbattle_single TRAINER_CAROL, Route112_Text_CarolIntro, Route112_Text_CarolDefeat, Route112_EventScript_GetAudinite
 	msgbox Route112_Text_CarolPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_GetAudinite::
 	giveitem ITEM_AUDINITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end

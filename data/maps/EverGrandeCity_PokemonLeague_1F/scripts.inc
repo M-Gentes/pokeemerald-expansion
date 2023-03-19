@@ -48,6 +48,7 @@ EverGrandeCity_PokemonLeague_1F_Pokemart:
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
 	.2byte ITEM_HEART_SCALE
+	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_NONE
 	release
 	end

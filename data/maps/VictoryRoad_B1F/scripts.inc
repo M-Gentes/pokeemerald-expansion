@@ -14,6 +14,9 @@ VictoryRoad_B1F_EventScript_Shannon::
 VictoryRoad_B1F_EventScript_Michelle::
 	trainerbattle_single TRAINER_MICHELLE, VictoryRoad_B1F_Text_MichelleIntro, VictoryRoad_B1F_Text_MichelleDefeat
 	msgbox VictoryRoad_B1F_Text_MichellePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_EventScript_GetGarchompite::
 	giveitem ITEM_GARCHOMPITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end

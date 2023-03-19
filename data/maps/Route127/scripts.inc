@@ -43,8 +43,12 @@ Route127_EventScript_Henry::
 */
 
 Route127_EventScript_Roger::
-	trainerbattle_single TRAINER_ROGER, Route127_Text_RogerIntro, Route127_Text_RogerDefeat
+	trainerbattle_single TRAINER_ROGER, Route127_Text_RogerIntro, Route127_Text_RogerDefeat, Route127_EventScript_GetSlowbronite
 	msgbox Route127_Text_RogerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+Route127_EventScript_GetSlowbronite::
 	giveitem ITEM_SLOWBRONITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end

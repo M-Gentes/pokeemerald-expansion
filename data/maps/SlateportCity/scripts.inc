@@ -504,7 +504,7 @@ SlateportCity_EventScript_DollClerk::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration SlateportCity_PokemartDecor_Dolls
+	pokemart SlateportCity_PokemartDecor_Dolls
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
@@ -516,7 +516,7 @@ SlateportCity_PokemartDecor_Dolls:
 	.2byte DECOR_SKITTY_DOLL
 	.2byte ITEM_POKE_DOLL
 	.2byte ITEM_AIR_BALLOON
-	.2byte DECOR_NONE
+	.2byte ITEM_NONE
 	release
 	end
 

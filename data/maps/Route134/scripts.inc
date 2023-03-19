@@ -34,8 +34,12 @@ Route134_EventScript_Hitoshi::
 	end
 
 Route134_EventScript_Hudson::
-	trainerbattle_single TRAINER_HUDSON, Route134_Text_HudsonIntro, Route134_Text_HudsonDefeat
+	trainerbattle_single TRAINER_HUDSON, Route134_Text_HudsonIntro, Route134_Text_HudsonDefeat, Route134_EventScript_GetGyaradosite
 	msgbox Route134_Text_HudsonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+Route134_EventScript_GetGyaradosite::
 	giveitem ITEM_GYARADOSITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
@@ -46,8 +50,11 @@ Route134_EventScript_Reyna::
 	end
 
 Route134_EventScript_Marley::
-	trainerbattle_single TRAINER_MARLEY, Route134_Text_MarleyIntro, Route134_Text_MarleyDefeat
+	trainerbattle_single TRAINER_MARLEY, Route134_Text_MarleyIntro, Route134_Text_MarleyDefeat, Route134_EventScript_GetManectite
 	msgbox Route134_Text_MarleyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route134_EventScript_GetManectite::
 	giveitem ITEM_MANECTITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end

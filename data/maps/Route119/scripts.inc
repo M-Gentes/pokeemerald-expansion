@@ -337,8 +337,11 @@ Route119_EventScript_Taylor::
 	end
 
 Route119_EventScript_Doug::
-	trainerbattle_single TRAINER_DOUG, Route119_Text_DougIntro, Route119_Text_DougDefeat
+	trainerbattle_single TRAINER_DOUG, Route119_Text_DougIntro, Route119_Text_DougDefeat, Route119_EventScript_GetHeracronite
 	msgbox Route119_Text_DougPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_EventScript_GetHeracronite::
 	giveitem ITEM_HERACRONITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
@@ -387,6 +390,8 @@ Route119_EventScript_RegisterCatherine::
 	waitmovement 0
 	msgbox Route119_Text_CatherineRegister, MSGBOX_DEFAULT
 	register_matchcall TRAINER_CATHERINE_1
+	giveitem ITEM_VENUSAURITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	release
 	end
 
