@@ -5546,9 +5546,9 @@ const u8 gIrontreadsPokedexText[] = _(
 
 const u8 gIronvaliantPokedexText[] = _(
     "A POKéMON of the future even today which\n"
-    "quite looks like a fusion of Gallada and Gardevoir.\n"
-    "It combines the powers of both entities\n"
-    "and is annihilating all threads in its way.");
+    "quite looks like a fusion of Gallade\n"
+    "and Gardevoir. It combines both powers\n"
+    "annihilating all threads in its way.");
 
 const u8 gPawmiPokedexText[] = _(
     "It has underdeveloped electric sacs\n"
