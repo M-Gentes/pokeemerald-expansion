@@ -319,7 +319,7 @@ RustboroCity_EventScript_ItemXDefend::
 	end
 
 LilycoveCity_EventScript_ItemMaxRepel::
-	finditem ITEM_MAX_REPEL
+	finditem ITEM_ASSAULT_VEST
 	end
 
 MossdeepCity_EventScript_ItemNetBall::
