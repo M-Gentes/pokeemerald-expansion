@@ -1,8 +1,49 @@
 AbandonedShip_Underwater2_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, AbandonedShip_Underwater2_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, AbandonedShip_Underwater2_OnTransition
 	.byte 0
 
 AbandonedShip_Underwater2_OnResume:
 	setdivewarp MAP_ABANDONED_SHIP_ROOMS_B1F, 13, 7
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, AbandonedShip_Underwater2_EventScript_TryRemoveSwirlhead
 	end
 
+AbandonedShip_Underwater2_EventScript_TryRemoveSwirlhead::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+AbandonedShip_Underwater2_OnTransition:
+	setvar VAR_TEMP_1, 0
+	setvar VAR_TEMP_2, 0
+	call_if_unset FLAG_DEFEATED_SWIRLHEAD_1_ABANDONED_SHIP, AbandonedShip_Underwater2_EventScript_ShowSwirlhead
+	end
+
+AbandonedShip_Underwater2_EventScript_ShowSwirlhead::
+	clearflag FLAG_HIDE_ABANDONED_SHIP_SWIRLHEAD_1
+	return
+
+AbandonedShip_Underwater2_EventScript_Swirlhead::
+	lock
+	faceplayer
+	setwildbattle SPECIES_SWIRLHEAD, 35
+	waitse
+	playmoncry SPECIES_SWIRLHEAD, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AbandonedShip_Underwater2_EventScript_DefeatedSwirlhead
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AbandonedShip_Underwater2_EventScript_DefeatedSwirlhead
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AbandonedShip_Underwater2_EventScript_DefeatedSwirlhead
+	setflag FLAG_DEFEATED_SWIRLHEAD_1_ABANDONED_SHIP
+	release
+	end
+
+AbandonedShip_Underwater2_EventScript_DefeatedSwirlhead::
+	setflag FLAG_DEFEATED_SWIRLHEAD_1_ABANDONED_SHIP
+	goto Common_EventScript_RemoveStaticPokemon
+	end

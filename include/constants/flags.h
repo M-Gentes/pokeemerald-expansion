@@ -655,8 +655,8 @@
 #define FLAG_HIDE_PETALBURG_WOODS_BRUTEBONNET_1 0x265     // Hide Flag for Brutebonnet in Petalburg Woods
 #define FLAG_DEFEATED_IRONVALIANT_1_MOSSDEEP_CITY 0x266   // Static Ironvaliant Encounter
 #define FLAG_HIDE_MOSSDEEP_CITY_IRONVALIANT_1 0x267     // Hide Flag for Ironvaliant in Mossdeep City
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
+#define FLAG_DEFEATED_SWIRLHEAD_1_ABANDONED_SHIP 0x268  // Static Swirlhead Encounter
+#define FLAG_HIDE_ABANDONED_SHIP_SWIRLHEAD_1 0x269      // Hide Flag for Swirlhead in Abandoned Ship
 #define FLAG_UNUSED_0x26A  0x26A // Unused Flag
 #define FLAG_UNUSED_0x26B  0x26B // Unused Flag
 #define FLAG_UNUSED_0x26C  0x26C // Unused Flag
