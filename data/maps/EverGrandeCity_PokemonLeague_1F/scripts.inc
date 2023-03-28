@@ -1,6 +1,7 @@
 .set LOCALID_NURSE, 1
 .set LOCALID_GUARD_1, 3
 .set LOCALID_GUARD_2, 4
+.set LOCALID_RIVAL, 5
 
 EverGrandeCity_PokemonLeague_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonLeague_1F_OnTransition
@@ -10,6 +11,7 @@ EverGrandeCity_PokemonLeague_1F_MapScripts::
 EverGrandeCity_PokemonLeague_1F_OnTransition:
 	setrespawn HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE
 	setflag FLAG_LANDMARK_POKEMON_LEAGUE
+	call Common_EventScript_SetupRivalGfxId
 	call_if_unset FLAG_ENTERED_ELITE_FOUR, EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor
 	end
 
@@ -128,6 +130,191 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	walk_right
 	walk_in_place_faster_down
 	step_end
+
+PokemonLeague_EventScript_Rival::
+	lockall
+	call_if_unset FLAG_MET_RIVAL_LEAGUE, PokemonLeague_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
+	waitmovement 0
+	goto PokemonLeague_EventScript_RivalEncounter
+
+PokemonLeague_EventScript_PlayRivalMusic::
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, PokemonLeague_EventScript_PlayMayMusic
+	goto_if_eq VAR_RESULT, FEMALE, PokemonLeague_EventScript_PlayBrendanMusic
+	return
+
+PokemonLeague_EventScript_PlayMayMusic::
+	playbgm MUS_ENCOUNTER_MAY, TRUE
+	return
+
+PokemonLeague_EventScript_PlayBrendanMusic::
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
+	return
+
+PokemonLeague_EventScript_RivalTrigger0::
+	lockall
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, PokemonLeague_Movement_Rival0
+	waitmovement 0
+	goto PokemonLeague_EventScript_Rival
+
+PokemonLeague_EventScript_RivalTrigger1::
+	lockall
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, PokemonLeague_Movement_Rival1
+	goto PokemonLeague_EventScript_Rival
+
+PokemonLeague_Movement_Rival0:
+	walk_left
+	face_down
+	step_end
+
+PokemonLeague_Movement_Rival1:
+	face_down
+	step_end
+
+
+PokemonLeague_EventScript_RivalEncounter::
+	setvar VAR_EVER_GRANDE_CITY_STATE, 1
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, PokemonLeague_EventScript_MayEncounter
+	goto_if_eq VAR_RESULT, FEMALE, PokemonLeague_EventScript_BrendanEncounter
+	end
+
+PokemonLeague_EventScript_MayEncounter::
+	goto_if_set FLAG_DEFEATED_RIVAL_LEAGUE, PokemonLeague_EventScript_RivalPostBattle
+	/*goto_if_set FLAG_MET_RIVAL_LEAGUE, PokemonLeague_EventScript_MayAskToBattle*/
+	setflag FLAG_MET_RIVAL_LEAGUE
+	delay 30
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_BattleMay
+	/*msgbox PokemonLeague_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, PokemonLeague_EventScript_BattleRival
+	msgbox PokemonLeague_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	call PokemonLeague_EventScript_RestoreBgm
+	*/
+	releaseall
+	end
+
+PokemonLeague_EventScript_BrendanEncounter::
+	goto_if_set FLAG_DEFEATED_RIVAL_LEAGUE, PokemonLeague_EventScript_RivalPostBattle
+	/*goto_if_set FLAG_MET_RIVAL_LEAGUE, PokemonLeague_EventScript_MayAskToBattle*/
+	setflag FLAG_MET_RIVAL_LEAGUE
+	delay 30
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_BattleBrendan
+	/*msgbox PokemonLeague_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, PokemonLeague_EventScript_BattleRival
+	msgbox PokemonLeague_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	call PokemonLeague_EventScript_RestoreBgm
+	*/
+	releaseall
+	end
+
+/*PokemonLeague_EventScript_MayAskToBattle::
+	setvar VAR_0x8008, 1
+	msgbox PokemonLeague_Text_MayWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, PokemonLeague_EventScript_BattleMay
+	msgbox PokemonLeague_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	releaseall
+	end
+*/	
+
+PokemonLeague_EventScript_RivalPostBattle::
+	msgbox PokemonLeague_Text_RivalPostBattle, MSGBOX_DEFAULT
+	call_if_eq VAR_0x8008, 0, PokemonLeague_EventScript_RestoreBgm
+	releaseall
+	end
+
+PokemonLeague_EventScript_BattleMay::
+	setvar VAR_0x8008, 1
+	msgbox PokemonLeague_Text_RivalImNotGoingToLose, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, PokemonLeague_EventScript_BattleMayTreecko
+	case 1, PokemonLeague_EventScript_BattleMayTorchic
+	case 2, PokemonLeague_EventScript_BattleMayMudkip
+	end
+
+PokemonLeague_EventScript_BattleBrendan::
+	setvar VAR_0x8008, 1
+	msgbox PokemonLeague_Text_RivalImNotGoingToLose, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, PokemonLeague_EventScript_BattleBrendanTreecko
+	case 1, PokemonLeague_EventScript_BattleBrendanTorchic
+	case 2, PokemonLeague_EventScript_BattleBrendanMudkip
+	end
+
+PokemonLeague_EventScript_BattleMayTreecko::
+	trainerbattle_no_intro TRAINER_MAY_LEAGUE_TREECKO, PokemonLeague_Text_RivalDefeat
+	setflag FLAG_DEFEATED_RIVAL_LEAGUE
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_RivalPostBattle
+	end
+
+PokemonLeague_EventScript_BattleMayTorchic::
+	trainerbattle_no_intro TRAINER_MAY_LEAGUE_TORCHIC, PokemonLeague_Text_RivalDefeat
+	setflag FLAG_DEFEATED_RIVAL_LEAGUE
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_RivalPostBattle
+	end
+
+PokemonLeague_EventScript_BattleMayMudkip::
+	trainerbattle_no_intro TRAINER_MAY_LEAGUE_MUDKIP, PokemonLeague_Text_RivalDefeat
+	setflag FLAG_DEFEATED_RIVAL_LEAGUE
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_RivalPostBattle
+	end
+
+PokemonLeague_EventScript_BattleBrendanTreecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_LEAGUE_TREECKO, PokemonLeague_Text_RivalDefeat
+	setflag FLAG_DEFEATED_RIVAL_LEAGUE
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_RivalPostBattle
+	end
+
+PokemonLeague_EventScript_BattleBrendanTorchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_LEAGUE_TORCHIC, PokemonLeague_Text_RivalDefeat
+	setflag FLAG_DEFEATED_RIVAL_LEAGUE
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_RivalPostBattle
+	end
+
+PokemonLeague_EventScript_BattleBrendanMudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_LEAGUE_MUDKIP, PokemonLeague_Text_RivalDefeat
+	setflag FLAG_DEFEATED_RIVAL_LEAGUE
+	setvar VAR_0x8008, 0
+	goto PokemonLeague_EventScript_RivalPostBattle
+	end
+
+PokemonLeague_EventScript_RestoreBgm::
+	savebgm MUS_DUMMY
+	fadedefaultbgm
+	return
+
+PokemonLeague_Text_RivalImNotGoingToLose:
+	.string "{RIVAL}: {PLAYER}{KUN}, this time,\n"
+	.string "I'm really not going to lose!$"
+
+PokemonLeague_Text_RivalDefeat:
+	.string "Incredible!\n"
+	.string "With this strength, you have surely\l"
+	.string "great chances to become CHAMP!$"
+
+PokemonLeague_Text_RivalPostBattle:
+	.string "{RIVAL}: You are a very strong trainer!$"
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
 	.string "Beyond this point, only those TRAINERS\n"

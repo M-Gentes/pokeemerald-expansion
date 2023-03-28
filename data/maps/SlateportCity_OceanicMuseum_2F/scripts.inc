@@ -59,6 +59,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	waitmovement 0
 	msgbox SlateportCity_OceanicMuseum_2F_Text_ArchieWarning, MSGBOX_DEFAULT
 	closemessage
+	trainerbattle_no_intro TRAINER_ARCHIE_OCEANIC_MUSEUM, SlateportCity_OceanicMuseum_2F_Text_ArchieDefeat
 	savebgm MUS_DUMMY
 	fadedefaultbgm
 	fadescreen FADE_TO_BLACK
@@ -296,6 +297,10 @@ SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
 	.string "Awaaaah!\n"
 	.string "A kid beat me!$"
+
+SlateportCity_OceanicMuseum_2F_Text_ArchieDefeat:
+	.string "You are a nuisance,\n"
+	.string "next time I won't hesitate!$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
 	.string "Oh, man, what a disaster…\n"

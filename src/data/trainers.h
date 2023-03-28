@@ -421,6 +421,18 @@ const struct Trainer gTrainers[] = {
             .party = ITEM_CUSTOM_MOVES(sParty_Archie),
         },
 
+    [TRAINER_ARCHIE_OCEANIC_MUSEUM] =
+        {
+            .trainerClass = TRAINER_CLASS_AQUA_LEADER,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+            .trainerPic = TRAINER_PIC_AQUA_LEADER_ARCHIE,
+            .trainerName = _("ARCHIE"),
+            .items = {ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+            .doubleBattle = FALSE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
+            .party = NO_ITEM_DEFAULT_MOVES(sParty_ArchieOceanicMuseum),
+        },
+
     [TRAINER_LEAH] =
         {
             .trainerClass = TRAINER_CLASS_HEX_MANIAC,
@@ -10211,6 +10223,90 @@ const struct Trainer gTrainers[] = {
             .doubleBattle = FALSE,
             .aiFlags = 0,
             .party = NO_ITEM_DEFAULT_MOVES(sParty_Everett),
+        },
+
+    [TRAINER_DELTA_SAGE] =
+        {
+            .trainerClass = TRAINER_CLASS_EXPERT,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
+            .trainerPic = TRAINER_PIC_PALACE_MAVEN_SPENSER,
+            .trainerName = _("DELTA SAGE"),
+            .items = {},
+            .doubleBattle = TRUE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_TRY_TO_FAINT,
+            .party = ITEM_CUSTOM_MOVES(sParty_DeltaSage),
+        },
+
+    [TRAINER_MAY_LEAGUE_TREECKO] =
+        {
+            .trainerClass = TRAINER_CLASS_RIVAL,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
+            .trainerPic = TRAINER_PIC_MAY,
+            .trainerName = _("MAY"),
+            .items = {},
+            .doubleBattle = FALSE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT,
+            .party = ITEM_CUSTOM_MOVES(sParty_RivalLeagueTreecko),
+        },
+
+    [TRAINER_BRENDAN_LEAGUE_TREECKO] =
+        {
+            .trainerClass = TRAINER_CLASS_RIVAL,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+            .trainerPic = TRAINER_PIC_BRENDAN,
+            .trainerName = _("BRENDAN"),
+            .items = {},
+            .doubleBattle = FALSE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT,
+            .party = ITEM_CUSTOM_MOVES(sParty_RivalLeagueTreecko),
+        },
+
+    [TRAINER_MAY_LEAGUE_TORCHIC] =
+        {
+            .trainerClass = TRAINER_CLASS_RIVAL,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
+            .trainerPic = TRAINER_PIC_MAY,
+            .trainerName = _("MAY"),
+            .items = {},
+            .doubleBattle = FALSE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT,
+            .party = ITEM_CUSTOM_MOVES(sParty_RivalLeagueTorchic),
+        },
+
+    [TRAINER_BRENDAN_LEAGUE_TORCHIC] =
+        {
+            .trainerClass = TRAINER_CLASS_RIVAL,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+            .trainerPic = TRAINER_PIC_BRENDAN,
+            .trainerName = _("BRENDAN"),
+            .items = {},
+            .doubleBattle = FALSE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT,
+            .party = ITEM_CUSTOM_MOVES(sParty_RivalLeagueTorchic),
+        },
+
+    [TRAINER_MAY_LEAGUE_MUDKIP] =
+        {
+            .trainerClass = TRAINER_CLASS_RIVAL,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
+            .trainerPic = TRAINER_PIC_MAY,
+            .trainerName = _("MAY"),
+            .items = {},
+            .doubleBattle = FALSE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT,
+            .party = ITEM_CUSTOM_MOVES(sParty_RivalLeagueMudkip),
+        },
+
+    [TRAINER_BRENDAN_LEAGUE_MUDKIP] =
+        {
+            .trainerClass = TRAINER_CLASS_RIVAL,
+            .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+            .trainerPic = TRAINER_PIC_BRENDAN,
+            .trainerName = _("BRENDAN"),
+            .items = {},
+            .doubleBattle = FALSE,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT,
+            .party = ITEM_CUSTOM_MOVES(sParty_RivalLeagueMudkip),
         },
 
     [TRAINER_RED] =
