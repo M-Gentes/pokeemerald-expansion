@@ -961,7 +961,7 @@ const struct MonCoords gMonBackPicCoords[] =
         [SPECIES_ROARINGMOON] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 10},
         [SPECIES_IRONBUNDLE] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 7},
         [SPECIES_IRONHANDS] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 6},
-        [SPECIES_IRONJUGULIS] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 10},
+        [SPECIES_IRONJUGULIS] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 12},
         [SPECIES_IRONMOTH] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 5},
         [SPECIES_IRONTHORNS] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 2},
         [SPECIES_IRONTREADS] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 10},
