@@ -3273,7 +3273,7 @@ const struct Trainer gTrainers[] = {
             .trainerName = _("JUAN"),
             .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
-            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
+            .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_RISKY | AI_FLAG_CHECK_VIABILITY,
             .party = ITEM_CUSTOM_MOVES(sParty_Juan1),
         },
 
@@ -5578,7 +5578,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Carlee),
+            .party = NO_ITEM_CUSTOM_MOVES(sParty_Carlee),
         },
 
     [TRAINER_JENNY_2] =
