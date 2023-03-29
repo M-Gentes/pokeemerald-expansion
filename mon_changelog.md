@@ -87,6 +87,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Rapidash|Fire, +Electric|+Lightning Rod, Flash Fire, Flame Body|65 + 10|||80 + 5|||
 |Farfetch'd|Normal, Flying|+Sharpness, +Sniper, Defiant||||||60 + 20|
 |Dodrio|Normal, Flying|+Rock Head, Early Bird, Tangled Feet|||||||
+|Onix|Rock, Ground|+Battle Armor, Sturdy, Weak Armor|||||||
 |Hypno|Psychic|Insomnia, +Bad Dreams, Inner Focus|85 + 30||||||
 |Kangaskhan|Normal|+Parental Bond, Scrappy, Inner Focus|||||||
 |Seaking|Water|Swift Swim, +Hustle, Lightning Rod||92 + 10||||68 + 10|
@@ -100,7 +101,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Ledian|Bug, Flying|Iron Fist, Aerilate, Justified|55 + 30|35 + 60|50 + 10|55 + 20|110|85|
 |Webarak|Bug, Poison|+Skill Link, Insomnia, +Sniper|||||||
 |Ariados|Bug, Poison|+Skill Link, Insomnia, +Sniper|70|90|70|60 + 20|70|40 + 40|
-|Lanturn|Water, Electric|Volt Absorb, +Swift Swim, Water Absorb|||||||
+|Lanturn|Water, Electric|Volt Absorb, +Transistor, Water Absorb|||||||
 |Natu|Psychic, Flying|Magic Bounce, Early Bird, +Delta Stream|||||||
 |Xatu|Psychic, Flying|Magic Bounce, Early Bird, +Delta Stream|||||||
 |Mareep|Electric|Static, None, Fluffy|||||||
@@ -116,6 +117,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Wobbuffet|Psychic|Shadow Tag, Telepathy, +Stamina|||||||
 |Girafarig|Normal, Psychic|Harvest, Early Bird, Sap Sipper|70|80|65 + 20|90|65 + 20|85|
 |Dunsparce|Normal, Dragon|Serene Grace, +Adaptability, Rattled|100|70 + 20|70|65 + 20|65|45|
+|Steelix|Steel, Ground|+Battle Armor, Sturdy, Sheer Force|||||||
 |Granbull|Fairy|Intimidate, Quick Feet, Rattled|90|120|75 + 10|60|60 + 20|45 + 35|
 |Slugma|Fire|+Filter, Flame Body, Weak Armor|||||||
 |Magcargo|Fire, Rock|+Solid Rock, Flame Body, Weak Armor|60|50|120|90|80 + 20|30|
@@ -164,6 +166,55 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Altaria|Dragon, Flying|+Pixilate, Natural Cure, Cloud Nine|75|70 + 10|90|70 + 10|105|80|
 |Zangoose|Normal, Fighting|Immunity, +Sniper, Toxic Boost|73 + 10|115|60 + 10|60|60 + 10|90|
 |Seviper|Gift, Dark|Shed Skin, +Strong Jaw, Infiltrator|73 + 10|110|60|100|60|65 + 20|
+|Lunatone|Gestein, Psycho|Levitate, None, +Psychic Surge|90|55|65|95 + 10|85 + 10|70|
+|Solrock|Gestein, Psycho|Levitate, None, +Psychic Surge|90|95 + 10|85 + 10|55|65|70|
+|Whiscash|Gestein, Psycho|Simple, Oblivious, Hydration|110|78 + 10|73|76 + 10|71|60|
+|Anorith|Rock, Bug|+Tinted Lens, Battle Armor, Swift Swim|||||||
+|Armaldo|Rock, Bug|+Tinted Lens, Battle Armor, Swift Swim|||||||
+|Kecleon|Normal|Color Change, Protean, Mimicry|60 + 50|90|70|60 + 30|120|40|
+|Tropius|Grass, Flying|Chlorophyll, Solar Power, Harvest|90|68 + 20|83|72 + 40|87|51 + 30|
+|Chimecho|Psychic|+Magic Guard, Levitate, None|75|50|80|95 + 10|90 + 10|65|
+|Absol|Dark, +Fairy|Pressure, Super Luck, +Justified|||||||
+|Glalie|Ice, +Dark|+Filter, Ice Body, Moody|||||||
+|Huntail|Water|Swift Swim, +Strong Jaw, Water Veil|55|104|105|94|75|52 + 10|
+|Gorebyss|Water|Swift Swim, +Drizzle, Hydration|55|84|105|114|75|52 + 10|
+|Relicanth|Water, Rock|Swift Swim, Rock Head, +Primordial Sea|||||||
+|Luvdisc|Water|Swift Swim, Regenerator, Hydration|43 + 40|30|55 + 20|40|65 + 20|97|
+|Kricketot|Bug|Shed Skin, Rattled, +Liquid Voice|||||||
+|Kricketune|Bug|Swarm, Technician, +Liquid Voice|77|85|51 + 10|55 + 30|51 + 10|65|
+|Luxray|Electric, Dark|Intimidate, Guts, Rivalry|||||||
+|Roserade|Grass, Poison|Natural Cure, Poison Point, +Technician|||||||
+|Pachirisu|Electric| +Cheek Pouch, Pickup, Volt Absorb|||||||
+|Floatzel|Water| Swift Swim, +Strong Jaw, Water Veil|||||||
+|Lopunny|Normal|Cute Charm, +Rattled, Limber|||||||
+|Chatot|Normal, Flying|+Tinted Lens, Tangled Feet, Big Pecks|||||||
+|Finneon|Water, +Fairy|Swift Swim, Storm Drain, Water Veil|||||||
+|Lumineon|Water, +Fairy|Swift Swim, Storm Drain, +Drizzle|69 + 20|69|76|69 + 20|86|91|
+|Mega Abomasnow|Grass, Ice|Thick Fat|||||||
+|Weavile|Dark, Ice|+Technician, None, Pickpocket|||||||
+|Lickilicky|Normal|+Thick Fat, Oblivious, Cloud Nine|||||||
+|Electivire|Electric|Motor Drive, None, +Electric Surge|||||||
+|Magmortar|Fire|Flame Body, None, +Drought|||||||
+|Leafeon|Grass|+Super Luck, Chlorophyll, Leaf Guard|||||||
+|Glaceon|Ice|+Refrigerate, +Slush Rush, Ice Body|||||||
+|Gallade|Psychic, Fighting|+Justified, +Sharpness, Steadfast|||||||
+|Probopass|Rock, Steel|Sturdy, Sand Force, Magnet Pull|60 + 15|55 + 25|145|75 + 5|150|40|
+|Dusknoir|Ghost|+Iron Fist, None, Frisk|||||||
+|Froslass|Ice, Ghost|+Sheer Force, Snow Cloak, Cursed Body|||||||
+|Watchog|Normal|+Download, Keen Eye, Analytic|||||||
+|Musharna|Psychic|+Psychic Surge, Synchronize, Telepathy|||||||
+|Blitzle|Electric, +Dark|Lightning Rod, Motor Drive, Sap Sipper|||||||
+|Zebstrika|Electric, +Dark|Lightning Rod, Motor Drive, Sap Sipper|||||||
+|Maractus|Grass|Water Absorb, Chlorophyll, Iron Barbs|75|86|67 + 20|106|67 + 20|60|
+|Swanna|Water, Flying|+Rain Dish, Big Pecks, Hydration|75 + 25|87|63|87|63|98|
+|Escavalier|Bug, Steel|+Justified, Shell Armor, Overcoat|||||||
+|Galvantula|Bug, Electric|Compound Eyes, +Galvanize, Swarm|||||||
+|Klink|Steel|+Steelworker, Motor Drive, Clear Body|||||||
+|Klink|Steel|+Steelworker, Motor Drive, Clear Body|||||||
+|Klinklang|Steel, +Electric|+Steelworker, Motor Drive, Clear Body|||||||
+|Cryogonal|Ice|+Snow Warning, +Ice Body, Levitate|||||||
+|Shiinotic|Grass, Fairy|+Misty Surge, Effect Spore, Rain Dish|||||||
+|Boltund|Electric|Strong Jaw, None, Competitive|69|90 + 10|60 + 9|90 + 10|60 + 9|121|
 
 ## New Pokémon Locations
 - Paradox Pokémon in Caves and near Towns
