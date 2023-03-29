@@ -3753,12 +3753,12 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
-    {.iv = 0,
+    {.iv = 50,
      .lvl = 16,
      .species = SPECIES_MEDITITE,
      .heldItem = ITEM_NONE,
      .moves = {MOVE_REVERSAL, MOVE_SECRET_POWER, MOVE_LIGHT_SCREEN, MOVE_REFLECT}},
-    {.iv = 0,
+    {.iv = 50,
      .lvl = 16,
      .species = SPECIES_TYROGUE,
      .heldItem = ITEM_NONE,
@@ -3767,12 +3767,12 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
      .lvl = 17,
      .species = SPECIES_MAKUHITA,
      .heldItem = ITEM_BLACK_BELT,
-     .moves = {MOVE_ARM_THRUST, MOVE_ROCK_TOMB, MOVE_FAKE_OUT, MOVE_BULK_UP}},
-    {.iv = 0,
+     .moves = {MOVE_FORCE_PALM, MOVE_ROCK_TOMB, MOVE_FAKE_OUT, MOVE_BULK_UP}},
+    {.iv = 50,
      .lvl = 18,
      .species = SPECIES_CLAWHILL,
      .heldItem = ITEM_ORAN_BERRY,
-     .moves = {MOVE_ROCK_SMASH, MOVE_EMBER, MOVE_SMELLING_SALTS, MOVE_SUNNY_DAY}},
+     .moves = {MOVE_ROCK_SMASH, MOVE_FLAME_WHEEL, MOVE_SMELLING_SALTS, MOVE_SUNNY_DAY}},
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
