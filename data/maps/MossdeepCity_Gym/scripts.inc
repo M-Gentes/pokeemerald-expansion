@@ -53,6 +53,7 @@ MossdeepCity_Gym_EventScript_TateAndLiza::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, MossdeepCity_Gym_EventScript_TateAndLizaRematch
 	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_GiveCalmMind2
+	goto_if_set FLAG_IS_CHAMPION, MossdeepCity_Gym_EventScript_TateAndLizaRematchCustom
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -106,6 +107,11 @@ MossdeepCity_Gym_EventScript_GiveCalmMind::
 
 MossdeepCity_Gym_EventScript_TateAndLizaRematch::
 	trainerbattle_rematch_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaPreRematch, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat, MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons
+	msgbox MossdeepCity_Gym_Text_TateAndLizaPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+MossdeepCity_Gym_EventScript_TateAndLizaRematchCustom::
+	trainerbattle_double TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaPreRematch, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat, MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostRematch, MSGBOX_AUTOCLOSE
 	end
 

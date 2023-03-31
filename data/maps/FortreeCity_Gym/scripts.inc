@@ -20,6 +20,7 @@ FortreeCity_Gym_EventScript_Winona::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, FortreeCity_Gym_EventScript_WinonaRematch
 	goto_if_unset FLAG_RECEIVED_TM40, FortreeCity_Gym_EventScript_GiveAerialAce2
+	goto_if_set FLAG_IS_CHAMPION, FortreeCity_Gym_EventScript_WinonaRematchCustom
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -64,6 +65,11 @@ FortreeCity_Gym_EventScript_GiveAerialAce::
 
 FortreeCity_Gym_EventScript_WinonaRematch::
 	trainerbattle_rematch_double TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaPreRematch, FortreeCity_Gym_Text_WinonaRematchDefeat, FortreeCity_Gym_Text_WinonaRematchNeedTwoMons
+	msgbox FortreeCity_Gym_Text_WinonaPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+FortreeCity_Gym_EventScript_WinonaRematchCustom::
+	trainerbattle_double TRAINER_WINONA_5, FortreeCity_Gym_Text_WinonaPreRematch, FortreeCity_Gym_Text_WinonaRematchDefeat, FortreeCity_Gym_Text_WinonaRematchNeedTwoMons
 	msgbox FortreeCity_Gym_Text_WinonaPostRematch, MSGBOX_AUTOCLOSE
 	end
 
