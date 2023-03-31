@@ -14228,7 +14228,7 @@ Move_GRASSY_GLIDE::
 	goto Move_QUICK_ATTACK
 
 Move_RISING_VOLTAGE::
-	end @to do:
+	goto Move_10000000_VOLT_THUNDERBOLT
 
 Move_TERRAIN_PULSE::
 	loadspritegfx ANIM_TAG_DRAGON_PULSE
@@ -14360,8 +14360,10 @@ Move_POLTERGEIST::
 	blendoff
 	end
 
-Move_CORROSIVE_GAS::
 Move_COACHING::
+	goto Move_HOWL
+
+Move_CORROSIVE_GAS::
 Move_SCORCHING_SANDS::
 	end @to do
 
