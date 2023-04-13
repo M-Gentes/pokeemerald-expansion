@@ -3236,6 +3236,9 @@ static const u8 sCombatTorqueDescription[] = _(
 static const u8 sMagicalTorqueDescription[] = _(
     "---");
 
+static const u8 sJavelinDescription[] = _(
+    "Throw lances down the enemy!");
+
 const u8 gNotDoneYetDescription[] = _(
     "This move can't be used. Its\n"
     "effect is in development.");
@@ -4073,4 +4076,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_NOXIOUS_TORQUE - 1] = sNoxiousTorqueDescription,
     [MOVE_COMBAT_TORQUE - 1] = sCombatTorqueDescription,
     [MOVE_MAGICAL_TORQUE - 1] = sMagicalTorqueDescription,
+    [MOVE_JAVELIN - 1] = sJavelinDescription,
 };

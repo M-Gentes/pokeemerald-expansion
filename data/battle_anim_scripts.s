@@ -854,6 +854,8 @@ gBattleAnims_Moves::
 	.4byte Move_NOXIOUS_TORQUE
 	.4byte Move_COMBAT_TORQUE
 	.4byte Move_MAGICAL_TORQUE
+@@@@ Custom
+	.4byte Move_JAVELIN
 @@@@ Z MOVES
 	.4byte Move_BREAKNECK_BLITZ
 	.4byte Move_ALL_OUT_PUMMELING
@@ -14539,6 +14541,38 @@ Move_DUAL_WINGBEAT::
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
 	blendoff
+	end
+
+Move_JAVELIN::
+	loadspritegfx ANIM_TAG_POWER_GEM @gem
+	loadspritegfx ANIM_TAG_AIR_WAVE @sonicboom
+	loadspritegfx ANIM_TAG_IMPACT @hit
+	loadspritegfx ANIM_TAG_FLASH_CANNON_BALL @ball
+	setarg 0x7 0xffff
+	waitforvisualfinish
+	monbg ANIM_DEF_PARTNER
+	splitbgprio ANIM_TARGET
+	setalpha 12, 8
+	call SonicBoomProjectile
+	launchtask AnimTask_ShakeMon 0x2 0x5 0x1 0x3 0x0 0xa 0x1
+	loadspritegfx ANIM_TAG_FLASH_CANNON_BALL
+	launchtemplate gSmartStrikeImpactTemplate 0x84 0x5 0x0 0x0 0x8 0x1 0x0
+	playsewithpan SE_M_VITAL_THROW2, SOUND_PAN_TARGET
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0x0 0xffe8 0xa
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0x11 0xffef 0xa
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0x18 0x0 0xa
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0x11 0x11 0xa
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0x0 0x18 0xa
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0xffef 0x11 0xa
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0xffe8 0x0 0xa
+	launchtemplate gSmartStrikeGemTemplate 0x82 0x5 0x1 0x1 0xffef 0xffef 0xa
+	waitforvisualfinish
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	waitforvisualfinish
+	clearmonbg ANIM_ATTACKER
+	blendoff
+	waitforvisualfinish
 	end
 
 @@@@@@@@@@@@@@@@@@@@@@@ GEN 1-3 @@@@@@@@@@@@@@@@@@@@@@@

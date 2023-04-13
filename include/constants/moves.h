@@ -861,7 +861,11 @@
 
 #define MOVES_COUNT_GEN9 827
 
-#define MOVES_COUNT         MOVES_COUNT_GEN9
+// Custom
+#define MOVE_JAVELIN 827
+#define MOVES_COUNT_CUSTOM 828
+
+#define MOVES_COUNT         MOVES_COUNT_CUSTOM
 
 // Z Moves
 #define MOVE_BREAKNECK_BLITZ (MOVES_COUNT + 0)
