@@ -621,6 +621,7 @@ static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_U_TURN,
+    MOVE_FOCUS_BLAST,
     MOVE_UNAVAILABLE,
 };
 
