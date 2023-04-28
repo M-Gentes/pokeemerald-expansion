@@ -22,6 +22,19 @@ After Gen 8 SWSH/PLA Pokémon + Megas
     - Mega-Luxray
     - Caststorm
     - Ecliminary
+    - Pumpking
+    - Mega-Butterfree
+    - Mega-Fearow
+    - Mega-Machamp
+    - Mega-Golem
+    - Mega-Noctowl
+    - Mega-Kingdra
+    - Mega-Chimecho
+    - Mega-Wailord
+    - Mega-Chesnaught
+    - Mega-Delphox
+    - Mega-Palossand
+    - Mega-Falinks
 
 ## Changed Evolution Methods
 - Basic Trade Evolutions -> {EVO_LEVEL, Level 40, e.g. GENGAR}

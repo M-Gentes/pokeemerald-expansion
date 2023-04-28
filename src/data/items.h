@@ -4537,6 +4537,19 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
+    [ITEM_CUSTOMITE] =
+    {
+        .name = _("Customite"),
+        .itemId = ITEM_CUSTOMITE,
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sCustomiteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+    },
+
 // Gems
 
     [ITEM_NORMAL_GEM] =

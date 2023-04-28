@@ -1786,6 +1786,11 @@ static const u8 sEcliminariniteDesc[] = _(
     "Solrock and Lunastone to\n"
     "Mega Evolve in battle.");
 
+static const u8 sCustomiteDesc[] = _(
+    "This stone enables\n"
+    "a bunch of POKéMON to\n"
+    "Mega Evolve in battle.");
+
 // Gems
 static const u8 sNormalGemDesc[] = _(
     "Increases the\n"

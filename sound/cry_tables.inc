@@ -1481,6 +1481,8 @@ gCryTable::
 	cry Cry_Relicliffon
 	cry Cry_Draconeon
 	cry Cry_Meraki
+	cry Cry_Kagecoon
+	cry Cry_Tandayu
 	@ Megas
 	cry Cry_VenusaurMega
 	cry Cry_CharizardMegaX
@@ -2167,7 +2169,20 @@ gCryTable::
 	cry Cry_TentacruelMega
 	cry Cry_FlygonMega
 	cry Cry_LuxrayMega
+	cry Cry_ButterfreeMega
+	cry Cry_FearowMega
+	cry Cry_MachampMega
+	cry Cry_GolemMega
+	cry Cry_NoctowlMega
+	cry Cry_KingdraMega
+	cry Cry_ChimechoMega
+	cry Cry_WailordMega
+	cry Cry_ChesnaughtMega
+	cry Cry_DelphoxMega
+	cry Cry_PalossandMega
+	cry Cry_FalinksMega
 	cry Cry_Ecliminary
+	cry Cry_Pumpking
 
 	.align 2
 gCryTable_Reverse::
@@ -3652,6 +3667,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Relicliffon
 	cry_reverse Cry_Draconeon
 	cry_reverse Cry_Meraki
+	cry_reverse Cry_Kagecoon
+	cry_reverse Cry_Tandayu
 	@ Megas
 	cry_reverse Cry_VenusaurMega
 	cry_reverse Cry_CharizardMegaX
@@ -4284,5 +4301,18 @@ gCryTable_Reverse::
 	cry_reverse Cry_TentacruelMega
 	cry_reverse Cry_FlygonMega
 	cry_reverse Cry_LuxrayMega
+	cry_reverse Cry_ButterfreeMega
+	cry_reverse Cry_FearowMega
+	cry_reverse Cry_MachampMega
+	cry_reverse Cry_GolemMega
+	cry_reverse Cry_NoctowlMega
+	cry_reverse Cry_KingdraMega
+	cry_reverse Cry_ChimechoMega
+	cry_reverse Cry_WailordMega
+	cry_reverse Cry_ChesnaughtMega
+	cry_reverse Cry_DelphoxMega
+	cry_reverse Cry_PalossandMega
+	cry_reverse Cry_FalinksMega
 	cry_reverse Cry_Ecliminary
+	cry_reverse Cry_Pumpking
 

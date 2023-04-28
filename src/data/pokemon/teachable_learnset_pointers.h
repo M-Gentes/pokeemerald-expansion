@@ -1380,5 +1380,6 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
         [SPECIES_RELICLIFFON] = sRelicliffonTeachableLearnset,
         [SPECIES_DRACONEON] = sDraconeonTeachableLearnset,
         [SPECIES_MERAKI] = sMerakiTeachableLearnset,
-
+        [SPECIES_KAGECOON] = sKagecoonTeachableLearnset,
+        [SPECIES_TANDAYU] = sTandayuTeachableLearnset,
 };

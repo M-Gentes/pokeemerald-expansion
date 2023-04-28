@@ -5615,3 +5615,15 @@ const u8 gMerakiPokedexText[] = _(
     "him well. It is finally there to\n"
     "share some fluff and love.\n"
     "Meraki, the guinea pig is here!");
+
+const u8 gKagecoonPokedexText[] = _(
+    "A cute tanuki ronin who\n"
+    "wants to become a samurai.\n"
+    "He has big potential and is\n"
+    "adapting to its environment!");
+
+const u8 gTandayuPokedexText[] = _(
+    "A strong Tanuki samurai\n"
+    "leading an army of tanuki\n"
+    "ronins. Together they are a\n"
+    "strong force to be reckoned with!");

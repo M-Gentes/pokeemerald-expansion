@@ -9771,6 +9771,18 @@ static const union AnimCmd sAnim_Meraki_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Kagecoon_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Tandayu_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_TentacruelMega_1[] =
     {
         ANIMCMD_FRAME(1, 30),
@@ -9792,7 +9804,98 @@ static const union AnimCmd sAnim_LuxrayMega_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_ButterfreeMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_FearowMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_MachampMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_GolemMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_NoctowlMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_KingdraMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_ChimechoMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_WailordMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_ChesnaughtMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DelphoxMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_PalossandMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_FalinksMega_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Ecliminary_1[] =
+    {
+        ANIMCMD_FRAME(1, 30),
+        ANIMCMD_FRAME(0, 20),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pumpking_1[] =
     {
         ANIMCMD_FRAME(1, 30),
         ANIMCMD_FRAME(0, 20),
@@ -11792,10 +11895,25 @@ SINGLE_ANIMATION(Quezatu);
 SINGLE_ANIMATION(Relicliffon);
 SINGLE_ANIMATION(Draconeon);
 SINGLE_ANIMATION(Meraki);
+SINGLE_ANIMATION(Kagecoon);
+SINGLE_ANIMATION(Tandayu);
 SINGLE_ANIMATION(TentacruelMega);
 SINGLE_ANIMATION(FlygonMega);
 SINGLE_ANIMATION(LuxrayMega);
+SINGLE_ANIMATION(ButterfreeMega);
+SINGLE_ANIMATION(FearowMega);
+SINGLE_ANIMATION(MachampMega);
+SINGLE_ANIMATION(GolemMega);
+SINGLE_ANIMATION(NoctowlMega);
+SINGLE_ANIMATION(KingdraMega);
+SINGLE_ANIMATION(ChimechoMega);
+SINGLE_ANIMATION(WailordMega);
+SINGLE_ANIMATION(ChesnaughtMega);
+SINGLE_ANIMATION(DelphoxMega);
+SINGLE_ANIMATION(PalossandMega);
+SINGLE_ANIMATION(FalinksMega);
 SINGLE_ANIMATION(Ecliminary);
+SINGLE_ANIMATION(Pumpking);
 
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
@@ -12923,10 +13041,25 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_RELICLIFFON] = sAnims_Relicliffon,
         [SPECIES_DRACONEON] = sAnims_Draconeon,
         [SPECIES_MERAKI] = sAnims_Meraki,
+        [SPECIES_KAGECOON] = sAnims_Kagecoon,
+        [SPECIES_TANDAYU] = sAnims_Tandayu,
         [SPECIES_TENTACRUEL_MEGA] = sAnims_TentacruelMega,
         [SPECIES_FLYGON_MEGA] = sAnims_FlygonMega,
         [SPECIES_LUXRAY_MEGA] = sAnims_LuxrayMega,
+        [SPECIES_BUTTERFREE_MEGA] = sAnims_ButterfreeMega,
+        [SPECIES_FEAROW_MEGA] = sAnims_FearowMega,
+        [SPECIES_MACHAMP_MEGA] = sAnims_MachampMega,
+        [SPECIES_GOLEM_MEGA] = sAnims_GolemMega,
+        [SPECIES_NOCTOWL_MEGA] = sAnims_NoctowlMega,
+        [SPECIES_KINGDRA_MEGA] = sAnims_KingdraMega,
+        [SPECIES_CHIMECHO_MEGA] = sAnims_ChimechoMega,
+        [SPECIES_WAILORD_MEGA] = sAnims_WailordMega,
+        [SPECIES_CHESNAUGHT_MEGA] = sAnims_ChesnaughtMega,
+        [SPECIES_DELPHOX_MEGA] = sAnims_DelphoxMega,
+        [SPECIES_PALOSSAND_MEGA] = sAnims_PalossandMega,
+        [SPECIES_FALINKS_MEGA] = sAnims_FalinksMega,
         [SPECIES_ECLIMINARY] = sAnims_Ecliminary,
+        [SPECIES_PUMPKING] = sAnims_Pumpking,
         [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
         [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,
         [SPECIES_CHARIZARD_MEGA_Y] = sAnims_CHARIZARD_MEGA_Y,

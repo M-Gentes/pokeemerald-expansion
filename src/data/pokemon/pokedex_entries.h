@@ -11348,4 +11348,28 @@ const struct PokedexEntry gPokedexEntries[] =
                 .trainerScale = 256,
                 .trainerOffset = 0,
             },
+
+        [NATIONAL_DEX_KAGECOON] =
+            {
+                .categoryName = _("Tanuki"),
+                .height = 3,
+                .weight = 30,
+                .description = gKagecoonPokedexText,
+                .pokemonScale = 156,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_TANDAYU] =
+            {
+                .categoryName = _("Tanuki"),
+                .height = 3,
+                .weight = 30,
+                .description = gTandayuPokedexText,
+                .pokemonScale = 256,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
 };

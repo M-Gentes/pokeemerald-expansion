@@ -275,4 +275,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
         [SPECIES_IRONJUGULIS] = 12,
         [SPECIES_CASTSTORM] = 12,
         [SPECIES_ECLIMINARY] = 10,
+        [SPECIES_BUTTERFREE_MEGA] = 10,
+        [SPECIES_FEAROW_MEGA] = 6,
+        [SPECIES_WAILORD_MEGA] = 10,
 };

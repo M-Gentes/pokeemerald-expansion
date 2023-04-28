@@ -932,8 +932,9 @@
 #define ITEM_FLYGONITE 760
 #define ITEM_LUXRAYTITE 761
 #define ITEM_ECLIMINARINITE 762
+#define ITEM_CUSTOMITE 763
 
-#define ITEMS_COUNT ITEM_ECLIMINARINITE + 1
+#define ITEMS_COUNT ITEM_CUSTOMITE + 1
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
