@@ -448,20 +448,20 @@ static const struct TrainerMonItemCustomMoves sParty_ShellySeafloorCavern[] = {
      .moves = {MOVE_WEATHER_BALL, MOVE_HYDRO_PUMP, MOVE_HURRICANE, MOVE_THUNDER}}};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_ArchieOceanicMuseum[] = {
-    {.iv = 150,
+    {.iv = 0,
      .lvl = 18,
      .species = SPECIES_MIGHTYENA,
     },
-    {.iv = 150,
-     .lvl = 18,
+    {.iv = 50,
+     .lvl = 16,
      .species = SPECIES_CORPHISH,
     },
-    {.iv = 150,
-     .lvl = 20,
+    {.iv = 100,
+     .lvl = 18,
      .species = SPECIES_RELICANTH,
     },
-    {.iv = 150,
-     .lvl = 18,
+    {.iv = 50,
+     .lvl = 16,
      .species = SPECIES_TENTACOOL,
     }};
 
