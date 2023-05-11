@@ -5012,6 +5012,7 @@ static const u16 sGoldeenTeachableLearnset[] = {
 
 static const u16 sSeakingTeachableLearnset[] = {
     MOVE_ATTRACT,
+    MOVE_AERIAL_ACE,
     MOVE_BLIZZARD,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
