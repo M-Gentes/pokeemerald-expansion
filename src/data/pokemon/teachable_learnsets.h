@@ -30733,6 +30733,8 @@ static const u16 sRillaboomTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_PSYCHIC,
+    MOVE_ENERGY_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -30782,6 +30784,7 @@ static const u16 sRabootTeachableLearnset[] = {
 static const u16 sCinderaceTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULK_UP,
+    MOVE_BRICK_BREAK,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
@@ -30862,6 +30865,7 @@ static const u16 sInteleonTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
+    MOVE_DARK_PULSE,
     MOVE_ENDURE,
     MOVE_ICY_WIND,
     MOVE_METRONOME,

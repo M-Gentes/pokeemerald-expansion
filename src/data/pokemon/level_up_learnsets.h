@@ -8963,6 +8963,7 @@ static const struct LevelUpMove sFinneonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(10, MOVE_ATTRACT),
     LEVEL_UP_MOVE(13, MOVE_RAIN_DANCE),
     LEVEL_UP_MOVE(17, MOVE_GUST),
+    LEVEL_UP_MOVE(20, MOVE_FAIRY_WIND),
     LEVEL_UP_MOVE(22, MOVE_WATER_PULSE),
     LEVEL_UP_MOVE(26, MOVE_CAPTIVATE),
     LEVEL_UP_MOVE(29, MOVE_SAFEGUARD),
@@ -8975,7 +8976,7 @@ static const struct LevelUpMove sFinneonLevelUpLearnset[] = {
     LEVEL_UP_END};
 
 static const struct LevelUpMove sLumineonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(0, MOVE_FAIRY_WIND),
+    LEVEL_UP_MOVE(0, MOVE_DAZZLING_GLEAM),
     LEVEL_UP_MOVE(1, MOVE_SOAK),
     LEVEL_UP_MOVE(1, MOVE_GUST),
     LEVEL_UP_MOVE(1, MOVE_POUND),
@@ -16027,6 +16028,7 @@ static const struct LevelUpMove sRillaboomLevelUpLearnset[] = {
     LEVEL_UP_MOVE(0, MOVE_DRUM_BEATING),
     LEVEL_UP_MOVE(1, MOVE_DRUM_BEATING),
     LEVEL_UP_MOVE(1, MOVE_DOUBLE_HIT),
+    LEVEL_UP_MOVE(1, MOVE_ZEN_HEADBUTT),
     LEVEL_UP_MOVE(1, MOVE_GRASSY_TERRAIN),
     LEVEL_UP_MOVE(1, MOVE_NOBLE_ROAR),
     LEVEL_UP_MOVE(1, MOVE_SCRATCH),
