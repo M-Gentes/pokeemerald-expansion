@@ -133,8 +133,8 @@
 
 #define CHERRIM_SPECIES_INFO(color)                       \
     {                                                     \
-        .baseHP = 70,                                     \
-        .baseAttack = 60,                                 \
+        .baseHP = 70+10,                                  \
+        .baseAttack = 60+30,                              \
         .baseDefense = 70,                                \
         .baseSpeed = 85,                                  \
         .baseSpAttack = 87,                               \
@@ -1362,7 +1362,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_DRAGON},
-                .abilities = {ABILITY_INTIMIDATE, ABILITY_SHED_SKIN, ABILITY_UNNERVE},
+                .abilities = {ABILITY_INTIMIDATE, ABILITY_UNNERVE, ABILITY_SHED_SKIN},
                 .bodyColor = BODY_COLOR_PURPLE,
                 .noFlip = FALSE,
             },
@@ -8479,7 +8479,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 #else
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
 #endif
-                .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE, ABILITY_LEVITATE},
+                .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE, ABILITY_SAND_STREAM},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -8506,7 +8506,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 #else
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
 #endif
-                .abilities = {ABILITY_LEVITATE, ABILITY_SAND_FORCE, ABILITY_LEVITATE},
+                .abilities = {ABILITY_LEVITATE, ABILITY_SAND_FORCE, ABILITY_SAND_STREAM},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -9137,7 +9137,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_FAST,
                 .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
-                .abilities = {ABILITY_MAGIC_GUARD, ABILITY_LEVITATE},
+                .abilities = {ABILITY_MAGIC_GUARD, ABILITY_LEVITATE, ABILITY_MISTY_SURGE},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -10314,7 +10314,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_ERRATIC,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_MONSTER},
-                .abilities = {ABILITY_MOLD_BREAKER, ABILITY_NONE, ABILITY_SHEER_FORCE},
+                .abilities = {ABILITY_MOLD_BREAKER, ABILITY_ROCK_HEAD, ABILITY_SHEER_FORCE},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -10358,7 +10358,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_ERRATIC,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_MONSTER},
-                .abilities = {ABILITY_STURDY, ABILITY_NONE, ABILITY_SOUNDPROOF},
+                .abilities = {ABILITY_STURDY, ABILITY_SOLID_ROCK, ABILITY_SOUNDPROOF},
                 .bodyColor = BODY_COLOR_GRAY,
                 .noFlip = FALSE,
             },
@@ -10430,7 +10430,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
-                .abilities = {ABILITY_HONEY_GATHER, ABILITY_NONE, ABILITY_HUSTLE},
+                .abilities = {ABILITY_HONEY_GATHER, ABILITY_PICKUP, ABILITY_HUSTLE},
                 .bodyColor = BODY_COLOR_YELLOW,
                 .noFlip = FALSE,
                 .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
@@ -10455,7 +10455,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
-                .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_UNNERVE},
+                .abilities = {ABILITY_PRESSURE, ABILITY_INTIMIDATE, ABILITY_UNNERVE},
                 .bodyColor = BODY_COLOR_YELLOW,
                 .noFlip = FALSE,
             },
@@ -10772,7 +10772,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_FAST,
                 .eggGroups = {EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
-                .abilities = {ABILITY_MAGIC_GUARD, ABILITY_LEVITATE},
+                .abilities = {ABILITY_MAGIC_GUARD, ABILITY_LEVITATE, ABILITY_MISTY_SURGE},
                 .bodyColor = BODY_COLOR_YELLOW,
                 .noFlip = FALSE,
             },
@@ -10805,7 +10805,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .baseAttack = 93,
                 .baseDefense = 67,
                 .baseSpeed = 84,
-                .baseSpAttack = 71,
+                .baseSpAttack = 71+20,
                 .baseSpDefense = 61,
                 .types = {TYPE_POISON, TYPE_DARK},
                 .catchRate = 60,
@@ -25931,7 +25931,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_FAST,
                 .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
-                .abilities = {ABILITY_AERILATE, ABILITY_PIXILATE, ABILITY_MISTY_SURGE},
+                .abilities = {ABILITY_AERILATE, ABILITY_PIXILATE, ABILITY_WIND_POWER},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
