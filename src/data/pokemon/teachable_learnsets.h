@@ -897,6 +897,7 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
     MOVE_PLAY_ROUGH,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -4218,6 +4219,7 @@ static const u16 sElectrodeTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -5010,6 +5012,7 @@ static const u16 sGoldeenTeachableLearnset[] = {
 
 static const u16 sSeakingTeachableLearnset[] = {
     MOVE_ATTRACT,
+    MOVE_AERIAL_ACE,
     MOVE_BLIZZARD,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -13192,6 +13195,7 @@ static const u16 sManectricTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -13233,6 +13237,7 @@ static const u16 sPlusleTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -13274,6 +13279,7 @@ static const u16 sMinunTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -17567,6 +17573,8 @@ static const u16 sPachirisuTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
     MOVE_PLAY_ROUGH,
+    MOVE_VOLT_SWITCH,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -23778,6 +23786,7 @@ static const u16 sEmolgaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_U_TURN,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -27583,6 +27592,7 @@ static const u16 sDedenneTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
     MOVE_PLAY_ROUGH,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -29791,6 +29801,12 @@ static const u16 sTogedemaruTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_CUT,
+    MOVE_FLASH_CANNON,
+    MOVE_FLASH,
+    MOVE_VOLT_SWITCH,
+    MOVE_IRON_HEAD,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -30717,6 +30733,8 @@ static const u16 sRillaboomTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_PSYCHIC,
+    MOVE_ENERGY_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -30766,6 +30784,7 @@ static const u16 sRabootTeachableLearnset[] = {
 static const u16 sCinderaceTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULK_UP,
+    MOVE_BRICK_BREAK,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
@@ -30846,6 +30865,7 @@ static const u16 sInteleonTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
+    MOVE_DARK_PULSE,
     MOVE_ENDURE,
     MOVE_ICY_WIND,
     MOVE_METRONOME,
@@ -31191,6 +31211,7 @@ static const u16 sBoltundTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_PLAY_ROUGH,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -32061,6 +32082,8 @@ static const u16 sMorpekoTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_VOLT_SWITCH,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -33849,6 +33872,7 @@ static const u16 sElectrodeHisuianTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_ENERGY_BALL,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -36149,6 +36173,8 @@ static const u16 sPawmotTeachableLearnset[] = {
     MOVE_ICE_PUNCH,
     MOVE_THUNDER_WAVE,
     MOVE_PLAY_ROUGH,
+    MOVE_VOLT_SWITCH,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -36661,6 +36687,7 @@ static const u16 sMerakiTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_VOLT_SWITCH,
     MOVE_UNAVAILABLE,
 };
 
@@ -36700,6 +36727,7 @@ static const u16 sKagecoonTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -36745,5 +36773,7 @@ static const u16 sTandayuTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
     MOVE_TERRAIN_PULSE,
+    MOVE_IRON_HEAD,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
