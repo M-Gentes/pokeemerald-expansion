@@ -1170,6 +1170,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
         SPECIES_PAL(ROTOM_FROST, gMonPalette_RotomFrost),
         SPECIES_PAL(ROTOM_FAN, gMonPalette_RotomFan),
         SPECIES_PAL(ROTOM_MOW, gMonPalette_RotomMow),
+        SPECIES_PAL(ROTOM_SOUND, gMonPalette_RotomSound),
 
         SPECIES_PAL(DIALGA_ORIGIN, gMonPalette_DialgaOrigin),
         SPECIES_PAL(PALKIA_ORIGIN, gMonPalette_PalkiaOrigin),

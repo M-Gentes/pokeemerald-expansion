@@ -1178,6 +1178,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         [SPECIES_ROTOM_FROST] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 4},
         [SPECIES_ROTOM_FAN] = {.size = MON_COORDS_SIZE(64, 56), .y_offset = 8},
         [SPECIES_ROTOM_MOW] = {.size = MON_COORDS_SIZE(56, 64), .y_offset = 12},
+        [SPECIES_ROTOM_SOUND] = {.size = MON_COORDS_SIZE(64, 56), .y_offset = 4},
         // Origin Forme
         [SPECIES_DIALGA_ORIGIN] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 0},
         [SPECIES_PALKIA_ORIGIN] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 0},

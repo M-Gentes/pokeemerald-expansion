@@ -620,6 +620,7 @@ static const u16 sRotomFormSpeciesIdTable[] = {
     SPECIES_ROTOM_FROST,
     SPECIES_ROTOM_FAN,
     SPECIES_ROTOM_MOW,
+    SPECIES_ROTOM_SOUND,
     FORM_SPECIES_END,
 };
 

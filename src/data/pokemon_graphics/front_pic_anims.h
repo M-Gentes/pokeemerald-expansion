@@ -5834,6 +5834,16 @@ static const union AnimCmd sAnim_RotomMow_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_RotomSound_1[] =
+    {
+        ANIMCMD_FRAME(0, 15),
+        ANIMCMD_FRAME(1, 15),
+        ANIMCMD_FRAME(0, 15),
+        ANIMCMD_FRAME(1, 15),
+        ANIMCMD_FRAME(0, 15),
+        ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Uxie_1[] =
     {
         ANIMCMD_FRAME(1, 50),
@@ -11420,6 +11430,7 @@ SINGLE_ANIMATION(RotomFrost);
 SINGLE_ANIMATION(RotomFan);
 SINGLE_ANIMATION(RotomMow);
 SINGLE_ANIMATION(RotomWash);
+SINGLE_ANIMATION(RotomSound);
 SINGLE_ANIMATION(Uxie);
 SINGLE_ANIMATION(Mesprit);
 SINGLE_ANIMATION(Azelf);
@@ -13239,6 +13250,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_ROTOM_FROST] = sAnims_RotomFrost,
         [SPECIES_ROTOM_FAN] = sAnims_RotomFan,
         [SPECIES_ROTOM_MOW] = sAnims_RotomMow,
+        [SPECIES_ROTOM_SOUND] = sAnims_RotomSound,
         [SPECIES_DIALGA_ORIGIN] = sAnims_DialgaOrigin,
         [SPECIES_PALKIA_ORIGIN] = sAnims_PalkiaOrigin,
         [SPECIES_GIRATINA_ORIGIN] = sAnims_GiratinaOrigin,

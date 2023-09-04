@@ -2181,6 +2181,7 @@ gCryTable::
 	cry Cry_DelphoxMega
 	cry Cry_PalossandMega
 	cry Cry_FalinksMega
+	cry Cry_Rotom
 	cry Cry_Ecliminary
 	cry Cry_Pumpking
 
@@ -4313,6 +4314,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_DelphoxMega
 	cry_reverse Cry_PalossandMega
 	cry_reverse Cry_FalinksMega
+	cry_reverse Cry_Rotom
 	cry_reverse Cry_Ecliminary
 	cry_reverse Cry_Pumpking
 

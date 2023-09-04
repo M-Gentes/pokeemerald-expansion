@@ -2768,7 +2768,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton1[] = {
         .iv = 0,
         .lvl = 15,
         .species = SPECIES_WHISMUR,
-    }};
+    },
+    {
+        .iv = 0,
+        .lvl = 12,
+        .species = SPECIES_ROTOM_SOUND,
+    },
+};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dalton2[] = {
     {
@@ -9842,7 +9848,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcos[] = {
         .iv = 100,
         .lvl = 15,
         .species = SPECIES_VOLTORB,
-    }};
+    },
+    {
+        .iv = 100,
+        .lvl = 12,
+        .species = SPECIES_ROTOM_SOUND,
+    },
+};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Rhett[] = {
     {

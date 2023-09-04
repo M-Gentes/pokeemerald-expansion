@@ -218,6 +218,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
         [SPECIES_ROTOM_FROST] = 6,
         [SPECIES_ROTOM_FAN] = 6,
         [SPECIES_ROTOM_MOW] = 6,
+        [SPECIES_ROTOM_SOUND] = 6,
         [SPECIES_GIRATINA_ORIGIN] = 7,
         [SPECIES_THUNDURUS_THERIAN] = 7,
         [SPECIES_MELOETTA_PIROUETTE] = 5,

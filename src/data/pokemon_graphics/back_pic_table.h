@@ -1172,6 +1172,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
         SPECIES_SPRITE(ROTOM_FROST, gMonBackPic_RotomFrost),
         SPECIES_SPRITE(ROTOM_FAN, gMonBackPic_RotomFan),
         SPECIES_SPRITE(ROTOM_MOW, gMonBackPic_RotomMow),
+        SPECIES_SPRITE(ROTOM_SOUND, gMonBackPic_RotomSound),
 
         SPECIES_SPRITE(DIALGA_ORIGIN, gMonBackPic_DialgaOrigin),
         SPECIES_SPRITE(PALKIA_ORIGIN, gMonBackPic_PalkiaOrigin),

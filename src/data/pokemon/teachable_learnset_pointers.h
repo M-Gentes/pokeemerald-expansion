@@ -1117,6 +1117,7 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
         [SPECIES_ROTOM_FROST] = sRotomTeachableLearnset,
         [SPECIES_ROTOM_FAN] = sRotomTeachableLearnset,
         [SPECIES_ROTOM_MOW] = sRotomTeachableLearnset,
+        [SPECIES_ROTOM_SOUND] = sRotomTeachableLearnset,
         // Origin Forme
         [SPECIES_DIALGA_ORIGIN] = sDialgaTeachableLearnset,
         [SPECIES_PALKIA_ORIGIN] = sPalkiaTeachableLearnset,
