@@ -4209,6 +4209,7 @@ static const u16 sElectrodeTeachableLearnset[] = {
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
+    MOVE_OVERHEAT,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
     MOVE_MIMIC,
@@ -33722,6 +33723,7 @@ static const u16 sStunfiskGalarianTeachableLearnset[] = {
     MOVE_ELECTRIC_TERRAIN,
     MOVE_MISTY_TERRAIN,
     MOVE_TERRAIN_PULSE,
+    MOVE_FLASH_CANNON,
     MOVE_UNAVAILABLE,
 };
 #endif

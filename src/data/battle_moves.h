@@ -2338,7 +2338,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     {
         .effect = EFFECT_MULTI_HIT,
         .power = 20,
-        .type = TYPE_NORMAL,
+        .type = TYPE_STEEL,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
@@ -8725,16 +8725,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_SYNCHRONOISE] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 120,
+            .power = 140,
             .pp = 10,
-            .zMovePower = 190,
+            .zMovePower = 200,
         #else
             .power = 70,
             .pp = 15,
             .zMovePower = 140,
         #endif
         .effect = EFFECT_SYNCHRONOISE,
-        .type = TYPE_PSYCHIC,
+        .type = TYPE_DARK,
         .accuracy = 100,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_FOES_AND_ALLY,
