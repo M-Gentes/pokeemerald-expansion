@@ -9647,6 +9647,7 @@ static const struct LevelUpMove sRotomMowLevelUpLearnset[] = {
 
 static const struct LevelUpMove sRotomSoundLevelUpLearnset[] = {
     LEVEL_UP_MOVE(0, MOVE_BOOMBURST),
+    LEVEL_UP_MOVE(0, MOVE_OVERDRIVE),
     LEVEL_UP_MOVE(1, MOVE_DISCHARGE),
     LEVEL_UP_MOVE(1, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(1, MOVE_OVERHEAT),
