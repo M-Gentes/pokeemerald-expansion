@@ -231,8 +231,13 @@ Route128_EventScript_Ruben::
 	end
 
 Route128_EventScript_Wayne::
-	trainerbattle_single TRAINER_WAYNE, Route128_Text_WayneIntro, Route128_Text_WayneDefeat
+	trainerbattle_single TRAINER_WAYNE, Route128_Text_WayneIntro, Route128_Text_WayneDefeat, Route128_EventScript_GetCustomite
 	msgbox Route128_Text_WaynePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route128_EventScript_GetCustomite::
+	giveitem ITEM_CUSTOMITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	end
 
 Route128_EventScript_Harrison::
