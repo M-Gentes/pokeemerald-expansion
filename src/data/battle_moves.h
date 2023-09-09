@@ -81,7 +81,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_MEGA_PUNCH] =
     {
         .effect = EFFECT_HIT,
-        .power = 80,
+        .power = 120,
         .type = TYPE_NORMAL,
         .accuracy = 85,
         .pp = 20,
@@ -213,7 +213,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         #else
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
-        .effect = EFFECT_TWO_TURNS_ATTACK,
+        .effect = EFFECT_METEOR_BEAM,
         .power = 140,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -434,8 +434,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_MEGA_KICK] =
     {
-        .effect = EFFECT_HIT,
-        .power = 120,
+        .effect = EFFECT_RECOIL_33,
+        .power = 150,
         .type = TYPE_NORMAL,
         .accuracy = 75,
         .pp = 5,
