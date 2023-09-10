@@ -2852,11 +2852,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_DEWGONG] =
             {
-                .baseHP = 90,
+                .baseHP = 90+10,
                 .baseAttack = 70,
                 .baseDefense = 80,
-                .baseSpeed = 70,
-                .baseSpAttack = 70,
+                .baseSpeed = 70+25,
+                .baseSpAttack = 70+20,
                 .baseSpDefense = 95,
                 .types = {TYPE_WATER, TYPE_ICE},
                 .catchRate = 75,
@@ -16226,7 +16226,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_KEEN_EYE, ABILITY_INFILTRATOR, ABILITY_PRANKSTER},
+                .abilities = {ABILITY_MAGIC_GUARD, ABILITY_INFILTRATOR, ABILITY_PRANKSTER},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -24157,7 +24157,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_KEEN_EYE, ABILITY_INFILTRATOR, ABILITY_COMPETITIVE},
+                .abilities = {ABILITY_SERENE_GRACE, ABILITY_INFILTRATOR, ABILITY_COMPETITIVE},
                 .bodyColor = BODY_COLOR_WHITE,
                 .noFlip = FALSE,
             },
