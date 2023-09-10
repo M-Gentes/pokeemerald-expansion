@@ -603,7 +603,7 @@ Route110_TrickHousePuzzle8_EventScript_ItemBeadMail::
 	end
 
 VictoryRoad_1F_EventScript_ItemMaxElixir::
-	finditem ITEM_MAX_ELIXIR
+	finditem ITEM_PP_MAX
 	end
 
 VictoryRoad_1F_EventScript_ItemPPUp::
