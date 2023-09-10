@@ -27,6 +27,10 @@ PacifidlogTown_EventScript_TownSign::
 	msgbox PacifidlogTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+PacifidlogTown_EventScript_BattleHouse::
+	msgbox PacifidlogTown_Text_BattleHouse, MSGBOX_SIGN
+	end
+
 PacifidlogTown_Text_FastRunningCurrent:
 	.string "The sea between PACIFIDLOG and\n"
 	.string "SLATEPORT has a fast-running tide.\p"
@@ -52,3 +56,10 @@ PacifidlogTown_Text_TownSign:
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
 
+PacifidlogTown_Text_BattleHouse:
+	.string "Trainer Battle House\p"
+	.string "Battle against an unknown League!\p"
+	.string "Water, Flying, Psychic, Ground,\n"
+	.string "Ice, Rock, Steel, Dark.\p"
+	.string "A double-type Elite Four and\n"
+	.string "a mysterious Champ!$"
