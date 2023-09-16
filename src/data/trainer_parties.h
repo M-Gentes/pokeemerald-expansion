@@ -1351,11 +1351,20 @@ static const struct TrainerMonItemCustomMoves sParty_Jody[] = {
      .species = SPECIES_FEAROW,
      .heldItem = ITEM_LIFE_ORB,
      .moves = {MOVE_DRILL_PECK, MOVE_DOUBLE_EDGE, MOVE_NONE, MOVE_NONE}},
-    {.iv = 255,
-     .lvl = 23,
-     .species = SPECIES_DIGGERSBY,
-     .heldItem = ITEM_EXPERT_BELT,
-     .moves = {MOVE_AERIAL_ACE, MOVE_BULLDOZE, MOVE_STRENGTH, MOVE_NONE}},
+    {
+    .iv = 255,
+    .lvl = 23,
+    .species = SPECIES_DIGGERSBY,
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_AERIAL_ACE, MOVE_BULLDOZE, MOVE_STRENGTH, MOVE_NONE},
+    },
+    {
+    .iv = 255,
+    .lvl = 23,
+    .species = SPECIES_KOMALA,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_SLEEP_TALK, MOVE_LAST_RESORT, MOVE_NONE, MOVE_NONE},
+    },
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wendy[] = {
