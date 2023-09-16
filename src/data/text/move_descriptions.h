@@ -697,8 +697,8 @@ static const u8 sFlameWheelDescription[] = _(
     "may inflict a burn.");
 
 static const u8 sSnoreDescription[] = _(
-    "A loud attack that can be\n"
-    "used only while asleep.");
+    "A loud attack during sleep.\n"
+    "Can strike first.");
 
 static const u8 sCurseDescription[] = _(
     "A move that functions\n"
