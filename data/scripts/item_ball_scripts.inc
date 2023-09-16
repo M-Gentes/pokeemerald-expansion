@@ -419,11 +419,11 @@ NewMauville_Inside_EventScript_ItemParalyzeHeal::
 	end
 
 AbandonedShip_Rooms_1F_EventScript_ItemHarborMail::
-	finditem ITEM_WATER_STONE
+	finditem ITEM_PP_MAX
 	end
 
 AbandonedShip_Rooms_B1F_EventScript_ItemEscapeRope::
-	finditem ITEM_ESCAPE_ROPE
+	finditem ITEM_CRACKED_POT
 	end
 
 AbandonedShip_Rooms2_B1F_EventScript_ItemDiveBall::
@@ -443,7 +443,7 @@ AbandonedShip_CaptainsOffice_EventScript_ItemStorageKey::
 	end
 
 AbandonedShip_HiddenFloorRooms_EventScript_ItemLuxuryBall::
-	finditem ITEM_LUXURY_BALL
+	finditem ITEM_CHIPPED_POT
 	end
 
 AbandonedShip_HiddenFloorRooms_EventScript_ItemScanner::
@@ -655,5 +655,5 @@ MagmaHideout_4F_EventScript_ItemMaxRevive::
 	end
 
 MagmaHideout_3F_3R_EventScript_ItemEscapeRope::
-	finditem ITEM_ESCAPE_ROPE
+	finditem ITEM_FLAME_ORB
 	end
