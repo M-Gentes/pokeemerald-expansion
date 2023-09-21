@@ -7906,7 +7906,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = NO_ITEM_CUSTOM_MOVES(sParty_WallyVR2),
+            .party = ITEM_CUSTOM_MOVES(sParty_WallyVR2),
         },
 
     [TRAINER_WALLY_VR_3] =
