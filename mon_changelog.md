@@ -178,10 +178,10 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Swablu|Normal, Flying|+Pixilate, Natural Cure, Cloud Nine|||||||
 |Altaria|Dragon, Flying|+Pixilate, Natural Cure, Cloud Nine|75|70 + 10|90|70 + 10|105|80|
 |Zangoose|Normal, Fighting|Immunity, +Sniper, Toxic Boost|73 + 10|115|60 + 10|60|60 + 10|90|
-|Seviper|Gift, Dark|Shed Skin, +Strong Jaw, Infiltrator|73 + 10|110|60|100|60|65 + 20|
-|Lunatone|Gestein, Psycho|Levitate, None, +Psychic Surge|90|55|65|95 + 10|85 + 10|70|
-|Solrock|Gestein, Psycho|Levitate, None, +Psychic Surge|90|95 + 10|85 + 10|55|65|70|
-|Whiscash|Gestein, Psycho|Simple, Oblivious, Hydration|110|78 + 10|73|76 + 10|71|60|
+|Seviper|Poison, Dark|Shed Skin, +Strong Jaw, Infiltrator|73 + 10|110|60|100|60|65 + 20|
+|Lunatone|Rock, Psycho|Levitate, None, +Psychic Surge|90|55|65|95 + 10|85 + 10|70|
+|Solrock|Rock, Psycho|Levitate, None, +Psychic Surge|90|95 + 10|85 + 10|55|65|70|
+|Whiscash|Water, Ground|Simple, Oblivious, Hydration|110|78 + 10|73|76 + 10|71|60|
 |Anorith|Rock, Bug|+Tinted Lens, Battle Armor, Swift Swim|||||||
 |Armaldo|Rock, Bug|+Tinted Lens, Battle Armor, Swift Swim|||||||
 |Kecleon|Normal|Color Change, Protean, Mimicry|60 + 50|90|70|60 + 30|120|40|
@@ -212,7 +212,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Glaceon|Ice|+Refrigerate, +Slush Rush, Ice Body|||||||
 |Gallade|Psychic, Fighting|+Justified, +Sharpness, Steadfast|||||||
 |Probopass|Rock, Steel|Sturdy, Sand Force, Magnet Pull|60 + 15|55 + 25|145|75 + 5|150|40|
-|Dusknoir|Ghost|+Iron Fist, None, Frisk|||||||
+|Dusknoir|Ghost, +Dark|+Iron Fist, None, Frisk|||||||
 |Froslass|Ice, Ghost|+Sheer Force, Snow Cloak, Cursed Body|||||||
 |Watchog|Normal|+Download, Keen Eye, Analytic|||||||
 |Musharna|Psychic|+Psychic Surge, Synchronize, Telepathy|||||||
