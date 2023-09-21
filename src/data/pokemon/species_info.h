@@ -746,14 +746,14 @@
         .noFlip = FALSE,                                                      \
     }
 
-#define POLTEAGEIST_SPECIES_INFO                                              \
+#define POLTEAGEIST_SPECIES_INFO(unique_buff)                                 \
     {                                                                         \
-        .baseHP = 60,                                                         \
-        .baseAttack = 65,                                                     \
-        .baseDefense = 65,                                                    \
-        .baseSpeed = 70,                                                      \
-        .baseSpAttack = 134,                                                  \
-        .baseSpDefense = 114,                                                 \
+        .baseHP = 60 + unique_buff,                                           \
+        .baseAttack = 65 + unique_buff,                                       \
+        .baseDefense = 65 + unique_buff,                                      \
+        .baseSpeed = 70 + unique_buff,                                        \
+        .baseSpAttack = 134 + unique_buff,                                    \
+        .baseSpDefense = 114 + unique_buff,                                   \
         .types = {TYPE_GHOST, TYPE_GHOST},                                    \
         .catchRate = 60,                                                      \
         .expYield = 178,                                                      \
@@ -1914,7 +1914,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_PARASECT] =
             {
-                .baseHP = 60,
+                .baseHP = 60+40,
                 .baseAttack = 95,
                 .baseDefense = 80,
                 .baseSpeed = 30,
@@ -1932,7 +1932,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_GRASS},
-                .abilities = {ABILITY_EFFECT_SPORE, ABILITY_DRY_SKIN, ABILITY_DAMP},
+                .abilities = {ABILITY_EFFECT_SPORE, ABILITY_DRY_SKIN, ABILITY_BEAST_BOOST},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
             },
@@ -1963,9 +1963,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
             {
                 .baseHP = 70,
                 .baseAttack = 65,
-                .baseDefense = 60,
+                .baseDefense = 60+20,
                 .baseSpeed = 90,
-                .baseSpAttack = 90,
+                .baseSpAttack = 90+10,
                 .baseSpDefense = 75,
                 .types = {TYPE_BUG, TYPE_POISON},
                 .catchRate = 75,
@@ -2852,11 +2852,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_DEWGONG] =
             {
-                .baseHP = 90+10,
+                .baseHP = 90 + 10,
                 .baseAttack = 70,
                 .baseDefense = 80,
-                .baseSpeed = 70+25,
-                .baseSpAttack = 70+20,
+                .baseSpeed = 70 + 25,
+                .baseSpAttack = 70 + 20,
                 .baseSpDefense = 95,
                 .types = {TYPE_WATER, TYPE_ICE},
                 .catchRate = 75,
@@ -6398,11 +6398,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_BLISSEY] =
             {
                 .baseHP = 255,
-                .baseAttack = 10-5,
+                .baseAttack = 10 - 5,
                 .baseDefense = 10,
-                .baseSpeed = 55-15,
-                .baseSpAttack = 75+25,
-                .baseSpDefense = 135-5,
+                .baseSpeed = 55 - 15,
+                .baseSpAttack = 75 + 25,
+                .baseSpDefense = 135 - 5,
                 .types = {TYPE_NORMAL, TYPE_NORMAL},
                 .catchRate = 30,
                 .expYield = 608,
@@ -7805,7 +7805,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .baseAttack = 65 + 25,
                 .baseDefense = 65,
                 .baseSpAttack = 55,
-                .baseSpDefense = 55,
+                .baseSpDefense = 55+35,
 #if P_UPDATED_STATS >= GEN_7
                 .baseSpeed = 90,
 #else
@@ -10736,11 +10736,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_PURUGLY] =
             {
-                .baseHP = 71+20,
+                .baseHP = 71 + 20,
                 .baseAttack = 82,
-                .baseDefense = 64+10,
+                .baseDefense = 64 + 10,
                 .baseSpeed = 112,
-                .baseSpAttack = 64-20,
+                .baseSpAttack = 64 - 20,
                 .baseSpDefense = 59,
                 .types = {TYPE_NORMAL, TYPE_NORMAL},
                 .catchRate = 75,
@@ -10807,7 +10807,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .baseAttack = 93,
                 .baseDefense = 67,
                 .baseSpeed = 84,
-                .baseSpAttack = 71+20,
+                .baseSpAttack = 71 + 20,
                 .baseSpDefense = 61,
                 .types = {TYPE_POISON, TYPE_DARK},
                 .catchRate = 60,
@@ -10944,10 +10944,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_CHATOT] =
             {
                 .baseHP = 76,
-                .baseAttack = 65-10,
+                .baseAttack = 65 - 10,
                 .baseDefense = 45,
                 .baseSpeed = 91,
-                .baseSpAttack = 92+10,
+                .baseSpAttack = 92 + 10,
                 .baseSpDefense = 42,
                 .types = {TYPE_NORMAL, TYPE_FLYING},
                 .catchRate = 30,
@@ -11262,7 +11262,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_CARNIVINE] =
             {
-                .baseHP = 74+20,
+                .baseHP = 74 + 20,
                 .baseAttack = 100,
                 .baseDefense = 72,
                 .baseSpeed = 46,
@@ -11773,7 +11773,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .baseSpeed = 45,
                 .baseSpAttack = 65,
                 .baseSpDefense = 135,
-                .types = {TYPE_GHOST, TYPE_GHOST},
+                .types = {TYPE_GHOST, TYPE_DARK},
                 .catchRate = 45,
                 .expYield = 236,
                 .evYield_Defense = 1,
@@ -12561,7 +12561,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_GLUTTONY, ABILITY_NONE, ABILITY_OVERGROW},
+                .abilities = {ABILITY_GLUTTONY, ABILITY_ADAPTABILITY, ABILITY_OVERGROW},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -12583,7 +12583,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_GLUTTONY, ABILITY_NONE, ABILITY_OVERGROW},
+                .abilities = {ABILITY_GRASSY_SURGE, ABILITY_ADAPTABILITY, ABILITY_OVERGROW},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
@@ -12605,7 +12605,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_GLUTTONY, ABILITY_NONE, ABILITY_BLAZE},
+                .abilities = {ABILITY_GLUTTONY, ABILITY_ADAPTABILITY, ABILITY_BLAZE},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = TRUE,
             },
@@ -12627,7 +12627,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_GLUTTONY, ABILITY_NONE, ABILITY_BLAZE},
+                .abilities = {ABILITY_DROUGHT, ABILITY_ADAPTABILITY, ABILITY_BLAZE},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = TRUE,
             },
@@ -12649,7 +12649,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_GLUTTONY, ABILITY_NONE, ABILITY_TORRENT},
+                .abilities = {ABILITY_GLUTTONY, ABILITY_ADAPTABILITY, ABILITY_TORRENT},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -12671,7 +12671,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_GLUTTONY, ABILITY_NONE, ABILITY_TORRENT},
+                .abilities = {ABILITY_DRIZZLE, ABILITY_ADAPTABILITY, ABILITY_TORRENT},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
@@ -16120,10 +16120,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_GOGOAT] =
             {
                 .baseHP = 123,
-                .baseAttack = 100+10,
+                .baseAttack = 100 + 10,
                 .baseDefense = 62,
-                .baseSpeed = 68+10,
-                .baseSpAttack = 97-20,
+                .baseSpeed = 68 + 10,
+                .baseSpAttack = 97 - 20,
                 .baseSpDefense = 81,
                 .types = {TYPE_GRASS, TYPE_ROCK},
                 .catchRate = 45,
@@ -19975,7 +19975,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_SINISTEA] = SINISTEA_SPECIES_INFO,
 
-        [SPECIES_POLTEAGEIST] = POLTEAGEIST_SPECIES_INFO,
+        [SPECIES_POLTEAGEIST] = POLTEAGEIST_SPECIES_INFO(0),
 
         [SPECIES_HATENNA] =
             {
@@ -24503,7 +24503,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_SINISTEA_ANTIQUE] = SINISTEA_SPECIES_INFO,
 
-        [SPECIES_POLTEAGEIST_ANTIQUE] = POLTEAGEIST_SPECIES_INFO,
+        [SPECIES_POLTEAGEIST_ANTIQUE] = POLTEAGEIST_SPECIES_INFO(20),
 
         [SPECIES_ALCREMIE_RUBY_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_PINK),
         [SPECIES_ALCREMIE_MATCHA_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_GREEN),
@@ -25730,6 +25730,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_HUGE_POWER},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
         [SPECIES_FLYGON_MEGA] =
@@ -25753,6 +25754,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_SHEER_FORCE},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
         [SPECIES_LUXRAY_MEGA] =
@@ -25775,9 +25777,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_STRONG_JAW},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_BUTTERFREE_MEGA] =
+        [SPECIES_BUTTERFREE_MEGA] =
             {
                 .baseHP = 60,
                 .baseAttack = 45,
@@ -25799,9 +25802,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_PSYCHIC_SURGE},
                 .bodyColor = BODY_COLOR_WHITE,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_FEAROW_MEGA] =
+        [SPECIES_FEAROW_MEGA] =
             {
                 .baseHP = 65,
                 .baseAttack = 90 + 30,
@@ -25822,9 +25826,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_MOXIE},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_MACHAMP_MEGA] =
+        [SPECIES_MACHAMP_MEGA] =
             {
                 .baseHP = 90 + 90,
                 .baseAttack = 130 + 10,
@@ -25845,9 +25850,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_GUTS, ABILITY_SNIPER, ABILITY_SUPER_LUCK},
                 .bodyColor = BODY_COLOR_GRAY,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_GOLEM_MEGA] =
+        [SPECIES_GOLEM_MEGA] =
             {
                 .baseHP = 80 + 20,
                 .baseAttack = 120 + 20,
@@ -25868,6 +25874,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_DRAGONS_MAW},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
         [SPECIES_NOCTOWL_MEGA] =
@@ -25890,6 +25897,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_DARK_AURA, ABILITY_DARK_AURA, ABILITY_INTIMIDATE},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
         [SPECIES_KINGDRA_MEGA] =
@@ -25914,9 +25922,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_SWIFT_SWIM, ABILITY_GRIM_NEIGH, ABILITY_CHILLING_NEIGH},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_CHIMECHO_MEGA] =
+        [SPECIES_CHIMECHO_MEGA] =
             {
                 .baseHP = 75 + 50,
                 .baseAttack = 50,
@@ -25937,9 +25946,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_WIND_POWER, ABILITY_AERILATE, ABILITY_PIXILATE},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_WAILORD_MEGA] =
+        [SPECIES_WAILORD_MEGA] =
             {
                 .baseHP = 170 + 85,
                 .baseAttack = 90,
@@ -25959,9 +25969,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_AERILATE},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_CHESNAUGHT_MEGA] =
+        [SPECIES_CHESNAUGHT_MEGA] =
             {
                 .baseHP = 88 + 20,
                 .baseAttack = 107 + 30,
@@ -25981,9 +25992,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_IRON_BARBS},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_DELPHOX_MEGA] =
+        [SPECIES_DELPHOX_MEGA] =
             {
                 .baseHP = 75 + 20,
                 .baseAttack = 69,
@@ -26003,9 +26015,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_SOUL_HEART},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_PALOSSAND_MEGA] =
+        [SPECIES_PALOSSAND_MEGA] =
             {
                 .baseHP = 85 + 30,
                 .baseAttack = 75,
@@ -26026,9 +26039,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_STAMINA},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
-            [SPECIES_FALINKS_MEGA] =
+        [SPECIES_FALINKS_MEGA] =
             {
                 .baseHP = 65 + 30,
                 .baseAttack = 100,
@@ -26049,6 +26063,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_SKILL_LINK},
                 .bodyColor = BODY_COLOR_YELLOW,
                 .noFlip = FALSE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
         [SPECIES_ECLIMINARY] =
@@ -26074,7 +26089,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
-            [SPECIES_PUMPKING] =
+        [SPECIES_PUMPKING] =
             {
                 .baseHP = 85,
                 .baseAttack = 110 + 10,
