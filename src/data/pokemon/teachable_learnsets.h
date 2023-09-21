@@ -27631,6 +27631,7 @@ static const u16 sCarbinkTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_MISTY_TERRAIN,
     MOVE_TERRAIN_PULSE,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
