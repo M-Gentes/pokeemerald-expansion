@@ -5215,7 +5215,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_SLOW,
                 .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_GRASS},
-                .abilities = {ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD, ABILITY_INFILTRATOR},
+                .abilities = {ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD, ABILITY_COTTON_DOWN},
                 .bodyColor = BODY_COLOR_BLUE,
                 .noFlip = FALSE,
             },
