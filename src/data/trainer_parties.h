@@ -169,12 +169,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ed[] = {
         .species = SPECIES_SEVIPER,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern4[] = {
-    {
-        .iv = 0,
-        .lvl = 36,
-        .species = SPECIES_TENTACRUEL,
-    }};
+static const struct TrainerMonNoItemCustomMoves sParty_GruntSeafloorCavern4[] = {
+    {.iv = 0,
+     .lvl = 36,
+     .species = SPECIES_TENTACRUEL,
+     .moves = {MOVE_POISON_JAB, MOVE_BRINE, MOVE_CIRCLE_THROW, MOVE_TOXIC_SPIKES}},
+    {.iv = 0,
+     .lvl = 36,
+     .species = SPECIES_WHISCASH,
+     .moves = {MOVE_EARTHQUAKE, MOVE_AQUA_TAIL, MOVE_ZEN_HEADBUTT, MOVE_DRAGON_DANCE}
+    },
+};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
     {
@@ -7841,21 +7846,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Julio[] = {
         .species = SPECIES_MAGNEMITE,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern5[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_GruntSeafloorCavern5[] = {
     {
         .iv = 50,
         .lvl = 35,
         .species = SPECIES_MIGHTYENA,
+        .moves = {MOVE_BITE, MOVE_ICE_FANG, MOVE_SHADOW_CLAW, MOVE_SCARY_FACE},
     },
     {
         .iv = 50,
         .lvl = 38,
         .species = SPECIES_CROBAT,
+        .moves = {MOVE_POISON_FANG, MOVE_LEECH_LIFE, MOVE_AIR_CUTTER, MOVE_SCREECH},
     },
     {
         .iv = 50,
         .lvl = 40,
         .species = SPECIES_ABOMASNOW,
+        .moves = {MOVE_ICY_WIND, MOVE_RAZOR_LEAF, MOVE_AURORA_VEIL, MOVE_WOOD_HAMMER},
     },
 };
 

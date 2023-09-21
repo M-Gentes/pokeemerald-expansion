@@ -178,7 +178,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSeafloorCavern4),
+            .party = NO_ITEM_CUSTOM_MOVES(sParty_GruntSeafloorCavern4),
         },
 
     [TRAINER_DECLAN] =
@@ -6826,7 +6826,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSeafloorCavern5),
+            .party = NO_ITEM_CUSTOM_MOVES(sParty_GruntSeafloorCavern5),
         },
 
     [TRAINER_GRUNT_UNUSED] =
