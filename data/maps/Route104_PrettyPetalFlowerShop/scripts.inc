@@ -53,6 +53,10 @@ Route104_PrettyPetalFlowerShop_EventScript_SellDecorations::
 
 	.align 2
 Route104_PrettyPetalFlowerShop_Pokemart_Plants:
+	.2byte ITEM_YELLOW_NECTAR
+	.2byte ITEM_RED_NECTAR
+	.2byte ITEM_PINK_NECTAR
+	.2byte ITEM_PURPLE_NECTAR
 	.2byte ITEM_POWER_HERB
 	.2byte ITEM_MENTAL_HERB
 	.2byte ITEM_WHITE_HERB
