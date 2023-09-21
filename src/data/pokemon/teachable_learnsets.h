@@ -15122,6 +15122,9 @@ static const u16 sBanetteTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SWORDS_DANCE,
+    MOVE_BULK_UP,
+    MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_UNAVAILABLE,
 };
