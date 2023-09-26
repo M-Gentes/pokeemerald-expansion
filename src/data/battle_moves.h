@@ -363,12 +363,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_SLAM] =
     {
         .effect = EFFECT_HIT,
-        .power = 80,
+        .power = 120,
         .type = TYPE_NORMAL,
         .accuracy = 75,
         .pp = 20,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
+        .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
@@ -727,7 +727,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_TWINEEDLE] =
     {
         .effect = EFFECT_POISON_HIT,
-        .power = 25,
+        .power = 35,
         .type = TYPE_BUG,
         .accuracy = 100,
         .pp = 20,
