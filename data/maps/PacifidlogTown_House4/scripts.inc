@@ -180,8 +180,48 @@ PacifidlogTown_House4_Text_EliseIntro:
 	.string "Give me a flashing fight for my next book!$"
 
 PacifidlogTown_House4_EventScript_Epikrates::
-	trainerbattle_single TRAINER_AUSTINA, PacifidlogTown_House4_Text_EpikratesIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated
+	trainerbattle_single TRAINER_AUSTINA, PacifidlogTown_House4_Text_EpikratesIntro, PacifidlogTown_House4_Text_CustomTrainersDefeated, PacifidlogTown_House4_EventScript_GetKagecoon
 	msgbox PacifidlogTown_House4_Text_CustomTrainersPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PacifidlogTown_House4_EventScript_GetKagecoon::
+	givemon SPECIES_KAGECOON, 25, ITEM_POKE_DOLL
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty::
+	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	end
+
+Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC::
+	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
+	end
+
+Route119_WeatherInstitute_2F_EventScript_SendCastformToPC::
+	call Common_EventScript_TransferredToPC
+	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	end
+
+Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare::
+	playfanfare MUS_OBTAIN_ITEM
+	message Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_CASTFORM
+	return
+
+Route119_WeatherInstitute_2F_EventScript_ExplainCastform::
 	end
 
 PacifidlogTown_House4_Text_EpikratesIntro:
