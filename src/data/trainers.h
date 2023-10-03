@@ -7954,7 +7954,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_BrendanLilycoveMudkip),
+            .party = ITEM_CUSTOM_MOVES(sParty_BrendanLilycoveMudkip),
         },
 
     [TRAINER_BRENDAN_LILYCOVE_TREECKO] =
@@ -7966,7 +7966,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_BrendanLilycoveTreecko),
+            .party = ITEM_CUSTOM_MOVES(sParty_BrendanLilycoveTreecko),
         },
 
     [TRAINER_BRENDAN_LILYCOVE_TORCHIC] =
@@ -7990,7 +7990,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_MayLilycoveMudkip),
+            .party = ITEM_CUSTOM_MOVES(sParty_MayLilycoveMudkip),
         },
 
     [TRAINER_MAY_LILYCOVE_TREECKO] =
@@ -8002,7 +8002,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_MayLilycoveTreecko),
+            .party = ITEM_CUSTOM_MOVES(sParty_MayLilycoveTreecko),
         },
 
     [TRAINER_MAY_LILYCOVE_TORCHIC] =
