@@ -224,6 +224,9 @@ PacifidlogTown_House4_EventScript_ReceivedKagecoonFanfare::
 PacifidlogTown_House4_EventScript_ExplainKagecoon::
 	end
 
+PacifidlogTown_House4_Text_PlayerReceivedKagecoon:
+	.string "{PLAYER} received KAGECOON!$"
+
 PacifidlogTown_House4_Text_EpikratesIntro:
 	.string "So you want to fight me...\n"
 	.string "I am the Champ of another region...\n"
