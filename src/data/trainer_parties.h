@@ -9177,7 +9177,8 @@ static const struct TrainerMonItemCustomMoves sParty_BrendanLilycoveMudkip[] = {
     {.iv = 200,
      .lvl = 34,
      .species = SPECIES_DELIBIRD,
-     .moves = {MOVE_ICICLE_SPEAR, MOVE_AERIAL_ACE, MOVE_ICE_SHARD, MOVE_RAPID_SPIN}};
+     .moves = {MOVE_ICICLE_SPEAR, MOVE_AERIAL_ACE, MOVE_ICE_SHARD, MOVE_RAPID_SPIN}}
+};
 
 static const struct TrainerMonItemCustomMoves sParty_BrendanLilycoveTreecko[] = {
     {.iv = 150,
