@@ -2009,7 +2009,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_DUGTRIO] =
             {
                 .baseHP = 35,
-                .baseDefense = 50,
+                .baseDefense = 50+25,
                 .baseSpeed = 120,
                 .baseSpAttack = 50,
                 .baseSpDefense = 70,
@@ -2028,7 +2028,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_SAND_VEIL, ABILITY_ARENA_TRAP, ABILITY_SAND_FORCE},
+                .abilities = {ABILITY_PARENTAL_BOND, ABILITY_ARENA_TRAP, ABILITY_SAND_FORCE},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
             },
@@ -22411,7 +22411,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             {
                 .baseHP = 35,
                 .baseAttack = 100,
-                .baseDefense = 60,
+                .baseDefense = 60+30,
                 .baseSpeed = 110,
                 .baseSpAttack = 50,
                 .baseSpDefense = 70,
@@ -22425,7 +22425,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-                .abilities = {ABILITY_SAND_VEIL, ABILITY_TANGLING_HAIR, ABILITY_SAND_FORCE},
+                .abilities = {ABILITY_PARENTAL_BOND, ABILITY_TANGLING_HAIR, ABILITY_SAND_FORCE},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = TRUE,
                 .flags = SPECIES_FLAG_ALOLAN_FORM,
