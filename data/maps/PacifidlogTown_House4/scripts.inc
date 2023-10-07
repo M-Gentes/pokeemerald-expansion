@@ -186,43 +186,46 @@ PacifidlogTown_House4_EventScript_Epikrates::
 
 PacifidlogTown_House4_EventScript_GetKagecoon::
 	givemon SPECIES_KAGECOON, 25, ITEM_POKE_DOLL
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, PacifidlogTown_House4_EventScript_ReceiveKagecoonParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, PacifidlogTown_House4_EventScript_ReceiveKagecoonPC
 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
-Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty::
-	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
+PacifidlogTown_House4_EventScript_ReceiveKagecoonParty::
+	call PacifidlogTown_House4_EventScript_ReceivedKagecoonFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	goto_if_eq VAR_RESULT, NO, PacifidlogTown_House4_EventScript_ExplainKagecoon
 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
-	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	goto PacifidlogTown_House4_EventScript_ExplainKagecoon
 	end
 
-Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC::
-	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
+PacifidlogTown_House4_EventScript_ReceiveKagecoonPC::
+	call PacifidlogTown_House4_EventScript_ReceivedKagecoonFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
+	goto_if_eq VAR_RESULT, NO, PacifidlogTown_House4_EventScript_SendKagecoonToPC
 	call Common_EventScript_NameReceivedBoxMon
-	goto Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
+	goto PacifidlogTown_House4_EventScript_SendKagecoonToPC
 	end
 
-Route119_WeatherInstitute_2F_EventScript_SendCastformToPC::
+PacifidlogTown_House4_EventScript_SendKagecoonToPC::
 	call Common_EventScript_TransferredToPC
-	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	goto PacifidlogTown_House4_EventScript_ExplainKagecoon
 	end
 
-Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare::
+PacifidlogTown_House4_EventScript_ReceivedKagecoonFanfare::
 	playfanfare MUS_OBTAIN_ITEM
-	message Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform
+	message PacifidlogTown_House4_Text_PlayerReceivedKagecoon
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_CASTFORM
+	bufferspeciesname STR_VAR_1, SPECIES_KAGECOON
 	return
 
-Route119_WeatherInstitute_2F_EventScript_ExplainCastform::
+PacifidlogTown_House4_EventScript_ExplainKagecoon::
 	end
+
+PacifidlogTown_House4_Text_PlayerReceivedKagecoon:
+	.string "{PLAYER} received KAGECOON!$"
 
 PacifidlogTown_House4_Text_EpikratesIntro:
 	.string "So you want to fight me...\n"
