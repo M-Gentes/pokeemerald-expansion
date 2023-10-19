@@ -3207,6 +3207,7 @@ static const u16 sGolemTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_ROCK_SLIDE,
     MOVE_STONE_EDGE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -31965,6 +31966,7 @@ static const u16 sPincurchinTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_THUNDER_WAVE,
+    MOVE_TERRAIN_PULSE,
     MOVE_UNAVAILABLE,
 };
 
