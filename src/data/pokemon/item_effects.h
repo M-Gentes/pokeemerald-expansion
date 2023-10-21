@@ -655,6 +655,8 @@ const u8 *const gItemEffectTable[] =
             ITEM_POTION] = gItemEffect_EvoItem,
         [ITEM_PRISM_SCALE -
             ITEM_POTION] = gItemEffect_EvoItem,
+        [ITEM_DRAGON_SCALE -
+            ITEM_POTION] = gItemEffect_EvoItem,
         [ITEM_POKE_DOLL -
             ITEM_POTION] = gItemEffect_EvoItem,
         [ITEM_CASTSTORMITE -
