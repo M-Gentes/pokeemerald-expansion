@@ -2818,7 +2818,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Preston),
+            .party = ITEM_CUSTOM_MOVES(sParty_Preston),
         },
 
     [TRAINER_VIRGIL] =
@@ -2974,7 +2974,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Maura),
+            .party = ITEM_CUSTOM_MOVES(sParty_Maura),
         },
 
     [TRAINER_KAYLA] =
