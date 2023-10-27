@@ -767,6 +767,7 @@ struct
     u8 fixedIV;
     u8 level;
     u8 nature;
+    u8 heldItem;
     u8 evs[NUM_STATS];
     u16 moves[MAX_MON_MOVES];
 } static const sStevenMons[MULTI_PARTY_SIZE] =
@@ -777,7 +778,8 @@ struct
         .level = 42,
         .nature = NATURE_BRAVE,
         .evs = {0, 252, 252, 0, 6, 0},
-        .moves = {MOVE_LIGHT_SCREEN, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_METAL_CLAW}
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE, MOVE_REFLECT, MOVE_PROTECT}
     },
     {
         .species = SPECIES_SKARMORY,
@@ -785,7 +787,8 @@ struct
         .level = 43,
         .nature = NATURE_IMPISH,
         .evs = {252, 0, 0, 0, 6, 252},
-        .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_PROTECT, MOVE_STEEL_WING}
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_PROTECT, MOVE_ROCK_TOMB}
     },
     {
         .species = SPECIES_AGGRON,
@@ -793,7 +796,8 @@ struct
         .level = 44,
         .nature = NATURE_ADAMANT,
         .evs = {0, 252, 0, 0, 252, 6},
-        .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_SOLAR_BEAM, MOVE_DRAGON_CLAW}
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_SOLAR_BEAM, MOVE_ROCK_SLIDE}
     }
 };
 
