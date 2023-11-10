@@ -3208,6 +3208,7 @@ static const u16 sGolemTeachableLearnset[] = {
     MOVE_ROCK_SLIDE,
     MOVE_STONE_EDGE,
     MOVE_DRACO_METEOR,
+    MOVE_DRAGON_CLAW,
     MOVE_UNAVAILABLE,
 };
 
@@ -9724,6 +9725,8 @@ static const u16 sKingdraTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_DRAGON_PULSE,
     MOVE_FLASH_CANNON,
+    MOVE_DRACO_METEOR,
+    MOVE_DRAGON_CLAW,
     MOVE_UNAVAILABLE,
 };
 
@@ -10800,6 +10803,7 @@ static const u16 sSceptileTeachableLearnset[] = {
     MOVE_FOCUS_BLAST,
     MOVE_ENERGY_BALL,
     MOVE_DRAGON_PULSE,
+    MOVE_DRACO_METEOR,
     MOVE_X_SCISSOR,
     MOVE_UNAVAILABLE,
 };
@@ -14076,6 +14080,7 @@ static const u16 sFlygonTeachableLearnset[] = {
     MOVE_ROCK_SLIDE,
     MOVE_STONE_EDGE,
     MOVE_U_TURN,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -14240,6 +14245,7 @@ static const u16 sAltariaTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_PLAY_ROUGH,
     MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -27733,6 +27739,7 @@ static const u16 sGoodraTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_SURF,
     MOVE_DRAGON_PULSE,
+    MOVE_DRACO_METEOR,
     MOVE_FOCUS_BLAST,
     MOVE_UNAVAILABLE,
 };
@@ -28047,6 +28054,7 @@ static const u16 sNoivernTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_FOCUS_BLAST,
     MOVE_DRAGON_PULSE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -32506,6 +32514,9 @@ static const u16 sRegielekiTeachableLearnset[] = {
 
 static const u16 sRegidragoTeachableLearnset[] = {
     MOVE_DRAGON_CLAW,
+    MOVE_DRACO_METEOR,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_BREATH,
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -34277,6 +34288,7 @@ static const u16 sGoodraHisuianTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_SURF,
     MOVE_DRAGON_PULSE,
+    MOVE_DRACO_METEOR,
     MOVE_FOCUS_BLAST,
     MOVE_UNAVAILABLE,
 };
@@ -36292,6 +36304,8 @@ static const u16 sDudunsparceTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_POISON_JAB,
+    MOVE_DRACO_METEOR,
+    MOVE_DRAGON_PULSE,
     MOVE_UNAVAILABLE,
 };
 
@@ -36669,6 +36683,7 @@ static const u16 sDraconeonTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
