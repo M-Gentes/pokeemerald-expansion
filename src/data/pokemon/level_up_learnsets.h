@@ -1428,7 +1428,7 @@ static const struct LevelUpMove sPonytaLevelUpLearnset[] = {
     LEVEL_UP_END};
 
 static const struct LevelUpMove sRapidashLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(0, MOVE_FURY_ATTACK),
+    LEVEL_UP_MOVE(0, MOVE_COVET),
     LEVEL_UP_MOVE(1, MOVE_FURY_ATTACK),
     LEVEL_UP_MOVE(1, MOVE_POISON_JAB),
     LEVEL_UP_MOVE(1, MOVE_MEGAHORN),
@@ -1448,6 +1448,7 @@ static const struct LevelUpMove sRapidashLevelUpLearnset[] = {
     LEVEL_UP_MOVE(37, MOVE_AGILITY),
     LEVEL_UP_MOVE(39, MOVE_WILD_CHARGE),
     LEVEL_UP_MOVE(41, MOVE_FIRE_BLAST),
+    LEVEL_UP_MOVE(43, MOVE_PLAY_ROUGH),
     LEVEL_UP_MOVE(45, MOVE_BOUNCE),
     LEVEL_UP_MOVE(49, MOVE_FLARE_BLITZ),
     LEVEL_UP_END};
