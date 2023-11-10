@@ -3433,7 +3433,9 @@ static const u8 sTM89Desc[] = _( // Todo
     "switch places with a party member.");
 
 static const u8 sTM90Desc[] = _( // Todo
-    "?????");
+    "After making its attack,\n"
+    "the user rushes back to\n"
+    "switch places with a party member.");
 
 static const u8 sTM91Desc[] = _( // Todo
     "The user fires all its\n"
