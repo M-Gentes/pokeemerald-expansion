@@ -266,15 +266,15 @@
         .noFlip = FALSE,                                                              \
     }
 
-#define SAWSBUCK_SPECIES_INFO                                                         \
+#define SAWSBUCK_SPECIES_INFO(type, ability)                                                         \
     {                                                                                 \
         .baseHP = 80,                                                                 \
         .baseAttack = 100,                                                            \
-        .baseDefense = 70,                                                            \
+        .baseDefense = 70+20,                                                            \
         .baseSpeed = 95,                                                              \
-        .baseSpAttack = 60,                                                           \
+        .baseSpAttack = 60+20,                                                           \
         .baseSpDefense = 70,                                                          \
-        .types = {TYPE_NORMAL, TYPE_GRASS},                                           \
+        .types = {type, TYPE_GRASS},                                           \
         .catchRate = 75,                                                              \
         .expYield = 166,                                                              \
         .evYield_Attack = 2,                                                          \
@@ -283,7 +283,7 @@
         .friendship = 70,                                                             \
         .growthRate = GROWTH_MEDIUM_FAST,                                             \
         .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},                              \
-        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_SAP_SIPPER, ABILITY_SERENE_GRACE}, \
+        .abilities = {ability, ABILITY_SAP_SIPPER, ABILITY_SERENE_GRACE}, \
         .bodyColor = BODY_COLOR_BROWN,                                                \
         .noFlip = FALSE,                                                              \
     }
@@ -14266,7 +14266,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_DEERLING] = DEERLING_SPECIES_INFO(BODY_COLOR_PINK),
 
-        [SPECIES_SAWSBUCK] = SAWSBUCK_SPECIES_INFO,
+        [SPECIES_SAWSBUCK] = SAWSBUCK_SPECIES_INFO(TYPE_NORMAL, ABILITY_CHLOROPHYLL),
 
         [SPECIES_EMOLGA] =
             {
@@ -23853,9 +23853,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_DEERLING_AUTUMN] = DEERLING_SPECIES_INFO(BODY_COLOR_RED),
         [SPECIES_DEERLING_WINTER] = DEERLING_SPECIES_INFO(BODY_COLOR_BROWN),
 
-        [SPECIES_SAWSBUCK_SUMMER] = SAWSBUCK_SPECIES_INFO,
-        [SPECIES_SAWSBUCK_AUTUMN] = SAWSBUCK_SPECIES_INFO,
-        [SPECIES_SAWSBUCK_WINTER] = SAWSBUCK_SPECIES_INFO,
+        [SPECIES_SAWSBUCK_SUMMER] = SAWSBUCK_SPECIES_INFO(TYPE_FIRE, ABILITY_DROUGHT),
+        [SPECIES_SAWSBUCK_AUTUMN] = SAWSBUCK_SPECIES_INFO(TYPE_GHOST, ABILITY_DRIZZLE),
+        [SPECIES_SAWSBUCK_WINTER] = SAWSBUCK_SPECIES_INFO(TYPE_ICE, ABILITY_SNOW_WARNING),
 
         [SPECIES_TORNADUS_THERIAN] =
             {
