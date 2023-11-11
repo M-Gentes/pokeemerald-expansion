@@ -97,11 +97,13 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Persian|Normal|+Super Luck, Technician, Unnerve||70 + 20||65 + 10|||
 |Golduck|Water, +Psychic|+Swift Swim, Cloud Nine, Damp|80 + 10|82 + 10||95 + 10|||
 |Tentacruel|Water, Poison|Clear Body, +Merciless, Rain Dish|||||||
-|Rapidash|Fire, +Electric|+Lightning Rod, Flash Fire, Flame Body|65 + 10|||80 + 5|||
+|Ponyta|Fire, +Fairy|Run Away, Flash Fire, Flame Body|||||||
+|Rapidash|Fire, +Fairy|+Lightning Rod, Flash Fire, Flame Body|65 + 10|||80 + 5|||
 |Farfetch'd|Normal, Flying|+Sharpness, +Sniper, Defiant||||||60 + 20|
 |Dodrio|Normal, Flying|+Rock Head, Early Bird, Tangled Feet|||||||
 |Onix|Rock, Ground|+Battle Armor, Sturdy, Weak Armor|||||||
 |Hypno|Psychic|Insomnia, +Bad Dreams, Inner Focus|85 + 30||||||
+|Electrode|Electric, +Fire|Soundproof, +Galvanize, Aftermath|60|50+20||80+20||150-10|
 |Kangaskhan|Normal|+Parental Bond, Scrappy, Inner Focus|||||||
 |Seaking|Water|Swift Swim, +Hustle, Lightning Rod||92 + 10||||68 + 10|
 |Jynx|Water, Psychic|Oblivious, Forewarn, Dry Skin|||35 + 20|115 + 10|||
