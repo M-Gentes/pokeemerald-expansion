@@ -25336,6 +25336,9 @@ static const u16 sHydreigonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_FOCUS_BLAST,
+    MOVE_DRAGON_CLAW,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -35166,6 +35169,8 @@ static const u16 sSwirlheadTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_WEATHER_BALL,
     MOVE_FOCUS_BLAST,
+    MOVE_DRAGON_CLAW,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
