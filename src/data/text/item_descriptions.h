@@ -196,7 +196,7 @@ static const u8 sSodaPopDesc[] = _(
     "A fizzy soda drink\n"
     "that restores HP\n"
 #if I_HEALTH_RECOVERY >= GEN_7
-    "by 50 points.");
+    "by 200 out of battle.");
 #else
     "by 60 points.");
 #endif
