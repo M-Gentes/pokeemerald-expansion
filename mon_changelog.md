@@ -59,7 +59,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 - SNEASEL HISUIAN -> {EVO_LEVEL, Level 36, SNEASLER}
 - LINOONE -> {EVO_LEVEL_DARK_TYPE_MON_IN_PARTY, 30, OBSTAGOON},
 - CASTFORM -> {{EVO_LEVEL, Level 40, CASTSTORM}, {EVO_MEGA_EVOLUTION, ITEM_CASTSTORMITE, CASTSTORM}}
-- LUVDISC -> {EVO_ITEM, ITEM_HEART_SCALE, ALOMOMOLA}
+- LUVDISC -> {EVO_ITEM, ITEM_WATER_STONE, ALOMOMOLA}
 - VIBRAVA -> {EVO_LEVEL, 38, FLYGON}
 - DEWOTT -> {EVO_LEVEL_DARK_TYPE_MON_IN_PARTY, Level 36, SAMUROTT_HISUIAN}
 - PETILIL -> {EVO_ITEM, ITEM_LEAF_STONE, LILLIGANT_HISUIAN}
@@ -85,6 +85,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Unown|differing on Letter|+Adaptability, Levitate|48 + 26|72 + 26|48 + 26|72 + 26|48 + 26|48 + 26|
 |Castform|Normal (weatherbased)|Forecast|70 + 20|70 + 20|70 + 20|70 + 20|70 + 20|70 + 20|
 |Pikachu_Cosplay|Electric, (formbased)|Static, +Electric Surge, Lightning Rod|||||||
+|Sawsbuck|(formbased), Grass|(formbased), Sap Sipper, Serene Grace|||70+20|60+20|||
 |Butterfree|Bug, +Psychic|Compund Eyes, +Serene Grace, Tinted Lens|||||70 + 10|
 |Pidgeot|Normal, Flying|+Download, Tangled Feet, Big Pecks||||70 + 20||
 |Ratticate|Normal|+Hustle, +Strong Jaw, +Rattled||||||
