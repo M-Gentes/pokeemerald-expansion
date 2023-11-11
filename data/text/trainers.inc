@@ -4237,8 +4237,8 @@ Route128_Text_WayneDefeat:
 
 Route128_Text_WaynePostBattle:
 	.string "Awww, phooey!\p"
-	.string "My POKéMON knows WATERFALL, but\n"
-	.string "I don't have the SOOTOPOLIS GYM BADGE!$"
+	.string "My POKéMON can't learn WATERFALL.\n"
+	.string "I need to fish!$"
 
 Route128_Text_HarrisonIntro:
 	.string "You're looking awfully tough.\n"
