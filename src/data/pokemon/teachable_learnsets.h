@@ -14245,7 +14245,7 @@ static const u16 sAltariaTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_PLAY_ROUGH,
     MOVE_DRAGON_PULSE,
-    MOVE_DRAGON_METEOR,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 

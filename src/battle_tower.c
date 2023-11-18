@@ -767,7 +767,7 @@ struct
     u8 fixedIV;
     u8 level;
     u8 nature;
-    u8 heldItem;
+    u16 heldItem;
     u8 evs[NUM_STATS];
     u16 moves[MAX_MON_MOVES];
 } static const sStevenMons[MULTI_PARTY_SIZE] =
