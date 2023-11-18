@@ -196,7 +196,7 @@ static const u8 sSodaPopDesc[] = _(
     "A fizzy soda drink\n"
     "that restores HP\n"
 #if I_HEALTH_RECOVERY >= GEN_7
-    "by 50 points.");
+    "by 200 out of battle.");
 #else
     "by 60 points.");
 #endif
@@ -3433,7 +3433,9 @@ static const u8 sTM89Desc[] = _( // Todo
     "switch places with a party member.");
 
 static const u8 sTM90Desc[] = _( // Todo
-    "?????");
+    "After making its attack,\n"
+    "the user rushes back to\n"
+    "switch places with a party member.");
 
 static const u8 sTM91Desc[] = _( // Todo
     "The user fires all its\n"

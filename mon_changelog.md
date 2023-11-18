@@ -59,7 +59,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 - SNEASEL HISUIAN -> {EVO_LEVEL, Level 36, SNEASLER}
 - LINOONE -> {EVO_LEVEL_DARK_TYPE_MON_IN_PARTY, 30, OBSTAGOON},
 - CASTFORM -> {{EVO_LEVEL, Level 40, CASTSTORM}, {EVO_MEGA_EVOLUTION, ITEM_CASTSTORMITE, CASTSTORM}}
-- LUVDISC -> {EVO_ITEM, ITEM_HEART_SCALE, ALOMOMOLA}
+- LUVDISC -> {EVO_ITEM, ITEM_WATER_STONE, ALOMOMOLA}
 - VIBRAVA -> {EVO_LEVEL, 38, FLYGON}
 - DEWOTT -> {EVO_LEVEL_DARK_TYPE_MON_IN_PARTY, Level 36, SAMUROTT_HISUIAN}
 - PETILIL -> {EVO_ITEM, ITEM_LEAF_STONE, LILLIGANT_HISUIAN}
@@ -85,6 +85,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Unown|differing on Letter|+Adaptability, Levitate|48 + 26|72 + 26|48 + 26|72 + 26|48 + 26|48 + 26|
 |Castform|Normal (weatherbased)|Forecast|70 + 20|70 + 20|70 + 20|70 + 20|70 + 20|70 + 20|
 |Pikachu_Cosplay|Electric, (formbased)|Static, +Electric Surge, Lightning Rod|||||||
+|Sawsbuck|(formbased), Grass|(formbased), Sap Sipper, Serene Grace|||70+20|60+20|||
 |Butterfree|Bug, +Psychic|Compund Eyes, +Serene Grace, Tinted Lens|||||70 + 10|
 |Pidgeot|Normal, Flying|+Download, Tangled Feet, Big Pecks||||70 + 20||
 |Ratticate|Normal|+Hustle, +Strong Jaw, +Rattled||||||
@@ -97,11 +98,13 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Persian|Normal|+Super Luck, Technician, Unnerve||70 + 20||65 + 10|||
 |Golduck|Water, +Psychic|+Swift Swim, Cloud Nine, Damp|80 + 10|82 + 10||95 + 10|||
 |Tentacruel|Water, Poison|Clear Body, +Merciless, Rain Dish|||||||
-|Rapidash|Fire, +Electric|+Lightning Rod, Flash Fire, Flame Body|65 + 10|||80 + 5|||
+|Ponyta|Fire, +Fairy|Run Away, Flash Fire, Flame Body|||||||
+|Rapidash|Fire, +Fairy|+Lightning Rod, Flash Fire, Flame Body|65 + 10|||80 + 5|||
 |Farfetch'd|Normal, Flying|+Sharpness, +Sniper, Defiant||||||60 + 20|
 |Dodrio|Normal, Flying|+Rock Head, Early Bird, Tangled Feet|||||||
 |Onix|Rock, Ground|+Battle Armor, Sturdy, Weak Armor|||||||
 |Hypno|Psychic|Insomnia, +Bad Dreams, Inner Focus|85 + 30||||||
+|Electrode|Electric, +Fire|Soundproof, +Galvanize, Aftermath|60|50+20||80+20||150-10|
 |Kangaskhan|Normal|+Parental Bond, Scrappy, Inner Focus|||||||
 |Seaking|Water|Swift Swim, +Hustle, Lightning Rod||92 + 10||||68 + 10|
 |Jynx|Water, Psychic|Oblivious, Forewarn, Dry Skin|||35 + 20|115 + 10|||

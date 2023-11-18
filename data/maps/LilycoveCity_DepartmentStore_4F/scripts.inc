@@ -60,6 +60,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM79  @ Dark Pulse
 	.2byte ITEM_TM81  @ X-Scissor
 	.2byte ITEM_TM89  @ U-Turn
+	.2byte ITEM_TM90  @ Volt-Switch
 	.2byte ITEM_TM84  @ Poison Jab
 	.2byte ITEM_TM91  @ Flash Cannon
 	.2byte ITEM_TM99  @ Dazzling Gleam

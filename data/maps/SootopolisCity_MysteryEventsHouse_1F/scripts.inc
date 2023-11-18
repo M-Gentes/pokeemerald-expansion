@@ -79,7 +79,14 @@ SootopolisCity_MysteryEventsHouse_1F_EventScript_OldMan::
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_InvalidVisitingTrainer::
 	msgbox SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles, MSGBOX_DEFAULT
+	goto SootopolisCity_MysteryEventsHouse_1F_EventScript_DracoMeteor
 	release
+	end
+
+SootopolisCity_MysteryEventsHouse_1F_EventScript_DracoMeteor::
+	setvar VAR_0x8008, 24
+	setvar VAR_0x8005, MOVE_DRACO_METEOR
+	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_TrainerVisiting::
@@ -170,7 +177,9 @@ SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
 	.string "as a POKéMON TRAINER.\p"
 	.string "Now that I've become an old buzzard,\n"
 	.string "my only amusement is watching young\l"
-	.string "TRAINERS battle.$"
+	.string "TRAINERS battle.\p"
+	.string "I can teach YOUR POKéMON, the\n"
+	.string "the strongest DRAGON move.$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
 	.string "The door appears to be locked.$"

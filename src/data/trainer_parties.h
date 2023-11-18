@@ -12716,35 +12716,35 @@ static const struct TrainerMonItemCustomMoves sParty_DeltaSage[] = {
         .iv = 0,
         .lvl = 42,
         .species = SPECIES_APOKARGO,
-        .heldItem = ITEM_CHARCOAL,
+        .heldItem = ITEM_NONE,
         .moves = {MOVE_HEAT_WAVE, MOVE_SOLAR_BEAM, MOVE_EARTH_POWER, MOVE_SHELL_SMASH}
     },
     {
         .iv = 0,
         .lvl = 42,
         .species = SPECIES_TROPIUS,
-        .heldItem = ITEM_ASSAULT_VEST,
+        .heldItem = ITEM_NONE,
         .moves = {MOVE_SOLAR_BLADE, MOVE_RAZOR_LEAF, MOVE_HURRICANE, MOVE_EARTHQUAKE}
     },
     {
         .iv = 0,
         .lvl = 42,
         .species = SPECIES_RELICLIFFON,
-        .heldItem = ITEM_MYSTIC_WATER,
+        .heldItem = ITEM_NONE,
         .moves = {MOVE_HEAD_SMASH, MOVE_WATERFALL, MOVE_ROCK_SLIDE, MOVE_FLIP_TURN}
     },
     {
         .iv = 0,
         .lvl = 42,
         .species = SPECIES_MANTINE,
-        .heldItem = ITEM_LEFTOVERS,
+        .heldItem = ITEM_NONE,
         .moves = {MOVE_MUDDY_WATER, MOVE_ICE_BEAM, MOVE_ICY_WIND, MOVE_AIR_SLASH}
     },
     {
         .iv = 0,
         .lvl = 42,
         .species = SPECIES_QUEZATU,
-        .heldItem = ITEM_LIFE_ORB,
+        .heldItem = ITEM_NONE,
         .moves = {MOVE_WEATHER_BALL, MOVE_HEAT_WAVE, MOVE_HURRICANE, MOVE_PSYSHOCK}
     },
     {
