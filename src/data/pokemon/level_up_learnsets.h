@@ -17968,6 +17968,8 @@ static const struct LevelUpMove sSwirlheadLevelUpLearnset[] = {
 
 static const struct LevelUpMove sTerrorkingLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_EMBER),
+    LEVEL_UP_MOVE(1, MOVE_FIRE_FANG),
+    LEVEL_UP_MOVE(1, MOVE_PUNISHMENT),
     LEVEL_UP_MOVE(2, MOVE_ANCIENT_POWER),
     LEVEL_UP_MOVE(10, MOVE_BITE),
     LEVEL_UP_MOVE(13, MOVE_ROCK_TOMB),
@@ -17976,7 +17978,10 @@ static const struct LevelUpMove sTerrorkingLevelUpLearnset[] = {
     LEVEL_UP_MOVE(28, MOVE_FLAMETHROWER),
     LEVEL_UP_MOVE(32, MOVE_CRUNCH),
     LEVEL_UP_MOVE(35, MOVE_DRAGON_DANCE),
+    LEVEL_UP_MOVE(38, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE(42, MOVE_OUTRAGE),
+    LEVEL_UP_MOVE(44, MOVE_FLARE_BLITZ),
+    LEVEL_UP_MOVE(48, MOVE_HEAT_WAVE),
     LEVEL_UP_END};
 
 static const struct LevelUpMove sIronbloonLevelUpLearnset[] = {
