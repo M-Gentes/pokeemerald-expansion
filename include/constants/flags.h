@@ -659,12 +659,12 @@
 #define FLAG_HIDE_ABANDONED_SHIP_SWIRLHEAD_1 0x269      // Hide Flag for Swirlhead in Abandoned Ship
 #define FLAG_DEFEATED_RIVAL_LEAGUE 0x26A                // Custom Rival Battle Flag
 #define FLAG_MET_RIVAL_LEAGUE 0x26B                     // Custom Rival Battle Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
-#define FLAG_UNUSED_0x26F  0x26F // Unused Flag
-#define FLAG_UNUSED_0x270  0x270 // Unused Flag
-#define FLAG_UNUSED_0x271  0x271 // Unused Flag
+#define FLAG_HIDE_METEOR_FALLS_REGIDRAGO_1 0x26C        // Hide Flag for Regidragon in Meteor Falls
+#define FLAG_DEFEATED_REGIDRAGO_1_METEOR_FALLS 0x26D      // Static Regidrago Encounter
+#define FLAG_HIDE_NEW_MAUVILLE_REGIELEKI_1 0x26E          // Hide Flag for Regieleki in New Mauville
+#define FLAG_DEFEATED_REGIELEKI_1_NEW_MAUVILLE 0x26F      // Static Regieleki Encounter
+#define FLAG_HIDE_VICTORY_ROAD_REGIGIGAS_1 0x270          // Hide Flag for Regigigas in Victory Road
+#define FLAG_DEFEATED_REGIGIGAS_1_VICTORY_ROAD 0x271      // Static Regigigas Encounter
 #define FLAG_UNUSED_0x272  0x272 // Unused Flag
 #define FLAG_UNUSED_0x273  0x273 // Unused Flag
 #define FLAG_UNUSED_0x274  0x274 // Unused Flag

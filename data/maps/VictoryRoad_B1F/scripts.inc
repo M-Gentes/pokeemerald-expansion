@@ -1,5 +1,12 @@
 VictoryRoad_B1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, VictoryRoad_B1F_OnTransition
 	.byte 0
+
+VictoryRoad_B1F_OnTransition:
+	setvar VAR_TEMP_1, 0
+	setvar VAR_TEMP_2, 0
+	call_if_unset FLAG_DEFEATED_REGIGIGAS_1_VICTORY_ROAD, VictoryRoad_B1F_EventScript_ShowRegigigas
+	end
 
 VictoryRoad_B1F_EventScript_Samuel::
 	trainerbattle_single TRAINER_SAMUEL, VictoryRoad_B1F_Text_SamuelIntro, VictoryRoad_B1F_Text_SamuelDefeat
@@ -93,4 +100,32 @@ VictoryRoad_B1F_Text_HallePostBattle:
 	.string "the path you've taken so far.\p"
 	.string "Try to enjoy things the rest of\n"
 	.string "the way!$"
+
+VictoryRoad_B1F_EventScript_ShowRegigigas::
+	clearflag FLAG_HIDE_VICTORY_ROAD_REGIGIGAS_1
+	return
+
+VictoryRoad_B1F_EventScript_Regigigas::
+	lock
+	faceplayer
+	setwildbattle SPECIES_REGIGIGAS, 50
+	waitse
+	playmoncry SPECIES_REGIGIGAS, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, VictoryRoad_B1F_EventScript_DefeatedRegigigas
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, VictoryRoad_B1F_EventScript_DefeatedRegigigas
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, VictoryRoad_B1F_EventScript_DefeatedRegigigas
+	setflag FLAG_DEFEATED_REGIGIGAS_1_VICTORY_ROAD
+	release
+	end
+
+VictoryRoad_B1F_EventScript_DefeatedRegigigas::
+	setflag FLAG_DEFEATED_REGIGIGAS_1_VICTORY_ROAD
+	goto Common_EventScript_RemoveStaticPokemon
+	end
 
