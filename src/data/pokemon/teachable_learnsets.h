@@ -9526,6 +9526,10 @@ static const u16 sDelibirdTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ROCK_TOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_POISON_JAB,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
@@ -9565,6 +9569,7 @@ static const u16 sMantineTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
@@ -9607,6 +9612,7 @@ static const u16 sSkarmoryTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_X_SCISSOR,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
@@ -15315,6 +15321,8 @@ static const u16 sChimechoTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_ENERGY_BALL,
     MOVE_TRICK_ROOM,
+    MOVE_FLASH_CANNON,
+    MOVE_FOCUS_BLAST,
     MOVE_UNAVAILABLE,
 };
 
@@ -35508,6 +35516,7 @@ static const u16 sBrutebonnetTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_WEATHER_BALL,
+    MOVE_BULLET_SEED,
     MOVE_UNAVAILABLE,
 };
 
