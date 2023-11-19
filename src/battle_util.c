@@ -8707,7 +8707,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     // various effects
     if (gProtectStructs[battlerAtk].helpingHand)
         MulModifier(&modifier, UQ_4_12(1.5));
-    if (gStatuses3[battlerAtk] & STATUS3_CHARGED_UP && moveType == TYPE_ELECTRIC)
+    if (gStatuses3[battlerAtk] & STATUS3_CHARGED_UP)
         MulModifier(&modifier, UQ_4_12(2.0));
     if (gStatuses3[battlerAtk] & STATUS3_ME_FIRST)
         MulModifier(&modifier, UQ_4_12(1.5));
