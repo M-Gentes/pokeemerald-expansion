@@ -5034,6 +5034,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 if (moveType == TYPE_WATER)
                     effect = 2, statId = STAT_SPATK;
                 break;
+            case ABILITY_ILLUMINATE:
+                if (moveType == TYPE_FAIRY)
+                    effect = 2, statId = STAT_SPATK;
+                break;
             case ABILITY_SAP_SIPPER:
                 if (moveType == TYPE_GRASS)
                     effect = 2, statId = STAT_ATK;
@@ -8455,6 +8459,10 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     case ABILITY_ROCKY_PAYLOAD:
         if (moveType == TYPE_ROCK)
             MulModifier(&modifier, UQ_4_12(1.5));
+        break;
+    case ABILITY_ILLUMINATE:
+        if (moveType == TYPE_FAIRY)
+            MulModifier(&modifier, UQ_4_12(1.2));
         break;
     case ABILITY_PROTOSYNTHESIS:
     {
