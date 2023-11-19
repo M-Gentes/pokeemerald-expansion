@@ -18007,6 +18007,7 @@ static const struct LevelUpMove sIronbloonLevelUpLearnset[] = {
 static const struct LevelUpMove sIronhutLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_ELECTRIC_TERRAIN),
     LEVEL_UP_MOVE(1, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_MOVE(1, MOVE_ELECTROWEB),
     LEVEL_UP_MOVE(6, MOVE_POISON_STING),
     LEVEL_UP_MOVE(8, MOVE_ABSORB),
     LEVEL_UP_MOVE(13, MOVE_MEGA_DRAIN),
