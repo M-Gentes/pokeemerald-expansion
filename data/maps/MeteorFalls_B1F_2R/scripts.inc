@@ -1,3 +1,37 @@
 MeteorFalls_B1F_2R_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, MeteorFalls_B1F_2R_OnTransition
 	.byte 0
 
+MeteorFalls_B1F_2R_OnTransition:
+	setvar VAR_TEMP_1, 0
+	setvar VAR_TEMP_2, 0
+	call_if_unset FLAG_DEFEATED_REGIDRAGO_1_METEOR_FALLS, MeteorFalls_B1F_2R_EventScript_ShowRegidrago
+	end
+
+MeteorFalls_B1F_2R_EventScript_ShowRegidrago::
+	clearflag FLAG_HIDE_METEOR_FALLS_REGIDRAGO_1
+	return
+
+MeteorFalls_B1F_2R_EventScript_Regidrago::
+	lock
+	faceplayer
+	setwildbattle SPECIES_REGIDRAGO, 42
+	waitse
+	playmoncry SPECIES_REGIDRAGO, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, MeteorFalls_B1F_2R_EventScript_DefeatedRegidrago
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, MeteorFalls_B1F_2R_EventScript_DefeatedRegidrago
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, MeteorFalls_B1F_2R_EventScript_DefeatedRegidrago
+	setflag FLAG_DEFEATED_REGIDRAGO_1_METEOR_FALLS
+	release
+	end
+
+MeteorFalls_B1F_2R_EventScript_DefeatedRegidrago::
+	setflag FLAG_DEFEATED_REGIDRAGO_1_METEOR_FALLS
+	goto Common_EventScript_RemoveStaticPokemon
+	end

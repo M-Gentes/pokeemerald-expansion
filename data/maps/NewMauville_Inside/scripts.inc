@@ -19,6 +19,8 @@ NewMauville_Inside_EventScript_TryRemoveVoltorb::
 NewMauville_Inside_OnTransition:
 	setvar VAR_TEMP_1, 0
 	setvar VAR_TEMP_2, 0
+	call_if_unset FLAG_DEFEATED_REGIELEKI_1_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowRegieleki
+	end
 	call_if_unset FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb1
 	call_if_unset FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb2
 	call_if_unset FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb3
@@ -261,3 +263,31 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "… … … … … … … …\p"
 	.string "The generator appears to have\n"
 	.string "stopped…$"
+
+NewMauville_Inside_EventScript_ShowRegieleki::
+	clearflag FLAG_HIDE_NEW_MAUVILLE_REGIELEKI_1
+	return
+
+NewMauville_Inside_EventScript_Regieleki::
+	lock
+	faceplayer
+	setwildbattle SPECIES_REGIELEKI, 42
+	waitse
+	playmoncry SPECIES_REGIELEKI, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NewMauville_Inside_EventScript_DefeatedRegieleki
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NewMauville_Inside_EventScript_DefeatedRegieleki
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NewMauville_Inside_EventScript_DefeatedRegieleki
+	setflag FLAG_DEFEATED_REGIELEKI_1_NEW_MAUVILLE
+	release
+	end
+
+NewMauville_Inside_EventScript_DefeatedRegieleki::
+	setflag FLAG_DEFEATED_REGIELEKI_1_NEW_MAUVILLE
+	goto Common_EventScript_RemoveStaticPokemon
+	end

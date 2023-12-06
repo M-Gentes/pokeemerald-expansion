@@ -185,7 +185,7 @@ PacifidlogTown_House4_EventScript_Epikrates::
 	end
 
 PacifidlogTown_House4_EventScript_GetKagecoon::
-	givemon SPECIES_KAGECOON, 25, ITEM_POKE_DOLL
+	givemon SPECIES_KAGECOON, 45, ITEM_POKE_DOLL
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, PacifidlogTown_House4_EventScript_ReceiveKagecoonParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, PacifidlogTown_House4_EventScript_ReceiveKagecoonPC
 	goto Common_EventScript_NoMoreRoomForPokemon

@@ -5034,6 +5034,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 if (moveType == TYPE_WATER)
                     effect = 2, statId = STAT_SPATK;
                 break;
+            case ABILITY_ILLUMINATE:
+                if (moveType == TYPE_FAIRY)
+                    effect = 2, statId = STAT_SPATK;
+                break;
             case ABILITY_SAP_SIPPER:
                 if (moveType == TYPE_GRASS)
                     effect = 2, statId = STAT_ATK;
@@ -8460,6 +8464,10 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (moveType == TYPE_ROCK)
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_ILLUMINATE:
+        if (moveType == TYPE_FAIRY)
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
     case ABILITY_PROTOSYNTHESIS:
     {
         u8 atkHighestStat = GetHighestStatId(battlerAtk);
@@ -8703,7 +8711,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     // various effects
     if (gProtectStructs[battlerAtk].helpingHand)
         MulModifier(&modifier, UQ_4_12(1.5));
-    if (gStatuses3[battlerAtk] & STATUS3_CHARGED_UP && moveType == TYPE_ELECTRIC)
+    if (gStatuses3[battlerAtk] & STATUS3_CHARGED_UP)
         MulModifier(&modifier, UQ_4_12(2.0));
     if (gStatuses3[battlerAtk] & STATUS3_ME_FIRST)
         MulModifier(&modifier, UQ_4_12(1.5));
@@ -8925,6 +8933,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         break;
     case HOLD_EFFECT_LIGHT_BALL:
         if (atkBaseSpeciesId == SPECIES_PIKACHU)
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;
+    case HOLD_EFFECT_LUCKY_PUNCH:
+        if (atkBaseSpeciesId == SPECIES_CHANSEY)
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
     case HOLD_EFFECT_CHOICE_BAND:

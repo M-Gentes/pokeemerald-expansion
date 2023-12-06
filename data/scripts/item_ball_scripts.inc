@@ -275,7 +275,7 @@ Route127_EventScript_ItemRareCandy::
 	end
 
 Route132_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_NUGGET
 	end
 
 Route132_EventScript_ItemProtein::
@@ -547,7 +547,7 @@ ShoalCave_LowTideEntranceRoom_EventScript_ItemBigPearl::
 	end
 
 ShoalCave_LowTideInnerRoom_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_BIG_PEARL
 	end
 
 ShoalCave_LowTideStairsRoom_EventScript_ItemIceHeal::
