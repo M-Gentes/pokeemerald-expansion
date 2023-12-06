@@ -769,6 +769,11 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
                   && (moveType == TYPE_DARK || moveType == TYPE_GHOST || moveType == TYPE_BUG))
                     RETURN_SCORE_MINUS(10);
                 break;
+             case ABILITY_BUGLICIOUS:
+                if (!IS_MOVE_STATUS(move)
+                  && (moveType == TYPE_BUG))
+                    RETURN_SCORE_MINUS(10);
+                break;
             case ABILITY_SOUNDPROOF:
                 if (TestMoveFlags(move, FLAG_SOUND))
                     RETURN_SCORE_MINUS(10);
