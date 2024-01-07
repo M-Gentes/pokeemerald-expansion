@@ -5042,6 +5042,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 if (moveType == TYPE_GRASS)
                     effect = 2, statId = STAT_ATK;
                 break;
+            case ABILITY_BUGLICIOUS:
+                if (moveType == TYPE_BUG)
+                    effect = 2, statId = STAT_ATK;
+                break;
             case ABILITY_FLASH_FIRE:
                 if (moveType == TYPE_FIRE
 #if B_FLASH_FIRE_FROZEN <= GEN_4
