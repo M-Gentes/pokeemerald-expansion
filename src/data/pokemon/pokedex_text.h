@@ -5550,6 +5550,60 @@ const u8 gIronvaliantPokedexText[] = _(
     "and Gardevoir. It combines both powers\n"
     "annihilating all threads in its way.");
 
+const u8 gSpirigatitoPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Spirigatito rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gFloragatoPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Floragato rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gYukaxatoPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Yukaxato rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gFuecocoPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Fuecoco rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gCrocalorPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Crocalor rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gSpicaboroPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Spicaboro rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gQuaxlyPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Quaxly rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gQuaxwellPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Quaxwell rubs them\n"
+    "furiously with the pads on its forepaws.");
+
+const u8 gQuaxistadorPokedexText[] = _(
+    "It has underdeveloped electric sacs\n"
+    "on its cheeks. These sacs can produce\n"
+    "electricity only if Quaxistador rubs them\n"
+    "furiously with the pads on its forepaws.");
+
 const u8 gPawmiPokedexText[] = _(
     "It has underdeveloped electric sacs\n"
     "on its cheeks. These sacs can produce\n"

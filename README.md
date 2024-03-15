@@ -9,6 +9,7 @@
 - Thanks to kiriaura fot the Paradox Pokémon front Sprites being adapted in this hack.
 - Credits for some gen 9 sprites and icons go to vent, red7246, axelloquedo, AlexandreV2.0, erkey830, kalibre, tay, soupercell, juniornoriega, lykeron, pcl.g, nikorasu[whackahack]
 - Credits to Ezerart for some gen 9 icon sprites.
+- Credits to Shiny Miner for some gen 9 sprites.
 - Credits to F.L. Remix for the Wally Battle Theme in GBA soundfont.
     - see: https://www.youtube.com/watch?v=ro5tRK9BwoE
 - Using the Draconeon Sprites from Pokémon Infinity.

@@ -4108,6 +4108,33 @@ Cry_Ironvaliant::
 	.incbin "sound/direct_sound_samples/cries/deoxys.bin"
 
 		.align 2
+Cry_Spirigatito::
+	.incbin "sound/direct_sound_samples/cries/litten.bin"
+	.align 2
+Cry_Floragato::
+	.incbin "sound/direct_sound_samples/cries/torracat.bin"
+	.align 2
+Cry_Yukaxato::
+	.incbin "sound/direct_sound_samples/cries/incineroar.bin"
+	.align 2
+Cry_Fuecoco::
+	.incbin "sound/direct_sound_samples/cries/totodile.bin"
+	.align 2
+Cry_Crocalor::
+	.incbin "sound/direct_sound_samples/cries/krokorok.bin"
+	.align 2
+Cry_Spicaboro::
+	.incbin "sound/direct_sound_samples/cries/mudsdale.bin"
+	.align 2
+Cry_Quaxly::
+	.incbin "sound/direct_sound_samples/cries/ducklett.bin"
+	.align 2
+Cry_Quaxwell::
+	.incbin "sound/direct_sound_samples/cries/golduck.bin"
+	.align 2
+Cry_Quaxistador::
+	.incbin "sound/direct_sound_samples/cries/tornadus.bin"
+	.align 2
 Cry_Pawmi::
 	.incbin "sound/direct_sound_samples/cries/yamper.bin"
 

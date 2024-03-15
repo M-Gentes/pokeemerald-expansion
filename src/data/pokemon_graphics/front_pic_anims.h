@@ -9688,6 +9688,62 @@ static const union AnimCmd sAnim_Ironvaliant_1[] =
         ANIMCMD_END,
 };
 
+
+static const union AnimCmd sAnim_Spirigatito_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+
+static const union AnimCmd sAnim_Floragato_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Yukaxato_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Fuecoco_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+
+static const union AnimCmd sAnim_Crocalor_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Spicaboro_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Quaxly_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Quaxwell_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Quaxistador_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
 static const union AnimCmd sAnim_Pawmi_1[] =
     {
         ANIMCMD_FRAME(0, 1),
@@ -11892,6 +11948,15 @@ SINGLE_ANIMATION(Ironmoth);
 SINGLE_ANIMATION(Ironthorns);
 SINGLE_ANIMATION(Irontreads);
 SINGLE_ANIMATION(Ironvaliant);
+SINGLE_ANIMATION(Spirigatito);
+SINGLE_ANIMATION(Floragato);
+SINGLE_ANIMATION(Yukaxato);
+SINGLE_ANIMATION(Fuecoco);
+SINGLE_ANIMATION(Crocalor);
+SINGLE_ANIMATION(Spicaboro);
+SINGLE_ANIMATION(Quaxly);
+SINGLE_ANIMATION(Quaxwell);
+SINGLE_ANIMATION(Quaxistador);
 SINGLE_ANIMATION(Pawmi);
 SINGLE_ANIMATION(Pawmo);
 SINGLE_ANIMATION(Pawmot);
@@ -13038,6 +13103,15 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_IRONTHORNS] = sAnims_Ironthorns,
         [SPECIES_IRONTREADS] = sAnims_Irontreads,
         [SPECIES_IRONVALIANT] = sAnims_Ironvaliant,
+        [SPECIES_SPIRIGATITO] = sAnims_Spirigatito,
+        [SPECIES_FLORAGATO] = sAnims_Floragato,
+        [SPECIES_YUKAXATO] = sAnims_Yukaxato,
+        [SPECIES_FUECOCO] = sAnims_Fuecoco,
+        [SPECIES_CROCALOR] = sAnims_Crocalor,
+        [SPECIES_SPICABORO] = sAnims_Spicaboro,
+        [SPECIES_QUAXLY] = sAnims_Quaxly,
+        [SPECIES_QUAXWELL] = sAnims_Quaxwell,
+        [SPECIES_QUAXISTADOR] = sAnims_Quaxistador,
         [SPECIES_PAWMI] = sAnims_Pawmi,
         [SPECIES_PAWMO] = sAnims_Pawmo,
         [SPECIES_PAWMOT] = sAnims_Pawmot,

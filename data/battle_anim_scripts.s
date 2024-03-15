@@ -14433,7 +14433,6 @@ Move_BITTER_BLADE::
 Move_DOUBLE_SHOCK::
 Move_GIGATON_HAMMER::
 Move_COMEUPPANCE::
-Move_AQUA_CUTTER::
 Move_BLAZING_TORQUE::
 Move_WICKED_TORQUE::
 Move_NOXIOUS_TORQUE::
@@ -14442,6 +14441,8 @@ Move_MAGICAL_TORQUE::
 	end @to do
 
 @@ Placeholder Graphics @@
+Move_AQUA_CUTTER::
+	goto Move_RAZOR_SHELL
 
 Move_TWIN_BEAM::
 	goto Move_PSYBEAM

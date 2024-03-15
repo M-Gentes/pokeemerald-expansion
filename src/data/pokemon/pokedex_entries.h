@@ -11181,6 +11181,114 @@ const struct PokedexEntry gPokedexEntries[] =
                 .trainerOffset = 0,
             },
 
+        [NATIONAL_DEX_SPIRIGATITO] =
+            {
+                .categoryName = _("Weed Cat"),
+                .height = 6,
+                .weight = 60,
+                .description = gSpirigatitoPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_FLORAGATO] =
+            {
+                .categoryName = _("Weed Cat"),
+                .height = 15,
+                .weight = 170,
+                .description = gFloragatoPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_YUKAXATO] =
+            {
+                .categoryName = _("Weed Cat"),
+                .height = 50,
+                .weight = 212,
+                .description = gYukaxatoPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_FUECOCO] =
+            {
+                .categoryName = _("Chili"),
+                .height = 6,
+                .weight = 150,
+                .description = gFuecocoPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_CROCALOR] =
+            {
+                .categoryName = _("Chili"),
+                .height = 13,
+                .weight = 200,
+                .description = gCrocalorPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_SPICABORO] =
+            {
+                .categoryName = _("ChiliHorse"),
+                .height = 70,
+                .weight = 484,
+                .description = gSpicaboroPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_QUAXLY] =
+            {
+                .categoryName = _("Duck"),
+                .height = 8,
+                .weight = 75,
+                .description = gQuaxlyPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_QUAXWELL] =
+            {
+                .categoryName = _("Duck"),
+                .height = 15,
+                .weight = 180,
+                .description = gQuaxwellPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
+        [NATIONAL_DEX_QUAXISTADOR] =
+            {
+                .categoryName = _("Ship Duck"),
+                .height = 80,
+                .weight = 280,
+                .description = gQuaxistadorPokedexText,
+                .pokemonScale = 356,
+                .pokemonOffset = 17,
+                .trainerScale = 256,
+                .trainerOffset = 0,
+            },
+
         [NATIONAL_DEX_PAWMI] =
             {
                 .categoryName = _("Mouse"),

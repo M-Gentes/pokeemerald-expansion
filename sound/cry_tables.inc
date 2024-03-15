@@ -1466,6 +1466,15 @@ gCryTable::
 	cry Cry_Irontreads
 	cry Cry_Ironvaliant
 	@ Paldea
+	cry Cry_Spirigatito
+	cry Cry_Floragato
+	cry Cry_Yukaxato
+	cry Cry_Fuecoco
+	cry Cry_Crocalor
+	cry Cry_Spicaboro
+	cry Cry_Quaxly
+	cry Cry_Quaxwell
+	cry Cry_Quaxistador
 	cry Cry_Pawmi
 	cry Cry_Pawmo
 	cry Cry_Pawmot
@@ -3653,6 +3662,15 @@ gCryTable_Reverse::
 	cry_reverse Cry_Irontreads
 	cry_reverse Cry_Ironvaliant
 	@Paldea
+	cry_reverse Cry_Spirigatito
+	cry_reverse Cry_Floragato
+	cry_reverse Cry_Yukaxato
+	cry_reverse Cry_Fuecoco
+	cry_reverse Cry_Crocalor
+	cry_reverse Cry_Spicaboro
+	cry_reverse Cry_Quaxly
+	cry_reverse Cry_Quaxwell
+	cry_reverse Cry_Quaxistador
 	cry_reverse Cry_Pawmi
 	cry_reverse Cry_Pawmo
 	cry_reverse Cry_Pawmot
