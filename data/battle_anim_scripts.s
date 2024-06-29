@@ -13258,43 +13258,43 @@ PhotonGeyserBeam:
 	return
 
 Move_ZIPPY_ZAP::
-	end @to do:
+	goto Move_ZING_ZAP
 
 Move_SPLISHY_SPLASH::
-	end @to do:
+	goto MOVE_EERIE_IMPULSE
 
 Move_FLOATY_FALL::
-	end @to do:
+	goto Move_ACROBATICS
 
 Move_PIKA_PAPOW::
-	end @to do:
+	goto Move_VOLT_TACKLE
 
 Move_BOUNCY_BUBBLE::
-	end @to do:
+	goto Move_WATER_SPORT
 
 Move_BUZZY_BUZZ::
-	end @to do:
+	goto Move_DISCHARGE
 
 Move_SIZZLY_SLIDE::
-	end @to do:
+	goto Move_FLAME_WHEEL
 
 Move_GLITZY_GLOW::
-	end @to do:
+	goto MOVE_SYNCHRONOISE
 
 Move_BADDY_BAD::
-	end @to do:
+	goto Move_DARK_VOID
 
 Move_SAPPY_SEED::
-	end @to do:
+	goto Move_SEED_BOMB
 
 Move_FREEZY_FROST::
-	end @to do:
+	goto Move_FREEZE_DRY
 
 Move_SPARKLY_SWIRL::
-	end @to do:
+	goto Move_MIRROR_SHOT
 
 Move_VEEVEE_VOLLEY::
-	end @to do:
+	goto Move_RETURN
 
 Move_DOUBLE_IRON_BASH::
 	loadspritegfx ANIM_TAG_GUST
