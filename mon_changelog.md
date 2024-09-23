@@ -1,7 +1,7 @@
 # Timeless Emerald - Changed Pokémon
 
 ## New Pokémon
-After Gen 8 SWSH/PLA Pokémon + Megas
+Up to Gen 8 SWSH/PLA Pokémon + Megas
 - Castform (changing type to Rock in Sandstorm)
 - Paradox Pokémon
 - Custom Paradox Pokémon, filling missing counterparts of official Paradox Pokémon
@@ -16,6 +16,7 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 - Relicliffon
 - Quezatu
 - Meraki (@Eclair1408)
+- Custom Gen 9 Starter 3rd Stage Evos
 - Custom Megas
     - Mega-Tentacruel
     - Mega-Flygon
@@ -232,6 +233,44 @@ After Gen 8 SWSH/PLA Pokémon + Megas
 |Shiinotic|Grass, Fairy|+Misty Surge, Effect Spore, Rain Dish|||||||
 |Boltund|Electric|Strong Jaw, None, Competitive|69|90 + 10|60 + 9|90 + 10|60 + 9|121|
 
+## Changed Attacks
+- Mega Punch: 120 Power
+- Mega Kick: 150 Power, 33% Recoil
+- Egg Bomb: chooses split like Photon Geyser, High Crit
+- Swift: Priority +1
+- Spike Cannon: Type Steel
+- Cut; Type Steel, 60 Power
+- Strength: 10% Chance to boost Atk
+- Dig: 90 Power
+- Dive: 90 Power
+- Flash: Type Fairy, 50 Power, Spread-Move, Special, 100% Chance to drop target's Accuracy
+- Slam: Spread Attack, 120 Power
+- Comet Punch: Type Rock
+- Barrage: 40 Power
+- Snore: Priority +1, 75 Power
+- Synchronoise: 140 Power, Type Dark
+- Covet: Type Fairy
+- Trump Card: Power changes like this based on the PP: 40, 80, 120, 160, 200
+- Happy Hour: Boost Target's SpAtk +2
+- *NEW* Javelin: Multi-Hit, Type Steel, 35 Power, Physical, Accuracy 90%
+
+## Changed Abilities
+- Normalize: Normal-type changed moves are buffed by 50%
+- Stench: +3 Priority on Poison-type Moves
+- Illuminate: boosts SpAtk +2 when hit by Fairy-type Move;  Boosts Fairy-type Moves by 20% (no condition)
+- Tangled Feet: Doubles user Atk when confused
+- Flower Gift: Boosts physical AND special Attack and Defense Values now
+- Wind Power: Charged Up Mons boost each next move instead of just Electric Moves
+- Solar Power: tripples Swirlhead Water Attacks in the Sun while also effected by sun -> results in 50% boost
+- *NEW* Buglicious: Heals on Bug-type Moves
+- *NEW* Weather Force: Voltabsorb + 50% boost on weather-type Moves (Water, Rock, Grass, Ice, Flying, Electric) when any weather is active
+
+## Changes Items
+- Deep Sea Scale: boosts Gorebyss's SpAtk by 50%
+- Deep Sea Tooth: boosts Huntails's Atk by 50%
+- Lucky Punch: boosts Chansey's SpAtk by 100%
+- Everstone: boosts Attack Stats by 50% on unevolved Mons (?)
 ## New Pokémon Locations
 - Paradox Pokémon in Caves and near Towns
 - Hisui forms and needed Base forms for Hisui Evolutions in Safari Zone
+- Some added Encounters in Towns
