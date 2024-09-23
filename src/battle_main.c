@@ -4586,6 +4586,15 @@ s8 GetMovePriority(u32 battlerId, u16 move)
     {
         priority++;
     }
+    else if (ability == ABILITY_STENCH)
+    {
+        switch (gBattleMoves[move].type)
+        {
+        case TYPE_POISON:
+            priority += 3;
+            break;
+        }
+    }
     else if (ability == ABILITY_TRIAGE)
     {
         switch (gBattleMoves[move].effect)
