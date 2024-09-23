@@ -10459,16 +10459,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_FAIRY_LOCK] =
     {
-        .effect = EFFECT_FAIRY_LOCK,
-        .power = 0,
+        .effect = EFFECT_HIT_PREVENT_ESCAPE,
+        .power = 100,
         .type = TYPE_FAIRY,
         .accuracy = 0,
         .pp = 10,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_ALL_BATTLERS,
+        .target = MOVE_TARGET_FOES_AND_ALLY,
         .priority = 0,
         .flags = FLAG_MIRROR_MOVE_AFFECTED,
-        .split = SPLIT_STATUS,
+        .split = SPLIT_SPECIAL,
         .zMovePower = 0,
         .zMoveEffect = Z_EFFECT_DEF_UP_1,
     },
