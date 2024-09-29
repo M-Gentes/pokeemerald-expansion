@@ -218,7 +218,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Probopass|Rock, Steel|Sturdy, Sand Force, Magnet Pull|60 + 15|55 + 25|145|75 + 5|150|40|
 |Dusknoir|Ghost, +Dark|+Iron Fist, None, Frisk|||||||
 |Froslass|Ice, Ghost|+Sheer Force, Snow Cloak, Cursed Body|||||||
-|Watchog|Normal|+Download, Keen Eye, Analytic|||||||
+|Watchog|Normal, +Ground|+Download, Keen Eye, Analytic|60+20|||65+30|69+20||
 |Musharna|Psychic|+Psychic Surge, Synchronize, Telepathy|||||||
 |Blitzle|Electric, +Dark|Lightning Rod, Motor Drive, Sap Sipper|||||||
 |Zebstrika|Electric, +Dark|Lightning Rod, Motor Drive, Sap Sipper|||||||
@@ -262,6 +262,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 - Flower Gift: Boosts physical AND special Attack and Defense Values now
 - Wind Power: Charged Up Mons boost each next move instead of just Electric Moves
 - Solar Power: tripples Swirlhead Water Attacks in the Sun while also effected by sun -> results in 50% boost
+- Keen Eye: 10% Accuracy boost on user's attacks
 - *NEW* Buglicious: Heals on Bug-type Moves
 - *NEW* Weather Force: Voltabsorb + 50% boost on weather-type Moves (Water, Rock, Grass, Ice, Flying, Electric) when any weather is active
 

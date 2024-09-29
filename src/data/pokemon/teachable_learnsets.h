@@ -818,6 +818,7 @@ static const u16 sArbokTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
+    MOVE_DRAGON_CLAW,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
@@ -2988,6 +2989,7 @@ static const u16 sVictreebelTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_ENERGY_BALL,
     MOVE_POISON_JAB,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 
@@ -26695,6 +26697,8 @@ static const u16 sPangoroTeachableLearnset[] = {
 
 static const u16 sFurfrouTeachableLearnset[] = {
     MOVE_ATTRACT,
+    MOVE_BRICK_BREAK,
+    MOVE_BULLET_SEED,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -26702,12 +26706,15 @@ static const u16 sFurfrouTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_IRON_TAIL,
+    MOVE_IRON_HEAD,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROAR,
     MOVE_ROCK_SMASH,
+    MOVE_ROCK_TOMB,
+    MOVE_ROCK_SLIDE,
     MOVE_SECRET_POWER,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
@@ -26718,6 +26725,8 @@ static const u16 sFurfrouTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_WATERFALL,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 
