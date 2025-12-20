@@ -5534,10 +5534,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
             }
             break;
         case ABILITY_THERMAL_EXCHANGE:
-            if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT) && TARGET_TURN_DAMAGED && IsBattlerAlive(gBattlerTarget) && CompareStat(gBattlerTarget, STAT_ATK, MAX_STAT_STAGE, CMP_LESS_THAN) && moveType == TYPE_FIRE)
+            if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT) && TARGET_TURN_DAMAGED && IsBattlerAlive(gBattlerTarget) && CompareStat(gBattlerTarget, STAT_SPATK, MAX_STAT_STAGE, CMP_LESS_THAN) && (moveType == TYPE_FIRE || moveType == TYPE_ICE))
             {
                 gEffectBattler = gBattlerTarget;
-                SET_STATCHANGER(STAT_ATK, 1, FALSE);
+                SET_STATCHANGER(STAT_SPATK, 1, FALSE);
                 BattleScriptPushCursor();
                 gBattlescriptCurrInstr = BattleScript_TargetAbilityStatRaiseRet;
                 effect++;
@@ -8409,7 +8409,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_MEGA_LAUNCHER:
-        if (gBattleMoves[move].flags & FLAG_MEGA_LAUNCHER_BOOST)
+        if (gBattleMoves[move].flags & (FLAG_MEGA_LAUNCHER_BOOST || FLAG_BALLISTIC))
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_WATER_BUBBLE:
@@ -8465,7 +8465,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_ILLUMINATE:
-        if (moveType == TYPE_FAIRY)
+        if (moveType == TYPE_FAIRY || move == MOVE_FLASH_CANNON || move == MOVE_FLASH || move == MOVE_SOLAR_BEAM || move == MOVE_SIGNAL_BEAM || move == MOVE_LIGHT_OF_RUIN || move == MOVE_ZAP_CANNON || move == MOVE_LUSTER_PURGE || move == MOVE_HYPER_BEAM)
             MulModifier(&modifier, UQ_4_12(1.2));
         break;
     case ABILITY_PROTOSYNTHESIS:
@@ -8480,6 +8480,12 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         u8 atkHighestStat = GetHighestStatId(battlerAtk);
         if (gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN && (atkHighestStat == STAT_ATK || atkHighestStat == STAT_SPATK))
             MulModifier(&modifier, UQ_4_12(1.3));
+    }
+    break;
+    case ABILITY_DOWNLOAD:
+    {
+        if (gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN)
+            MulModifier(&modifier, UQ_4_12(1.2));
     }
     break;
     case ABILITY_ORICHALCUM_PULSE:
@@ -9056,6 +9062,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         if (gBattleMoves[move].type == TYPE_GHOST)
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
+    case ABILITY_PASTEL_VEIL:
+        if (gBattleMoves[move].type == TYPE_POISON)
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;
     }
 
     // ally's abilities
@@ -9363,6 +9373,8 @@ static void MulByTypeEffectiveness(u16 *modifier, u16 move, u8 moveType, u8 batt
     if (moveType == TYPE_PSYCHIC && defType == TYPE_DARK && gStatuses3[battlerDef] & STATUS3_MIRACLE_EYED && mod == UQ_4_12(0.0))
         mod = UQ_4_12(1.0);
     if (gBattleMoves[move].effect == EFFECT_FREEZE_DRY && defType == TYPE_WATER)
+        mod = UQ_4_12(2.0);
+    if (move = MOVE_ACID && defType == TYPE_STEEL)
         mod = UQ_4_12(2.0);
     if (moveType == TYPE_GROUND && defType == TYPE_FLYING && IsBattlerGrounded(battlerDef) && mod == UQ_4_12(0.0))
         mod = UQ_4_12(1.0);

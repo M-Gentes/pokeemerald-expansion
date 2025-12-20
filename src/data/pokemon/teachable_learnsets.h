@@ -8427,6 +8427,7 @@ static const u16 sSlowkingTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_FOCUS_BLAST,
     MOVE_TRICK_ROOM,
+    MOVE_WATERFALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -13210,6 +13211,8 @@ static const u16 sManectricTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_VOLT_SWITCH,
+    MOVE_ICE_BEAM,
+    MOVE_BLIZZARD,
     MOVE_UNAVAILABLE,
 };
 
@@ -24361,6 +24364,7 @@ static const u16 sBeheeyemTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_GIGA_DRAIN,
     MOVE_UNAVAILABLE,
 };
 
@@ -31047,6 +31051,8 @@ static const u16 sOrbeetleTeachableLearnset[] = {
     MOVE_REST,
     MOVE_SAFEGUARD,
     MOVE_SHADOW_BALL,
+    MOVE_THUNDER,
+    MOVE_FOCUS_BLAST,
     MOVE_SKILL_SWAP,
     MOVE_SOLAR_BEAM,
     MOVE_ENDURE,

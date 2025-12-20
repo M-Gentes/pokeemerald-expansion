@@ -546,8 +546,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     {
         .effect = EFFECT_MULTI_HIT,
         .power = 15,
-        .type = TYPE_NORMAL,
-        .accuracy = 85,
+        .type = TYPE_FLYING,
+        .accuracy = 85+5,
         .pp = 20,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -908,9 +908,9 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_ACID] =
     {
         //#if B_UPDATED_MOVE_DATA >= GEN_4
-        //    .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
+            .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
         //#else
-            .effect = EFFECT_DEFENSE_DOWN_HIT,
+            //.effect = EFFECT_DEFENSE_DOWN_HIT,
         //#endif
         .power = 60,
         .type = TYPE_POISON,
@@ -920,7 +920,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
-        .split = SPLIT_PHYSICAL,
+        .split = SPLIT_SPECIAL,
         .zMovePower = 100,
         .zMoveEffect = Z_EFFECT_NONE,
     },
@@ -1009,7 +1009,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_MEGA_LAUNCHER_BOOST,
         .split = SPLIT_SPECIAL,
         .zMoveEffect = Z_EFFECT_NONE,
     },
@@ -9265,14 +9265,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_INFERNO] =
     {
         .effect = EFFECT_BURN_HIT,
-        .power = 100,
+        .power = 100+20,
         .type = TYPE_FIRE,
         .accuracy = 50,
         .pp = 5,
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_MEGA_LAUNCHER_BOOST,
         .split = SPLIT_SPECIAL,
         .zMovePower = 180,
         .zMoveEffect = Z_EFFECT_NONE,
@@ -9656,7 +9656,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .secondaryEffectChance = 40,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_HIGH_CRIT,
         .split = SPLIT_SPECIAL,
         .zMovePower = 160,
         .zMoveEffect = Z_EFFECT_NONE,
@@ -10143,7 +10143,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_NOBLE_ROAR] =
     {
         .effect = EFFECT_NOBLE_ROAR,
-        .power = 0,
+        .power = 80,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 30,
@@ -10151,7 +10151,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MAGIC_COAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SOUND,
-        .split = SPLIT_STATUS,
+        .split = SPLIT_SPECIAL,
         .zMovePower = 0,
         .zMoveEffect = Z_EFFECT_DEF_UP_1,
     },
@@ -12484,7 +12484,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_SOUND,
         .split = SPLIT_PHYSICAL,
         .zMovePower = 160,
         .zMoveEffect = Z_EFFECT_NONE,
@@ -12968,7 +12968,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_HIGH_CRIT,
         .split = SPLIT_PHYSICAL,
         .zMovePower = 140,
         .zMoveEffect = Z_EFFECT_NONE,
@@ -13707,9 +13707,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .zMoveEffect = Z_EFFECT_NONE,
     },
 
+    // Physical Revelation Dance -> Type Strike
     [MOVE_TERA_BLAST] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_TERA_BLAST,
+        .effect = EFFECT_REVELATION_DANCE, // EFFECT_TERA_BLAST,
         .power = 80,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -13717,8 +13718,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
-        .split = SPLIT_SPECIAL,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_MAKES_CONTACT,
+        .split = SPLIT_PHYSICAL,
         .zMovePower = 160,
         .zMoveEffect = Z_EFFECT_NONE,
     },
@@ -13988,7 +13989,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_FILLET_AWAY] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_FILLET_AWAY
+        .effect = EFFECT_CLANGOROUS_SOUL, // EFFECT_FILLET_AWAY
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,
@@ -14013,7 +14014,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,  // | FLAG_SLICING_MOVE,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SLICING_MOVE,
         .split = SPLIT_PHYSICAL,
         .zMovePower = 160,
         .zMoveEffect = Z_EFFECT_NONE,
@@ -14405,7 +14406,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_HIGH_CRIT, // | FLAG_SLICING_MOVE,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_HIGH_CRIT | FLAG_SLICING_MOVE,
         .split = SPLIT_PHYSICAL,
         .zMovePower = 140,
         .zMoveEffect = Z_EFFECT_NONE,

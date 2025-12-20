@@ -209,8 +209,8 @@ static const u8 sDisableDescription[] = _(
     "the foe's moves.");
 
 static const u8 sAcidDescription[] = _(
-    "Sprays a hide-melting acid.\n"
-    "May lower Defense.");
+    "Sprays a steel-melting acid.\n"
+    "May lower Sp. Defense.");
 
 static const u8 sEmberDescription[] = _(
     "A weak fire attack that may\n"
@@ -226,7 +226,7 @@ static const u8 sMistDescription[] = _(
 
 static const u8 sWaterGunDescription[] = _(
     "Squirts water to attack\n"
-    "the foe.");
+    "the foe. +Crit");
 
 static const u8 sHydroPumpDescription[] = _(
     "Blasts water at high power\n"
@@ -2110,7 +2110,7 @@ static const u8 sCottonGuardDescription[] = _(
 
 static const u8 sNightDazeDescription[] = _(
     "Looses a pitch-black shock\n"
-    "wave. May lower accuracy.");
+    "wave. May lower accuracy. +Crit");
 
 static const u8 sHurricaneDescription[] = _(
     "Traps the foe in a fierce\n"
@@ -3050,8 +3050,8 @@ static const u8 sTakeHeartDescription[] = _(
     "heal and strengthen itself.");
 
 static const u8 sTeraBlastDescription[] = _(
-    "If the user's Terastallized,\n"
-    "it hits with its Tera-type.");
+    "Infused strike with type power,\n"
+    "it hits with its first type.");
 
 static const u8 sSilkTrapDescription[] =_(
     "Protects itself, lowering\n"

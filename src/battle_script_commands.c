@@ -1792,6 +1792,8 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
         calc = (calc * 110) / 100; // 1.1 victory star boost
     else if (atkAbility == ABILITY_KEEN_EYE)
         calc = (calc * 110) / 100; // 1.1 added keen eye boost
+    else if (atkAbility == ABILITY_MEGA_LAUNCHER && gBattleMoves[move].flags && (FLAG_MEGA_LAUNCHER_BOOST || FLAG_BALLISTIC))
+        calc = (calc * 120) / 100; // 1.2 added mega launcher boost
     if (IsBattlerAlive(BATTLE_PARTNER(battlerAtk)) && GetBattlerAbility(BATTLE_PARTNER(battlerAtk)) == ABILITY_VICTORY_STAR)
         calc = (calc * 110) / 100; // 1.1 ally's victory star boost
 
