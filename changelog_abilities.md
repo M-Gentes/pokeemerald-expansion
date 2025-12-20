@@ -12,4 +12,5 @@
 - Thermal Exchange: Gives SpAtk boost when hit by Ice/Fire move -> Manectric 
 
 - Buglicious: Absorbs Bug moves -> Heatmor, Carnivine
+- Buzz Voice: Boosts Sound and Bug Moves by 1.2
 - Weatherforce: Boosts Weather moves (Water, Rock, Ice, Flying, Electric) and absorb Electric

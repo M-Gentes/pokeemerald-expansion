@@ -287,6 +287,7 @@ static const u8 sEarthEaterDescription[] = _("Eats ground to heal HP.");
 static const u8 sMyceliumMightDescription[] = _("Status moves never fail.");
 static const u8 sWeatherForceDescription[] = _("Boosts weather types.");
 static const u8 sBugliciousDescription[] = _("Bug increases Attack.");
+static const u8 sBuzzVoiceDescription[] = _("Bug and Sound buff.");
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -592,6 +593,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
         [ABILITY_MYCELIUM_MIGHT] = _("Mycelium Might"),
         [ABILITY_WEATHER_FORCE] = _("Weather Force"),
         [ABILITY_BUGLICIOUS] = _("Buglicious"),
+        [ABILITY_BUZZ_VOICE] = _("Buzz Voice"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -1201,4 +1203,5 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
         [ABILITY_MYCELIUM_MIGHT] = sMyceliumMightDescription,
         [ABILITY_WEATHER_FORCE] = sWeatherForceDescription,
         [ABILITY_BUGLICIOUS] = sBugliciousDescription,
+        [ABILITY_BUZZ_VOICE] = sBuzzVoiceDescription,
 };

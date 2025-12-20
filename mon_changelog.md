@@ -263,7 +263,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 - Wind Power: Charged Up Mons boost each next move instead of just Electric Moves
 - Solar Power: tripples Swirlhead Water Attacks in the Sun while also effected by sun -> results in 50% boost
 - Keen Eye: 10% Accuracy boost on user's attacks
-- *NEW* Buglicious: Heals on Bug-type Moves
+- *NEW* Buglicious: Absorbs Bug-type Moves and boosts Atk
 - *NEW* Weather Force: Voltabsorb + 50% boost on weather-type Moves (Water, Rock, Grass, Ice, Flying, Electric) when any weather is active
 
 ## Changes Items
