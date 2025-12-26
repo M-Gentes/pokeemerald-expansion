@@ -1662,6 +1662,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_COMBAT_TORQUE] = _("CombatTorque"),
     [MOVE_MAGICAL_TORQUE] = _("MagiclTorque"),
     [MOVE_JAVELIN] = _("Javelin"),
+    [MOVE_BLOOD_MOON] = _("Blood Moon"),
 };
 #endif
 

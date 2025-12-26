@@ -6064,6 +6064,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
     [MOVE_MAGICAL_TORQUE] = {0}, // TODO
 
     [MOVE_JAVELIN] = {0}, // TODO
+    [MOVE_BLOOD_MOON] = {0}, // TODO
 };
 
 const struct ContestEffect gContestEffects[] =

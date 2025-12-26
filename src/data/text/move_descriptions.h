@@ -3239,6 +3239,9 @@ static const u8 sMagicalTorqueDescription[] = _(
 static const u8 sJavelinDescription[] = _(
     "Throw lances down the enemy!");
 
+static const u8 sBloodMoonDescription[] = _(
+    "Throw a blood red moon down.");
+
 const u8 gNotDoneYetDescription[] = _(
     "This move can't be used. Its\n"
     "effect is in development.");
@@ -4077,4 +4080,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_COMBAT_TORQUE - 1] = sCombatTorqueDescription,
     [MOVE_MAGICAL_TORQUE - 1] = sMagicalTorqueDescription,
     [MOVE_JAVELIN - 1] = sJavelinDescription,
+    [MOVE_BLOOD_MOON - 1] = sBloodMoonDescription,
 };

@@ -7,6 +7,9 @@
 - Noble Roar: 80 BP, Normal, Special, with Noble Roar effect
 - Covet: 60 BP, Fairy, Phsical, Thief
 - Water Gun: 40 BP, High Crit
+- Strength: 85 BP, 30% to boost Atk
+- Cut: 60 BP, Steel
+- Flash: 50 BP, Fairy, Spread, lowers Accuracy
 
 - Javelin: 35BP, 90 Acc, Steel, Multi-Hit
 - Type Strike: Physical Revelation Dance 80 BP

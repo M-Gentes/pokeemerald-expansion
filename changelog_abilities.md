@@ -10,6 +10,8 @@
 - Normalize: Boosts Normal type moves by 1.5
 - Mega Launcher: Boosts also accuracy by 1.2 for boosted moves and boost cannon/ballistic moves
 - Thermal Exchange: Gives SpAtk boost when hit by Ice/Fire move -> Manectric 
+- Stakeout: Add Metronome-Item-Mechanic for consecutive Move uses
+- Pure Power -> Mind Power: Doubles Special Attack
 
 - Buglicious: Absorbs Bug moves -> Heatmor, Carnivine
 - Buzz Voice: Boosts Sound and Bug Moves by 1.2
