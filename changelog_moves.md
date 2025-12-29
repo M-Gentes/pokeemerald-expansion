@@ -13,3 +13,4 @@
 
 - Javelin: 35BP, 90 Acc, Steel, Multi-Hit
 - Type Strike: Physical Revelation Dance 80 BP
+- Brain Storm: 50BP, 90 Acc, Psychic, Prio+1, Can reduce Acc

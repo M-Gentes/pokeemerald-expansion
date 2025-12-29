@@ -12,6 +12,7 @@
 - Thermal Exchange: Gives SpAtk boost when hit by Ice/Fire move -> Manectric 
 - Stakeout: Add Metronome-Item-Mechanic for consecutive Move uses
 - Pure Power -> Mind Power: Doubles Special Attack
+- Big Pecks -> Defiant for boosting Sp. Def +2, and no Def Drops
 
 - Buglicious: Absorbs Bug moves -> Heatmor, Carnivine
 - Buzz Voice: Boosts Sound and Bug Moves by 1.2
