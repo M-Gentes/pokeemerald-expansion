@@ -4,17 +4,18 @@
 Up to Gen 8 SWSH/PLA Pokémon + Megas
 - Castform (changing type to Rock in Sandstorm)
 - Paradox Pokémon
-- Custom Paradox Pokémon, filling missing counterparts of official Paradox Pokémon
+- Custom Paradox Pokémon, filling missing counterparts of official Paradox Pokémon + extra ones
 - Pawmot line
 - Annihilape
 - Dudunsparce
 - Kingambit
 - Caststorm (Castform - Evo & Mega)
 - Brynxess (Jynx - Evo)
-- Draconeon (@Infinite Fusion)
+- Draconeon (@Pokémon Infinity)
 - Apokargo
 - Relicliffon
 - Quezatu
+- Dhelvessel
 - Meraki (@Eclair1408)
 - Custom Gen 9 Starter 3rd Stage Evos
 - Custom Megas
@@ -36,6 +37,57 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
     - Mega-Delphox
     - Mega-Palossand
     - Mega-Falinks
+    - Mega-Rapidash
+    - Mega-Mightyena
+    - Mega-Drifblim
+    - Mega-Vanilluxe
+    - Mega-Fortress
+    - Mega-Boltund
+    - Mega-Swalot
+    - Mega-Sloking
+    - Mega-Golking
+    - Mega-Ledian
+    - Mega-Smeargle
+    - Starmobile-Revavroom
+    - Mega-Klefki
+    - Mega-Pincurchin
+    - Mega-Turtonator
+    - Mega-Thievul
+    - Mega-Toucannon
+    - Mega-Yanmega
+    - Mega-Liepard
+    - Mega-Klinklang
+    - Mega-Honchkrow
+    - Mega-Golduck
+    - Mega-Roserade
+    - Mega-Sigilyph
+    - Mega-Mantine
+    - Mega-Bidoof
+    - Mega Lord Helix
+    - Mega-Kabutops
+    - Mega-Porygon-Z
+    - Mega-Maractus
+    - Mega-Shuckle
+    - Starter Megas
+    - ZA-Megas with some exceptions
+    - Gigas as Megas
+- Custom Paradox
+    - Lanturn
+    - Wobbuffet
+    - Ariados
+    - Sunflora
+    - Octillery
+    - Camerupt
+    - Sharpedo
+    - Spiritomb
+    - Chandelure
+    - ?
+    - Kommo-o
+    - Stonjourner
+    - Eiscue
+    - Toxtricity
+    - Dragapult
+    - Oinkologne
 
 ## Changed Evolution Methods
 - Basic Trade Evolutions -> {EVO_LEVEL, Level 40, e.g. GENGAR}
