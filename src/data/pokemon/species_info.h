@@ -27270,6 +27270,98 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
+            [SPECIES_CLEFABLE_MEGA] =
+            {
+                .baseHP = 95,
+                .baseAttack = 70+10,
+                .baseDefense = 73+20,
+                .baseSpeed = 60+10,
+                .baseSpDefense = 90+20,
+                .baseSpAttack = 95+40,
+                .types = {TYPE_FAIRY, TYPE_FLYING},
+                .catchRate = 25,
+                .expYield = 217,
+                .evYield_HP = 3,
+                .itemRare = ITEM_MOON_STONE,
+                .genderRatio = PERCENT_FEMALE(75),
+                .eggCycles = 10,
+                .friendship = 140,
+                .growthRate = GROWTH_FAST,
+                .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_FAIRY},
+                .abilities = {ABILITY_MAGIC_BOUNCE},
+                .bodyColor = BODY_COLOR_PINK,
+                .noFlip = TRUE,
+            },
+
+            [SPECIES_DRAGONITE_MEGA] =
+            {
+                .baseHP = 91,
+                .baseAttack = 134-10,
+                .baseDefense = 95+20,
+                .baseSpeed = 80+20,
+                .baseSpAttack = 100+45,
+                .baseSpDefense = 100+25,
+                .types = {TYPE_DRAGON, TYPE_FLYING},
+                .catchRate = 45,
+                .expYield = 270,
+                .evYield_Attack = 3,
+                .itemRare = ITEM_DRAGON_SCALE,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 40,
+                .friendship = 35,
+                .growthRate = GROWTH_SLOW,
+                .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_DRAGON},
+                .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_MULTISCALE},
+                .bodyColor = BODY_COLOR_BROWN,
+                .noFlip = FALSE,
+            },
+
+            [SPECIES_STARAPTOR_MEGA] =
+            {
+                .baseHP = 85,
+                .baseAttack = 120+20,
+                .baseDefense = 70+30,
+                .baseSpeed = 100+10,
+                .baseSpAttack = 50+10,
+                .baseSpDefense = 60+30,
+                .types = {TYPE_FIGHTING, TYPE_FLYING},
+                .catchRate = 45,
+                .expYield = 218,
+                .evYield_Attack = 3,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 15,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_SLOW,
+                .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
+                .abilities = {ABILITY_SCRAPPY},
+                .bodyColor = BODY_COLOR_BROWN,
+                .noFlip = FALSE,
+            },
+
+            [SPECIES_EXCADRILL_MEGA] =
+            {
+                .baseHP = 110,
+                .baseAttack = 135+30,
+                .baseDefense = 60+40,
+                .baseSpeed = 88+25,
+                .baseSpAttack = 50+15,
+                .baseSpDefense = 65,
+                .types = {TYPE_GROUND, TYPE_STEEL},
+                .catchRate = 60,
+                .expYield = 178,
+                .evYield_Attack = 2,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 20,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_FAST,
+                .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+                .abilities = {ABILITY_UNSEEN_FIST},
+                .bodyColor = BODY_COLOR_GRAY,
+                .noFlip = TRUE,
+            },
+
+
+
             [SPECIES_SKARMORY_MEGA] =
             {
                 .baseHP = 65,
@@ -27969,6 +28061,52 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = FALSE,
             },
+
+            [SPECIES_CHANDELURE_MEGA] =
+            {
+                .baseHP = 60,
+                .baseAttack = 55+20,
+                .baseDefense = 90+20,
+                .baseSpeed = 80+10,
+                .baseSpAttack = 145+30,
+                .baseSpDefense = 90+20,
+                .types = {TYPE_GHOST, TYPE_FIRE},
+                .catchRate = 45,
+                .expYield = 234,
+                .evYield_SpAttack = 3,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 20,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_SLOW,
+                .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
+                .abilities = {ABILITY_INFILTRATOR},
+                .bodyColor = BODY_COLOR_BLACK,
+                .noFlip = FALSE,
+            },
+
+            [SPECIES_GOLISOPOD_MEGA] =
+            {
+                .baseHP = 75,
+                .baseAttack = 125+25,
+                .baseDefense = 140+35,
+                .baseSpeed = 40,
+                .baseSpAttack = 60+10,
+                .baseSpDefense = 90+30,
+                .types = {TYPE_BUG, TYPE_STEEL},
+                .catchRate = 45,
+                .expYield = 186,
+                .evYield_Defense = 2,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 20,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_FAST,
+                .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_WATER_3},
+                .abilities = {ABILITY_DEFIANT},
+                .bodyColor = BODY_COLOR_GRAY,
+                .noFlip = FALSE,
+            },
+
+            
 
             [SPECIES_PYROAR_MEGA_M] =
             {
