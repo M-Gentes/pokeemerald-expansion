@@ -26797,6 +26797,29 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
+            [SPECIES_LURINGSKULL] =
+                        {
+                            .baseHP = 125,
+                            .baseAttack = 76 + 50,
+                            .baseDefense = 58 + 20,
+                            .baseSpeed = 67 + 30,
+                            .baseSpAttack = 58,
+                            .baseSpDefense = 76,
+                            .types = {TYPE_WATER, TYPE_GHOST},
+                            .catchRate = 75,
+                            .expYield = 161,
+                            .evYield_HP = 2,
+                            .itemRare = ITEM_DEEP_SEA_SCALE,
+                            .genderRatio = PERCENT_FEMALE(50),
+                            .eggCycles = 20,
+                            .friendship = 70,
+                            .growthRate = GROWTH_SLOW,
+                            .eggGroups = {EGG_GROUP_WATER_2, EGG_GROUP_WATER_2},
+                            .abilities = {ABILITY_SOLAR_POWER, ABILITY_VOLT_ABSORB},
+                            .bodyColor = BODY_COLOR_BLUE,
+                            .noFlip = FALSE,
+                        },
+                        
 [SPECIES_SPIKEDASH] =
             {
                 .baseHP = 85 + 10 + 40,
@@ -26841,28 +26864,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
-[SPECIES_LURINGSKULL] =
-            {
-                .baseHP = 125,
-                .baseAttack = 76 + 50,
-                .baseDefense = 58 + 20,
-                .baseSpeed = 67 + 30,
-                .baseSpAttack = 58,
-                .baseSpDefense = 76,
-                .types = {TYPE_WATER, TYPE_GHOST},
-                .catchRate = 75,
-                .expYield = 161,
-                .evYield_HP = 2,
-                .itemRare = ITEM_DEEP_SEA_SCALE,
-                .genderRatio = PERCENT_FEMALE(50),
-                .eggCycles = 20,
-                .friendship = 70,
-                .growthRate = GROWTH_SLOW,
-                .eggGroups = {EGG_GROUP_WATER_2, EGG_GROUP_WATER_2},
-                .abilities = {ABILITY_SOLAR_POWER, ABILITY_VOLT_ABSORB},
-                .bodyColor = BODY_COLOR_BLUE,
-                .noFlip = FALSE,
-            },
 
 [SPECIES_RAPIDASH_MEGA] =
             {
@@ -28106,7 +28107,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
-            
+
 
             [SPECIES_PYROAR_MEGA_M] =
             {
@@ -29031,4 +29032,47 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
+    [SPECIES_KECLILISK] =
+        {
+                .baseHP = 60 + 50 + 20,
+                .baseAttack = 90 + 30,
+                .baseDefense = 70 + 20,
+                .baseSpeed = 40,
+                .baseSpAttack = 60 + 30 + 30,
+                .baseSpDefense = 120,
+                .types = {TYPE_NORMAL, TYPE_DRAGON},
+                .catchRate = 200,
+                .expYield = 154,
+                .evYield_SpDefense = 1,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 20,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_SLOW,
+                .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+                .abilities = {ABILITY_COLOR_CHANGE, ABILITY_PROTEAN, ABILITY_FILTER},
+                .bodyColor = BODY_COLOR_GREEN,
+                .noFlip = FALSE,
+        },
+        
+        [SPECIES_DHELVESSEL] =
+            {
+                .baseHP = 70+30,
+                .baseAttack = 131+10,
+                .baseDefense = 100,
+                .baseSpeed = 40+10,
+                .baseSpAttack = 86,
+                .baseSpDefense = 90+10,
+                .types = {TYPE_GHOST, TYPE_GRASS},
+                .catchRate = 25,
+                .expYield = 181,
+                .evYield_Attack = 2,
+                .genderRatio = MON_GENDERLESS,
+                .eggCycles = 25,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_FAST,
+                .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
+                .abilities = {ABILITY_SWIFT_SWIM, ABILITY_STEELWORKER},
+                .bodyColor = BODY_COLOR_GREEN,
+                .noFlip = TRUE,
+            },
 };
