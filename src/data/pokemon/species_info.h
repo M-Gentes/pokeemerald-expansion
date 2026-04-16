@@ -26797,6 +26797,50 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
+[SPECIES_SPIKEDASH] =
+            {
+                .baseHP = 85 + 10 + 40,
+                .baseAttack = 76 + 20 + 50,
+                .baseDefense = 64 + 10,
+                .baseSpeed = 90 + 10,
+                .baseSpAttack = 45,
+                .baseSpDefense = 55 + 10,
+                .types = {TYPE_NORMAL, TYPE_ROCK},
+                .catchRate = 90,
+                .expYield = 145,
+                .evYield_Speed = 2,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 15,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_FAST,
+                .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+                .abilities = {ABILITY_SOLAR_POWER, ABILITY_KEEN_EYE, ABILITY_NONE},
+                .bodyColor = BODY_COLOR_BROWN,
+                .noFlip = FALSE,
+            },
+
+[SPECIES_IRONWALKS] =
+            {
+                .baseHP = 85 + 10,
+                .baseAttack = 76 + 20 + 40,
+                .baseDefense = 64 + 10 + 10,
+                .baseSpeed = 90 + 30,
+                .baseSpAttack = 45 + 10,
+                .baseSpDefense = 55 + 10 + 10,
+                .types = {TYPE_NORMAL, TYPE_STEEL},
+                .catchRate = 90,
+                .expYield = 145,
+                .evYield_Speed = 2,
+                .genderRatio = PERCENT_FEMALE(50),
+                .eggCycles = 15,
+                .friendship = 70,
+                .growthRate = GROWTH_MEDIUM_FAST,
+                .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+                .abilities = {ABILITY_DOWNLOAD, ABILITY_SPEED_BOOST, ABILITY_NONE},
+                .bodyColor = BODY_COLOR_BROWN,
+                .noFlip = FALSE,
+            },
+
 [SPECIES_LURINGSKULL] =
             {
                 .baseHP = 125,
