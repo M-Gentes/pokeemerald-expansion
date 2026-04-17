@@ -14572,17 +14572,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     },
     [MOVE_ACID_DOWNPOUR] =
     {
-        .effect = EFFECT_HIT,
-        .power = 1,
+        .effect = EFFECT_ERUPTION,
+        .power = 150,
         .type = TYPE_POISON,
-        .accuracy = 0,
-        .pp = 1,
+        .accuracy = 90,
+        .pp = 5,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
+        .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .flags = 0,
         .zMovePower = 0,
-        .split = SPLIT_PHYSICAL,
+        .split = SPLIT_SPECIAL,
         .zMoveEffect = 0
     },
     [MOVE_TECTONIC_RAGE] =
