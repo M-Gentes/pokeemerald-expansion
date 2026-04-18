@@ -29522,7 +29522,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
-                .abilities = {ABILITY_SWIFT_SWIM, ABILITY_STEELWORKER},
+                .abilities = {ABILITY_RAIN_DISH, ABILITY_STEELWORKER},
                 .bodyColor = BODY_COLOR_GREEN,
                 .noFlip = TRUE,
             },
