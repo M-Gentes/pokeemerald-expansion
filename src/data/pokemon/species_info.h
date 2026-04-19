@@ -26970,7 +26970,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_2},
-                .abilities = {ABILITY_SOLAR_POWER, ABILITY_SKILL_LINK},
+                .abilities = {ABILITY_SKILL_LINK, ABILITY_SOLAR_POWER},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
             },
@@ -28041,11 +28041,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_SIGILYPH_MEGA] =
             {
-                .baseHP = 72,
-                .baseAttack = 58 + 10,
+                .baseHP = 72+30,
+                .baseAttack = 58 + 30,
                 .baseDefense = 80 + 20,
-                .baseSpeed = 97 + 20,
-                .baseSpAttack = 103 + 30,
+                .baseSpeed = 97,
+                .baseSpAttack = 103,
                 .baseSpDefense = 80 + 20,
                 .types = {TYPE_PSYCHIC, TYPE_FLYING},
                 .catchRate = 45,
@@ -28056,7 +28056,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_MEDIUM_FAST,
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
-                .abilities = {ABILITY_SIMPLE, ABILITY_WONDER_GUARD, ABILITY_SERENE_GRACE},
+                .abilities = {ABILITY_SIMPLE},
                 .bodyColor = BODY_COLOR_BLACK,
                 .noFlip = FALSE,
             },
