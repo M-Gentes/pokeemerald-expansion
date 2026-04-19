@@ -27335,6 +27335,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
                 .bodyColor = BODY_COLOR_YELLOW,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27357,6 +27358,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_DARK_AURA, ABILITY_DARK_AURA},
                 .bodyColor = BODY_COLOR_GRAY,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27379,6 +27381,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
                 .abilities = {ABILITY_FLARE_BOOST},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },            
 
@@ -27402,7 +27405,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_WONDER_GUARD},
                 .bodyColor = BODY_COLOR_BROWN,
                 .noFlip = FALSE,
-                .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
             [SPECIES_MARACTUS_MEGA] =
@@ -27425,6 +27428,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_GRASS, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_DANCER},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27447,6 +27451,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_2, EGG_GROUP_WATER_2},
                 .abilities = {ABILITY_GALVANIZE},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27472,6 +27477,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_SLOW_START},
                 .bodyColor = BODY_COLOR_YELLOW,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27495,6 +27501,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_IRON_FIST, ABILITY_IRON_FIST},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27517,6 +27524,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS},
                 .abilities = {ABILITY_WATER_BUBBLE},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27540,6 +27548,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_WATER_1},
                 .abilities = {ABILITY_SPEED_BOOST, ABILITY_SPEED_BOOST},
                 .bodyColor = BODY_COLOR_PINK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27562,6 +27571,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE, ABILITY_SOLAR_POWER},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27586,6 +27596,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_3, EGG_GROUP_WATER_3},
                 .abilities = {ABILITY_HUGE_POWER},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27608,6 +27619,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_BEADS_OF_RUIN},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27630,6 +27642,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_1},
                 .abilities = {ABILITY_QUICK_DRAW, ABILITY_MEGA_LAUNCHER, ABILITY_SWIFT_SWIM},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27652,6 +27665,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_3},
                 .abilities = {ABILITY_ILLUMINATE},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27674,6 +27688,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_3},
                 .abilities = {ABILITY_SWORD_OF_RUIN},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27697,6 +27712,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_2, EGG_GROUP_WATER_2},
                 .abilities = {ABILITY_SERENE_GRACE},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27719,6 +27735,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_PROTEAN},
                 .bodyColor = BODY_COLOR_WHITE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27742,6 +27759,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_FAIRY},
                 .abilities = {ABILITY_MAGIC_BOUNCE},
                 .bodyColor = BODY_COLOR_PINK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -27765,6 +27783,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_MULTISCALE},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27787,6 +27806,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
                 .abilities = {ABILITY_SCRAPPY},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27809,6 +27829,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_UNSEEN_FIST},
                 .bodyColor = BODY_COLOR_GRAY,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -27834,6 +27855,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
                 .abilities = {ABILITY_TOUGH_CLAWS},
                 .bodyColor = BODY_COLOR_GRAY,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
             
@@ -27856,6 +27878,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_NEUROFORCE},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27878,6 +27901,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_REFRIGERATE},
                 .bodyColor = BODY_COLOR_WHITE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27900,6 +27924,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_NEUROFORCE},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27923,6 +27948,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_SUPER_LUCK},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -27945,6 +27971,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
                 .abilities = {ABILITY_BATTERY},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27969,6 +27996,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_SHED_SKIN},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -27991,6 +28019,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_2},
                 .abilities = {ABILITY_CONTRARY, ABILITY_PURE_POWER, ABILITY_PURE_POWER},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28013,6 +28042,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_GRASS, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_TINTED_LENS},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28036,6 +28066,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_STAMINA},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28058,6 +28089,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
                 .abilities = {ABILITY_SIMPLE},
                 .bodyColor = BODY_COLOR_BLACK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28081,6 +28113,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_FLAME_BODY},
                 .bodyColor = BODY_COLOR_WHITE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28103,6 +28136,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_HUGE_POWER},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28125,6 +28159,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_STRONG_JAW},
                 .bodyColor = BODY_COLOR_YELLOW,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28149,6 +28184,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
                 .abilities = {ABILITY_EARTH_EATER},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28171,6 +28207,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
                 .abilities = { ABILITY_STAMINA },
                 .bodyColor = BODY_COLOR_GRAY,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28193,6 +28230,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_INTREPID_SWORD},
                 .bodyColor = BODY_COLOR_GRAY,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -28215,6 +28253,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_STAKEOUT},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28238,6 +28277,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_AERILATE},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28260,6 +28300,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_DROUGHT},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28282,6 +28323,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_STEELWORKER},
                 .bodyColor = BODY_COLOR_GRAY,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -28304,6 +28346,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
                 .abilities = {ABILITY_SUPER_LUCK},
                 .bodyColor = BODY_COLOR_BLACK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28329,6 +28372,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_BAD_DREAMS},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28351,6 +28395,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
         .abilities = { ABILITY_ROCKY_PAYLOAD },
         .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,
     },
 
@@ -28373,6 +28418,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
         .abilities = { ABILITY_FLUFFY },
         .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,
     },
 
@@ -28397,7 +28443,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .abilities = {ABILITY_PUNK_ROCK},
                 .bodyColor = BODY_COLOR_RED,
                 .noFlip = FALSE,
-                .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
             },
 
     [SPECIES_VENOMOTH_MEGA] =
@@ -28421,6 +28467,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_TINTED_LENS, ABILITY_TINTED_LENS, ABILITY_FUR_COAT},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28443,6 +28490,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
         .abilities = { ABILITY_FLAME_BODY },
         .bodyColor = BODY_COLOR_GREEN,
+        .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,
     },
 
@@ -28465,6 +28513,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
         .abilities = { ABILITY_FAIRY_AURA },
         .bodyColor = BODY_COLOR_BLUE,
+        .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,
     },
 
@@ -28488,6 +28537,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_NO_GUARD},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -28511,6 +28561,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_HUMAN_LIKE},
                 .abilities = {ABILITY_STAMINA},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28533,6 +28584,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
                 .abilities = {ABILITY_INFILTRATOR},
                 .bodyColor = BODY_COLOR_BLACK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28555,6 +28607,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_WATER_3},
                 .abilities = {ABILITY_DEFIANT},
                 .bodyColor = BODY_COLOR_GRAY,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28579,8 +28632,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_LEVITATE},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
-                .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
             },
 
             [SPECIES_PYROAR_MEGA_F] =
@@ -28602,8 +28655,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_SERENE_GRACE},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
-                .flags = SPECIES_FLAG_GENDER_DIFFERENCE,
             },
 
             [SPECIES_BARBARACLE_MEGA] =
@@ -28625,6 +28678,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_3, EGG_GROUP_WATER_3},
                 .abilities = {ABILITY_SKILL_LINK},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -28647,6 +28701,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_ADAPTABILITY, ABILITY_MULTISCALE},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28670,6 +28725,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
                 .abilities = {ABILITY_MEGA_LAUNCHER},
                 .bodyColor = BODY_COLOR_BLACK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28693,6 +28749,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_3, EGG_GROUP_WATER_3},
                 .abilities = {ABILITY_MOODY},
                 .bodyColor = BODY_COLOR_WHITE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28716,6 +28773,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_WEATHER_FORCE},
                 .bodyColor = BODY_COLOR_WHITE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28739,6 +28797,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_QUICK_DRAW},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28763,6 +28822,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_TRIAGE},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28786,6 +28846,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_WATER_1},
                 .abilities = {ABILITY_DRAGONS_MAW},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28809,6 +28870,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_THICK_FAT},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -28833,6 +28895,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE},
                 .abilities = {ABILITY_ADAPTABILITY},
                 .bodyColor = BODY_COLOR_BROWN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28855,6 +28918,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_SUPREME_OVERLORD},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28877,6 +28941,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_CONTRARY},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28899,6 +28964,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_INTREPID_SWORD},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -28921,6 +28987,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_COMPETITIVE},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28943,6 +29010,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_LIQUID_VOICE},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28965,6 +29033,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_GRASS},
                 .abilities = {ABILITY_PUNK_ROCK},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -28987,6 +29056,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE},
                 .abilities = {ABILITY_LIBERO},
                 .bodyColor = BODY_COLOR_WHITE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29010,6 +29080,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_FIELD},
                 .abilities = {ABILITY_SNIPER},
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29032,6 +29103,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
                 .abilities = {ABILITY_SERENE_GRACE, ABILITY_NEUTRALIZING_GAS},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29054,6 +29126,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
                 .abilities = {ABILITY_STAMINA},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29076,6 +29149,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
                 .abilities = {ABILITY_STEELWORKER},
                 .bodyColor = BODY_COLOR_WHITE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29098,6 +29172,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_WATER_3, EGG_GROUP_WATER_3},
                 .abilities = {ABILITY_SHEER_FORCE},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -29122,6 +29197,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_WATER_1},
                 .abilities = {ABILITY_SNOW_WARNING,
                 .bodyColor = BODY_COLOR_BLUE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29146,6 +29222,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_CORROSION},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = TRUE,
             },
 
@@ -29168,6 +29245,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_WATER_1},
                 .abilities = {ABILITY_SWIFT_SWIM},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29190,6 +29268,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FLYING, EGG_GROUP_FLYING},
                 .abilities = {ABILITY_INFILTRATOR},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29213,6 +29292,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_NO_GUARD},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29235,6 +29315,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_SAND_STREAM},
                 .bodyColor = BODY_COLOR_BLACK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29257,6 +29338,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_GRASS, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_THICK_FAT},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29279,6 +29361,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_DRAGON},
                 .abilities = {ABILITY_SAND_FORCE},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
     
@@ -29300,6 +29383,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = {EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE},      \
         .abilities = {ABILITY_PUNK_ROCK}, \
         .bodyColor = BODY_COLOR_PURPLE,                                 \
+        .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,     
             },
 
@@ -29322,6 +29406,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
                 .abilities = {ABILITY_SOLAR_POWER},
                 .bodyColor = BODY_COLOR_RED,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29344,6 +29429,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_FAIRY},
                 .abilities = {ABILITY_TABLETS_OF_RUIN},
                 .bodyColor = BODY_COLOR_PINK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29367,6 +29453,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE},
                 .abilities = {ABILITY_VESSEL_OF_RUIN},
                 .bodyColor = BODY_COLOR_PURPLE,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
             
@@ -29389,6 +29476,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_AMORPHOUS},                 \
         .abilities = {ABILITY_REFRIGERATE}, \
         .bodyColor = color,                                                  \
+        .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,
             },
 
@@ -29412,6 +29500,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_MINERAL},
                 .abilities = {ABILITY_STEELY_SPIRIT},
                 .bodyColor = BODY_COLOR_GREEN,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29436,6 +29525,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_MONSTER},
                 .abilities = {ABILITY_THICK_FAT},
                 .bodyColor = BODY_COLOR_BLACK,
+                .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
             },
 
@@ -29458,6 +29548,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON, EGG_GROUP_MINERAL),
         .abilities = { ABILITY_SHARPNESS },
         .bodyColor = BODY_COLOR_BLUE,
+        .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,
     },
 
@@ -29480,6 +29571,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .abilities = { ABILITY_STORM_DRAIN, ABILITY_NONE, ABILITY_STORM_DRAIN },
         .bodyColor = BODY_COLOR_RED,
+        .flags = SPECIES_FLAG_MEGA_EVOLUTION,
         .noFlip = FALSE,
     },
 
