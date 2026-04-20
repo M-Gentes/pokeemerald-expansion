@@ -30228,7 +30228,6 @@ static const u16 sCosmoemTeachableLearnset[] = {
 };
 
 static const u16 sSolgaleoTeachableLearnset[] = {
-    MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
@@ -30266,7 +30265,6 @@ static const u16 sSolgaleoTeachableLearnset[] = {
 static const u16 sLunalaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_BLIZZARD,
-    MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,

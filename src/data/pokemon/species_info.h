@@ -18620,8 +18620,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_SOLGALEO] =
             {
-                .baseHP = 137,
-                .baseAttack = 137,
+                .baseHP = 137-17,
+                .baseAttack = 137-17,
                 .baseDefense = 107,
                 .baseSpeed = 97,
                 .baseSpAttack = 113,
@@ -18643,11 +18643,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_LUNALA] =
             {
-                .baseHP = 137,
+                .baseHP = 137-17,
                 .baseAttack = 113,
                 .baseDefense = 89,
                 .baseSpeed = 97,
-                .baseSpAttack = 137,
+                .baseSpAttack = 137-17,
                 .baseSpDefense = 107,
                 .types = {TYPE_PSYCHIC, TYPE_GHOST},
                 .catchRate = 45,
@@ -27387,9 +27387,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_BIDOOF_MEGA] =
             {
-                .baseHP = 110,
+                .baseHP = 59,
                 .baseAttack = 110,
-                .baseDefense = 110,
+                .baseDefense = 40,
                 .baseSpeed = 110,
                 .baseSpAttack = 110,
                 .baseSpDefense = 110,
