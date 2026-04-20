@@ -768,14 +768,14 @@
         .noFlip = FALSE,                                                      \
     }
 
-#define ALCREMIE_SPECIES_INFO(color)                                         \
+#define ALCREMIE_SPECIES_INFO(color, atk, def, spd)                                         \
     {                                                                        \
         .baseHP = 65,                                                        \
-        .baseAttack = 60,                                                    \
-        .baseDefense = 75,                                                   \
-        .baseSpeed = 64,                                                     \
-        .baseSpAttack = 110,                                                 \
-        .baseSpDefense = 121,                                                \
+        .baseAttack = 60-10+atk,                                                    \
+        .baseDefense = 75-10+def,                                                   \
+        .baseSpeed = 64+spd,                                                     \
+        .baseSpAttack = 110+atk,                                                 \
+        .baseSpDefense = 121+def,                                                \
         .types = {TYPE_FAIRY, TYPE_FAIRY},                                   \
         .catchRate = 100,                                                    \
         .expYield = 173,                                                     \
@@ -20265,7 +20265,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
-        [SPECIES_ALCREMIE] = ALCREMIE_SPECIES_INFO(BODY_COLOR_WHITE),
+        [SPECIES_ALCREMIE] = ALCREMIE_SPECIES_INFO(BODY_COLOR_WHITE,10,10,10),
 
         [SPECIES_FALINKS] =
             {
@@ -24506,14 +24506,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_POLTEAGEIST_ANTIQUE] = POLTEAGEIST_SPECIES_INFO(20),
 
-        [SPECIES_ALCREMIE_RUBY_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_PINK),
-        [SPECIES_ALCREMIE_MATCHA_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_GREEN),
-        [SPECIES_ALCREMIE_MINT_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_BLUE),
-        [SPECIES_ALCREMIE_LEMON_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_YELLOW),
-        [SPECIES_ALCREMIE_SALTED_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_WHITE),
-        [SPECIES_ALCREMIE_RUBY_SWIRL] = ALCREMIE_SPECIES_INFO(BODY_COLOR_YELLOW),
-        [SPECIES_ALCREMIE_CARAMEL_SWIRL] = ALCREMIE_SPECIES_INFO(BODY_COLOR_BROWN),
-        [SPECIES_ALCREMIE_RAINBOW_SWIRL] = ALCREMIE_SPECIES_INFO(BODY_COLOR_YELLOW),
+        [SPECIES_ALCREMIE_RUBY_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_PINK,40,0,0),
+        [SPECIES_ALCREMIE_MATCHA_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_GREEN,0,40,0),
+        [SPECIES_ALCREMIE_MINT_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_BLUE,0,40,0),
+        [SPECIES_ALCREMIE_LEMON_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_YELLOW,0,0,40),
+        [SPECIES_ALCREMIE_SALTED_CREAM] = ALCREMIE_SPECIES_INFO(BODY_COLOR_WHITE,0,0,40),
+        [SPECIES_ALCREMIE_RUBY_SWIRL] = ALCREMIE_SPECIES_INFO(BODY_COLOR_YELLOW,40,0,0),
+        [SPECIES_ALCREMIE_CARAMEL_SWIRL] = ALCREMIE_SPECIES_INFO(BODY_COLOR_BROWN,0,40,0),
+        [SPECIES_ALCREMIE_RAINBOW_SWIRL] = ALCREMIE_SPECIES_INFO(BODY_COLOR_YELLOW,40,0,0),
 
         [SPECIES_EISCUE_NOICE_FACE] =
             {
