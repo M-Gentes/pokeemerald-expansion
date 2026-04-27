@@ -1341,6 +1341,382 @@ extern const u32 gMonStillFrontPic_Tandayu[];
 extern const u8 gMonIcon_Tandayu[];
 extern const u8 gMonFootprint_Tandayu[];
 
+extern const u32 gMonFrontPic_Tarountula[];  
+extern const u32 gMonPalette_Tarountula[];  
+extern const u32 gMonBackPic_Tarountula[];  
+extern const u32 gMonShinyPalette_Tarountula[];  
+extern const u32 gMonStillFrontPic_Tarountula[];  
+extern const u8 gMonIcon_Tarountula[];  
+extern const u8 gMonFootprint_Tarountula[];  
+
+extern const u32 gMonFrontPic_Spidops[];  
+extern const u32 gMonPalette_Spidops[];  
+extern const u32 gMonBackPic_Spidops[];  
+extern const u32 gMonShinyPalette_Spidops[];  
+extern const u32 gMonStillFrontPic_Spidops[];  
+extern const u8 gMonIcon_Spidops[];  
+extern const u8 gMonFootprint_Spidops[];  
+
+extern const u32 gMonFrontPic_Rabsca[];  
+extern const u32 gMonPalette_Rabsca[];  
+extern const u32 gMonBackPic_Rabsca[];  
+extern const u32 gMonShinyPalette_Rabsca[];  
+extern const u32 gMonStillFrontPic_Rabsca[];  
+extern const u8 gMonIcon_Rabsca[];  
+extern const u8 gMonFootprint_Rabsca[];  
+
+extern const u32 gMonFrontPic_Revavroom[];  
+extern const u32 gMonPalette_Revavroom[];  
+extern const u32 gMonBackPic_Revavroom[];  
+extern const u32 gMonShinyPalette_Revavroom[];  
+extern const u32 gMonStillFrontPic_Revavroom[];  
+extern const u8 gMonIcon_Revavroom[];  
+extern const u8 gMonFootprint_Revavroom[];  
+
+extern const u32 gMonFrontPic_Glimmora[];  
+extern const u32 gMonPalette_Glimmora[];  
+extern const u32 gMonBackPic_Glimmora[];  
+extern const u32 gMonShinyPalette_Glimmora[];  
+extern const u32 gMonStillFrontPic_Glimmora[];  
+extern const u8 gMonIcon_Glimmora[];  
+extern const u8 gMonFootprint_Glimmora[];  
+
+extern const u32 gMonFrontPic_Veluza[];  
+extern const u32 gMonPalette_Veluza[];  
+extern const u32 gMonBackPic_Veluza[];  
+extern const u32 gMonShinyPalette_Veluza[];  
+extern const u32 gMonStillFrontPic_Veluza[];  
+extern const u8 gMonIcon_Veluza[];  
+extern const u8 gMonFootprint_Veluza[];  
+
+extern const u32 gMonFrontPic_Scovillain[];  
+extern const u32 gMonPalette_Scovillain[];  
+extern const u32 gMonBackPic_Scovillain[];  
+extern const u32 gMonShinyPalette_Scovillain[];  
+extern const u32 gMonStillFrontPic_Scovillain[];  
+extern const u8 gMonIcon_Scovillain[];  
+extern const u8 gMonFootprint_Scovillain[];  
+
+extern const u32 gMonFrontPic_Baxcalibur[];  
+extern const u32 gMonPalette_Baxcalibur[];  
+extern const u32 gMonBackPic_Baxcalibur[];  
+extern const u32 gMonShinyPalette_Baxcalibur[];  
+extern const u32 gMonStillFrontPic_Baxcalibur[];  
+extern const u8 gMonIcon_Baxcalibur[];  
+extern const u8 gMonFootprint_Baxcalibur[];  
+
+extern const u32 gMonFrontPic_Tatsugiri[];  
+extern const u32 gMonPalette_Tatsugiri[];  
+extern const u32 gMonBackPic_Tatsugiri[];  
+extern const u32 gMonShinyPalette_Tatsugiri[];  
+extern const u32 gMonStillFrontPic_Tatsugiri[];  
+extern const u8 gMonIcon_Tatsugiri[];  
+extern const u8 gMonFootprint_Tatsugiri[];  
+
+extern const u32 gMonFrontPic_Clodsire[];  
+extern const u32 gMonPalette_Clodsire[];  
+extern const u32 gMonBackPic_Clodsire[];  
+extern const u32 gMonShinyPalette_Clodsire[];  
+extern const u32 gMonStillFrontPic_Clodsire[];  
+extern const u8 gMonIcon_Clodsire[];  
+extern const u8 gMonFootprint_Clodsire[];  
+
+extern const u32 gMonFrontPic_Sinistcha[];  
+extern const u32 gMonPalette_Sinistcha[];  
+extern const u32 gMonBackPic_Sinistcha[];  
+extern const u32 gMonShinyPalette_Sinistcha[];  
+extern const u32 gMonStillFrontPic_Sinistcha[];  
+extern const u8 gMonIcon_Sinistcha[];  
+extern const u8 gMonFootprint_Sinistcha[];  
+
+extern const u32 gMonFrontPic_Archaludon[];  
+extern const u32 gMonPalette_Archaludon[];  
+extern const u32 gMonBackPic_Archaludon[];  
+extern const u32 gMonShinyPalette_Archaludon[];  
+extern const u32 gMonStillFrontPic_Archaludon[];  
+extern const u8 gMonIcon_Archaludon[];  
+extern const u8 gMonFootprint_Archaludon[];  
+
+extern const u32 gMonFrontPic_Hydrapple[];  
+extern const u32 gMonPalette_Hydrapple[];  
+extern const u32 gMonBackPic_Hydrapple[];  
+extern const u32 gMonShinyPalette_Hydrapple[];  
+extern const u32 gMonStillFrontPic_Hydrapple[];  
+extern const u8 gMonIcon_Hydrapple[];  
+extern const u8 gMonFootprint_Hydrapple[];  
+
+extern const u32 gMonFrontPic_Keclilisk[];  
+extern const u32 gMonPalette_Keclilisk[];  
+extern const u32 gMonBackPic_Keclilisk[];  
+extern const u32 gMonShinyPalette_Keclilisk[];  
+extern const u32 gMonStillFrontPic_Keclilisk[];  
+extern const u8 gMonIcon_Keclilisk[];  
+extern const u8 gMonFootprint_Keclilisk[];  
+
+extern const u32 gMonFrontPic_Dhelvessel[];  
+extern const u32 gMonPalette_Dhelvessel[];  
+extern const u32 gMonBackPic_Dhelvessel[];  
+extern const u32 gMonShinyPalette_Dhelvessel[];  
+extern const u32 gMonStillFrontPic_Dhelvessel[];  
+extern const u8 gMonIcon_Dhelvessel[];  
+extern const u8 gMonFootprint_Dhelvessel[];
+
+extern const u32 gMonFrontPic_Spikedash[];  
+extern const u32 gMonPalette_Spikedash[];  
+extern const u32 gMonBackPic_Spikedash[];  
+extern const u32 gMonShinyPalette_Spikedash[];  
+extern const u32 gMonStillFrontPic_Spikedash[];  
+extern const u8 gMonIcon_Spikebash[];  
+extern const u8 gMonFootprint_Spikedash[];
+
+extern const u32 gMonFrontPic_Ironwalks[];  
+extern const u32 gMonPalette_Ironwalks[];  
+extern const u32 gMonBackPic_Ironwalks[];  
+extern const u32 gMonShinyPalette_Ironwalks[];  
+extern const u32 gMonStillFrontPic_Ironwalks[];  
+extern const u8 gMonIcon_Ironwalks[];  
+extern const u8 gMonFootprint_Ironwalks[];   
+
+extern const u32 gMonFrontPic_Lurinskull[];  
+extern const u32 gMonPalette_Lurinskull[];  
+extern const u32 gMonBackPic_Lurinskull[];  
+extern const u32 gMonShinyPalette_Lurinskull[];  
+extern const u32 gMonStillFrontPic_Lurinskull[];  
+extern const u8 gMonIcon_Lurinskull[];  
+extern const u8 gMonFootprint_Lurinskull[];  
+
+extern const u32 gMonFrontPic_Ironseeker[];  
+extern const u32 gMonPalette_Ironseeker[];  
+extern const u32 gMonBackPic_Ironseeker[];  
+extern const u32 gMonShinyPalette_Ironseeker[];  
+extern const u32 gMonStillFrontPic_Ironseeker[];  
+extern const u8 gMonIcon_Ironseeker[];  
+extern const u8 gMonFootprint_Ironseeker[];  
+
+extern const u32 gMonFrontPic_Nokay[];  
+extern const u32 gMonPalette_Nokay[];  
+extern const u32 gMonBackPic_Nokay[];  
+extern const u32 gMonShinyPalette_Nokay[];  
+extern const u32 gMonStillFrontPic_Nokay[];  
+extern const u8 gMonIcon_Nokay[];  
+extern const u8 gMonFootprint_Nokay[];  
+
+extern const u32 gMonFrontPic_Ironkneel[];  
+extern const u32 gMonPalette_Ironkneel[];  
+extern const u32 gMonBackPic_Ironkneel[];  
+extern const u32 gMonShinyPalette_Ironkneel[];  
+extern const u32 gMonStillFrontPic_Ironkneel[];  
+extern const u8 gMonIcon_Ironkneel[];  
+extern const u8 gMonFootprint_Ironkneel[];  
+
+extern const u32 gMonFrontPic_Venomfear[];  
+extern const u32 gMonPalette_Venomfear[];  
+extern const u32 gMonBackPic_Venomfear[];  
+extern const u32 gMonShinyPalette_Venomfear[];  
+extern const u32 gMonStillFrontPic_Venomfear[];  
+extern const u8 gMonIcon_Venomfear[];  
+extern const u8 gMonFootprint_Venomfear[];  
+
+extern const u32 gMonFrontPic_Ironsting[];  
+extern const u32 gMonPalette_Ironsting[];  
+extern const u32 gMonBackPic_Ironsting[];  
+extern const u32 gMonShinyPalette_Ironsting[];  
+extern const u32 gMonStillFrontPic_Ironsting[];  
+extern const u8 gMonIcon_Ironsting[];  
+extern const u8 gMonFootprint_Ironsting[];  
+
+extern const u32 gMonFrontPic_Slendersun[];  
+extern const u32 gMonPalette_Slendersun[];  
+extern const u32 gMonBackPic_Slendersun[];  
+extern const u32 gMonShinyPalette_Slendersun[];  
+extern const u32 gMonStillFrontPic_Slendersun[];  
+extern const u8 gMonIcon_Slendersun[];  
+extern const u8 gMonFootprint_Slendersun[];  
+
+extern const u32 gMonFrontPic_Ironpanel[];  
+extern const u32 gMonPalette_Ironpanel[];  
+extern const u32 gMonBackPic_Ironpanel[];  
+extern const u32 gMonShinyPalette_Ironpanel[];  
+extern const u32 gMonStillFrontPic_Ironpanel[];  
+extern const u8 gMonIcon_Ironpanel[];  
+extern const u8 gMonFootprint_Ironpanel[];  
+
+extern const u32 gMonFrontPic_Dreadbould[];  
+extern const u32 gMonPalette_Dreadbould[];  
+extern const u32 gMonBackPic_Dreadbould[];  
+extern const u32 gMonShinyPalette_Dreadbould[];  
+extern const u32 gMonStillFrontPic_Dreadbould[];  
+extern const u8 gMonIcon_Dreadbould[];  
+extern const u8 gMonFootprint_Dreadbould[];  
+
+extern const u32 gMonFrontPic_Ironhole[];  
+extern const u32 gMonPalette_Ironhole[];  
+extern const u32 gMonBackPic_Ironhole[];  
+extern const u32 gMonShinyPalette_Ironhole[];  
+extern const u32 gMonStillFrontPic_Ironhole[];  
+extern const u8 gMonIcon_Ironhole[];  
+extern const u8 gMonFootprint_Ironhole[];  
+
+extern const u32 gMonFrontPic_Archmussel[];  
+extern const u32 gMonPalette_Archmussel[];  
+extern const u32 gMonBackPic_Archmussel[];  
+extern const u32 gMonShinyPalette_Archmussel[];  
+extern const u32 gMonStillFrontPic_Archmussel[];  
+extern const u8 gMonIcon_Archmussel[];  
+extern const u8 gMonFootprint_Archmussel[];  
+
+extern const u32 gMonFrontPic_Ironpump[];  
+extern const u32 gMonPalette_Ironpump[];  
+extern const u32 gMonBackPic_Ironpump[];  
+extern const u32 gMonShinyPalette_Ironpump[];  
+extern const u32 gMonStillFrontPic_Ironpump[];  
+extern const u8 gMonIcon_Ironpump[];  
+extern const u8 gMonFootprint_Ironpump[];  
+
+extern const u32 gMonFrontPic_Steamount[];  
+extern const u32 gMonPalette_Steamount[];  
+extern const u32 gMonBackPic_Steamount[];  
+extern const u32 gMonShinyPalette_Steamount[];  
+extern const u32 gMonStillFrontPic_Steamount[];  
+extern const u8 gMonIcon_Steamount[];  
+extern const u8 gMonFootprint_Steamount[];  
+
+extern const u32 gMonFrontPic_Ironfuse[];  
+extern const u32 gMonPalette_Ironfuse[];  
+extern const u32 gMonBackPic_Ironfuse[];  
+extern const u32 gMonShinyPalette_Ironfuse[];  
+extern const u32 gMonStillFrontPic_Ironfuse[];  
+extern const u8 gMonIcon_Ironfuse[];  
+extern const u8 gMonFootprint_Ironfuse[];  
+
+extern const u32 gMonFrontPic_Abyssclaw[];  
+extern const u32 gMonPalette_Abyssclaw[];  
+extern const u32 gMonBackPic_Abyssclaw[];  
+extern const u32 gMonShinyPalette_Abyssclaw[];  
+extern const u32 gMonStillFrontPic_Abyssclaw[];  
+extern const u8 gMonIcon_Abyssclaw[];  
+extern const u8 gMonFootprint_Abyssclaw[];  
+
+extern const u32 gMonFrontPic_Ironsub[];  
+extern const u32 gMonPalette_Ironsub[];  
+extern const u32 gMonBackPic_Ironsub[];  
+extern const u32 gMonShinyPalette_Ironsub[];  
+extern const u32 gMonStillFrontPic_Ironsub[];  
+extern const u8 gMonIcon_Ironsub[];  
+extern const u8 gMonFootprint_Ironsub[];  
+
+extern const u32 gMonFrontPic_Cinderoot[];  
+extern const u32 gMonPalette_Cinderoot[];  
+extern const u32 gMonBackPic_Cinderoot[];  
+extern const u32 gMonShinyPalette_Cinderoot[];  
+extern const u32 gMonStillFrontPic_Cinderoot[];  
+extern const u8 gMonIcon_Cinderoot[];  
+extern const u8 gMonFootprint_Cinderoot[];  
+
+extern const u32 gMonFrontPic_Ironplasma[];  
+extern const u32 gMonPalette_Ironplasma[];  
+extern const u32 gMonBackPic_Ironplasma[];  
+extern const u32 gMonShinyPalette_Ironplasma[];  
+extern const u32 gMonStillFrontPic_Ironplasma[];  
+extern const u8 gMonIcon_Ironplasma[];  
+extern const u8 gMonFootprint_Ironplasma[];  
+
+extern const u32 gMonFrontPic_Glaciarmor[];  
+extern const u32 gMonPalette_Glaciarmor[];  
+extern const u32 gMonBackPic_Glaciarmor[];  
+extern const u32 gMonShinyPalette_Glaciarmor[];  
+extern const u32 gMonStillFrontPic_Glaciarmor[];  
+extern const u8 gMonIcon_Glaciarmor[];  
+extern const u8 gMonFootprint_Glaciarmor[];  
+
+extern const u32 gMonFrontPic_Ironwaves[];  
+extern const u32 gMonPalette_Ironwaves[];  
+extern const u32 gMonBackPic_Ironwaves[];  
+extern const u32 gMonShinyPalette_Ironwaves[];  
+extern const u32 gMonStillFrontPic_Ironwaves[];  
+extern const u8 gMonIcon_Ironwaves[];  
+extern const u8 gMonFootprint_Ironwaves[];  
+
+extern const u32 gMonFrontPic_Summoncircle[];  
+extern const u32 gMonPalette_Summoncircle[];  
+extern const u32 gMonBackPic_Summoncircle[];  
+extern const u32 gMonShinyPalette_Summoncircle[];  
+extern const u32 gMonStillFrontPic_Summoncircle[];  
+extern const u8 gMonIcon_Summoncircle[];  
+extern const u8 gMonFootprint_Summoncircle[];  
+
+extern const u32 gMonFrontPic_Irongate[];  
+extern const u32 gMonPalette_Irongate[];  
+extern const u32 gMonBackPic_Irongate[];  
+extern const u32 gMonShinyPalette_Irongate[];  
+extern const u32 gMonStillFrontPic_Irongate[];  
+extern const u8 gMonIcon_Irongate[];  
+extern const u8 gMonFootprint_Irongate[];  
+
+extern const u32 gMonFrontPic_Cubepunch[];  
+extern const u32 gMonPalette_Cubepunch[];  
+extern const u32 gMonBackPic_Cubepunch[];  
+extern const u32 gMonShinyPalette_Cubepunch[];  
+extern const u32 gMonStillFrontPic_Cubepunch[];  
+extern const u8 gMonIcon_Cubepunch[];  
+extern const u8 gMonFootprint_Cubepunch[];  
+
+extern const u32 gMonFrontPic_Ironvision[];  
+extern const u32 gMonPalette_Ironvision[];  
+extern const u32 gMonBackPic_Ironvision[];  
+extern const u32 gMonShinyPalette_Ironvision[];  
+extern const u32 gMonStillFrontPic_Ironvision[];  
+extern const u8 gMonIcon_Ironvision[];  
+extern const u8 gMonFootprint_Ironvision[];  
+
+extern const u32 gMonFrontPic_Barkjam[];  
+extern const u32 gMonPalette_Barkjam[];  
+extern const u32 gMonBackPic_Barkjam[];  
+extern const u32 gMonShinyPalette_Barkjam[];  
+extern const u32 gMonStillFrontPic_Barkjam[];  
+extern const u8 gMonIcon_Barkjam[];  
+extern const u8 gMonFootprint_Barkjam[];  
+
+extern const u32 gMonFrontPic_Ironbuzz[];  
+extern const u32 gMonPalette_Ironbuzz[];  
+extern const u32 gMonBackPic_Ironbuzz[];  
+extern const u32 gMonShinyPalette_Ironbuzz[];  
+extern const u32 gMonStillFrontPic_Ironbuzz[];  
+extern const u8 gMonIcon_Ironbuzz[];  
+extern const u8 gMonFootprint_Ironbuzz[];  
+
+extern const u32 gMonFrontPic_Floatinhunt[];  
+extern const u32 gMonPalette_Floatinhunt[];  
+extern const u32 gMonBackPic_Floatinhunt[];  
+extern const u32 gMonShinyPalette_Floatinhunt[];  
+extern const u32 gMonStillFrontPic_Floatinhunt[];  
+extern const u8 gMonIcon_Floatinhunt[];  
+extern const u8 gMonFootprint_Floatinhunt[];  
+
+extern const u32 gMonFrontPic_Ironrocket[];  
+extern const u32 gMonPalette_Ironrocket[];  
+extern const u32 gMonBackPic_Ironrocket[];  
+extern const u32 gMonShinyPalette_Ironrocket[];  
+extern const u32 gMonStillFrontPic_Ironrocket[];  
+extern const u8 gMonIcon_Ironrocket[];  
+extern const u8 gMonFootprint_Ironrocket[];  
+
+extern const u32 gMonFrontPic_Pleasodor[];  
+extern const u32 gMonPalette_Pleasodor[];  
+extern const u32 gMonBackPic_Pleasodor[];  
+extern const u32 gMonShinyPalette_Pleasodor[];  
+extern const u32 gMonStillFrontPic_Pleasodor[];  
+extern const u8 gMonIcon_Pleasodor[];  
+extern const u8 gMonFootprint_Pleasodor[];  
+
+extern const u32 gMonFrontPic_Ironspray[];  
+extern const u32 gMonPalette_Ironspray[];  
+extern const u32 gMonBackPic_Ironspray[];  
+extern const u32 gMonShinyPalette_Ironspray[];  
+extern const u32 gMonStillFrontPic_Ironspray[];  
+extern const u8 gMonIcon_Ironspray[];  
+extern const u8 gMonFootprint_Ironspray[];  
+
 //Custom Megas
 extern const u32 gMonFrontPic_TentacruelMega[];
 extern const u32 gMonPalette_TentacruelMega[];
@@ -1477,6 +1853,768 @@ extern const u32 gMonShinyPalette_Pumpking[];
 extern const u32 gMonStillFrontPic_Pumpking[];
 extern const u8 gMonIcon_Pumpking[];
 extern const u8 gMonFootprint_Pumpking[];
+
+// Cutom Megas 2
+
+extern const u32 gMonFrontPic_RapidashMega[];
+extern const u32 gMonPalette_RapidashMega[];
+extern const u32 gMonBackPic_RapidashMega[];
+extern const u32 gMonShinyPalette_RapidashMega[];
+extern const u32 gMonStillFrontPic_RapidashMega[];
+extern const u8 gMonIcon_RapidashMega[];
+// extern const u8 gMonFootprint_RapidashMega[];
+
+extern const u32 gMonFrontPic_MightyenaMega[];
+extern const u32 gMonPalette_MightyenaMega[];
+extern const u32 gMonBackPic_MightyenaMega[];
+extern const u32 gMonShinyPalette_MightyenaMega[];
+extern const u32 gMonStillFrontPic_MightyenaMega[];
+extern const u8 gMonIcon_MightyenaMega[];
+// extern const u8 gMonFootprint_MightyenaMega[];
+
+extern const u32 gMonFrontPic_DrifblimMega[];
+extern const u32 gMonPalette_DrifblimMega[];
+extern const u32 gMonBackPic_DrifblimMega[];
+extern const u32 gMonShinyPalette_DrifblimMega[];
+extern const u32 gMonStillFrontPic_DrifblimMega[];
+extern const u8 gMonIcon_DrifblimMega[];
+// extern const u8 gMonFootprint_DrifblimMega[];
+
+extern const u32 gMonFrontPic_VanilluxeMega[];
+extern const u32 gMonPalette_VanilluxeMega[];
+extern const u32 gMonBackPic_VanilluxeMega[];
+extern const u32 gMonShinyPalette_VanilluxeMega[];
+extern const u32 gMonStillFrontPic_VanilluxeMega[];
+extern const u8 gMonIcon_VanilluxeMega[];
+// extern const u8 gMonFootprint_VanilluxeMega[];
+
+extern const u32 gMonFrontPic_FortressMega[];
+extern const u32 gMonPalette_FortressMega[];
+extern const u32 gMonBackPic_FortressMega[];
+extern const u32 gMonShinyPalette_FortressMega[];
+extern const u32 gMonStillFrontPic_FortressMega[];
+extern const u8 gMonIcon_FortressMega[];
+// extern const u8 gMonFootprint_FortressMega[];
+
+extern const u32 gMonFrontPic_BoltundMega[];
+extern const u32 gMonPalette_BoltundMega[];
+extern const u32 gMonBackPic_BoltundMega[];
+extern const u32 gMonShinyPalette_BoltundMega[];
+extern const u32 gMonStillFrontPic_BoltundMega[];
+extern const u8 gMonIcon_BoltundMega[];
+// extern const u8 gMonFootprint_BoltundMega[];
+
+extern const u32 gMonFrontPic_SwalotMega[];
+extern const u32 gMonPalette_SwalotMega[];
+extern const u32 gMonBackPic_SwalotMega[];
+extern const u32 gMonShinyPalette_SwalotMega[];
+extern const u32 gMonStillFrontPic_SwalotMega[];
+extern const u8 gMonIcon_SwalotMega[];
+// extern const u8 gMonFootprint_SwalotMega[];
+
+extern const u32 gMonFrontPic_SlokingMega[];
+extern const u32 gMonPalette_SlokingMega[];
+extern const u32 gMonBackPic_SlokingMega[];
+extern const u32 gMonShinyPalette_SlokingMega[];
+extern const u32 gMonStillFrontPic_SlokingMega[];
+extern const u8 gMonIcon_SlokingMega[];
+// extern const u8 gMonFootprint_SlokingMega[];
+
+extern const u32 gMonFrontPic_GolkingMega[];
+extern const u32 gMonPalette_GolkingMega[];
+extern const u32 gMonBackPic_GolkingMega[];
+extern const u32 gMonShinyPalette_GolkingMega[];
+extern const u32 gMonStillFrontPic_GolkingMega[];
+extern const u8 gMonIcon_GolkingMega[];
+// extern const u8 gMonFootprint_GolkingMega[];
+
+extern const u32 gMonFrontPic_LedianMega[];
+extern const u32 gMonPalette_LedianMega[];
+extern const u32 gMonBackPic_LedianMega[];
+extern const u32 gMonShinyPalette_LedianMega[];
+extern const u32 gMonStillFrontPic_LedianMega[];
+extern const u8 gMonIcon_LedianMega[];
+// extern const u8 gMonFootprint_LedianMega[];
+
+extern const u32 gMonFrontPic_ArbokMega[];
+extern const u32 gMonPalette_ArbokMega[];
+extern const u32 gMonBackPic_ArbokMega[];
+extern const u32 gMonShinyPalette_ArbokMega[];
+extern const u32 gMonStillFrontPic_ArbokMega[];
+extern const u8 gMonIcon_ArbokMega[];
+// extern const u8 gMonFootprint_ArbokMega[];
+
+extern const u32 gMonFrontPic_SmeargleMega[];
+extern const u32 gMonPalette_SmeargleMega[];
+extern const u32 gMonBackPic_SmeargleMega[];
+extern const u32 gMonShinyPalette_SmeargleMega[];
+extern const u32 gMonStillFrontPic_SmeargleMega[];
+extern const u8 gMonIcon_SmeargleMega[];
+// extern const u8 gMonFootprint_SmeargleMega[];
+
+extern const u32 gMonFrontPic_RevavroomMega[];
+extern const u32 gMonPalette_RevavroomMega[];
+extern const u32 gMonBackPic_RevavroomMega[];
+extern const u32 gMonShinyPalette_RevavroomMega[];
+extern const u32 gMonStillFrontPic_RevavroomMega[];
+extern const u8 gMonIcon_RevavroomMega[];
+// extern const u8 gMonFootprint_RevavroomMega[];
+
+extern const u32 gMonFrontPic_KlefkiMega[];
+extern const u32 gMonPalette_KlefkiMega[];
+extern const u32 gMonBackPic_KlefkiMega[];
+extern const u32 gMonShinyPalette_KlefkiMega[];
+extern const u32 gMonStillFrontPic_KlefkiMega[];
+extern const u8 gMonIcon_KlefkiMega[];
+// extern const u8 gMonFootprint_KlefkiMega[];
+
+extern const u32 gMonFrontPic_PincurchinMega[];
+extern const u32 gMonPalette_PincurchinMega[];
+extern const u32 gMonBackPic_PincurchinMega[];
+extern const u32 gMonShinyPalette_PincurchinMega[];
+extern const u32 gMonStillFrontPic_PincurchinMega[];
+extern const u8 gMonIcon_PincurchinMega[];
+// extern const u8 gMonFootprint_PincurchinMega[];
+
+extern const u32 gMonFrontPic_TurtonatorMega[];
+extern const u32 gMonPalette_TurtonatorMega[];
+extern const u32 gMonBackPic_TurtonatorMega[];
+extern const u32 gMonShinyPalette_TurtonatorMega[];
+extern const u32 gMonStillFrontPic_TurtonatorMega[];
+extern const u8 gMonIcon_TurtonatorMega[];
+// extern const u8 gMonFootprint_TurtonatorMega[];
+
+extern const u32 gMonFrontPic_ThievulMega[];
+extern const u32 gMonPalette_ThievulMega[];
+extern const u32 gMonBackPic_ThievulMega[];
+extern const u32 gMonShinyPalette_ThievulMega[];
+extern const u32 gMonStillFrontPic_ThievulMega[];
+extern const u8 gMonIcon_ThievulMega[];
+// extern const u8 gMonFootprint_ThievulMega[];
+
+extern const u32 gMonFrontPic_ToucannonMega[];
+extern const u32 gMonPalette_ToucannonMega[];
+extern const u32 gMonBackPic_ToucannonMega[];
+extern const u32 gMonShinyPalette_ToucannonMega[];
+extern const u32 gMonStillFrontPic_ToucannonMega[];
+extern const u8 gMonIcon_ToucannonMega[];
+// extern const u8 gMonFootprint_ToucannonMega[];
+
+extern const u32 gMonFrontPic_YanmegaMega[];
+extern const u32 gMonPalette_YanmegaMega[];
+extern const u32 gMonBackPic_YanmegaMega[];
+extern const u32 gMonShinyPalette_YanmegaMega[];
+extern const u32 gMonStillFrontPic_YanmegaMega[];
+extern const u8 gMonIcon_YanmegaMega[];
+// extern const u8 gMonFootprint_YanmegaMega[];
+
+extern const u32 gMonFrontPic_LiepardMega[];
+extern const u32 gMonPalette_LiepardMega[];
+extern const u32 gMonBackPic_LiepardMega[];
+extern const u32 gMonShinyPalette_LiepardMega[];
+extern const u32 gMonStillFrontPic_LiepardMega[];
+extern const u8 gMonIcon_LiepardMega[];
+// extern const u8 gMonFootprint_LiepardMega[];
+
+extern const u32 gMonFrontPic_KlinklangMega[];
+extern const u32 gMonPalette_KlinklangMega[];
+extern const u32 gMonBackPic_KlinklangMega[];
+extern const u32 gMonShinyPalette_KlinklangMega[];
+extern const u32 gMonStillFrontPic_KlinklangMega[];
+extern const u8 gMonIcon_KlinklangMega[];
+// extern const u8 gMonFootprint_KlinklangMega[];
+
+extern const u32 gMonFrontPic_HonchkrowMega[];
+extern const u32 gMonPalette_HonchkrowMega[];
+extern const u32 gMonBackPic_HonchkrowMega[];
+extern const u32 gMonShinyPalette_HonchkrowMega[];
+extern const u32 gMonStillFrontPic_HonchkrowMega[];
+extern const u8 gMonIcon_HonchkrowMega[];
+// extern const u8 gMonFootprint_HonchkrowMega[];
+
+extern const u32 gMonFrontPic_GolduckMega[];
+extern const u32 gMonPalette_GolduckMega[];
+extern const u32 gMonBackPic_GolduckMega[];
+extern const u32 gMonShinyPalette_GolduckMega[];
+extern const u32 gMonStillFrontPic_GolduckMega[];
+extern const u8 gMonIcon_GolduckMega[];
+// extern const u8 gMonFootprint_GolduckMega[];
+
+extern const u32 gMonFrontPic_RoseradeMega[];
+extern const u32 gMonPalette_RoseradeMega[];
+extern const u32 gMonBackPic_RoseradeMega[];
+extern const u32 gMonShinyPalette_RoseradeMega[];
+extern const u32 gMonStillFrontPic_RoseradeMega[];
+extern const u8 gMonIcon_RoseradeMega[];
+// extern const u8 gMonFootprint_RoseradeMega[];
+
+extern const u32 gMonFrontPic_SigilyphMega[];
+extern const u32 gMonPalette_SigilyphMega[];
+extern const u32 gMonBackPic_SigilyphMega[];
+extern const u32 gMonShinyPalette_SigilyphMega[];
+extern const u32 gMonStillFrontPic_SigilyphMega[];
+extern const u8 gMonIcon_SigilyphMega[];
+// extern const u8 gMonFootprint_SigilyphMega[];
+
+extern const u32 gMonFrontPic_MantineMega[];
+extern const u32 gMonPalette_MantineMega[];
+extern const u32 gMonBackPic_MantineMega[];
+extern const u32 gMonShinyPalette_MantineMega[];
+extern const u32 gMonStillFrontPic_MantineMega[];
+extern const u8 gMonIcon_MantineMega[];
+// extern const u8 gMonFootprint_MantineMega[];
+
+extern const u32 gMonFrontPic_BidoofMega[];
+extern const u32 gMonPalette_BidoofMega[];
+extern const u32 gMonBackPic_BidoofMega[];
+extern const u32 gMonShinyPalette_BidoofMega[];
+extern const u32 gMonStillFrontPic_BidoofMega[];
+extern const u8 gMonIcon_BidoofMega[];
+// extern const u8 gMonFootprint_BidoofMega[];
+
+extern const u32 gMonFrontPic_OmastarMega[];
+extern const u32 gMonPalette_OmastarMega[];
+extern const u32 gMonBackPic_OmastarMega[];
+extern const u32 gMonShinyPalette_OmastarMega[];
+extern const u32 gMonStillFrontPic_OmastarMega[];
+extern const u8 gMonIcon_OmastarMega[];
+// extern const u8 gMonFootprint_OmastarMega[];
+
+extern const u32 gMonFrontPic_KabutopsMega[];
+extern const u32 gMonPalette_KabutopsMega[];
+extern const u32 gMonBackPic_KabutopsMega[];
+extern const u32 gMonShinyPalette_KabutopsMega[];
+extern const u32 gMonStillFrontPic_KabutopsMega[];
+extern const u8 gMonIcon_KabutopsMega[];
+// extern const u8 gMonFootprint_KabutopsMega[];
+
+extern const u32 gMonFrontPic_PorygonZMega[];
+extern const u32 gMonPalette_PorygonZMega[];
+extern const u32 gMonBackPic_PorygonZMega[];
+extern const u32 gMonShinyPalette_PorygonZMega[];
+extern const u32 gMonStillFrontPic_PorygonZMega[];
+extern const u8 gMonIcon_PorygonZMega[];
+// extern const u8 gMonFootprint_PorygonZMega[];
+
+extern const u32 gMonFrontPic_MaractusMega[];
+extern const u32 gMonPalette_MaractusMega[];
+extern const u32 gMonBackPic_MaractusMega[];
+extern const u32 gMonShinyPalette_MaractusMega[];
+extern const u32 gMonStillFrontPic_MaractusMega[];
+extern const u8 gMonIcon_MaractusMega[];
+// extern const u8 gMonFootprint_MaractusMega[];
+
+extern const u32 gMonFrontPic_WhiscashMega[];
+extern const u32 gMonPalette_WhiscashMega[];
+extern const u32 gMonBackPic_WhiscashMega[];
+extern const u32 gMonShinyPalette_WhiscashMega[];
+extern const u32 gMonStillFrontPic_WhiscashMega[];
+extern const u8 gMonIcon_WhiscashMega[];
+// extern const u8 gMonFootprint_WhiscashMega[];
+
+extern const u32 gMonFrontPic_ShuckleMega[];
+extern const u32 gMonPalette_ShuckleMega[];
+extern const u32 gMonBackPic_ShuckleMega[];
+extern const u32 gMonShinyPalette_ShuckleMega[];
+extern const u32 gMonStillFrontPic_ShuckleMega[];
+extern const u8 gMonIcon_ShuckleMega[];
+// extern const u8 gMonFootprint_ShuckleMega[];
+
+extern const u32 gMonFrontPic_ParasectMega[];
+extern const u32 gMonPalette_ParasectMega[];
+extern const u32 gMonBackPic_ParasectMega[];
+extern const u32 gMonShinyPalette_ParasectMega[];
+extern const u32 gMonStillFrontPic_ParasectMega[];
+extern const u8 gMonIcon_ParasectMega[];
+// extern const u8 gMonFootprint_ParasectMega[];
+
+extern const u32 gMonFrontPic_RabscaMega[];
+extern const u32 gMonPalette_RabscaMega[];
+extern const u32 gMonBackPic_RabscaMega[];
+extern const u32 gMonShinyPalette_RabscaMega[];
+extern const u32 gMonStillFrontPic_RabscaMega[];
+extern const u8 gMonIcon_RabscaMega[];
+// extern const u8 gMonFootprint_RabscaMega[];
+
+extern const u32 gMonFrontPic_SpidopsMega[];
+extern const u32 gMonPalette_SpidopsMega[];
+extern const u32 gMonBackPic_SpidopsMega[];
+extern const u32 gMonShinyPalette_SpidopsMega[];
+extern const u32 gMonStillFrontPic_SpidopsMega[];
+extern const u8 gMonIcon_SpidopsMega[];
+// extern const u8 gMonFootprint_SpidopsMega[];
+
+extern const u32 gMonFrontPic_KricketuneMega[];
+extern const u32 gMonPalette_KricketuneMega[];
+extern const u32 gMonBackPic_KricketuneMega[];
+extern const u32 gMonShinyPalette_KricketuneMega[];
+extern const u32 gMonStillFrontPic_KricketuneMega[];
+extern const u8 gMonIcon_KricketuneMega[];
+// extern const u8 gMonFootprint_KricketuneMega[];
+
+extern const u32 gMonFrontPic_VenomothMega[];
+extern const u32 gMonPalette_VenomothMega[];
+extern const u32 gMonBackPic_VenomothMega[];
+extern const u32 gMonShinyPalette_VenomothMega[];
+extern const u32 gMonStillFrontPic_VenomothMega[];
+extern const u8 gMonIcon_VenomothMega[];
+// extern const u8 gMonFootprint_VenomothMega[];
+
+extern const u32 gMonFrontPic_MeganiumMega[];
+extern const u32 gMonPalette_MeganiumMega[];
+extern const u32 gMonBackPic_MeganiumMega[];
+extern const u32 gMonShinyPalette_MeganiumMega[];
+extern const u32 gMonStillFrontPic_MeganiumMega[];
+extern const u8 gMonIcon_MeganiumMega[];
+// extern const u8 gMonFootprint_MeganiumMega[];
+
+extern const u32 gMonFrontPic_FeraligatrMega[];
+extern const u32 gMonPalette_FeraligatrMega[];
+extern const u32 gMonBackPic_FeraligatrMega[];
+extern const u32 gMonShinyPalette_FeraligatrMega[];
+extern const u32 gMonStillFrontPic_FeraligatrMega[];
+extern const u8 gMonIcon_FeraligatrMega[];
+// extern const u8 gMonFootprint_FeraligatrMega[];
+
+extern const u32 gMonFrontPic_TorterraMega[];
+extern const u32 gMonPalette_TorterraMega[];
+extern const u32 gMonBackPic_TorterraMega[];
+extern const u32 gMonShinyPalette_TorterraMega[];
+extern const u32 gMonStillFrontPic_TorterraMega[];
+extern const u8 gMonIcon_TorterraMega[];
+// extern const u8 gMonFootprint_TorterraMega[];
+
+extern const u32 gMonFrontPic_InfernapeMega[];
+extern const u32 gMonPalette_InfernapeMega[];
+extern const u32 gMonBackPic_InfernapeMega[];
+extern const u32 gMonShinyPalette_InfernapeMega[];
+extern const u32 gMonStillFrontPic_InfernapeMega[];
+extern const u8 gMonIcon_InfernapeMega[];
+// extern const u8 gMonFootprint_InfernapeMega[];
+
+extern const u32 gMonFrontPic_EmpoleonMega[];
+extern const u32 gMonPalette_EmpoleonMega[];
+extern const u32 gMonBackPic_EmpoleonMega[];
+extern const u32 gMonShinyPalette_EmpoleonMega[];
+extern const u32 gMonStillFrontPic_EmpoleonMega[];
+extern const u8 gMonIcon_EmpoleonMega[];
+// extern const u8 gMonFootprint_EmpoleonMega[];
+
+extern const u32 gMonFrontPic_SerperiorMega[];
+extern const u32 gMonPalette_SerperiorMega[];
+extern const u32 gMonBackPic_SerperiorMega[];
+extern const u32 gMonShinyPalette_SerperiorMega[];
+extern const u32 gMonStillFrontPic_SerperiorMega[];
+extern const u8 gMonIcon_SerperiorMega[];
+// extern const u8 gMonFootprint_SerperiorMega[];
+
+extern const u32 gMonFrontPic_EmboarMega[];
+extern const u32 gMonPalette_EmboarMega[];
+extern const u32 gMonBackPic_EmboarMega[];
+extern const u32 gMonShinyPalette_EmboarMega[];
+extern const u32 gMonStillFrontPic_EmboarMega[];
+extern const u8 gMonIcon_EmboarMega[];
+// extern const u8 gMonFootprint_EmboarMega[];
+
+extern const u32 gMonFrontPic_IncineroarMega[];
+extern const u32 gMonPalette_IncineroarMega[];
+extern const u32 gMonBackPic_IncineroarMega[];
+extern const u32 gMonShinyPalette_IncineroarMega[];
+extern const u32 gMonStillFrontPic_IncineroarMega[];
+extern const u8 gMonIcon_IncineroarMega[];
+// extern const u8 gMonFootprint_IncineroarMega[];
+
+extern const u32 gMonFrontPic_PrimarinaMega[];
+extern const u32 gMonPalette_PrimarinaMega[];
+extern const u32 gMonBackPic_PrimarinaMega[];
+extern const u32 gMonShinyPalette_PrimarinaMega[];
+extern const u32 gMonStillFrontPic_PrimarinaMega[];
+extern const u8 gMonIcon_PrimarinaMega[];
+// extern const u8 gMonFootprint_PrimarinaMega[];
+
+extern const u32 gMonFrontPic_RillaboomMega[];
+extern const u32 gMonPalette_RillaboomMega[];
+extern const u32 gMonBackPic_RillaboomMega[];
+extern const u32 gMonShinyPalette_RillaboomMega[];
+extern const u32 gMonStillFrontPic_RillaboomMega[];
+extern const u8 gMonIcon_RillaboomMega[];
+// extern const u8 gMonFootprint_RillaboomMega[];
+
+extern const u32 gMonFrontPic_CinderaceMega[];
+extern const u32 gMonPalette_CinderaceMega[];
+extern const u32 gMonBackPic_CinderaceMega[];
+extern const u32 gMonShinyPalette_CinderaceMega[];
+extern const u32 gMonStillFrontPic_CinderaceMega[];
+extern const u8 gMonIcon_CinderaceMega[];
+// extern const u8 gMonFootprint_CinderaceMega[];
+
+extern const u32 gMonFrontPic_InteleonMega[];
+extern const u32 gMonPalette_InteleonMega[];
+extern const u32 gMonBackPic_InteleonMega[];
+extern const u32 gMonShinyPalette_InteleonMega[];
+extern const u32 gMonStillFrontPic_InteleonMega[];
+extern const u8 gMonIcon_InteleonMega[];
+// extern const u8 gMonFootprint_InteleonMega[];
+
+extern const u32 gMonFrontPic_MeowscaradaMega[];
+extern const u32 gMonPalette_MeowscaradaMega[];
+extern const u32 gMonBackPic_MeowscaradaMega[];
+extern const u32 gMonShinyPalette_MeowscaradaMega[];
+extern const u32 gMonStillFrontPic_MeowscaradaMega[];
+extern const u8 gMonIcon_MeowscaradaMega[];
+// extern const u8 gMonFootprint_MeowscaradaMega[];
+
+extern const u32 gMonFrontPic_SkeledirgeMega[];
+extern const u32 gMonPalette_SkeledirgeMega[];
+extern const u32 gMonBackPic_SkeledirgeMega[];
+extern const u32 gMonShinyPalette_SkeledirgeMega[];
+extern const u32 gMonStillFrontPic_SkeledirgeMega[];
+extern const u8 gMonIcon_SkeledirgeMega[];
+// extern const u8 gMonFootprint_SkeledirgeMega[];
+
+extern const u32 gMonFrontPic_QuaquavalMega[];
+extern const u32 gMonPalette_QuaquavalMega[];
+extern const u32 gMonBackPic_QuaquavalMega[];
+extern const u32 gMonShinyPalette_QuaquavalMega[];
+extern const u32 gMonStillFrontPic_QuaquavalMega[];
+extern const u8 gMonIcon_QuaquavalMega[];
+// extern const u8 gMonFootprint_QuaquavalMega[];
+
+extern const u32 gMonFrontPic_KinglerMega[];
+extern const u32 gMonPalette_KinglerMega[];
+extern const u32 gMonBackPic_KinglerMega[];
+extern const u32 gMonShinyPalette_KinglerMega[];
+extern const u32 gMonStillFrontPic_KinglerMega[];
+extern const u8 gMonIcon_KinglerMega[];
+// extern const u8 gMonFootprint_KinglerMega[];
+
+extern const u32 gMonFrontPic_LaprasMega[];
+extern const u32 gMonPalette_LaprasMega[];
+extern const u32 gMonBackPic_LaprasMega[];
+extern const u32 gMonShinyPalette_LaprasMega[];
+extern const u32 gMonStillFrontPic_LaprasMega[];
+extern const u8 gMonIcon_LaprasMega[];
+// extern const u8 gMonFootprint_LaprasMega[];
+
+extern const u32 gMonFrontPic_GarbodorMega[];
+extern const u32 gMonPalette_GarbodorMega[];
+extern const u32 gMonBackPic_GarbodorMega[];
+extern const u32 gMonShinyPalette_GarbodorMega[];
+extern const u32 gMonStillFrontPic_GarbodorMega[];
+extern const u8 gMonIcon_GarbodorMega[];
+// extern const u8 gMonFootprint_GarbodorMega[];
+
+extern const u32 gMonFrontPic_CorviknightMega[];
+extern const u32 gMonPalette_CorviknightMega[];
+extern const u32 gMonBackPic_CorviknightMega[];
+extern const u32 gMonShinyPalette_CorviknightMega[];
+extern const u32 gMonStillFrontPic_CorviknightMega[];
+extern const u8 gMonIcon_CorviknightMega[];
+// extern const u8 gMonFootprint_CorviknightMega[];
+
+extern const u32 gMonFrontPic_OrbeetleMega[];
+extern const u32 gMonPalette_OrbeetleMega[];
+extern const u32 gMonBackPic_OrbeetleMega[];
+extern const u32 gMonShinyPalette_OrbeetleMega[];
+extern const u32 gMonStillFrontPic_OrbeetleMega[];
+extern const u8 gMonIcon_OrbeetleMega[];
+// extern const u8 gMonFootprint_OrbeetleMega[];
+
+extern const u32 gMonFrontPic_CoalossalMega[];
+extern const u32 gMonPalette_CoalossalMega[];
+extern const u32 gMonBackPic_CoalossalMega[];
+extern const u32 gMonShinyPalette_CoalossalMega[];
+extern const u32 gMonStillFrontPic_CoalossalMega[];
+extern const u8 gMonIcon_CoalossalMega[];
+// extern const u8 gMonFootprint_CoalossalMega[];
+
+extern const u32 gMonFrontPic_DrednawMega[];
+extern const u32 gMonPalette_DrednawMega[];
+extern const u32 gMonBackPic_DrednawMega[];
+extern const u32 gMonShinyPalette_DrednawMega[];
+extern const u32 gMonStillFrontPic_DrednawMega[];
+extern const u8 gMonIcon_DrednawMega[];
+// extern const u8 gMonFootprint_DrednawMega[];
+
+extern const u32 gMonFrontPic_FlappleMega[];
+extern const u32 gMonPalette_FlappleMega[];
+extern const u32 gMonBackPic_FlappleMega[];
+extern const u32 gMonShinyPalette_FlappleMega[];
+extern const u32 gMonStillFrontPic_FlappleMega[];
+extern const u8 gMonIcon_FlappleMega[];
+// extern const u8 gMonFootprint_FlappleMega[];
+
+extern const u32 gMonFrontPic_SandacondaMega[];
+extern const u32 gMonPalette_SandacondaMega[];
+extern const u32 gMonBackPic_SandacondaMega[];
+extern const u32 gMonShinyPalette_SandacondaMega[];
+extern const u32 gMonStillFrontPic_SandacondaMega[];
+extern const u8 gMonIcon_SandacondaMega[];
+// extern const u8 gMonFootprint_SandacondaMega[];
+
+extern const u32 gMonFrontPic_ToxtricityMega[];
+extern const u32 gMonPalette_ToxtricityMega[];
+extern const u32 gMonBackPic_ToxtricityMega[];
+extern const u32 gMonShinyPalette_ToxtricityMega[];
+extern const u32 gMonStillFrontPic_ToxtricityMega[];
+extern const u8 gMonIcon_ToxtricityMega[];
+// extern const u8 gMonFootprint_ToxtricityMega[];
+
+extern const u32 gMonFrontPic_CentiskorchMega[];
+extern const u32 gMonPalette_CentiskorchMega[];
+extern const u32 gMonBackPic_CentiskorchMega[];
+extern const u32 gMonShinyPalette_CentiskorchMega[];
+extern const u32 gMonStillFrontPic_CentiskorchMega[];
+extern const u8 gMonIcon_CentiskorchMega[];
+// extern const u8 gMonFootprint_CentiskorchMega[];
+
+extern const u32 gMonFrontPic_HattereneMega[];
+extern const u32 gMonPalette_HattereneMega[];
+extern const u32 gMonBackPic_HattereneMega[];
+extern const u32 gMonShinyPalette_HattereneMega[];
+extern const u32 gMonStillFrontPic_HattereneMega[];
+extern const u8 gMonIcon_HattereneMega[];
+// extern const u8 gMonFootprint_HattereneMega[];
+
+extern const u32 gMonFrontPic_GrimmsnarlMega[];
+extern const u32 gMonPalette_GrimmsnarlMega[];
+extern const u32 gMonBackPic_GrimmsnarlMega[];
+extern const u32 gMonShinyPalette_GrimmsnarlMega[];
+extern const u32 gMonStillFrontPic_GrimmsnarlMega[];
+extern const u8 gMonIcon_GrimmsnarlMega[];
+// extern const u8 gMonFootprint_GrimmsnarlMega[];
+
+extern const u32 gMonFrontPic_AlcremieMega[];
+extern const u32 gMonPalette_AlcremieMega[];
+extern const u32 gMonBackPic_AlcremieMega[];
+extern const u32 gMonShinyPalette_AlcremieMega[];
+extern const u32 gMonStillFrontPic_AlcremieMega[];
+extern const u8 gMonIcon_AlcremieMega[];
+// extern const u8 gMonFootprint_AlcremieMega[];
+
+extern const u32 gMonFrontPic_CopperajahMega[];
+extern const u32 gMonPalette_CopperajahMega[];
+extern const u32 gMonBackPic_CopperajahMega[];
+extern const u32 gMonShinyPalette_CopperajahMega[];
+extern const u32 gMonStillFrontPic_CopperajahMega[];
+extern const u8 gMonIcon_CopperajahMega[];
+// extern const u8 gMonFootprint_CopperajahMega[];
+
+extern const u32 gMonFrontPic_ClefableMega[];
+extern const u32 gMonPalette_ClefableMega[];
+extern const u32 gMonBackPic_ClefableMega[];
+extern const u32 gMonShinyPalette_ClefableMega[];
+extern const u32 gMonStillFrontPic_ClefableMega[];
+extern const u8 gMonIcon_ClefableMega[];
+// extern const u8 gMonFootprint_ClefableMega[];
+
+extern const u32 gMonFrontPic_VictreebelMega[];
+extern const u32 gMonPalette_VictreebelMega[];
+extern const u32 gMonBackPic_VictreebelMega[];
+extern const u32 gMonShinyPalette_VictreebelMega[];
+extern const u32 gMonStillFrontPic_VictreebelMega[];
+extern const u8 gMonIcon_VictreebelMega[];
+// extern const u8 gMonFootprint_VictreebelMega[];
+
+extern const u32 gMonFrontPic_StarmieMega[];
+extern const u32 gMonPalette_StarmieMega[];
+extern const u32 gMonBackPic_StarmieMega[];
+extern const u32 gMonShinyPalette_StarmieMega[];
+extern const u32 gMonStillFrontPic_StarmieMega[];
+extern const u8 gMonIcon_StarmieMega[];
+// extern const u8 gMonFootprint_StarmieMega[];
+
+extern const u32 gMonFrontPic_DragoniteMega[];
+extern const u32 gMonPalette_DragoniteMega[];
+extern const u32 gMonBackPic_DragoniteMega[];
+extern const u32 gMonShinyPalette_DragoniteMega[];
+extern const u32 gMonStillFrontPic_DragoniteMega[];
+extern const u8 gMonIcon_DragoniteMega[];
+// extern const u8 gMonFootprint_DragoniteMega[];
+
+extern const u32 gMonFrontPic_SkarmoryMega[];
+extern const u32 gMonPalette_SkarmoryMega[];
+extern const u32 gMonBackPic_SkarmoryMega[];
+extern const u32 gMonShinyPalette_SkarmoryMega[];
+extern const u32 gMonStillFrontPic_SkarmoryMega[];
+extern const u8 gMonIcon_SkarmoryMega[];
+// extern const u8 gMonFootprint_SkarmoryMega[];
+
+extern const u32 gMonFrontPic_StaraptorMega[];
+extern const u32 gMonPalette_StaraptorMega[];
+extern const u32 gMonBackPic_StaraptorMega[];
+extern const u32 gMonShinyPalette_StaraptorMega[];
+extern const u32 gMonStillFrontPic_StaraptorMega[];
+extern const u8 gMonIcon_StaraptorMega[];
+// extern const u8 gMonFootprint_StaraptorMega[];
+
+extern const u32 gMonFrontPic_FroslassMega[];
+extern const u32 gMonPalette_FroslassMega[];
+extern const u32 gMonBackPic_FroslassMega[];
+extern const u32 gMonShinyPalette_FroslassMega[];
+extern const u32 gMonStillFrontPic_FroslassMega[];
+extern const u8 gMonIcon_FroslassMega[];
+// extern const u8 gMonFootprint_FroslassMega[];
+
+extern const u32 gMonFrontPic_ExcadrillMega[];
+extern const u32 gMonPalette_ExcadrillMega[];
+extern const u32 gMonBackPic_ExcadrillMega[];
+extern const u32 gMonShinyPalette_ExcadrillMega[];
+extern const u32 gMonStillFrontPic_ExcadrillMega[];
+extern const u8 gMonIcon_ExcadrillMega[];
+// extern const u8 gMonFootprint_ExcadrillMega[];
+
+extern const u32 gMonFrontPic_ScolipedeMega[];
+extern const u32 gMonPalette_ScolipedeMega[];
+extern const u32 gMonBackPic_ScolipedeMega[];
+extern const u32 gMonShinyPalette_ScolipedeMega[];
+extern const u32 gMonStillFrontPic_ScolipedeMega[];
+extern const u8 gMonIcon_ScolipedeMega[];
+// extern const u8 gMonFootprint_ScolipedeMega[];
+
+extern const u32 gMonFrontPic_ScraftyMega[];
+extern const u32 gMonPalette_ScraftyMega[];
+extern const u32 gMonBackPic_ScraftyMega[];
+extern const u32 gMonShinyPalette_ScraftyMega[];
+extern const u32 gMonStillFrontPic_ScraftyMega[];
+extern const u8 gMonIcon_ScraftyMega[];
+// extern const u8 gMonFootprint_ScraftyMega[];
+
+extern const u32 gMonFrontPic_EelektrossMega[];
+extern const u32 gMonPalette_EelektrossMega[];
+extern const u32 gMonBackPic_EelektrossMega[];
+extern const u32 gMonShinyPalette_EelektrossMega[];
+extern const u32 gMonStillFrontPic_EelektrossMega[];
+extern const u8 gMonIcon_EelektrossMega[];
+// extern const u8 gMonFootprint_EelektrossMega[];
+
+extern const u32 gMonFrontPic_ChandelureMega[];
+extern const u32 gMonPalette_ChandelureMega[];
+extern const u32 gMonBackPic_ChandelureMega[];
+extern const u32 gMonShinyPalette_ChandelureMega[];
+extern const u32 gMonStillFrontPic_ChandelureMega[];
+extern const u8 gMonIcon_ChandelureMega[];
+// extern const u8 gMonFootprint_ChandelureMega[];
+
+extern const u32 gMonFrontPic_GolurkMega[];
+extern const u32 gMonPalette_GolurkMega[];
+extern const u32 gMonBackPic_GolurkMega[];
+extern const u32 gMonShinyPalette_GolurkMega[];
+extern const u32 gMonStillFrontPic_GolurkMega[];
+extern const u8 gMonIcon_GolurkMega[];
+// extern const u8 gMonFootprint_GolurkMega[];
+
+extern const u32 gMonFrontPic_PyroarMegaM[];
+extern const u32 gMonPalette_PyroarMegaM[];
+extern const u32 gMonBackPic_PyroarMegaM[];
+extern const u32 gMonShinyPalette_PyroarMegaM[];
+extern const u32 gMonStillFrontPic_PyroarMegaM[];
+extern const u8 gMonIcon_PyroarMegaM[];
+// extern const u8 gMonFootprint_PyroarMegaM[];
+
+extern const u32 gMonFrontPic_PyroarMegaF[];
+extern const u32 gMonPalette_PyroarMegaF[];
+extern const u32 gMonBackPic_PyroarMegaF[];
+extern const u32 gMonShinyPalette_PyroarMegaF[];
+extern const u32 gMonStillFrontPic_PyroarMegaF[];
+extern const u8 gMonIcon_PyroarMegaF[];
+// extern const u8 gMonFootprint_PyroarMegaF[];
+
+extern const u32 gMonFrontPic_MeowsticMega[];
+extern const u32 gMonPalette_MeowsticMega[];
+extern const u32 gMonBackPic_MeowsticMega[];
+extern const u32 gMonShinyPalette_MeowsticMega[];
+extern const u32 gMonStillFrontPic_MeowsticMega[];
+extern const u8 gMonIcon_MeowsticMega[];
+// extern const u8 gMonFootprint_MeowsticMega[];
+
+extern const u32 gMonFrontPic_MalamarMega[];
+extern const u32 gMonPalette_MalamarMega[];
+extern const u32 gMonBackPic_MalamarMega[];
+extern const u32 gMonShinyPalette_MalamarMega[];
+extern const u32 gMonStillFrontPic_MalamarMega[];
+extern const u8 gMonIcon_MalamarMega[];
+// extern const u8 gMonFootprint_MalamarMega[];
+
+extern const u32 gMonFrontPic_BarbaracleMega[];
+extern const u32 gMonPalette_BarbaracleMega[];
+extern const u32 gMonBackPic_BarbaracleMega[];
+extern const u32 gMonShinyPalette_BarbaracleMega[];
+extern const u32 gMonStillFrontPic_BarbaracleMega[];
+extern const u8 gMonIcon_BarbaracleMega[];
+// extern const u8 gMonFootprint_BarbaracleMega[];
+
+extern const u32 gMonFrontPic_DragalgeMega[];
+extern const u32 gMonPalette_DragalgeMega[];
+extern const u32 gMonBackPic_DragalgeMega[];
+extern const u32 gMonShinyPalette_DragalgeMega[];
+extern const u32 gMonStillFrontPic_DragalgeMega[];
+extern const u8 gMonIcon_DragalgeMega[];
+// extern const u8 gMonFootprint_DragalgeMega[];
+
+extern const u32 gMonFrontPic_HawluchaMega[];
+extern const u32 gMonPalette_HawluchaMega[];
+extern const u32 gMonBackPic_HawluchaMega[];
+extern const u32 gMonShinyPalette_HawluchaMega[];
+extern const u32 gMonStillFrontPic_HawluchaMega[];
+extern const u8 gMonIcon_HawluchaMega[];
+// extern const u8 gMonFootprint_HawluchaMega[];
+
+extern const u32 gMonFrontPic_CrabominableMega[];
+extern const u32 gMonPalette_CrabominableMega[];
+extern const u32 gMonBackPic_CrabominableMega[];
+extern const u32 gMonShinyPalette_CrabominableMega[];
+extern const u32 gMonStillFrontPic_CrabominableMega[];
+extern const u8 gMonIcon_CrabominableMega[];
+// extern const u8 gMonFootprint_CrabominableMega[];
+
+extern const u32 gMonFrontPic_GolisopodMega[];
+extern const u32 gMonPalette_GolisopodMega[];
+extern const u32 gMonBackPic_GolisopodMega[];
+extern const u32 gMonShinyPalette_GolisopodMega[];
+extern const u32 gMonStillFrontPic_GolisopodMega[];
+extern const u8 gMonIcon_GolisopodMega[];
+// extern const u8 gMonFootprint_GolisopodMega[];
+
+extern const u32 gMonFrontPic_DrampaMega[];
+extern const u32 gMonPalette_DrampaMega[];
+extern const u32 gMonBackPic_DrampaMega[];
+extern const u32 gMonShinyPalette_DrampaMega[];
+extern const u32 gMonStillFrontPic_DrampaMega[];
+extern const u8 gMonIcon_DrampaMega[];
+// extern const u8 gMonFootprint_DrampaMega[];
+
+extern const u32 gMonFrontPic_ScovillainMega[];
+extern const u32 gMonPalette_ScovillainMega[];
+extern const u32 gMonBackPic_ScovillainMega[];
+extern const u32 gMonShinyPalette_ScovillainMega[];
+extern const u32 gMonStillFrontPic_ScovillainMega[];
+extern const u8 gMonIcon_ScovillainMega[];
+// extern const u8 gMonFootprint_ScovillainMega[];
+
+extern const u32 gMonFrontPic_GlimmoraMega[];
+extern const u32 gMonPalette_GlimmoraMega[];
+extern const u32 gMonBackPic_GlimmoraMega[];
+extern const u32 gMonShinyPalette_GlimmoraMega[];
+extern const u32 gMonStillFrontPic_GlimmoraMega[];
+extern const u8 gMonIcon_GlimmoraMega[];
+// extern const u8 gMonFootprint_GlimmoraMega[];
+
+extern const u32 gMonFrontPic_TatsugiriMega[];
+extern const u32 gMonPalette_TatsugiriMega[];
+extern const u32 gMonBackPic_TatsugiriMega[];
+extern const u32 gMonShinyPalette_TatsugiriMega[];
+extern const u32 gMonStillFrontPic_TatsugiriMega[];
+extern const u8 gMonIcon_TatsugiriMega[];
+// extern const u8 gMonFootprint_TatsugiriMega[];
+
+extern const u32 gMonFrontPic_BaxcaliburMega[];
+extern const u32 gMonPalette_BaxcaliburMega[];
+extern const u32 gMonBackPic_BaxcaliburMega[];
+extern const u32 gMonShinyPalette_BaxcaliburMega[];
+extern const u32 gMonStillFrontPic_BaxcaliburMega[];
+extern const u8 gMonIcon_BaxcaliburMega[];
+// extern const u8 gMonFootprint_BaxcaliburMega[];
 
 //Megas
 extern const u32 gMonFrontPic_VenusaurMega[];
