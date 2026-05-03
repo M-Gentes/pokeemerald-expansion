@@ -41,10 +41,10 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
     - Mega-Mightyena
     - Mega-Drifblim
     - Mega-Vanilluxe
-    - Mega-Fortress
+    - Mega-Forretress
     - Mega-Boltund
     - Mega-Swalot
-    - Mega-Sloking
+    - Mega-Slowking
     - Mega-Golking
     - Mega-Ledian
     - Mega-Smeargle

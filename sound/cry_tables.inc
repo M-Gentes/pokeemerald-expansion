@@ -2246,10 +2246,10 @@ cry Cry_RapidashMega
 cry Cry_MightyenaMega
 cry Cry_DrifblimMega
 cry Cry_VanilluxeMega
-cry Cry_FortressMega
+cry Cry_ForretressMega
 cry Cry_BoltundMega
 cry Cry_SwalotMega
-cry Cry_SlokingMega
+cry Cry_SlowkingMega
 cry Cry_GolkingMega
 cry Cry_LedianMega
 cry Cry_ArbokMega
@@ -4529,10 +4529,10 @@ cry_reverse Cry_RapidashMega
 cry_reverse Cry_MightyenaMega
 cry_reverse Cry_DrifblimMega
 cry_reverse Cry_VanilluxeMega
-cry_reverse Cry_FortressMega
+cry_reverse Cry_ForretressMega
 cry_reverse Cry_BoltundMega
 cry_reverse Cry_SwalotMega
-cry_reverse Cry_SlokingMega
+cry_reverse Cry_SlowkingMega
 cry_reverse Cry_GolkingMega
 cry_reverse Cry_LedianMega
 cry_reverse Cry_ArbokMega

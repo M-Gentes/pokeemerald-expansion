@@ -4399,8 +4399,8 @@ Cry_DrifblimMega::
 Cry_VanilluxeMega::
 	.incbin "sound/direct_sound_samples/cries/vanilluxe.bin"
 
-Cry_FortressMega::
-	.incbin "sound/direct_sound_samples/cries/fortress.bin"
+Cry_ForretressMega::
+	.incbin "sound/direct_sound_samples/cries/forretress.bin"
 
 Cry_BoltundMega::
 	.incbin "sound/direct_sound_samples/cries/boltund.bin"
@@ -4408,8 +4408,8 @@ Cry_BoltundMega::
 Cry_SwalotMega::
 	.incbin "sound/direct_sound_samples/cries/swalot.bin"
 
-Cry_SlokingMega::
-	.incbin "sound/direct_sound_samples/cries/sloking.bin"
+Cry_SlowkingMega::
+	.incbin "sound/direct_sound_samples/cries/slowking.bin"
 
 Cry_GolkingMega::
 	.incbin "sound/direct_sound_samples/cries/golking.bin"
