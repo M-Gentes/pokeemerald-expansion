@@ -26708,7 +26708,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .noFlip = FALSE,
             },
 
-[SPECIES_CINDERROOT] =
+[SPECIES_CINDEROOT] =
             {
                 .baseHP = 60 + 20,
                 .baseAttack = 55 + 10,

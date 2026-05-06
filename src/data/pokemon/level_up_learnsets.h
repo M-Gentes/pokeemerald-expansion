@@ -19957,7 +19957,7 @@ static const struct LevelUpMove sIronplasmaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(69, MOVE_OVERHEAT),
     LEVEL_UP_END};
 
-static const struct LevelUpMove sCinderrootLevelUpLearnset[] = {
+static const struct LevelUpMove sCinderootLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_EMBER),
     LEVEL_UP_MOVE(1, MOVE_ASTONISH),
     LEVEL_UP_MOVE(1, MOVE_MINIMIZE),
