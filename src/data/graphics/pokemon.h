@@ -7632,7 +7632,7 @@ const u32 gMonShinyPalette_Tatsugiri[] = INCBIN_U32("graphics/pokemon/tatsugiri/
 const u8 gMonIcon_Tatsugiri[] = INCBIN_U8("graphics/pokemon/tatsugiri/icon.4bpp");  
 const u8 gMonFootprint_Tatsugiri[] = INCBIN_U8("graphics/pokemon/tatsugiri/footprint.1bpp");  
 
-const u32 gMonStillFrontPic_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/front.4bpp.lz");  
+const u32 gMonFrontPic_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/anim_front.4bpp.lz");  
 const u32 gMonPalette_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/normal.gbapal.lz");  
 const u32 gMonBackPic_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/back.4bpp.lz");  
 const u32 gMonShinyPalette_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/shiny.gbapal.lz");  
@@ -7912,12 +7912,12 @@ const u32 gMonShinyPalette_VanilluxeMega[] = INCBIN_U32("graphics/pokemon/vanill
 const u8 gMonIcon_VanilluxeMega[] = INCBIN_U8("graphics/pokemon/vanilluxe/mega/icon.4bpp");
 // const u8 gMonFootprint_VanilluxeMega[] = INCBIN_U8("graphics/pokemon/vanilluxe/mega/footprint.1bpp");
 
-const u32 gMonStillFrontPic_FortressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/front.4bpp.lz");
-const u32 gMonPalette_FortressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/normal.gbapal.lz");
-const u32 gMonBackPic_FortressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/back.4bpp.lz");
-const u32 gMonShinyPalette_FortressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/shiny.gbapal.lz");
-const u8 gMonIcon_FortressMega[] = INCBIN_U8("graphics/pokemon/forretress/mega/icon.4bpp");
-// const u8 gMonFootprint_FortressMega[] = INCBIN_U8("graphics/pokemon/forretress/mega/footprint.1bpp");
+const u32 gMonStillFrontPic_ForretressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/front.4bpp.lz");
+const u32 gMonPalette_ForretressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/normal.gbapal.lz");
+const u32 gMonBackPic_ForretressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/back.4bpp.lz");
+const u32 gMonShinyPalette_ForretressMega[] = INCBIN_U32("graphics/pokemon/forretress/mega/shiny.gbapal.lz");
+const u8 gMonIcon_ForretressMega[] = INCBIN_U8("graphics/pokemon/forretress/mega/icon.4bpp");
+// const u8 gMonFootprint_ForretressMega[] = INCBIN_U8("graphics/pokemon/forretress/mega/footprint.1bpp");
 
 const u32 gMonStillFrontPic_BoltundMega[] = INCBIN_U32("graphics/pokemon/boltund/mega/front.4bpp.lz");
 const u32 gMonPalette_BoltundMega[] = INCBIN_U32("graphics/pokemon/boltund/mega/normal.gbapal.lz");
@@ -7933,12 +7933,12 @@ const u32 gMonShinyPalette_SwalotMega[] = INCBIN_U32("graphics/pokemon/swalot/me
 const u8 gMonIcon_SwalotMega[] = INCBIN_U8("graphics/pokemon/swalot/mega/icon.4bpp");
 // const u8 gMonFootprint_SwalotMega[] = INCBIN_U8("graphics/pokemon/swalot/mega/footprint.1bpp");
 
-const u32 gMonStillFrontPic_SlokingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/front.4bpp.lz");
-const u32 gMonPalette_SlokingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/normal.gbapal.lz");
-const u32 gMonBackPic_SlokingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/back.4bpp.lz");
-const u32 gMonShinyPalette_SlokingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/shiny.gbapal.lz");
-const u8 gMonIcon_SlokingMega[] = INCBIN_U8("graphics/pokemon/slowking/mega/icon.4bpp");
-// const u8 gMonFootprint_SlokingMega[] = INCBIN_U8("graphics/pokemon/slowking/mega/footprint.1bpp");
+const u32 gMonStillFrontPic_SlowkingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/front.4bpp.lz");
+const u32 gMonPalette_SlowkingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/normal.gbapal.lz");
+const u32 gMonBackPic_SlowkingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/back.4bpp.lz");
+const u32 gMonShinyPalette_SlowkingMega[] = INCBIN_U32("graphics/pokemon/slowking/mega/shiny.gbapal.lz");
+const u8 gMonIcon_SlowkingMega[] = INCBIN_U8("graphics/pokemon/slowking/mega/icon.4bpp");
+// const u8 gMonFootprint_SlowkingMega[] = INCBIN_U8("graphics/pokemon/slowking/mega/footprint.1bpp");
 
 const u32 gMonStillFrontPic_GolkingMega[] = INCBIN_U32("graphics/pokemon/golking/mega/front.4bpp.lz");
 const u32 gMonPalette_GolkingMega[] = INCBIN_U32("graphics/pokemon/golking/mega/normal.gbapal.lz");
@@ -8514,12 +8514,12 @@ const u32 gMonShinyPalette_GolisopodMega[] = INCBIN_U32("graphics/pokemon/goliso
 const u8 gMonIcon_GolisopodMega[] = INCBIN_U8("graphics/pokemon/golisopod/mega/icon.4bpp");
 // const u8 gMonFootprint_GolisopodMega[] = INCBIN_U8("graphics/pokemon/golisopod/mega/footprint.1bpp");
 
-const u32 gMonStillFrontPic_DrapaMega[] = INCBIN_U32("graphics/pokemon/drapa/mega/front.4bpp.lz");
-const u32 gMonPalette_DrapaMega[] = INCBIN_U32("graphics/pokemon/drapa/mega/normal.gbapal.lz");
-const u32 gMonBackPic_DrapaMega[] = INCBIN_U32("graphics/pokemon/drapa/mega/back.4bpp.lz");
-const u32 gMonShinyPalette_DrapaMega[] = INCBIN_U32("graphics/pokemon/drapa/mega/shiny.gbapal.lz");
-const u8 gMonIcon_DrapaMega[] = INCBIN_U8("graphics/pokemon/drapa/mega/icon.4bpp");
-// const u8 gMonFootprint_DrapaMega[] = INCBIN_U8("graphics/pokemon/drapa/mega/footprint.1bpp");
+const u32 gMonStillFrontPic_DrampaMega[] = INCBIN_U32("graphics/pokemon/drampa/mega/front.4bpp.lz");
+const u32 gMonPalette_DrampaMega[] = INCBIN_U32("graphics/pokemon/drampa/mega/normal.gbapal.lz");
+const u32 gMonBackPic_DrampaMega[] = INCBIN_U32("graphics/pokemon/drampa/mega/back.4bpp.lz");
+const u32 gMonShinyPalette_DrampaMega[] = INCBIN_U32("graphics/pokemon/drampa/mega/shiny.gbapal.lz");
+const u8 gMonIcon_DrampaMega[] = INCBIN_U8("graphics/pokemon/drampa/mega/icon.4bpp");
+// const u8 gMonFootprint_DrampaMega[] = INCBIN_U8("graphics/pokemon/drampa/mega/footprint.1bpp");
 
 const u32 gMonStillFrontPic_ScovillainMega[] = INCBIN_U32("graphics/pokemon/scovillain/mega/front.4bpp.lz");
 const u32 gMonPalette_ScovillainMega[] = INCBIN_U32("graphics/pokemon/scovillain/mega/normal.gbapal.lz");

@@ -37876,7 +37876,7 @@ static const u16 sTandayuTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sKecleonTeachableLearnset[] = {
+static const u16 sKecliliskTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
@@ -37977,7 +37977,7 @@ static const u16 sDhelvesselTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sIronPanelTeachableLearnset[] = {
+static const u16 sIronpanelTeachableLearnset[] = {
    MOVE_ATTRACT,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -38011,7 +38011,7 @@ static const u16 sIronPanelTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sSlenderSunTeachableLearnset[] = {
+static const u16 sSlendersunTeachableLearnset[] = {
    MOVE_ATTRACT,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -38045,7 +38045,7 @@ static const u16 sSlenderSunTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sIronHoleTeachableLearnset[] = {
+static const u16 sIronholeTeachableLearnset[] = {
  MOVE_ATTRACT,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -38081,7 +38081,7 @@ static const u16 sIronHoleTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sDreadBouldTeachableLearnset[] = {
+static const u16 sDreadbouldTeachableLearnset[] = {
  MOVE_ATTRACT,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -38117,7 +38117,7 @@ static const u16 sDreadBouldTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sIronPlasmaTeachableLearnset[] = {
+static const u16 sIronplasmaTeachableLearnset[] = {
    MOVE_ATTRACT,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -38151,7 +38151,7 @@ static const u16 sIronPlasmaTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sCinderRootTeachableLearnset[] = {
+static const u16 sCinderootTeachableLearnset[] = {
    MOVE_ATTRACT,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -38185,7 +38185,7 @@ static const u16 sCinderRootTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sIronBuzzTeachableLearnset[] = {
+static const u16 sIronbuzzTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
@@ -38211,7 +38211,7 @@ static const u16 sIronBuzzTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sBarkJamTeachableLearnset[] = {
+static const u16 sBarkjamTeachableLearnset[] = {
       MOVE_ATTRACT,
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
@@ -38237,7 +38237,7 @@ static const u16 sBarkJamTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sIronSeekerTeachableLearnset[] = {
+static const u16 sIronseekerTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
     MOVE_DIVE,
@@ -38274,7 +38274,7 @@ static const u16 sIronSeekerTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sLuringSkullTeachableLearnset[] = {
+static const u16 sLurinskullTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
     MOVE_DIVE,
