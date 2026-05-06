@@ -4411,8 +4411,8 @@ Cry_SwalotMega::
 Cry_SlowkingMega::
 	.incbin "sound/direct_sound_samples/cries/slowking.bin"
 
-Cry_GolkingMega::
-	.incbin "sound/direct_sound_samples/cries/golking.bin"
+Cry_SeakingMega::
+	.incbin "sound/direct_sound_samples/cries/seaking.bin"
 
 Cry_LedianMega::
 	.incbin "sound/direct_sound_samples/cries/ledian.bin"

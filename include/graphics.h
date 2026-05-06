@@ -1920,13 +1920,13 @@ extern const u32 gMonStillFrontPic_SlowkingMega[];
 extern const u8 gMonIcon_SlowkingMega[];
 // extern const u8 gMonFootprint_SlowkingMega[];
 
-extern const u32 gMonFrontPic_GolkingMega[];
-extern const u32 gMonPalette_GolkingMega[];
-extern const u32 gMonBackPic_GolkingMega[];
-extern const u32 gMonShinyPalette_GolkingMega[];
-extern const u32 gMonStillFrontPic_GolkingMega[];
-extern const u8 gMonIcon_GolkingMega[];
-// extern const u8 gMonFootprint_GolkingMega[];
+extern const u32 gMonFrontPic_SeakingMega[];
+extern const u32 gMonPalette_SeakingMega[];
+extern const u32 gMonBackPic_SeakingMega[];
+extern const u32 gMonShinyPalette_SeakingMega[];
+extern const u32 gMonStillFrontPic_SeakingMega[];
+extern const u8 gMonIcon_SeakingMega[];
+// extern const u8 gMonFootprint_SeakingMega[];
 
 extern const u32 gMonFrontPic_LedianMega[];
 extern const u32 gMonPalette_LedianMega[];

@@ -45,7 +45,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
     - Mega-Boltund
     - Mega-Swalot
     - Mega-Slowking
-    - Mega-Golking
+    - Mega-Seaking
     - Mega-Ledian
     - Mega-Smeargle
     - Starmobile-Revavroom

@@ -2250,7 +2250,7 @@ cry Cry_ForretressMega
 cry Cry_BoltundMega
 cry Cry_SwalotMega
 cry Cry_SlowkingMega
-cry Cry_GolkingMega
+cry Cry_SeakingMega
 cry Cry_LedianMega
 cry Cry_ArbokMega
 cry Cry_SmeargleMega
@@ -4533,7 +4533,7 @@ cry_reverse Cry_ForretressMega
 cry_reverse Cry_BoltundMega
 cry_reverse Cry_SwalotMega
 cry_reverse Cry_SlowkingMega
-cry_reverse Cry_GolkingMega
+cry_reverse Cry_SeakingMega
 cry_reverse Cry_LedianMega
 cry_reverse Cry_ArbokMega
 cry_reverse Cry_SmeargleMega
