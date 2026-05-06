@@ -8423,12 +8423,12 @@ const u32 gMonShinyPalette_ScolipedeMega[] = INCBIN_U32("graphics/pokemon/scolip
 const u8 gMonIcon_ScolipedeMega[] = INCBIN_U8("graphics/pokemon/scolipede/mega/icon.4bpp");
 // const u8 gMonFootprint_ScolipedeMega[] = INCBIN_U8("graphics/pokemon/scolipede/mega/footprint.1bpp");
 
-const u32 gMonStillFrontPic_SraftyMega[] = INCBIN_U32("graphics/pokemon/srafty/mega/front.4bpp.lz");
-const u32 gMonPalette_SraftyMega[] = INCBIN_U32("graphics/pokemon/srafty/mega/normal.gbapal.lz");
-const u32 gMonBackPic_SraftyMega[] = INCBIN_U32("graphics/pokemon/srafty/mega/back.4bpp.lz");
-const u32 gMonShinyPalette_SraftyMega[] = INCBIN_U32("graphics/pokemon/srafty/mega/shiny.gbapal.lz");
-const u8 gMonIcon_SraftyMega[] = INCBIN_U8("graphics/pokemon/srafty/mega/icon.4bpp");
-// const u8 gMonFootprint_SraftyMega[] = INCBIN_U8("graphics/pokemon/srafty/mega/footprint.1bpp");
+const u32 gMonStillFrontPic_ScraftyMega[] = INCBIN_U32("graphics/pokemon/scrafty/mega/front.4bpp.lz");
+const u32 gMonPalette_ScraftyMega[] = INCBIN_U32("graphics/pokemon/scrafty/mega/normal.gbapal.lz");
+const u32 gMonBackPic_ScraftyMega[] = INCBIN_U32("graphics/pokemon/scrafty/mega/back.4bpp.lz");
+const u32 gMonShinyPalette_ScraftyMega[] = INCBIN_U32("graphics/pokemon/scrafty/mega/shiny.gbapal.lz");
+const u8 gMonIcon_ScraftyMega[] = INCBIN_U8("graphics/pokemon/scrafty/mega/icon.4bpp");
+// const u8 gMonFootprint_ScraftyMega[] = INCBIN_U8("graphics/pokemon/scrafty/mega/footprint.1bpp");
 
 const u32 gMonStillFrontPic_EelektrossMega[] = INCBIN_U32("graphics/pokemon/eelektross/mega/front.4bpp.lz");
 const u32 gMonPalette_EelektrossMega[] = INCBIN_U32("graphics/pokemon/eelektross/mega/normal.gbapal.lz");
