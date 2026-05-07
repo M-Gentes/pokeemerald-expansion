@@ -9849,6 +9849,12 @@ static const union AnimCmd sAnim_Tandayu_1[] =
         ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Tarountula_1[] =
+    {
+        ANIMCMD_FRAME(0, 1),
+        ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_TentacruelMega_1[] =
     {
         ANIMCMD_FRAME(1, 30),
@@ -11973,6 +11979,7 @@ SINGLE_ANIMATION(Draconeon);
 SINGLE_ANIMATION(Meraki);
 SINGLE_ANIMATION(Kagecoon);
 SINGLE_ANIMATION(Tandayu);
+SINGLE_ANIMATION(Tarountula);
 SINGLE_ANIMATION(TentacruelMega);
 SINGLE_ANIMATION(FlygonMega);
 SINGLE_ANIMATION(LuxrayMega);
@@ -13128,6 +13135,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
         [SPECIES_MERAKI] = sAnims_Meraki,
         [SPECIES_KAGECOON] = sAnims_Kagecoon,
         [SPECIES_TANDAYU] = sAnims_Tandayu,
+        [SPECIES_TAROUNTULA] = sAnims_Tarountula,
         [SPECIES_TENTACRUEL_MEGA] = sAnims_TentacruelMega,
         [SPECIES_FLYGON_MEGA] = sAnims_FlygonMega,
         [SPECIES_LUXRAY_MEGA] = sAnims_LuxrayMega,

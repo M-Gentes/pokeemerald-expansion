@@ -997,6 +997,7 @@ const u32 gMonFrontPic_PalossandMega[] = INCBIN_U32("graphics/pokemon/palossand/
 const u32 gMonFrontPic_FalinksMega[] = INCBIN_U32("graphics/pokemon/falinks/mega/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Ecliminary[] = INCBIN_U32("graphics/pokemon/ecliminary/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Pumpking[] = INCBIN_U32("graphics/pokemon/pumpking/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Tarountula[] = INCBIN_U32("graphics/pokemon/tarountula/front.4bpp.lz");
 
 const u32 gMonFrontPic_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/front.4bpp.lz");
 const u32 gMonFrontPic_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/front.4bpp.lz");
@@ -7569,14 +7570,14 @@ const u32 gMonShinyPalette_Pumpking[] = INCBIN_U32("graphics/pokemon/pumpking/sh
 const u8 gMonIcon_Pumpking[] = INCBIN_U8("graphics/pokemon/pumpking/icon.4bpp");
 const u8 gMonFootprint_Pumpking[] = INCBIN_U8("graphics/pokemon/pumpking/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Tarountula[] = INCBIN_U32("graphics/pokemon/tarountula/front.4bpp.lz");  
+// const u32 gMonStillFrontPic_Tarountula[] = INCBIN_U32("graphics/pokemon/tarountula/front.4bpp.lz");  
 const u32 gMonPalette_Tarountula[] = INCBIN_U32("graphics/pokemon/tarountula/normal.gbapal.lz");  
 const u32 gMonBackPic_Tarountula[] = INCBIN_U32("graphics/pokemon/tarountula/back.4bpp.lz");  
 const u32 gMonShinyPalette_Tarountula[] = INCBIN_U32("graphics/pokemon/tarountula/shiny.gbapal.lz");  
 const u8 gMonIcon_Tarountula[] = INCBIN_U8("graphics/pokemon/tarountula/icon.4bpp");  
 const u8 gMonFootprint_Tarountula[] = INCBIN_U8("graphics/pokemon/tarountula/footprint.1bpp");  
 
-const u32 gMonStillFrontPic_Spidops[] = INCBIN_U32("graphics/pokemon/spidops/front.4bpp.lz");  
+// const u32 gMonStillFrontPic_Spidops[] = INCBIN_U32("graphics/pokemon/spidops/front.4bpp.lz");  
 const u32 gMonPalette_Spidops[] = INCBIN_U32("graphics/pokemon/spidops/normal.gbapal.lz");  
 const u32 gMonBackPic_Spidops[] = INCBIN_U32("graphics/pokemon/spidops/back.4bpp.lz");  
 const u32 gMonShinyPalette_Spidops[] = INCBIN_U32("graphics/pokemon/spidops/shiny.gbapal.lz");  
