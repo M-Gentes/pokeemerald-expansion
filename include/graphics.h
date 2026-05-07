@@ -1466,7 +1466,7 @@ extern const u32 gMonPalette_Spikedash[];
 extern const u32 gMonBackPic_Spikedash[];  
 extern const u32 gMonShinyPalette_Spikedash[];  
 extern const u32 gMonStillFrontPic_Spikedash[];  
-extern const u8 gMonIcon_Spikebash[];  
+extern const u8 gMonIcon_Spikedash[];  
 extern const u8 gMonFootprint_Spikedash[];
 
 extern const u32 gMonFrontPic_Ironwalks[];  
@@ -2399,6 +2399,14 @@ extern const u32 gMonShinyPalette_CopperajahMega[];
 extern const u32 gMonStillFrontPic_CopperajahMega[];
 extern const u8 gMonIcon_CopperajahMega[];
 // extern const u8 gMonFootprint_CopperajahMega[];
+
+extern const u32 gMonFrontPic_SnorlaxMega[];
+extern const u32 gMonPalette_SnorlaxMega[];
+extern const u32 gMonBackPic_SnorlaxMega[];
+extern const u32 gMonShinyPalette_SnorlaxMega[];
+extern const u32 gMonStillFrontPic_SnorlaxMega[];
+extern const u8 gMonIcon_SnorlaxMega[];
+// extern const u8 gMonFootprint_SnorlaxMega[];
 
 extern const u32 gMonFrontPic_ClefableMega[];
 extern const u32 gMonPalette_ClefableMega[];

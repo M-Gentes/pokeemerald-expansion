@@ -4427,7 +4427,7 @@ Cry_RevavroomMega::
 	.incbin "sound/direct_sound_samples/cries/revavroom.bin"
 
 Cry_KlefkiMega::
-	.incbin "sound/direct_sound_samples/cries/klefki.bin"
+	.incbin "sound/direct_sound_samples/cries/uncomp_klefki.bin"
 
 Cry_PincurchinMega::
 	.incbin "sound/direct_sound_samples/cries/pincurchin.bin"
@@ -4475,7 +4475,7 @@ Cry_KabutopsMega::
 	.incbin "sound/direct_sound_samples/cries/kabutops.bin"
 
 Cry_PorygonZMega::
-	.incbin "sound/direct_sound_samples/cries/porygonz.bin"
+	.incbin "sound/direct_sound_samples/cries/porygon_z.bin"
 
 Cry_MaractusMega::
 	.incbin "sound/direct_sound_samples/cries/maractus.bin"
@@ -4631,10 +4631,10 @@ Cry_GolurkMega::
 	.incbin "sound/direct_sound_samples/cries/golurk.bin"
 
 Cry_PyroarMegaM::
-	.incbin "sound/direct_sound_samples/cries/pyroar_m.bin"
+	.incbin "sound/direct_sound_samples/cries/pyroar.bin"
 
 Cry_PyroarMegaF::
-	.incbin "sound/direct_sound_samples/cries/pyroar_f.bin"
+	.incbin "sound/direct_sound_samples/cries/pyroar.bin"
 
 Cry_MeowsticMega::
 	.incbin "sound/direct_sound_samples/cries/meowstic.bin"
