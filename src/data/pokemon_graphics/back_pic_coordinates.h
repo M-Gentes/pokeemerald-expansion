@@ -1,20 +1,20 @@
 
-#define PIKACHU_BACK_PIC_COORDS                  \
-        {                                        \
-                .size = MON_COORDS_SIZE(64, 56), \
-                .y_offset = 4,                   \
+#define PIKACHU_BACK_PIC_COORDS              \
+        {                                    \
+            .size = MON_COORDS_SIZE(64, 56), \
+            .y_offset = 4,                   \
         }
 
-#define ARCEUS_BACK_PIC_COORDS                   \
-        {                                        \
-                .size = MON_COORDS_SIZE(64, 64), \
-                .y_offset = 3,                   \
+#define ARCEUS_BACK_PIC_COORDS               \
+        {                                    \
+            .size = MON_COORDS_SIZE(64, 64), \
+            .y_offset = 3,                   \
         }
 
-#define DEERLING_BACK_PIC_COORDS                 \
-        {                                        \
-                .size = MON_COORDS_SIZE(48, 56), \
-                .y_offset = 9,                   \
+#define DEERLING_BACK_PIC_COORDS             \
+        {                                    \
+            .size = MON_COORDS_SIZE(48, 56), \
+            .y_offset = 9,                   \
         }
 
 // All Pokémon pics are 64x64, but this data table defines where in this 64x64 frame
@@ -1009,6 +1009,148 @@ const struct MonCoords gMonBackPicCoords[] =
         [SPECIES_FALINKS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 16},
         [SPECIES_ECLIMINARY] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 3},
         [SPECIES_PUMPKING] = {.size = MON_COORDS_SIZE(48, 56), .y_offset = 6},
+
+        // new2
+        [SPECIES_TAROUNTULA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_SPIDOPS] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_RABSCA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_REVAVROOM] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_GLIMMORA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_VELUZA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_SCOVILLAIN] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_BAXCALIBUR] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_TATSUGIRI] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_CLODSIRE] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_SINISTCHA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_ARCHALUDON] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_HYDRAPPLE] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_KECLILISK] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_DHELVESSEL] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_SPIKEDASH] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_IRONWALKS] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_LURINSKULL] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_IRONSEEKER] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 11},
+        [SPECIES_NOKAY] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 9},
+        [SPECIES_IRONKNEEL] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 13},
+        [SPECIES_VENOMFEAR] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_IRONSTING] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_SLENDERSUN] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 7},
+        [SPECIES_IRONPANEL] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 16},
+        [SPECIES_ARCHMUSSEL] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 11},
+        [SPECIES_IRONPUMP] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_STEAMOUNT] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_IRONFUSE] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 13},
+        [SPECIES_ABYSSCLAW] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
+        [SPECIES_IRONSUB] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 9},
+        [SPECIES_CINDEROOT] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_IRONPLASMA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_GLACIARMOR] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_IRONWAVES] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 11},
+        [SPECIES_SUMMONCIRCLE] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_IRONGATE] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 13},
+        [SPECIES_CUBEPUNCH] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 7},
+        [SPECIES_IRONVISION] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 9},
+        [SPECIES_BARKJAM] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_IRONBUZZ] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_FLOATINHUNT] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 11},
+        [SPECIES_IRONROCKET] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_PLEASODOR] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_IRONSPRAY] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 9},
+        [SPECIES_RAPIDASH_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_MIGHTYENA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_DRIFBLIM_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 16},
+        [SPECIES_VANILLUXE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_FORRETRESS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_BOLTUND_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SWALOT_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_SLOWKING_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_SEAKING_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_LEDIAN_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_ARBOK_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_SMEARGLE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_REVAVROOM_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_KLEFKI_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_PINCURCHIN_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_TURTONATOR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_THIEVUL_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_TOUCANNON_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_YANMEGA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_LIEPARD_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_KLINKLANG_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_HONCHKROW_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_GOLDUCK_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_ROSERADE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SIGILYPH_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_MANTINE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_BIDOOF_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_OMASTAR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_KABUTOPS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_PORYGONZ_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_MARACTUS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_WHISCASH_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_SHUCKLE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_PARASECT_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_RABSCA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SPIDOPS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_KRICKETUNE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_VENOMOTH_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_MEGANIUM_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_FERALIGATR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_TORTERRA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_INFERNAPE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_EMPOLEON_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_SERPERIOR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_EMBOAR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_INCINEROAR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_PRIMARINA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_RILLABOOM_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_CINDERACE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_INTELEON_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_MEOWSCARADA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SKELEDIRGE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_QUAQUAVAL_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_KINGLER_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_LAPRAS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_GARBODOR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_CORVIKNIGHT_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_ORBEETLE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_COALOSSAL_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_DREDNAW_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_FLAPPLE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SANDACONDA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_TOXTRICITY_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_CENTISKORCH_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_HATTERENE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_GRIMMSNARL_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_ALCREMIE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 14},
+        [SPECIES_COPPERAJAH_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_CLEFABLE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_VICTREEBEL_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_STARMIE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_DRAGONITE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_SKARMORY_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_STARAPTOR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_FROSLASS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_EXCADRILL_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SCOLIPEDE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SRAFTY_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_EELEKTROSS_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_CHANDELURE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_GOLURK_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_PYROAR_MEGA_M] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_PYROAR_MEGA_F] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_MEOWSTIC_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_MALAMAR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_BARBARACLE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_DRAGALGE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_HAWLUCHA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_CRABOMINABLE_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_GOLISOPOD_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
+        [SPECIES_DRAMPA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_SCOVILLAIN_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_GLIMMORA_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 10},
+        [SPECIES_TATSUGIRI_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 12},
+        [SPECIES_BAXCALIBUR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
 
         [SPECIES_VENUSAUR_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 8},
         [SPECIES_CHARIZARD_MEGA_X] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 1},
