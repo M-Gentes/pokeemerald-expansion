@@ -10453,7 +10453,7 @@ static const union AnimCmd sAnim_ScolipedeMega_1[] = {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
-static const union AnimCmd sAnim_Scrafty_Mega_1[] = {
+static const union AnimCmd sAnim_ScraftyMega_1[] = {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
@@ -12532,24 +12532,6 @@ SINGLE_ANIMATION(Draconeon);
 SINGLE_ANIMATION(Meraki);
 SINGLE_ANIMATION(Kagecoon);
 SINGLE_ANIMATION(Tandayu);
-SINGLE_ANIMATION(TentacruelMega);
-SINGLE_ANIMATION(FlygonMega);
-SINGLE_ANIMATION(LuxrayMega);
-SINGLE_ANIMATION(ButterfreeMega);
-SINGLE_ANIMATION(FearowMega);
-SINGLE_ANIMATION(MachampMega);
-SINGLE_ANIMATION(GolemMega);
-SINGLE_ANIMATION(NoctowlMega);
-SINGLE_ANIMATION(KingdraMega);
-SINGLE_ANIMATION(ChimechoMega);
-SINGLE_ANIMATION(WailordMega);
-SINGLE_ANIMATION(ChesnaughtMega);
-SINGLE_ANIMATION(DelphoxMega);
-SINGLE_ANIMATION(PalossandMega);
-SINGLE_ANIMATION(FalinksMega);
-SINGLE_ANIMATION(Ecliminary);
-SINGLE_ANIMATION(Pumpking);
-
 SINGLE_ANIMATION(Tarountula);
 SINGLE_ANIMATION(Spidops);
 SINGLE_ANIMATION(Rabsca);
@@ -12595,6 +12577,25 @@ SINGLE_ANIMATION(Floatinhunt);
 SINGLE_ANIMATION(Ironrocket);
 SINGLE_ANIMATION(Pleasodor);
 SINGLE_ANIMATION(Ironspray);
+
+SINGLE_ANIMATION(TentacruelMega);
+SINGLE_ANIMATION(FlygonMega);
+SINGLE_ANIMATION(LuxrayMega);
+SINGLE_ANIMATION(ButterfreeMega);
+SINGLE_ANIMATION(FearowMega);
+SINGLE_ANIMATION(MachampMega);
+SINGLE_ANIMATION(GolemMega);
+SINGLE_ANIMATION(NoctowlMega);
+SINGLE_ANIMATION(KingdraMega);
+SINGLE_ANIMATION(ChimechoMega);
+SINGLE_ANIMATION(WailordMega);
+SINGLE_ANIMATION(ChesnaughtMega);
+SINGLE_ANIMATION(DelphoxMega);
+SINGLE_ANIMATION(PalossandMega);
+SINGLE_ANIMATION(FalinksMega);
+SINGLE_ANIMATION(Ecliminary);
+SINGLE_ANIMATION(Pumpking);
+
 SINGLE_ANIMATION(RapidashMega);
 SINGLE_ANIMATION(MightyenaMega);
 SINGLE_ANIMATION(DrifblimMega);
@@ -12603,7 +12604,7 @@ SINGLE_ANIMATION(ForretressMega);
 SINGLE_ANIMATION(BoltundMega);
 SINGLE_ANIMATION(SwalotMega);
 SINGLE_ANIMATION(SlowkingMega);
-SINGLE_ANIMATION(GolkingMega);
+SINGLE_ANIMATION(SeakingMega);
 SINGLE_ANIMATION(LedianMega);
 SINGLE_ANIMATION(ArbokMega);
 SINGLE_ANIMATION(SmeargleMega);
@@ -12672,7 +12673,7 @@ SINGLE_ANIMATION(StaraptorMega);
 SINGLE_ANIMATION(FroslassMega);
 SINGLE_ANIMATION(ExcadrillMega);
 SINGLE_ANIMATION(ScolipedeMega);
-SINGLE_ANIMATION(SraftyMega);
+SINGLE_ANIMATION(ScraftyMega);
 SINGLE_ANIMATION(EelektrossMega);
 SINGLE_ANIMATION(ChandelureMega);
 SINGLE_ANIMATION(GolurkMega);

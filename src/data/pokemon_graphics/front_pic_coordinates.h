@@ -971,6 +971,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         [SPECIES_MERAKI] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_KAGECOON] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
         [SPECIES_TANDAYU] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 3},
+        [SPECIES_TAROUNTULA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
         // Custom Megas
         [SPECIES_TENTACRUEL_MEGA] = {.size = MON_COORDS_SIZE(64, 56), .y_offset = 4},
         [SPECIES_FLYGON_MEGA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 1},
@@ -991,7 +992,6 @@ const struct MonCoords gMonFrontPicCoords[] =
         [SPECIES_PUMPKING] = {.size = MON_COORDS_SIZE(40, 48), .y_offset = 0},
 
         // new 2
-        [SPECIES_TAROUNTULA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
         [SPECIES_SPIDOPS] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
         [SPECIES_RABSCA] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
         [SPECIES_REVAVROOM] = {.size = MON_COORDS_SIZE(64, 64), .y_offset = 15},
