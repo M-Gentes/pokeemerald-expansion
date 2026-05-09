@@ -968,6 +968,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
         SPECIES_SPRITE(MERAKI, gMonBackPic_Meraki),
         SPECIES_SPRITE(KAGECOON, gMonBackPic_Kagecoon),
         SPECIES_SPRITE(TANDAYU, gMonBackPic_Tandayu),
+        SPECIES_SPRITE(TAROUNTULA, gMonBackPic_Tarountula),
 
         SPECIES_SPRITE(TENTACRUEL_MEGA, gMonBackPic_TentacruelMega),
         SPECIES_SPRITE(FLYGON_MEGA, gMonBackPic_FlygonMega),
@@ -986,8 +987,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
         SPECIES_SPRITE(FALINKS_MEGA, gMonBackPic_FalinksMega),
         SPECIES_SPRITE(ECLIMINARY, gMonBackPic_Ecliminary),
         SPECIES_SPRITE(PUMPKING, gMonBackPic_Pumpking),
-        
-        SPECIES_SPRITE(TAROUNTULA, gMonBackPic_Tarountula),
+
         SPECIES_SPRITE(SPIDOPS, gMonBackPic_Spidops),
         SPECIES_SPRITE(RABSCA, gMonBackPic_Rabsca),
         SPECIES_SPRITE(REVAVROOM, gMonBackPic_Revavroom),
@@ -1012,6 +1012,8 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
         SPECIES_SPRITE(IRONSTING, gMonBackPic_Ironsting),
         SPECIES_SPRITE(SLENDERSUN, gMonBackPic_Slendersun),
         SPECIES_SPRITE(IRONPANEL, gMonBackPic_Ironpanel),
+        SPECIES_SPRITE(DREADBOULD, gMonBackPic_Dreadbould),
+        SPECIES_SPRITE(IRONHOLE, gMonBackPic_Ironhole),
         SPECIES_SPRITE(ARCHMUSSEL, gMonBackPic_Archmussel),
         SPECIES_SPRITE(IRONPUMP, gMonBackPic_Ironpump),
         SPECIES_SPRITE(STEAMOUNT, gMonBackPic_Steamount),
@@ -1099,6 +1101,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
         SPECIES_SPRITE(HATTERENE_MEGA, gMonBackPic_HattereneMega),
         SPECIES_SPRITE(GRIMMSNARL_MEGA, gMonBackPic_GrimmsnarlMega),
         SPECIES_SPRITE(ALCREMIE_MEGA, gMonBackPic_AlcremieMega),
+        SPECIES_SPRITE(SNORLAX_MEGA, gMonBackPic_SnorlaxMega),
         SPECIES_SPRITE(COPPERAJAH_MEGA, gMonBackPic_CopperajahMega),
         SPECIES_SPRITE(CLEFABLE_MEGA, gMonBackPic_ClefableMega),
         SPECIES_SPRITE(VICTREEBEL_MEGA, gMonBackPic_VictreebelMega),

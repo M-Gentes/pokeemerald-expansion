@@ -7682,7 +7682,7 @@ const u32 gMonShinyPalette_Spikedash[] = INCBIN_U32("graphics/pokemon/spikedash/
 const u8 gMonIcon_Spikedash[] = INCBIN_U8("graphics/pokemon/spikedash/icon.4bpp");  
 // const u8 gMonFootprint_Spikedash[] = INCBIN_U8("graphics/pokemon/spikedash/footprint.1bpp");  
 
-const u32 gMonFrontPic_Ironwalks[] = INCBIN_U32("graphics/pokemon/ironwalks/front.4bpp.lz");  
+const u32 gMonFrontPic_Ironwalks[] = INCBIN_U32("graphics/pokemon/ironwalks/anim_front.4bpp.lz");  
 const u32 gMonPalette_Ironwalks[] = INCBIN_U32("graphics/pokemon/ironwalks/normal.gbapal.lz");  
 const u32 gMonBackPic_Ironwalks[] = INCBIN_U32("graphics/pokemon/ironwalks/back.4bpp.lz");  
 const u32 gMonShinyPalette_Ironwalks[] = INCBIN_U32("graphics/pokemon/ironwalks/shiny.gbapal.lz");  

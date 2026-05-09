@@ -4136,31 +4136,31 @@ Cry_Quaxistador::
 	.incbin "sound/direct_sound_samples/cries/tornadus.bin"
 	.align 2
 Cry_Pawmi::
-	.incbin "sound/direct_sound_samples/cries/yamper.bin"
+	.incbin "sound/direct_sound_samples/cries/pawmi.bin"
 
 		.align 2
 Cry_Pawmo::
-	.incbin "sound/direct_sound_samples/cries/nickit.bin"
+	.incbin "sound/direct_sound_samples/cries/pawmo.bin"
 
 		.align 2
 Cry_Pawmot::
-	.incbin "sound/direct_sound_samples/cries/zeraora.bin"
+	.incbin "sound/direct_sound_samples/cries/pawmot.bin"
 
 		.align 2
 Cry_Annihilape::
-	.incbin "sound/direct_sound_samples/cries/primeape.bin"
+	.incbin "sound/direct_sound_samples/cries/annihilape.bin"
 
 		.align 2
 Cry_Dudunsparce::
-	.incbin "sound/direct_sound_samples/cries/dunsparce.bin"
+	.incbin "sound/direct_sound_samples/cries/dudunsparce.bin"
 
 		.align 2
 Cry_Farigiraf::
-	.incbin "sound/direct_sound_samples/cries/girafarig.bin"
+	.incbin "sound/direct_sound_samples/cries/farigiraf.bin"
 
 		.align 2
 Cry_Kingambit::
-	.incbin "sound/direct_sound_samples/cries/bisharp.bin"
+	.incbin "sound/direct_sound_samples/cries/kingambit.bin"
 
 		.align 2
 Cry_Caststorm::
@@ -4390,285 +4390,383 @@ Cry_Ironspray::
 Cry_RapidashMega::
 	.incbin "sound/direct_sound_samples/cries/rapidash.bin"
 
+	.align 2
 Cry_MightyenaMega::
 	.incbin "sound/direct_sound_samples/cries/mightyena.bin"
 
+	.align 2
 Cry_DrifblimMega::
 	.incbin "sound/direct_sound_samples/cries/drifblim.bin"
-
+	
+	.align 2
 Cry_VanilluxeMega::
 	.incbin "sound/direct_sound_samples/cries/vanilluxe.bin"
-
+	
+	.align 2
 Cry_ForretressMega::
 	.incbin "sound/direct_sound_samples/cries/forretress.bin"
 
+	.align 2
 Cry_BoltundMega::
 	.incbin "sound/direct_sound_samples/cries/boltund.bin"
-
+	
+	.align 2
 Cry_SwalotMega::
 	.incbin "sound/direct_sound_samples/cries/swalot.bin"
 
+	.align 2
 Cry_SlowkingMega::
 	.incbin "sound/direct_sound_samples/cries/slowking.bin"
 
+	.align 2
 Cry_SeakingMega::
 	.incbin "sound/direct_sound_samples/cries/seaking.bin"
 
+	.align 2
 Cry_LedianMega::
 	.incbin "sound/direct_sound_samples/cries/ledian.bin"
 
+	.align 2
 Cry_ArbokMega::
 	.incbin "sound/direct_sound_samples/cries/arbok.bin"
 
+	.align 2
 Cry_SmeargleMega::
 	.incbin "sound/direct_sound_samples/cries/smeargle.bin"
 
+	.align 2
 Cry_RevavroomMega::
 	.incbin "sound/direct_sound_samples/cries/revavroom.bin"
 
+	.align 2
 Cry_KlefkiMega::
 	.incbin "sound/direct_sound_samples/cries/uncomp_klefki.bin"
 
+	.align 2
 Cry_PincurchinMega::
 	.incbin "sound/direct_sound_samples/cries/pincurchin.bin"
 
+	.align 2
 Cry_TurtonatorMega::
 	.incbin "sound/direct_sound_samples/cries/turtonator.bin"
 
+	.align 2
 Cry_ThievulMega::
 	.incbin "sound/direct_sound_samples/cries/thievul.bin"
 
+	.align 2
 Cry_ToucannonMega::
 	.incbin "sound/direct_sound_samples/cries/toucannon.bin"
 
+	.align 2
 Cry_YanmegaMega::
 	.incbin "sound/direct_sound_samples/cries/yanmega.bin"
 
+	.align 2
 Cry_LiepardMega::
 	.incbin "sound/direct_sound_samples/cries/liepard.bin"
 
+	.align 2
 Cry_KlinklangMega::
 	.incbin "sound/direct_sound_samples/cries/klinklang.bin"
 
+	.align 2
 Cry_HonchkrowMega::
 	.incbin "sound/direct_sound_samples/cries/honchkrow.bin"
 
+	.align 2
 Cry_GolduckMega::
 	.incbin "sound/direct_sound_samples/cries/golduck.bin"
 
+	.align 2
 Cry_RoseradeMega::
 	.incbin "sound/direct_sound_samples/cries/roserade.bin"
 
+	.align 2
 Cry_SigilyphMega::
 	.incbin "sound/direct_sound_samples/cries/sigilyph.bin"
 
+	.align 2
 Cry_MantineMega::
 	.incbin "sound/direct_sound_samples/cries/mantine.bin"
 
+	.align 2
 Cry_BidoofMega::
 	.incbin "sound/direct_sound_samples/cries/bidoof.bin"
 
+	.align 2
 Cry_OmastarMega::
 	.incbin "sound/direct_sound_samples/cries/omastar.bin"
 
+	.align 2
 Cry_KabutopsMega::
 	.incbin "sound/direct_sound_samples/cries/kabutops.bin"
 
+	.align 2
 Cry_PorygonZMega::
 	.incbin "sound/direct_sound_samples/cries/porygon_z.bin"
 
+	.align 2
 Cry_MaractusMega::
 	.incbin "sound/direct_sound_samples/cries/maractus.bin"
 
+	.align 2
 Cry_WhiscashMega::
 	.incbin "sound/direct_sound_samples/cries/whiscash.bin"
 
+	.align 2
 Cry_ShuckleMega::
 	.incbin "sound/direct_sound_samples/cries/shuckle.bin"
 
+	.align 2
 Cry_ParasectMega::
 	.incbin "sound/direct_sound_samples/cries/parasect.bin"
 
+	.align 2
 Cry_RabscaMega::
 	.incbin "sound/direct_sound_samples/cries/rabsca.bin"
 
+	.align 2
 Cry_SpidopsMega::
 	.incbin "sound/direct_sound_samples/cries/spidops.bin"
 
+	.align 2
 Cry_KricketuneMega::
 	.incbin "sound/direct_sound_samples/cries/kricketune.bin"
 
+	.align 2
 Cry_VenomothMega::
 	.incbin "sound/direct_sound_samples/cries/venomoth.bin"
 
+	.align 2
 Cry_MeganiumMega::
 	.incbin "sound/direct_sound_samples/cries/meganium.bin"
 
+	.align 2
 Cry_FeraligatrMega::
 	.incbin "sound/direct_sound_samples/cries/feraligatr.bin"
 
+	.align 2
 Cry_TorterraMega::
 	.incbin "sound/direct_sound_samples/cries/torterra.bin"
 
+	.align 2
 Cry_InfernapeMega::
 	.incbin "sound/direct_sound_samples/cries/infernape.bin"
 
+	.align 2
 Cry_EmpoleonMega::
 	.incbin "sound/direct_sound_samples/cries/empoleon.bin"
 
+	.align 2
 Cry_SerperiorMega::
 	.incbin "sound/direct_sound_samples/cries/serperior.bin"
 
+	.align 2
 Cry_EmboarMega::
 	.incbin "sound/direct_sound_samples/cries/emboar.bin"
 
+	.align 2
 Cry_IncineroarMega::
 	.incbin "sound/direct_sound_samples/cries/incineroar.bin"
 
+	.align 2
 Cry_PrimarinaMega::
 	.incbin "sound/direct_sound_samples/cries/primarina.bin"
 
+	.align 2
 Cry_RillaboomMega::
 	.incbin "sound/direct_sound_samples/cries/rillaboom.bin"
 
+	.align 2
 Cry_CinderaceMega::
 	.incbin "sound/direct_sound_samples/cries/cinderace.bin"
 
+	.align 2
 Cry_InteleonMega::
 	.incbin "sound/direct_sound_samples/cries/inteleon.bin"
 
+	.align 2
 Cry_MeowscaradaMega::
 	.incbin "sound/direct_sound_samples/cries/incineroar.bin"
 
+	.align 2
 Cry_SkeledirgeMega::
 	.incbin "sound/direct_sound_samples/cries/mudsdale.bin"
 
+	.align 2
 Cry_QuaquavalMega::
 	.incbin "sound/direct_sound_samples/cries/tornadus.bin"
 
+	.align 2
 Cry_KinglerMega::
 	.incbin "sound/direct_sound_samples/cries/kingler.bin"
 
+	.align 2
 Cry_LaprasMega::
 	.incbin "sound/direct_sound_samples/cries/lapras.bin"
 
+	.align 2
 Cry_GarbodorMega::
 	.incbin "sound/direct_sound_samples/cries/garbodor.bin"
 
+	.align 2
 Cry_CorviknightMega::
 	.incbin "sound/direct_sound_samples/cries/corviknight.bin"
 
+	.align 2
 Cry_OrbeetleMega::
 	.incbin "sound/direct_sound_samples/cries/orbeetle.bin"
 
+	.align 2
 Cry_CoalossalMega::
 	.incbin "sound/direct_sound_samples/cries/coalossal.bin"
 
+	.align 2
 Cry_DrednawMega::
 	.incbin "sound/direct_sound_samples/cries/drednaw.bin"
 
+	.align 2
 Cry_FlappleMega::
 	.incbin "sound/direct_sound_samples/cries/flapple.bin"
 
+	.align 2
 Cry_SandacondaMega::
 	.incbin "sound/direct_sound_samples/cries/sandaconda.bin"
 
+	.align 2
 Cry_ToxtricityMega::
 	.incbin "sound/direct_sound_samples/cries/toxtricity.bin"
 
+	.align 2
 Cry_CentiskorchMega::
 	.incbin "sound/direct_sound_samples/cries/centiskorch.bin"
 
+	.align 2
 Cry_HattereneMega::
 	.incbin "sound/direct_sound_samples/cries/hatterene.bin"
 
+	.align 2
 Cry_GrimmsnarlMega::
 	.incbin "sound/direct_sound_samples/cries/grimmsnarl.bin"
 
+	.align 2
 Cry_AlcremieMega::
 	.incbin "sound/direct_sound_samples/cries/alcremie.bin"
 
+	.align 2
 Cry_CopperajahMega::
 	.incbin "sound/direct_sound_samples/cries/copperajah.bin"
 
+	.align 2
+Cry_SnorlaxMega::
+	.incbin "sound/direct_sound_samples/cries/snorlax.bin"
+
+	.align 2
 Cry_ClefableMega::
 	.incbin "sound/direct_sound_samples/cries/clefable.bin"
 
+	.align 2
 Cry_VictreebelMega::
 	.incbin "sound/direct_sound_samples/cries/victreebel.bin"
 
+	.align 2
 Cry_StarmieMega::
 	.incbin "sound/direct_sound_samples/cries/starmie.bin"
 
+	.align 2
 Cry_DragoniteMega::
 	.incbin "sound/direct_sound_samples/cries/dragonite.bin"
 
+	.align 2
 Cry_SkarmoryMega::
 	.incbin "sound/direct_sound_samples/cries/skarmory.bin"
 
+	.align 2
 Cry_StaraptorMega::
 	.incbin "sound/direct_sound_samples/cries/staraptor.bin"
 
+	.align 2
 Cry_FroslassMega::
 	.incbin "sound/direct_sound_samples/cries/froslass.bin"
 
+	.align 2
 Cry_ExcadrillMega::
 	.incbin "sound/direct_sound_samples/cries/excadrill.bin"
 
+	.align 2
 Cry_ScolipedeMega::
 	.incbin "sound/direct_sound_samples/cries/scolipede.bin"
 
+	.align 2
 Cry_ScraftyMega::
 	.incbin "sound/direct_sound_samples/cries/scrafty.bin"
 
+	.align 2
 Cry_EelektrossMega::
 	.incbin "sound/direct_sound_samples/cries/eelektross.bin"
 
+	.align 2
 Cry_ChandelureMega::
 	.incbin "sound/direct_sound_samples/cries/chandelure.bin"
 
+	.align 2
 Cry_GolurkMega::
 	.incbin "sound/direct_sound_samples/cries/golurk.bin"
 
+	.align 2
 Cry_PyroarMegaM::
 	.incbin "sound/direct_sound_samples/cries/pyroar.bin"
 
+	.align 2
 Cry_PyroarMegaF::
 	.incbin "sound/direct_sound_samples/cries/pyroar.bin"
 
+	.align 2
 Cry_MeowsticMega::
 	.incbin "sound/direct_sound_samples/cries/meowstic.bin"
 
+	.align 2
 Cry_MalamarMega::
 	.incbin "sound/direct_sound_samples/cries/malamar.bin"
 
+	.align 2
 Cry_BarbaracleMega::
 	.incbin "sound/direct_sound_samples/cries/barbaracle.bin"
 
+	.align 2
 Cry_DragalgeMega::
 	.incbin "sound/direct_sound_samples/cries/dragalge.bin"
 
+	.align 2
 Cry_HawluchaMega::
 	.incbin "sound/direct_sound_samples/cries/hawlucha.bin"
 
+	.align 2
 Cry_CrabominableMega::
 	.incbin "sound/direct_sound_samples/cries/crabominable.bin"
 
+	.align 2
 Cry_GolisopodMega::
 	.incbin "sound/direct_sound_samples/cries/golisopod.bin"
 
+	.align 2
 Cry_DrampaMega::
 	.incbin "sound/direct_sound_samples/cries/drampa.bin"
 
+	.align 2
 Cry_ScovillainMega::
 	.incbin "sound/direct_sound_samples/cries/scovillain.bin"
 
+	.align 2
 Cry_GlimmoraMega::
 	.incbin "sound/direct_sound_samples/cries/glimmora.bin"
 
+	.align 2
 Cry_TatsugiriMega::
 	.incbin "sound/direct_sound_samples/cries/tatsugiri.bin"
 
+	.align 2
 Cry_BaxcaliburMega::
 	.incbin "sound/direct_sound_samples/cries/baxcalibur.bin"
 

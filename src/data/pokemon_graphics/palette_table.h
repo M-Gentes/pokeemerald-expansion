@@ -966,7 +966,6 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
         SPECIES_PAL(MERAKI, gMonPalette_Meraki),
         SPECIES_PAL(KAGECOON, gMonPalette_Kagecoon),
         SPECIES_PAL(TANDAYU, gMonPalette_Tandayu),
-        
         SPECIES_PAL(TAROUNTULA, gMonPalette_Tarountula),
 
         SPECIES_PAL(TENTACRUEL_MEGA, gMonPalette_TentacruelMega),
@@ -1011,6 +1010,8 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
         SPECIES_PAL(IRONSTING, gMonPalette_Ironsting),
         SPECIES_PAL(SLENDERSUN, gMonPalette_Slendersun),
         SPECIES_PAL(IRONPANEL, gMonPalette_Ironpanel),
+        SPECIES_PAL(DREADBOULD, gMonPalette_Dreadbould),
+        SPECIES_PAL(IRONHOLE, gMonPalette_Ironhole),
         SPECIES_PAL(ARCHMUSSEL, gMonPalette_Archmussel),
         SPECIES_PAL(IRONPUMP, gMonPalette_Ironpump),
         SPECIES_PAL(STEAMOUNT, gMonPalette_Steamount),
@@ -1099,6 +1100,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
         SPECIES_PAL(GRIMMSNARL_MEGA, gMonPalette_GrimmsnarlMega),
         SPECIES_PAL(ALCREMIE_MEGA, gMonPalette_AlcremieMega),
         SPECIES_PAL(COPPERAJAH_MEGA, gMonPalette_CopperajahMega),
+        SPECIES_PAL(SNORLAX_MEGA, gMonPalette_SnorlaxMega),
         SPECIES_PAL(CLEFABLE_MEGA, gMonPalette_ClefableMega),
         SPECIES_PAL(VICTREEBEL_MEGA, gMonPalette_VictreebelMega),
         SPECIES_PAL(STARMIE_MEGA, gMonPalette_StarmieMega),

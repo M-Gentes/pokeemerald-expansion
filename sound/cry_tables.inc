@@ -2311,6 +2311,7 @@ cry Cry_GrimmsnarlMega
 cry Cry_AlcremieMega
 cry Cry_CopperajahMega
 cry Cry_ClefableMega
+cry Cry_SnorlaxMega
 cry Cry_VictreebelMega
 cry Cry_StarmieMega
 cry Cry_DragoniteMega
@@ -4594,6 +4595,7 @@ cry_reverse Cry_GrimmsnarlMega
 cry_reverse Cry_AlcremieMega
 cry_reverse Cry_CopperajahMega
 cry_reverse Cry_ClefableMega
+cry_reverse Cry_SnorlaxMega
 cry_reverse Cry_VictreebelMega
 cry_reverse Cry_StarmieMega
 cry_reverse Cry_DragoniteMega

@@ -966,6 +966,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
         SPECIES_SHINY_PAL(MERAKI, gMonShinyPalette_Meraki),
         SPECIES_SHINY_PAL(KAGECOON, gMonShinyPalette_Kagecoon),
         SPECIES_SHINY_PAL(TANDAYU, gMonShinyPalette_Tandayu),
+        SPECIES_SHINY_PAL(TAROUNTULA, gMonShinyPalette_Tarountula),
 
         SPECIES_SHINY_PAL(TENTACRUEL_MEGA, gMonShinyPalette_TentacruelMega),
         SPECIES_SHINY_PAL(FLYGON_MEGA, gMonShinyPalette_FlygonMega),
@@ -985,7 +986,6 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
         SPECIES_SHINY_PAL(ECLIMINARY, gMonShinyPalette_Ecliminary),
         SPECIES_SHINY_PAL(PUMPKING, gMonShinyPalette_Pumpking),
 
-        SPECIES_SHINY_PAL(TAROUNTULA, gMonShinyPalette_Tarountula),
         SPECIES_SHINY_PAL(SPIDOPS, gMonShinyPalette_Spidops),
         SPECIES_SHINY_PAL(RABSCA, gMonShinyPalette_Rabsca),
         SPECIES_SHINY_PAL(REVAVROOM, gMonShinyPalette_Revavroom),
@@ -1010,6 +1010,8 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
         SPECIES_SHINY_PAL(IRONSTING, gMonShinyPalette_Ironsting),
         SPECIES_SHINY_PAL(SLENDERSUN, gMonShinyPalette_Slendersun),
         SPECIES_SHINY_PAL(IRONPANEL, gMonShinyPalette_Ironpanel),
+        SPECIES_SHINY_PAL(DREADBOULD, gMonShinyPalette_Dreadbould),
+        SPECIES_SHINY_PAL(IRONHOLE, gMonShinyPalette_Ironhole),
         SPECIES_SHINY_PAL(ARCHMUSSEL, gMonShinyPalette_Archmussel),
         SPECIES_SHINY_PAL(IRONPUMP, gMonShinyPalette_Ironpump),
         SPECIES_SHINY_PAL(STEAMOUNT, gMonShinyPalette_Steamount),
@@ -1098,6 +1100,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
         SPECIES_SHINY_PAL(GRIMMSNARL_MEGA, gMonShinyPalette_GrimmsnarlMega),
         SPECIES_SHINY_PAL(ALCREMIE_MEGA, gMonShinyPalette_AlcremieMega),
         SPECIES_SHINY_PAL(COPPERAJAH_MEGA, gMonShinyPalette_CopperajahMega),
+        SPECIES_SHINY_PAL(SNORLAX_MEGA, gMonShinyPalette_SnorlaxMega),
         SPECIES_SHINY_PAL(CLEFABLE_MEGA, gMonShinyPalette_ClefableMega),
         SPECIES_SHINY_PAL(VICTREEBEL_MEGA, gMonShinyPalette_VictreebelMega),
         SPECIES_SHINY_PAL(STARMIE_MEGA, gMonShinyPalette_StarmieMega),
