@@ -1618,7 +1618,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_PARAS"
               },
               {
                 "min_level": 25,
@@ -2103,7 +2103,7 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_NOIBAT"
               },
               {
                 "min_level": 10,
@@ -4193,7 +4193,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_PARASECT"
+                "species": "SPECIES_PARAS"
               },
               {
                 "min_level": 27,
@@ -6625,7 +6625,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_REMORAID"
               },
               {
                 "min_level": 5,
@@ -6665,7 +6665,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_MAGIKARP"
+                "species": "SPECIES_FEEBAS"
               },
               {
                 "min_level": 10,
@@ -11965,12 +11965,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_SPIRITOMB"
+                "species": "SPECIES_DREADBOULD"
               },
               {
                 "min_level": 25,
                 "max_level": 26,
-                "species": "SPECIES_SPIRITOMB"
+                "species": "SPECIES_IRONHOLE"
               },
               {
                 "min_level": 25,
