@@ -4386,6 +4386,55 @@ Cry_Pleasodor::
 Cry_Ironspray::  
 	.incbin "sound/direct_sound_samples/cries/copperajah.bin"  
 
+	.align 2  
+Cry_Sanesect::  
+	.incbin "sound/direct_sound_samples/cries/parasect.bin"  
+
+	.align 2  
+Cry_Ironfection::  
+	.incbin "sound/direct_sound_samples/cries/parasect.bin"  
+
+	.align 2  
+Cry_Infinaga::  
+	.incbin "sound/direct_sound_samples/cries/milotic.bin"  
+
+	.align 2  
+Cry_Ironfan::  
+	.incbin "sound/direct_sound_samples/cries/milotic.bin"  
+
+	.align 2  
+Cry_Toxspittle::  
+	.incbin "sound/direct_sound_samples/cries/heliolisk.bin"  
+
+	.align 2  
+Cry_Ironsat::  
+	.incbin "sound/direct_sound_samples/cries/heliolisk.bin"  
+
+	.align 2  
+Cry_Crawlfang::  
+	.incbin "sound/direct_sound_samples/cries/noivern.bin"  
+
+	.align 2  
+Cry_Ironboom::  
+	.incbin "sound/direct_sound_samples/cries/noivern.bin"  
+
+	.align 2  
+Cry_Sealstone::  
+	.incbin "sound/direct_sound_samples/cries/aegislash.bin"  
+
+	.align 2  
+Cry_Ironsaber::  
+	.incbin "sound/direct_sound_samples/cries/aegislash.bin"  
+
+	.align 2  
+Cry_Glideburn::  
+	.incbin "sound/direct_sound_samples/cries/salazzle.bin"  
+
+	.align 2  
+Cry_Ironcubator::  
+	.incbin "sound/direct_sound_samples/cries/salazzle.bin"
+	
+
 	.align 2
 Cry_RapidashMega::
 	.incbin "sound/direct_sound_samples/cries/rapidash.bin"

@@ -10155,6 +10155,54 @@ static const union AnimCmd sAnim_Ironspray_1[] = {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
+static const union AnimCmd sAnim_Sanesect_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Ironfection_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Infinaga_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Ironfan_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Toxspittle_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Ironsat_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Crawlfang_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Ironboom_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Sealstone_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Ironsaber_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Glideburn_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Ironcubator_1[] = {
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
 static const union AnimCmd sAnim_RapidashMega_1[] = {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -12594,6 +12642,18 @@ SINGLE_ANIMATION(Floatinhunt);
 SINGLE_ANIMATION(Ironrocket);
 SINGLE_ANIMATION(Pleasodor);
 SINGLE_ANIMATION(Ironspray);
+SINGLE_ANIMATION(Sanesect);
+SINGLE_ANIMATION(Ironfection);
+SINGLE_ANIMATION(Infinaga);
+SINGLE_ANIMATION(Ironfan);
+SINGLE_ANIMATION(Toxspittle);
+SINGLE_ANIMATION(Ironsat);
+SINGLE_ANIMATION(Crawlfang);
+SINGLE_ANIMATION(Ironboom);
+SINGLE_ANIMATION(Sealstone);
+SINGLE_ANIMATION(Ironsaber);
+SINGLE_ANIMATION(Glideburn);
+SINGLE_ANIMATION(Ironcubator);
 
 SINGLE_ANIMATION(TentacruelMega);
 SINGLE_ANIMATION(FlygonMega);

@@ -2241,6 +2241,18 @@ cry Cry_Floatinhunt
 cry Cry_Ironrocket  
 cry Cry_Pleasodor  
 cry Cry_Ironspray
+cry Cry_Sanesect
+cry Cry_Ironfection
+cry Cry_Infinaga
+cry Cry_Ironfan
+cry Cry_Toxspittle
+cry Cry_Ironsat
+cry Cry_Crawlfang
+cry Cry_Ironboom
+cry Cry_Sealstone
+cry Cry_Ironsaber
+cry Cry_Glideburn
+cry Cry_Ironcubator
 cry Cry_RapidashMega
 
 cry Cry_MightyenaMega
@@ -4526,6 +4538,19 @@ cry_reverse Cry_Floatinhunt
 cry_reverse Cry_Ironrocket
 cry_reverse Cry_Pleasodor
 cry_reverse Cry_Ironspray
+cry_reverse Cry_Sanesect
+cry_reverse Cry_Ironfection
+cry_reverse Cry_Infinaga
+cry_reverse Cry_Ironfan
+cry_reverse Cry_Toxspittle
+cry_reverse Cry_Ironsat
+cry_reverse Cry_Crawlfang
+cry_reverse Cry_Ironboom
+cry_reverse Cry_Sealstone
+cry_reverse Cry_Ironsaber
+cry_reverse Cry_Glideburn
+cry_reverse Cry_Ironcubator
+
 cry_reverse Cry_RapidashMega
 cry_reverse Cry_MightyenaMega
 cry_reverse Cry_DrifblimMega
