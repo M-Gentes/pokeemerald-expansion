@@ -1492,6 +1492,65 @@ gCryTable::
 	cry Cry_Meraki
 	cry Cry_Kagecoon
 	cry Cry_Tandayu
+	cry Cry_Tarountula  
+	cry Cry_Spidops  
+	cry Cry_Rabsca  
+	cry Cry_Revavroom  
+	cry Cry_Glimmora  
+	cry Cry_Veluza  
+	cry Cry_Scovillain  
+	cry Cry_Baxcalibur  
+	cry Cry_Tatsugiri  
+	cry Cry_Clodsire  
+	cry Cry_Sinistcha  
+	cry Cry_Archaludon  
+	cry Cry_Hydrapple  
+	cry Cry_Keclilisk  
+	cry Cry_Dhelvessel  
+	cry Cry_Spikedash  
+	cry Cry_Ironwalks  
+	cry Cry_Lurinskull  
+	cry Cry_Ironseeker  
+	cry Cry_Nokay  
+	cry Cry_Ironkneel  
+	cry Cry_Venomfear  
+	cry Cry_Ironsting  
+	cry Cry_Slendersun  
+	cry Cry_Ironpanel  
+	cry Cry_Dreadbould  
+	cry Cry_Ironhole  
+	cry Cry_Archmussel  
+	cry Cry_Ironpump  
+	cry Cry_Steamount  
+	cry Cry_Ironfuse  
+	cry Cry_Abyssclaw  
+	cry Cry_Ironsub  
+	cry Cry_Cinderoot  
+	cry Cry_Ironplasma  
+	cry Cry_Glaciarmor  
+	cry Cry_Ironwaves  
+	cry Cry_Summoncircle  
+	cry Cry_Irongate  
+	cry Cry_Cubepunch  
+	cry Cry_Ironvision  
+	cry Cry_Barkjam  
+	cry Cry_Ironbuzz  
+	cry Cry_Floatinhunt  
+	cry Cry_Ironrocket  
+	cry Cry_Pleasodor  
+	cry Cry_Ironspray
+	cry Cry_Sanesect
+	cry Cry_Ironfection
+	cry Cry_Infinaga
+	cry Cry_Ironfan
+	cry Cry_Toxspittle
+	cry Cry_Ironsat
+	cry Cry_Crawlfang
+	cry Cry_Ironboom
+	cry Cry_Sealstone
+	cry Cry_Ironsaber
+	cry Cry_Glideburn
+	cry Cry_Ironcubator
 	@ Megas
 	cry Cry_VenusaurMega
 	cry Cry_CharizardMegaX
@@ -2194,67 +2253,7 @@ gCryTable::
 	cry Cry_Ecliminary
 	cry Cry_Pumpking
 	@ new 2
-	cry Cry_Tarountula  
-cry Cry_Spidops  
-cry Cry_Rabsca  
-cry Cry_Revavroom  
-cry Cry_Glimmora  
-cry Cry_Veluza  
-cry Cry_Scovillain  
-cry Cry_Baxcalibur  
-cry Cry_Tatsugiri  
-cry Cry_Clodsire  
-cry Cry_Sinistcha  
-cry Cry_Archaludon  
-cry Cry_Hydrapple  
-cry Cry_Keclilisk  
-cry Cry_Dhelvessel  
-cry Cry_Spikedash  
-cry Cry_Ironwalks  
-cry Cry_Lurinskull  
-cry Cry_Ironseeker  
-cry Cry_Nokay  
-cry Cry_Ironkneel  
-cry Cry_Venomfear  
-cry Cry_Ironsting  
-cry Cry_Slendersun  
-cry Cry_Ironpanel  
-cry Cry_Dreadbould  
-cry Cry_Ironhole  
-cry Cry_Archmussel  
-cry Cry_Ironpump  
-cry Cry_Steamount  
-cry Cry_Ironfuse  
-cry Cry_Abyssclaw  
-cry Cry_Ironsub  
-cry Cry_Cinderoot  
-cry Cry_Ironplasma  
-cry Cry_Glaciarmor  
-cry Cry_Ironwaves  
-cry Cry_Summoncircle  
-cry Cry_Irongate  
-cry Cry_Cubepunch  
-cry Cry_Ironvision  
-cry Cry_Barkjam  
-cry Cry_Ironbuzz  
-cry Cry_Floatinhunt  
-cry Cry_Ironrocket  
-cry Cry_Pleasodor  
-cry Cry_Ironspray
-cry Cry_Sanesect
-cry Cry_Ironfection
-cry Cry_Infinaga
-cry Cry_Ironfan
-cry Cry_Toxspittle
-cry Cry_Ironsat
-cry Cry_Crawlfang
-cry Cry_Ironboom
-cry Cry_Sealstone
-cry Cry_Ironsaber
-cry Cry_Glideburn
-cry Cry_Ironcubator
 cry Cry_RapidashMega
-
 cry Cry_MightyenaMega
 cry Cry_DrifblimMega
 cry Cry_VanilluxeMega
@@ -2322,8 +2321,8 @@ cry Cry_HattereneMega
 cry Cry_GrimmsnarlMega
 cry Cry_AlcremieMega
 cry Cry_CopperajahMega
-cry Cry_ClefableMega
 cry Cry_SnorlaxMega
+cry Cry_ClefableMega
 cry Cry_VictreebelMega
 cry Cry_StarmieMega
 cry Cry_DragoniteMega
@@ -3845,6 +3844,64 @@ gCryTable_Reverse::
 	cry_reverse Cry_Meraki
 	cry_reverse Cry_Kagecoon
 	cry_reverse Cry_Tandayu
+	@ new 2
+	cry_reverse Cry_Tarountula  
+cry_reverse Cry_Spidops  
+cry_reverse Cry_Rabsca  
+cry_reverse Cry_Revavroom  
+cry_reverse Cry_Glimmora  
+cry_reverse Cry_Veluza  
+cry_reverse Cry_Scovillain  
+cry_reverse Cry_Baxcalibur  
+cry_reverse Cry_Tatsugiri  
+cry_reverse Cry_Clodsire  
+cry_reverse Cry_Sinistcha  
+cry_reverse Cry_Archaludon  
+cry_reverse Cry_Hydrapple  
+cry_reverse Cry_Keclilisk
+cry_reverse Cry_Dhelvessel
+cry_reverse Cry_Spikedash
+cry_reverse Cry_Ironwalks
+cry_reverse Cry_Lurinskull
+cry_reverse Cry_Ironseeker
+cry_reverse Cry_Nokay
+cry_reverse Cry_Ironkneel
+cry_reverse Cry_Venomfear
+cry_reverse Cry_Ironsting
+cry_reverse Cry_Slendersun
+cry_reverse Cry_Ironpanel
+cry_reverse Cry_Archmussel
+cry_reverse Cry_Ironpump
+cry_reverse Cry_Steamount
+cry_reverse Cry_Ironfuse
+cry_reverse Cry_Abyssclaw
+cry_reverse Cry_Ironsub
+cry_reverse Cry_Cinderoot
+cry_reverse Cry_Ironplasma
+cry_reverse Cry_Glaciarmor
+cry_reverse Cry_Ironwaves
+cry_reverse Cry_Summoncircle
+cry_reverse Cry_Irongate
+cry_reverse Cry_Cubepunch
+cry_reverse Cry_Ironvision
+cry_reverse Cry_Barkjam
+cry_reverse Cry_Ironbuzz
+cry_reverse Cry_Floatinhunt
+cry_reverse Cry_Ironrocket
+cry_reverse Cry_Pleasodor
+cry_reverse Cry_Ironspray
+cry_reverse Cry_Sanesect
+cry_reverse Cry_Ironfection
+cry_reverse Cry_Infinaga
+cry_reverse Cry_Ironfan
+cry_reverse Cry_Toxspittle
+cry_reverse Cry_Ironsat
+cry_reverse Cry_Crawlfang
+cry_reverse Cry_Ironboom
+cry_reverse Cry_Sealstone
+cry_reverse Cry_Ironsaber
+cry_reverse Cry_Glideburn
+cry_reverse Cry_Ironcubator
 	@ Megas
 	cry_reverse Cry_VenusaurMega
 	cry_reverse Cry_CharizardMegaX
@@ -4492,65 +4549,6 @@ gCryTable_Reverse::
 	cry_reverse Cry_Rotom
 	cry_reverse Cry_Ecliminary
 	cry_reverse Cry_Pumpking
-	@ new 2
-	cry_reverse Cry_Tarountula  
-cry_reverse Cry_Spidops  
-cry_reverse Cry_Rabsca  
-cry_reverse Cry_Revavroom  
-cry_reverse Cry_Glimmora  
-cry_reverse Cry_Veluza  
-cry_reverse Cry_Scovillain  
-cry_reverse Cry_Baxcalibur  
-cry_reverse Cry_Tatsugiri  
-cry_reverse Cry_Clodsire  
-cry_reverse Cry_Sinistcha  
-cry_reverse Cry_Archaludon  
-cry_reverse Cry_Hydrapple  
-cry_reverse Cry_Keclilisk
-cry_reverse Cry_Dhelvessel
-cry_reverse Cry_Spikedash
-cry_reverse Cry_Ironwalks
-cry_reverse Cry_Lurinskull
-cry_reverse Cry_Ironseeker
-cry_reverse Cry_Nokay
-cry_reverse Cry_Ironkneel
-cry_reverse Cry_Venomfear
-cry_reverse Cry_Ironsting
-cry_reverse Cry_Slendersun
-cry_reverse Cry_Ironpanel
-cry_reverse Cry_Archmussel
-cry_reverse Cry_Ironpump
-cry_reverse Cry_Steamount
-cry_reverse Cry_Ironfuse
-cry_reverse Cry_Abyssclaw
-cry_reverse Cry_Ironsub
-cry_reverse Cry_Cinderoot
-cry_reverse Cry_Ironplasma
-cry_reverse Cry_Glaciarmor
-cry_reverse Cry_Ironwaves
-cry_reverse Cry_Summoncircle
-cry_reverse Cry_Irongate
-cry_reverse Cry_Cubepunch
-cry_reverse Cry_Ironvision
-cry_reverse Cry_Barkjam
-cry_reverse Cry_Ironbuzz
-cry_reverse Cry_Floatinhunt
-cry_reverse Cry_Ironrocket
-cry_reverse Cry_Pleasodor
-cry_reverse Cry_Ironspray
-cry_reverse Cry_Sanesect
-cry_reverse Cry_Ironfection
-cry_reverse Cry_Infinaga
-cry_reverse Cry_Ironfan
-cry_reverse Cry_Toxspittle
-cry_reverse Cry_Ironsat
-cry_reverse Cry_Crawlfang
-cry_reverse Cry_Ironboom
-cry_reverse Cry_Sealstone
-cry_reverse Cry_Ironsaber
-cry_reverse Cry_Glideburn
-cry_reverse Cry_Ironcubator
-
 cry_reverse Cry_RapidashMega
 cry_reverse Cry_MightyenaMega
 cry_reverse Cry_DrifblimMega
@@ -4619,8 +4617,8 @@ cry_reverse Cry_HattereneMega
 cry_reverse Cry_GrimmsnarlMega
 cry_reverse Cry_AlcremieMega
 cry_reverse Cry_CopperajahMega
-cry_reverse Cry_ClefableMega
 cry_reverse Cry_SnorlaxMega
+cry_reverse Cry_ClefableMega
 cry_reverse Cry_VictreebelMega
 cry_reverse Cry_StarmieMega
 cry_reverse Cry_DragoniteMega
