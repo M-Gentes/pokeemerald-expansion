@@ -3823,6 +3823,7 @@ static const struct LevelUpMove sSudowoodoLevelUpLearnset[] = {
 
 static const struct LevelUpMove sPolitoedLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_BUBBLE_BEAM),
+    LEVEL_UP_MOVE(1, MOVE_SWIFT),
     LEVEL_UP_MOVE(1, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE(1, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE(1, MOVE_PERISH_SONG),
@@ -3834,6 +3835,7 @@ static const struct LevelUpMove sPolitoedLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_HYPER_VOICE),
     LEVEL_UP_MOVE(37, MOVE_BOUNCE),
     LEVEL_UP_MOVE(40, MOVE_WHIRLPOOL),
+    LEVEL_UP_MOVE(45, MOVE_WEATHER_BALL),
     LEVEL_UP_MOVE(52, MOVE_BOUNCY_BUBBLE),
     LEVEL_UP_END};
 
@@ -18466,12 +18468,13 @@ static const struct LevelUpMove sEnamorusLevelUpLearnset[] = {
 static const struct LevelUpMove sSmashbagLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_PRESENT),
     LEVEL_UP_MOVE(5, MOVE_PECK),
+    LEVEL_UP_MOVE(6, MOVE_ROCK_SMASH),
     LEVEL_UP_MOVE(6, MOVE_ANCIENT_POWER),
     LEVEL_UP_MOVE(8, MOVE_ROCK_TOMB),
-    LEVEL_UP_MOVE(10, MOVE_ARM_THRUST),
     LEVEL_UP_MOVE(14, MOVE_AERIAL_ACE),
     LEVEL_UP_MOVE(16, MOVE_SUNNY_DAY),
     LEVEL_UP_MOVE(20, MOVE_ROCK_POLISH),
+    LEVEL_UP_MOVE(22, MOVE_ARM_THRUST),
     LEVEL_UP_MOVE(25, MOVE_ROCK_BLAST),
     LEVEL_UP_MOVE(28, MOVE_PUNISHMENT),
     LEVEL_UP_MOVE(30, MOVE_WAKE_UP_SLAP),
