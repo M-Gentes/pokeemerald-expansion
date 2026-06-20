@@ -2389,8 +2389,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         #else
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         #endif
-        .effect = EFFECT_ACCURACY_DOWN,
-        .power = 50,
+        .effect = EFFECT_ACCURACY_DOWN_HIT,
+        .power = 40,
         .type = TYPE_PSYCHIC,
         .accuracy = 90,
         .pp = 15,

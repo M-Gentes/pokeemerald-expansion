@@ -542,7 +542,7 @@ static const u8 sAmnesiaDescription[] = _(
 
 static const u8 sKinesisDescription[] = _(
     "Fast storm of thoughts.\n"
-    "May lower accuracy.");
+    "Lower accuracy, Prio.");
 
 static const u8 sSoftBoiledDescription[] = _(
     "Recovers up to half the\n"
@@ -1309,7 +1309,7 @@ static const u8 sSignalBeamDescription[] = _(
     "may confuse the foe.");
 
 static const u8 sShadowPunchDescription[] = _(
-    "An unavoidable punch that\n"
+    "A draining punch that\n"
     "is thrown from shadows.");
 
 static const u8 sExtrasensoryDescription[] = _(
