@@ -8453,7 +8453,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case ABILITY_BUZZ_VOICE:
-        if ((gBattleMoves[move].flags & FLAG_SOUND) || (moveType == TYPE_NORMAL && gBattleStruct->ateBoost[battlerAtk]))
+        if ((gBattleMoves[move].flags & FLAG_SOUND) || (moveType == TYPE_NORMAL))
             MulModifier(&modifier, UQ_4_12(1.2));
         break;
     case ABILITY_STEELY_SPIRIT:
@@ -8479,6 +8479,10 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     case ABILITY_ILLUMINATE:
         if (moveType == TYPE_FAIRY || move == MOVE_FLASH_CANNON || move == MOVE_FLASH || move == MOVE_SOLAR_BEAM || move == MOVE_SIGNAL_BEAM || move == MOVE_LIGHT_OF_RUIN || move == MOVE_ZAP_CANNON || move == MOVE_LUSTER_PURGE || move == MOVE_HYPER_BEAM)
             MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_PICKPOCKET:
+        if (move == MOVE_THIEF || move == MOVE_COVET)
+            MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_PROTOSYNTHESIS:
     {
@@ -8527,16 +8531,16 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     }
 
     if (IsAbilityOnField(ABILITY_VESSEL_OF_RUIN) && atkAbility != ABILITY_VESSEL_OF_RUIN && IS_MOVE_SPECIAL(gCurrentMove))
-        MulModifier(&modifier, UQ_4_12(0.25));
+        MulModifier(&modifier, UQ_4_12(0.75));
 
     if (IsAbilityOnField(ABILITY_SWORD_OF_RUIN) && defAbility != ABILITY_SWORD_OF_RUIN && IS_MOVE_PHYSICAL(gCurrentMove))
-        MulModifier(&modifier, UQ_4_12(0.25));
+        MulModifier(&modifier, UQ_4_12(1.33));
 
     if (IsAbilityOnField(ABILITY_TABLETS_OF_RUIN) && atkAbility != ABILITY_TABLETS_OF_RUIN && IS_MOVE_PHYSICAL(gCurrentMove))
-        MulModifier(&modifier, UQ_4_12(0.25));
+        MulModifier(&modifier, UQ_4_12(0.75));
 
     if (IsAbilityOnField(ABILITY_BEADS_OF_RUIN) && defAbility != ABILITY_BEADS_OF_RUIN && IS_MOVE_SPECIAL(gCurrentMove))
-        MulModifier(&modifier, UQ_4_12(0.25));
+        MulModifier(&modifier, UQ_4_12(1.33));
 
     // attacker partner's abilities
     if (IsBattlerAlive(BATTLE_PARTNER(battlerAtk)))
