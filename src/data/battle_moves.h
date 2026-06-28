@@ -13691,18 +13691,19 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .zMoveEffect = Z_EFFECT_NONE,
     },
 
+    // Bug Trap
     [MOVE_TAKE_HEART] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_TAKE_HEART,
-        .power = 0,
-        .type = TYPE_PSYCHIC,
-        .accuracy = 0,
+        .effect = EFFECT_HIT, // EFFECT_TAKE_HEART,
+        .power = 85,
+        .type = TYPE_GRASS,
+        .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_USER,
+        .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_SNATCH_AFFECTED,
-        .split = SPLIT_STATUS,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_MAKES_CONTACT,
+        .split = SPLIT_PHYSICAL,
         .zMovePower = 100,
         .zMoveEffect = Z_EFFECT_NONE,
     },

@@ -203,7 +203,7 @@ Route120_EventScript_ItemHyperPotion::
 	end
 
 Route120_EventScript_ItemNestBall::
-	finditem ITEM_NEST_BALL
+	finditem ITEM_HEART_SCALE
 	end
 
 Route120_EventScript_ItemRevive::
@@ -211,7 +211,7 @@ Route120_EventScript_ItemRevive::
 	end
 
 Route121_EventScript_ItemCarbos::
-	finditem ITEM_CARBOS
+	finditem ITEM_HEART_SCALE
 	end
 
 Route121_EventScript_ItemRevive::

@@ -3046,8 +3046,8 @@ static const u8 sLunarBlessingDescription[] = _(
     "itself and its ally.");
 
 static const u8 sTakeHeartDescription[] = _(
-    "The user lifts its spirits to\n"
-    "heal and strengthen itself.");
+    "More effective against\n"
+    "BUG-type Pokémon.");
 
 static const u8 sTeraBlastDescription[] = _(
     "Infused strike with type power,\n"
