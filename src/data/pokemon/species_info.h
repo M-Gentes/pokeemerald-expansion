@@ -29854,10 +29854,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_KECLILISK] =
         {
                 .baseHP = 60 + 50 + 20,
-                .baseAttack = 90 + 30,
+                .baseAttack = 90 + 10,
                 .baseDefense = 70 + 20,
                 .baseSpeed = 40,
-                .baseSpAttack = 60 + 30 + 30,
+                .baseSpAttack = 60 + 30 + 20,
                 .baseSpDefense = 120,
                 .types = {TYPE_NORMAL, TYPE_DRAGON},
                 .catchRate = 200,
