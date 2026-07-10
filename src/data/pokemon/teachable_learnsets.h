@@ -17022,6 +17022,12 @@ static const u16 sBidoofTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_WAVE,
+    MOVE_STRENGTH,
+    MOVE_SURF,
+    MOVE_DIVE,
+    MOVE_DEFOG,
+    MOVE_FLY,
+    MOVE_FLASH,
     MOVE_UNAVAILABLE,
 };
 
@@ -36343,6 +36349,7 @@ static const u16 sSpicaboroTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
+    MOVE_SHADOW_BALL,
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,

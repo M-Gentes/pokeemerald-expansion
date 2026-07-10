@@ -787,7 +787,7 @@ struct
         .level = 43,
         .nature = NATURE_IMPISH,
         .evs = {252, 0, 0, 0, 6, 252},
-        .heldItem = ITEM_LEFTOVERS,
+        .heldItem = ITEM_CUSTOMITE,
         .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_PROTECT, MOVE_ROCK_TOMB}
     },
     {
@@ -797,7 +797,7 @@ struct
         .nature = NATURE_ADAMANT,
         .evs = {0, 252, 0, 0, 252, 6},
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_SOLAR_BEAM, MOVE_ROCK_SLIDE}
+        .moves = {MOVE_BODY_PRESS, MOVE_PROTECT, MOVE_METAL_BURST, MOVE_ROCK_SLIDE}
     }
 };
 
