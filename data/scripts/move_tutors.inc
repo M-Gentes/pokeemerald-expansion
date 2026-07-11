@@ -206,6 +206,31 @@ MoveTutor_EventScript_DynamicPunchTaught::
 	release
 	end
 
+MossdeepCity_EventScript_DracoMeteorTutor::
+	lock
+	faceplayer
+	msgbox SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_DracoMeteorDeclined
+	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
+	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_DracoMeteorDeclined
+	msgbox MoveTutor_Text_DracoMeteorWhichMon, MSGBOX_DEFAULT
+	setvar VAR_0x8005, MOVE_DRACO_METEOR
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_DracoMeteorDeclined
+	setflag FLAG_MOVE_TUTOR_TAUGHT_DRACOMETEOR
+	goto MoveTutor_EventScript_DracoMeteorTaught
+	end
+
+MoveTutor_EventScript_DracoMeteorDeclined::
+	msgbox MoveTutor_Text_DracoMeteorDeclined, MSGBOX_DEFAULT
+	release
+	end
+
+MoveTutor_EventScript_DracoMeteorTaught::
+	msgbox MoveTutor_Text_DracoMeteorTaught, MSGBOX_DEFAULT
+	release
+	end	
+
 SootopolisCity_PokemonCenter_1F_EventScript_DoubleEdgeTutor::
 	lock
 	faceplayer

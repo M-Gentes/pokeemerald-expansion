@@ -188,6 +188,14 @@ MoveTutor_Text_DynamicPunchTaught:
 	.string "I want you to win at the MOSSDEEP GYM\n"
 	.string "using that DYNAMICPUNCH!$"
 
+MoveTutor_Text_DracoMeteorDeclined:
+	.string "No Dracos for you?\n"
+	.string "You will miss them anyway!$"
+
+MoveTutor_Text_DracoMeteorTaught:
+	.string "Gotta drop these Dracos\n"
+	.string "and bring destruction!$"
+
 MoveTutor_Text_DoubleEdgeTeach:
 	.string "Sigh…\p"
 	.string "SOOTOPOLIS's GYM LEADER is really\n"

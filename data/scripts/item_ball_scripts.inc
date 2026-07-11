@@ -1,5 +1,5 @@
 Route102_EventScript_ItemPotion::
-	finditem ITEM_POTION
+	finditem ITEM_SUPER_POTION
 	end
 
 Route103_EventScript_ItemGuardSpec::
@@ -99,7 +99,7 @@ Route114_EventScript_ItemProtein::
 	end
 
 Route114_EventScript_ItemEnergyPowder::
-	finditem ITEM_ENERGY_POWDER
+	finditem ITEM_HEART_SCALE
 	end
 
 Route115_EventScript_ItemSuperPotion::
@@ -111,7 +111,7 @@ Route115_EventScript_ItemTM01::
 	end
 
 Route115_EventScript_ItemIron::
-	finditem ITEM_IRON
+	finditem ITEM_HEART_SCALE
 	end
 
 Route115_EventScript_ItemGreatBall::
@@ -215,7 +215,7 @@ Route121_EventScript_ItemCarbos::
 	end
 
 Route121_EventScript_ItemRevive::
-	finditem ITEM_REVIVE
+	finditem ITEM_HEART_SCALE
 	end
 
 Route121_EventScript_ItemZinc::
@@ -523,7 +523,7 @@ AquaHideout_B1F_EventScript_ItemMaxElixir::
 	end
 
 AquaHideout_B2F_EventScript_ItemNestBall::
-	finditem ITEM_NEST_BALL
+	finditem ITEM_HEART_SCALE
 	end
 
 AquaHideout_B2F_EventScript_ItemMasterBall::
@@ -539,7 +539,7 @@ Route119_EventScript_ItemMaxElixir::
 	end
 
 Route119_EventScript_ItemNestBall::
-	finditem ITEM_NEST_BALL
+	finditem ITEM_HEART_SCALE
 	end
 
 ShoalCave_LowTideEntranceRoom_EventScript_ItemBigPearl::

@@ -849,6 +849,7 @@ static const u16 sArbokTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_POISON_JAB,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -15900,6 +15901,7 @@ static const u16 sSalamenceTeachableLearnset[] = {
     MOVE_DRAGON_PULSE,
     MOVE_ROCK_SLIDE,
     MOVE_STONE_EDGE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -20864,6 +20866,7 @@ static const u16 sSerperiorTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -27249,6 +27252,7 @@ static const u16 sDragalgeTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_FOCUS_BLAST,
     MOVE_DRAGON_PULSE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -30096,6 +30100,7 @@ static const u16 sKommooTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -31088,6 +31093,8 @@ static const u16 sNickitTeachableLearnset[] = {
 static const u16 sThievulTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_DIG,
+    MOVE_CUT,
+    MOVE_DARK_PULSE,
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
@@ -32378,6 +32385,7 @@ static const u16 sDragapultTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -34321,6 +34329,7 @@ static const u16 sGoodraHisuianTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_DRAGON_PULSE,
     MOVE_DRACO_METEOR,
+    MOVE_FLASH_CANNON,
     MOVE_FOCUS_BLAST,
     MOVE_UNAVAILABLE,
 };
@@ -37953,6 +37962,7 @@ static const u16 sKecliliskTeachableLearnset[] = {
     MOVE_GRASSY_TERRAIN,
     MOVE_TERRAIN_PULSE,
     MOVE_DRAIN_PUNCH,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -38197,6 +38207,7 @@ static const u16 sGlaciarmorTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -39085,6 +39096,7 @@ static const u16 sFloatinhuntTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -39380,6 +39392,7 @@ static const u16 sInfinagaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_DRAGON_PULSE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 

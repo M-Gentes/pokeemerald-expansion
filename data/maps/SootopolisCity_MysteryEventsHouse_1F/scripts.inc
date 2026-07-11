@@ -79,7 +79,7 @@ SootopolisCity_MysteryEventsHouse_1F_EventScript_OldMan::
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_InvalidVisitingTrainer::
 	msgbox SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles, MSGBOX_DEFAULT
-	goto SootopolisCity_MysteryEventsHouse_1F_EventScript_DracoMeteor
+	goto MossdeepCity_EventScript_DracoMeteorTutor
 	release
 	end
 
