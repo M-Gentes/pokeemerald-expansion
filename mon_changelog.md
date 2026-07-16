@@ -285,6 +285,47 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Shiinotic|Grass, Fairy|+Misty Surge, Effect Spore, Rain Dish|||||||
 |Boltund|Electric|Strong Jaw, None, Competitive|69|90 + 10|60 + 9|90 + 10|60 + 9|121|
 
+### Unowns
+A: Psychic
+B: Bug/Psychic
+C: Dragon/Psychic
+D: Electric/Psychic
+E: Ground/Psychic
+F: Ghost/Psychic
+G: Ice/Psychic
+H: Electric/Psychic
+I: Ice/Psychic
+J: Fighting/Psychic
+K: Flying/Psychic
+L: Steel/Psychic
+M: Steel/Psychic
+N: Normal/Psychic
+O: Poison/Psychic
+P: Poison/Psychic
+Q: Water/Psychic
+R: Rock/Psychic
+S: Steel/Psychic
+T: Steel/Psychic
+U: Psychic/Psychic
+V: Grass/Psychic
+W: Water/Psychic
+X: Fairy/Psychic
+Y: Dark/Psychic
+Z: Dragon/Psychic
+!: ???
+?: ???
+
+### Alcremies
+Normal: +10 Atk/Def/Speed
+Ruby Cream: +40 Atk
+Matcha Cream: +40 Def
+Mint Cream: +40 Def
+Lemon Cream: +40 Speed
+Salted Cream: +40 Speed
+Ruby Swirl: +40 Atk
+Caramel Swirl: +40 Def
+Rainbow Swirl: +40 Atk
+
 ## Changed Attacks
 - Mega Punch: 120 Power
 - Mega Kick: 150 Power, 33% Recoil
