@@ -5,6 +5,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 - Castform (changing type to Rock in Sandstorm)
 - Paradox Pokémon
 - Custom Paradox Pokémon, filling missing counterparts of official Paradox Pokémon + extra ones
+  - Base mons can evolve to Paradox forms (depends end stage / mid stage)
 - Pawmot line
 - Annihilape
 - Dudunsparce
@@ -81,7 +82,6 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
     - Sharpedo
     - Spiritomb
     - Chandelure
-    - ?
     - Kommo-o
     - Stonjourner
     - Eiscue
@@ -131,6 +131,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 - LUXRAY -> {EVO_MEGA_EVOLUTION, ITEM_LUXRAYTITE, LUXRAY_MEGA}
 - SOLROCK/LUNATONE -> {EVO_MEGA_EVOLUTION, ITEM_ECLIMINARINITE, ECLIMINARY}
 - ORIGINAL_FORM_PRE_EVO -> {EVO_ITEM, STONE/UPGRADE/KINGS_ROCK, PARADOX_FORM}
+- MILCERY -> Elemental Stone Items for different Alcremie Forms, Poke Doll for Base form
 
 ## Changed Stats / Types / Abilities
 | Pokémon | Types | Abilities | HP | ATK | DEF | SP. ATK | SP. DEF | INIT |
@@ -143,24 +144,33 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Pidgeot|Normal, Flying|+Download, Tangled Feet, Big Pecks||||70 + 20||
 |Ratticate|Normal|+Hustle, +Strong Jaw, +Rattled||||||
 |Fearow|Normal, Flying|Keen Eye, +Adaptability, Sniper||||||
-|Arbok|Poison|Intimidate, +Merciless, + Shed Skin|60 + 30|||||
+|Arbok|Poison, +Dragon|Intimidate, +Merciless, + Shed Skin|60 + 30|||||
+|Raichu|Electric, +Fighting|+Electric Surge|60 + 20|90+5||||
+|Nido females|+Fairy|+Cute Charm||||||
+|Nidoqueen|+Fairy, Ground|+Cute Charm||||||
+|Nidoking|Poison, +Ice|||||||
 |Sandslash|Ground|Sand Veil, +Solid Rock, Sand Rush|75 + 10|100 + 10|||55 + 10||
-|Ninetales|Fire|+Drought, Flash Fire, Drought|||||||
+|Ninetales|Fire, +Fairy|+Drought, Flash Fire, Drought|||||||
 |Jigglypuff|Normal, Fairy|Cute Charm, Competitive, Friend Guard||45 + 20||45 + 20|||
 |Wigglytuff|Normal, Fairy|Cute Charm, Competitive, Friend Guard|||45 + 20|85 + 40|50 + 20||
+|Parasect||Effect Spore, Dry Skin, + Beast Boost|60+40|||||
+|Venomoth|||||60+20|90+10||
+|Dugtrio||+Parental Bond|||50+25|||
 |Persian|Normal|+Super Luck, Technician, Unnerve||70 + 20||65 + 10|||
 |Golduck|Water, +Psychic|+Swift Swim, Cloud Nine, Damp|80 + 10|82 + 10||95 + 10|||
+|Machamp||+Skill Link||||||
+|Victreebel||+Corrosion||||||
 |Tentacruel|Water, Poison|Clear Body, +Merciless, Rain Dish|||||||
 |Ponyta|Fire, +Fairy|Run Away, Flash Fire, Flame Body|||||||
 |Rapidash|Fire, +Fairy|+Lightning Rod, Flash Fire, Flame Body|65 + 10|||80 + 5|||
 |Farfetch'd|Normal, Flying|+Sharpness, +Sniper, Defiant||||||60 + 20|
-|Dodrio|Normal, Flying|+Rock Head, Early Bird, Tangled Feet|||||||
+|Dodrio|Normal, Flying|+Rock Head, +Parental Bond, Tangled Feet|||||||
 |Onix|Rock, Ground|+Battle Armor, Sturdy, Weak Armor|||||||
 |Hypno|Psychic|Insomnia, +Bad Dreams, Inner Focus|85 + 30||||||
 |Electrode|Electric, +Fire|Soundproof, +Galvanize, Aftermath|60|50+20||80+20||150-10|
 |Kangaskhan|Normal|+Parental Bond, Scrappy, Inner Focus|||||||
 |Seaking|Water|Swift Swim, +Hustle, Lightning Rod||92 + 10||||68 + 10|
-|Jynx|Water, Psychic|Oblivious, Forewarn, Dry Skin|||35 + 20|115 + 10|||
+|Jynx|Ice, Psychic|Oblivious, Forewarn, Dry Skin|||35 + 20|115 + 10|||
 |Omanyte||||||90 +10||35 + 20|
 |Meganium||Overgrow, None, +Pixilate|||||||
 |Typhlosion||Blaze, None, +Drought|||||||
@@ -250,17 +260,28 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Relicanth|Water, Rock|Swift Swim, Rock Head, +Primordial Sea|||||||
 |Luvdisc|Water|Swift Swim, Regenerator, Hydration|43 + 40|30|55 + 20|40|65 + 20|97|
 |Kricketot|Bug|Shed Skin, Rattled, +Liquid Voice|||||||
-|Kricketune|Bug|Swarm, Technician, +Liquid Voice|77|85|51 + 10|55 + 30|51 + 10|65|
-|Luxray|Electric, Dark|Intimidate, Guts, Rivalry|||||||
+|Kricketune|Bug, +Normal|+Buzz Voice, Technician, +Liquid Voice|77|85|51 + 10|55 + 30|51 + 10|65|
+|Luxray|Electric, +Dark|Intimidate, Guts, Rivalry|||||||
 |Roserade|Grass, Poison|Natural Cure, Poison Point, +Technician|||||||
+|Rampardos|Rock, +Fighting|Mold Breaker, +Rock Head, +Intrepid Sword||165-10||65-10||58+20|
+|Bastiodon||Sturdy, +Solid Rock, +Dauntless Shield||52-20|168-10|47+30|||
+|Wormadam||+Regenerator|60+30||79+10||||
+|Mothim|Bug, +Dark|Swarm, + Serene Grace, +Tinted Lens||94+20|50+10||50+10|66+30|
+|Vespiquen|Bug, +Fairy|+Queenly Majesty, +Intimidate, Unnerve|70+10|60+30|||||
 |Pachirisu|Electric| +Cheek Pouch, Pickup, Volt Absorb|||||||
 |Floatzel|Water| Swift Swim, +Strong Jaw, Water Veil|||||||
+|Cherrim|Grass|-|70+10|60+30|||||
 |Lopunny|Normal|Cute Charm, +Rattled, Limber|||||||
-|Chatot|Normal, Flying|+Tinted Lens, Tangled Feet, Big Pecks|||||||
+|Purugly|-|-|71+20||64+10|64-20|||
+|Skuntank|Stench (Prio Buff), Aftermath, +Neutralizing Gas|-||||71+20|||
+|Chatot|Normal, Flying|+Tinted Lens, Tangled Feet, Big Pecks||65-10||92+10|||
+|Spiritomb||+Soul Heart|||||||
+|Hippowdon||+Strong Jaw|||||||
+|Carnivine||Levitate,+Buglicious,+Strong Jaw|74+31|100+5|72|90+15|72|46|
 |Finneon|Water, +Fairy|Swift Swim, Storm Drain, Water Veil|||||||
 |Lumineon|Water, +Fairy|Swift Swim, Storm Drain, +Drizzle|69 + 20|69|76|69 + 20|86|91|
 |Mega Abomasnow|Grass, Ice|Thick Fat|||||||
-|Weavile|Dark, Ice|+Technician, None, Pickpocket|||||||
+|Weavile|Dark, Ice|+Technician, None, Pickpocket(Thief Buff)|||||||
 |Lickilicky|Normal|+Thick Fat, Oblivious, Cloud Nine|||||||
 |Electivire|Electric|Motor Drive, None, +Electric Surge|||||||
 |Magmortar|Fire|Flame Body, None, +Drought|||||||
@@ -316,15 +337,15 @@ Z: Dragon/Psychic
 ?: ???
 
 ### Alcremies
-Normal: +10 Atk/Def/Speed
-Ruby Cream: +40 Atk
-Matcha Cream: +40 Def
-Mint Cream: +40 Def
-Lemon Cream: +40 Speed
-Salted Cream: +40 Speed
-Ruby Swirl: +40 Atk
-Caramel Swirl: +40 Def
-Rainbow Swirl: +40 Atk
+Normal: +10 SpAtk/Def-SpDef/Speed
+Ruby Cream: +30 SpAtk, -10 other
+Matcha Cream: +30 Defenses, -10 other
+Mint Cream: +30 Defenses, -10 other
+Lemon Cream: +30 Speed, -10 other
+Salted Cream: +30 Speed, -10 other
+Ruby Swirl: +30 Atk, -10 other
+Caramel Swirl: +30 Defenses, -10 other
+Rainbow Swirl: +30 SpAtk, -10 other
 
 ## Changed Attacks
 - Mega Punch: 120 Power
