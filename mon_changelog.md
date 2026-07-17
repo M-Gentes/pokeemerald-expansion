@@ -165,11 +165,13 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Rapidash|Fire, +Fairy|+Lightning Rod, Flash Fire, Flame Body|65 + 10|||80 + 5|||
 |Farfetch'd|Normal, Flying|+Sharpness, +Sniper, Defiant||||||60 + 20|
 |Dodrio|Normal, Flying|+Rock Head, +Parental Bond, Tangled Feet|||||||
-|Onix|Rock, Ground|+Battle Armor, Sturdy, Weak Armor|||||||
+|Dewgong|Water, Ice|Thick Fat, Hydration, +Serene Grace|90+10|||70+20||70+25|
+|Onix|Rock, Ground|+Battle Armor, Sturdy, Weak Armor||45+40|||||
 |Hypno|Psychic|Insomnia, +Bad Dreams, Inner Focus|85 + 30||||||
 |Electrode|Electric, +Fire|Soundproof, +Galvanize, Aftermath|60|50+20||80+20||150-10|
+|Marowak|Ground, +Ghost|+Technician|||||||
 |Kangaskhan|Normal|+Parental Bond, Scrappy, Inner Focus|||||||
-|Seaking|Water|Swift Swim, +Hustle, Lightning Rod||92 + 10||||68 + 10|
+|Seaking|Water, +Fire|Swift Swim, +Hustle, Lightning Rod||92 + 10||||68 + 10|
 |Jynx|Ice, Psychic|Oblivious, Forewarn, Dry Skin|||35 + 20|115 + 10|||
 |Omanyte||||||90 +10||35 + 20|
 |Meganium||Overgrow, None, +Pixilate|||||||
@@ -187,24 +189,26 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Flaaffy|Electric|Static, None, Fluffy|||||||
 |Ampharos|Electric|Static, None, Galvanize|||||||
 |Bellossom|Pflanze, +Fee|Chlorophyll, None, +Grassy Surge|||||||
-|Politoed|Wasser|+Drizzle, Water Absorb, Damp|||||||
-|Sunflora|Pflanze, +Feuer|Chlorophyll, Solar Power, Drought|75 + 25|75|55|105|85|30 + 40|
+|Sudowoodo|Gestein, +Pflanze||||||||
+|Politoed|Wasser, +Normal|+Drizzle, Water Absorb, +Liquid Voice|||||||
+|Sunflora|Pflanze, +Feuer|Chlorophyll, Solar Power, +Drought|75 + 25|75|55|105|85|30 + 40|
 |Quagsire|Wasser, Ground|+Drizzle, Water Absorb, Unaware|||||||
 |Espeon|Psychic|Synchronize, +Psychic Surge, Magic Bounce|||||||
 |Umbreon|Dark|Synchronize, +Dark Aura, Inner Focus|||||||
 |Slowking|Water, Psychic|+Regenerator, +Analytics, +Unaware|||||||
 |Wobbuffet|Psychic|Shadow Tag, Telepathy, +Stamina|||||||
 |Girafarig|Normal, Psychic|Harvest, Early Bird, Sap Sipper|70|80|65 + 20|90|65 + 20|85|
-|Dunsparce|Normal, Dragon|Serene Grace, +Adaptability, Rattled|100|70 + 20|70|65 + 20|65|45|
+|Dunsparce|Normal, +Dragon|Serene Grace, +Adaptability, Rattled|100|70 + 20|70|65 + 20|65|45|
 |Steelix|Steel, Ground|+Battle Armor, Sturdy, Sheer Force|||||||
 |Granbull|Fairy|Intimidate, Quick Feet, Rattled|90|120|75 + 10|60|60 + 20|45 + 35|
 |Slugma|Fire|+Filter, Flame Body, Weak Armor|||||||
-|Magcargo|Fire, Rock|+Solid Rock, Flame Body, Weak Armor|60|50|120|90|80 + 20|30|
+|Magcargo|Fire, Rock|+Solid Rock, Flame Body, +Desolate Land|60|50|120|90|80 + 20|30|
 |Corsola|Water, Rock|Water Absorb, Natural Cure, Regenerator|65|55 + 10|95|65 + 10|95|35|
-|Octillery|Water, Steel|+Mega Launcher, Sniper, Moody|75 + 30|105 + 10|75|105 + 10|75|45 + 10|
+|Octillery|Water, +Steel|+Mega Launcher, Sniper, Moody|75 + 30|105 + 10|75|105 + 10|75|45 + 10|
 |Delibird|Ice, Flying|+Technician, Hustle, Insomnia|45 + 55|55 + 45|45 + 55|65 + 35|45 + 55|75 + 25|
 |Phanpy|Ground|Pickup, +Stamina, Sand Veil|||||||
 |Donphan|Fire|Sturdy, +Stamina, Sand Veil|||||||
+|Smeargle|Normal|+Simple, Technician, Moody|||||||
 |Treecko|Grass|+Multiscale, Overgrow, Unburden|||||||
 |Grovyle|Grass, +Dragon|+Multiscale, Overgrow, Unburden|||||||
 |Sceptile|Grass, +Dragon|+Multiscale, Overgrow, Unburden|||||||
@@ -227,32 +231,32 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Whismur|Normal|+Punk Rock, Rattled, +Adaptability|||||||
 |Loudred|Normal|+Punk Rock, Scrappy, +Adaptability|||||||
 |Exploud|Normal|+Punk Rock, Scrappy, +Adaptability|||||||
-|Delcatty|Normal|Normalize, Cute Charm, Wonder Skin||65 + 25|||||
+|Delcatty|Normal|Normalize, Cute Charm, Wonder Skin||65 + 25|||55+35||
 |Plusle|Electric|+Power Spot, Plus, Lightning Rod|60|50 + 30|40|85 + 30|75|95|
 |Minun|Electric|+Friend Guard, Minus, Volt Absorb|60|40|50 + 30|75|85 + 30|95|
 |Volbeat|Bug, Electric|Prankster, +Volt Absorb, Swarm|65|73 + 20|75|47 + 30|85|85|
-|Illumise|Bug, Electric|+Flash Fire, Prankster, Tinted Lens|65 + 30|47|75|73 + 20|85|85|
+|Illumise|Bug, Fire|+Flash Fire, Prankster, Tinted Lens|65 + 30|47|75|73 + 20|85|85|
 |Swalot|Poison, Psychic|+Sap Sipper, Gluttony, Sticky Hold|100 + 20|73 + 10|83|73 + 10|83|55|
 |Wailord|Water|+Levitate, Oblivious, Pressure|||||||
 |Numel|Fire, Ground|+Unaware, Simple, Flame Body|||||||
-|Camerupt|Fire, Ground|+Solid Rock, Simple, Flame Body|||||||
-|Grumpig|Psychic, Normal|Thick Fat, Technician, Gluttony|80|45 + 50|65|90 + 5|110|80|
+|Camerupt|Fire, Ground|Solid Rock, +Simple, Flame Body|||||||
+|Grumpig|Psychic, Normal|Thick Fat, Beads of Ruin, Gluttony|80|45 + 50|65|90 + 5|110|80|
 |Spinda|Normal|Contrary, Own Tempo, Tangled Feet|60 + 56|60 + 45|60 + 34|60 + 12|60 + 1|60 + 23|
-|Flygon|Ground, Dragon|Levitate, Sand Force, Levitate|80 + 20|100|80 + 20|80 + 20|80 + 20|100|
+|Flygon|Ground, Dragon|Levitate, +Sand Force, +Sand Stream|80 + 20|100|80 + 20|80 + 20|80 + 20|100|
 |Cacnea|Grass|Sand Veil, +Sand Rush, Water Absorb|||||||
 |Cacturne|Grass, Dark|Sand Veil, +Sand Rush, Water Absorb|70 + 20|115|60|115|60|55 + 20|
 |Swablu|Normal, Flying|+Pixilate, Natural Cure, Cloud Nine|||||||
 |Altaria|Dragon, Flying|+Pixilate, Natural Cure, Cloud Nine|75|70 + 10|90|70 + 10|105|80|
-|Zangoose|Normal, Fighting|Immunity, +Sniper, Toxic Boost|73 + 10|115|60 + 10|60|60 + 10|90|
-|Seviper|Poison, Dark|Shed Skin, +Strong Jaw, Infiltrator|73 + 10|110|60|100|60|65 + 20|
+|Zangoose|Normal, +Fighting|Immunity, +Sniper, Toxic Boost|73 + 10|115|60 + 10|60|60 + 10|90|
+|Seviper|Poison, +Dark|Shed Skin, +Strong Jaw, Infiltrator|73 + 10|110|60|100|60|65 + 20|
 |Lunatone|Rock, Psycho|Levitate, None, +Psychic Surge|90|55|65|95 + 10|85 + 10|70|
-|Solrock|Rock, Psycho|Levitate, None, +Psychic Surge|90|95 + 10|85 + 10|55|65|70|
-|Whiscash|Water, Ground|Simple, Oblivious, Hydration|110|78 + 10|73|76 + 10|71|60|
+|Solrock|Rock, Psycho|Levitate, None, +Drought|90|95 + 10|85 + 10|55|65|70|
+|Whiscash|Water, Ground|+Simple, Oblivious, Hydration|110|78 + 10|73|76 + 10|71|60|
 |Anorith|Rock, Bug|+Tinted Lens, Battle Armor, Swift Swim|||||||
 |Armaldo|Rock, Bug|+Tinted Lens, Battle Armor, Swift Swim|||||||
-|Kecleon|Normal|Color Change, Protean, Mimicry|60 + 50|90|70|60 + 30|120|40|
+|Kecleon|Normal|Color Change, Protean, +Mimicry|60 + 50|90|70|60 + 30|120|40|
 |Tropius|Grass, Flying|Chlorophyll, Solar Power, Harvest|90|68 + 20|83|72 + 40|87|51 + 30|
-|Chimecho|Psychic|+Magic Guard, Levitate, None|75|50|80|95 + 10|90 + 10|65|
+|Chimecho|Psychic, +Steel|Levitate,-, +Misty Surge|75|50|80|95 + 10|90 + 10|65|
 |Absol|Dark, +Fairy|Pressure, Super Luck, +Justified|||||||
 |Glalie|Ice, +Dark|+Filter, Ice Body, Moody|||||||
 |Huntail|Water|Swift Swim, +Strong Jaw, Water Veil|55|104|105|94|75|52 + 10|
@@ -289,7 +293,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Glaceon|Ice|+Refrigerate, +Slush Rush, Ice Body|||||||
 |Gallade|Psychic, Fighting|+Justified, +Sharpness, Steadfast|||||||
 |Probopass|Rock, Steel|Sturdy, Sand Force, Magnet Pull|60 + 15|55 + 25|145|75 + 5|150|40|
-|Dusknoir|Ghost, +Dark|+Iron Fist, None, Frisk|||||||
+|Dusknoir|Ghost, +Dark|+Iron Fist, +Levitate, Frisk|||||||
 |Froslass|Ice, Ghost|+Sheer Force, Snow Cloak, Cursed Body|||||||
 |Watchog|Normal, +Ground|+Download, Keen Eye, Analytic|60+20|||65+30|69+20||
 |Musharna|Psychic|+Psychic Surge, Synchronize, Telepathy|||||||
