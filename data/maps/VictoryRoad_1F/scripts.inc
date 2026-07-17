@@ -96,7 +96,7 @@ VictoryRoad_1F_EventScript_RematchWally::
 	end
 
 VictoryRoad_1F_EventScript_GenWunner::
-	trainerbattle_single TRAINER_STEVE5, VictoryRoad_1F_Text_WunnerIntro, VictoryRoad_1F_Text_WunnerDefeat
+	trainerbattle_single TRAINER_STEVE_5, VictoryRoad_1F_Text_WunnerIntro, VictoryRoad_1F_Text_WunnerDefeat
 	msgbox VictoryRoad_1F_Text_WunnerPostBattle, MSGBOX_AUTOCLOSE
 	end
 

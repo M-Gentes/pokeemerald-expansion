@@ -24,7 +24,7 @@ ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert::
 	goto_if_eq VAR_RESULT, FALSE, ShoalCave_LowTideEntranceRoom_EventScript_EnoughShoalSalt
 	checkitem ITEM_SHOAL_SHELL, 1
 	goto_if_eq VAR_RESULT, FALSE, ShoalCave_LowTideEntranceRoom_EventScript_EnoughShoalShell
-	goto 
+	goto ShoalCave_LowTideEntranceRoom_EventScript_NotEnoughShoalSaltOrShells
 	release
 	end
 

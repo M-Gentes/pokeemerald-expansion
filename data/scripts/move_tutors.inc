@@ -213,11 +213,10 @@ MossdeepCity_EventScript_DracoMeteorTutor::
 	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_DracoMeteorDeclined
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_DracoMeteorDeclined
-	msgbox MoveTutor_Text_DracoMeteorWhichMon, MSGBOX_DEFAULT
+	msgbox MoveTutor_Text_DynamicPunchWhichMon, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRACO_METEOR
 	call MoveTutor_EventScript_OpenPartyMenu
 	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_DracoMeteorDeclined
-	setflag FLAG_MOVE_TUTOR_TAUGHT_DRACOMETEOR
 	goto MoveTutor_EventScript_DracoMeteorTaught
 	end
 
