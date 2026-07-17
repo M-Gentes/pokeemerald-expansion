@@ -364,6 +364,16 @@ MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall::
 	waitmessage
 	return
 
+MossdeepCity_SpaceCenter_2F_EventScript_RareCandyCheat::
+	msgbox Custom_Text_ComputerBug, MSGBOX_DEFAULT
+	giveitem ITEM_RARE_CANDY, 10
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	end
+
+Custom_Text_ComputerBug:
+	.string "The computer is behaving weird,\n"
+	.string "there is something dropping.$"
+
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
 	.string "MOSSDEEP has mainly sunny weather,\n"
 	.string "and its winds are stable.\p"

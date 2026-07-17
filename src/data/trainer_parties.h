@@ -2139,17 +2139,44 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve4[] = {
         .species = SPECIES_RHYHORN,
     }};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Steve5[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Steve5[] = {
     {
-        .iv = 40,
+        .iv = 50,
         .lvl = 35,
-        .species = SPECIES_AGGRON,
+        .species = SPECIES_DODRIO,
+        .heldItem = ITEM_CHOICE_BAND
     },
     {
-        .iv = 40,
+        .iv = 50,
         .lvl = 35,
-        .species = SPECIES_RHYDON,
-    }};
+        .species = SPECIES_NIDORINO,
+        .heldItem = ITEM_EVIOLITE
+    },
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_DITTO,
+        .heldItem = ITEM_CHOICE_SCARF
+    },
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_HYPNO,
+        .heldItem = ITEM_CHOICE_SPECS
+    },
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_CLOYSTER,
+        .heldItem = ITEM_ASSAULT_VEST
+    },
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_DEWGONG,
+        .heldItem = ITEM_SITRUS_BERRY
+    },
+};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Luis[] = {
     {

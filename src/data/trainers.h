@@ -1818,11 +1818,11 @@ const struct Trainer gTrainers[] = {
             .trainerClass = TRAINER_CLASS_POKEMANIAC,
             .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
             .trainerPic = TRAINER_PIC_POKEMANIAC,
-            .trainerName = _("STEVE"),
+            .trainerName = _("STEVE2"),
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = NO_ITEM_DEFAULT_MOVES(sParty_Steve5),
+            .party = ITEM_DEFAULT_MOVES(sParty_Steve5),
         },
 
     [TRAINER_LUIS] =
