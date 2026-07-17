@@ -95,6 +95,11 @@ VictoryRoad_1F_EventScript_RematchWally::
 	msgbox VictoryRoad_1F_Text_WallyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+VictoryRoad_1F_EventScript_GenWunner::
+	trainerbattle_single TRAINER_STEVE5, VictoryRoad_1F_Text_WunnerIntro, VictoryRoad_1F_Text_WunnerDefeat
+	msgbox VictoryRoad_1F_Text_WunnerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 VictoryRoad_1F_EventScript_Edgar::
 	trainerbattle_single TRAINER_EDGAR, VictoryRoad_1F_Text_EdgarIntro, VictoryRoad_1F_Text_EdgarDefeat
 	msgbox VictoryRoad_1F_Text_EdgarPostBattle, MSGBOX_AUTOCLOSE
@@ -156,6 +161,18 @@ VictoryRoad_1F_Text_WallyPostBattle:
 	.string "too… But one of these days, {PLAYER},\l"
 	.string "I'm going to catch up to you…\p"
 	.string "And challenge the POKéMON LEAGUE!$"
+
+VictoryRoad_1F_Text_WunnerIntro:
+	.string "I don't need all THESE\n"
+	.string "new FORMS!!!$"
+
+VictoryRoad_1F_Text_WunnerDefeat:
+	.string "No my untouched Gen One Mons…$"
+
+VictoryRoad_1F_Text_WunnerPostBattle:
+	.string "I hate all the stupid\n"
+	.string "new Forms, go away\l"
+	.string "leave my site!$"
 
 VictoryRoad_1F_Text_EdgarIntro:
 	.string "I've made it this far a couple times,\n"

@@ -15252,12 +15252,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
         [SPECIES_MANDIBUZZ] =
             {
                 .baseHP = 110,
-                .baseAttack = 65,
+                .baseAttack = 65+10,
                 .baseDefense = 105,
                 .baseSpeed = 80,
-                .baseSpAttack = 55,
+                .baseSpAttack = 55-10,  
                 .baseSpDefense = 95,
-                .types = {TYPE_DARK, TYPE_FLYING},
+                .types = {TYPE_GROUND, TYPE_FLYING},
                 .catchRate = 60,
                 .expYield = 179,
                 .evYield_SpAttack = 2,
@@ -26688,10 +26688,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
 [SPECIES_IRONPLASMA] =
             {
-                .baseHP = 60 + 10,
-                .baseAttack = 55 + 20,
-                .baseDefense = 90 + 30,
-                .baseSpeed = 80,
+                .baseHP = 60 + 20,
+                .baseAttack = 55 + 35,
+                .baseDefense = 90,
+                .baseSpeed = 80 + 5,
                 .baseSpAttack = 145,
                 .baseSpDefense = 90 + 10,
                 .types = {TYPE_GHOST, TYPE_ELECTRIC},

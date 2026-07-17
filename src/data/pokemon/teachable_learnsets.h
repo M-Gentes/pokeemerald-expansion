@@ -5836,6 +5836,9 @@ static const u16 sOmastarTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_ROCK_SLIDE,
     MOVE_STONE_EDGE,
+    MOVE_FLASH,
+    MOVE_FLASH_CANNON,
+    MOVE_DAZZLING_GLEAM,
     MOVE_UNAVAILABLE,
 };
 

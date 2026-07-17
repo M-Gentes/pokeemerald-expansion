@@ -26,6 +26,7 @@ FortreeCity_Mart_Pokemart:
 	.2byte ITEM_TM50
 	.2byte ITEM_TM42
 	.2byte ITEM_TM51
+	.2byte ITEM_TM26
 	.2byte ITEM_NONE
 	release
 	end
