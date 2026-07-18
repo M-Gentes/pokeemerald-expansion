@@ -21,9 +21,9 @@ ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert::
 	dotimebasedevents
 	call_if_set FLAG_SYS_SHOAL_ITEM, ShoalCave_LowTideEntranceRoom_EventScript_ResetShoalItems
 	checkitem ITEM_SHOAL_SALT, 1
-	goto_if_eq VAR_RESULT, FALSE, ShoalCave_LowTideEntranceRoom_EventScript_EnoughShoalSalt
+	goto_if_eq VAR_RESULT, TRUE, ShoalCave_LowTideEntranceRoom_EventScript_EnoughShoalSalt
 	checkitem ITEM_SHOAL_SHELL, 1
-	goto_if_eq VAR_RESULT, FALSE, ShoalCave_LowTideEntranceRoom_EventScript_EnoughShoalShell
+	goto_if_eq VAR_RESULT, TRUE, ShoalCave_LowTideEntranceRoom_EventScript_EnoughShoalShell
 	goto ShoalCave_LowTideEntranceRoom_EventScript_NotEnoughShoalSaltOrShells
 	release
 	end

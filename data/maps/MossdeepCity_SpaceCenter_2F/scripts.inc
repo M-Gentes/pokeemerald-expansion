@@ -368,6 +368,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_RareCandyCheat::
 	msgbox Custom_Text_ComputerBug, MSGBOX_DEFAULT
 	giveitem ITEM_RARE_CANDY, 10
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	release
 	end
 
 Custom_Text_ComputerBug:
