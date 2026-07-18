@@ -139,6 +139,7 @@ FortreeCity_Gym_EventScript_GymStatue::
 	end
 
 FortreeCity_Gym_Text_GymGuideAdvice:
+	.string "LVL CAP = 33!\p"
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "FORTREE GYM LEADER WINONA is\n"

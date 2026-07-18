@@ -289,6 +289,7 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
+	.string "LVL CAP = 18!\p"
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
