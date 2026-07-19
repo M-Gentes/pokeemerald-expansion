@@ -29220,6 +29220,7 @@ static const u16 sShiinoticTeachableLearnset[] = {
     MOVE_DOUBLE_TEAM,
     MOVE_DAZZLING_GLEAM,
     MOVE_FLASH,
+    MOVE_FLASH_CANNON,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
