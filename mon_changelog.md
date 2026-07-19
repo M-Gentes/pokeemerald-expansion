@@ -295,20 +295,60 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Probopass|Rock, Steel|Sturdy, Sand Force, Magnet Pull|60 + 15|55 + 25|145|75 + 5|150|40|
 |Dusknoir|Ghost, +Dark|+Iron Fist, +Levitate, Frisk|||||||
 |Froslass|Ice, Ghost|+Sheer Force, Snow Cloak, Cursed Body|||||||
-|Watchog|Normal, +Ground|+Download, Keen Eye, Analytic|60+20|||65+30|69+20||
-|Musharna|Psychic|+Psychic Surge, Synchronize, Telepathy|||||||
+|Watchog|Normal, +Ground|+Stakeout(Stench-like Buff), Keen Eye, Analytic|60+20|||65+30|69+20||
+|Elemental Apes|-|+Terrain/Weather Setter, +Adaptability, Starter-Ability|||||||
+|Musharna|Psychic|+Psychic Surge, +Comatose, Telepathy|||||||
+|Unfezant (+more Crit moves)||+Sniper|||||||
 |Blitzle|Electric, +Dark|Lightning Rod, Motor Drive, Sap Sipper|||||||
 |Zebstrika|Electric, +Dark|Lightning Rod, Motor Drive, Sap Sipper|||||||
-|Maractus|Grass|Water Absorb, Chlorophyll, Iron Barbs|75|86|67 + 20|106|67 + 20|60|
-|Swanna|Water, Flying|+Rain Dish, Big Pecks, Hydration|75 + 25|87|63|87|63|98|
+|Throh|Fighting, +Rock||||||||
+|Sawk|Fighting, +Ghost||||||||
+|Leavanny||+Simple|||||||
+|Maractus|Grass|Water Absorb, Chlorophyll, +Iron Barbs|75|86|67 + 20|106|67 + 20|60|
+|Gothi-Line|Psychic, +Dark||||||||
+|Swanna|Water, Flying|+Rain Dish, +Friend Guard, Hydration|75 + 25|87|63|87|63|98|
+|Sawsbuck|(type ability dep. on form - Grass + Normal, Fire, Ghost, Ice)||||||||
 |Escavalier|Bug, Steel|+Justified, Shell Armor, Overcoat|||||||
+|Alomomola (from Luvdisc)|||||||||
 |Galvantula|Bug, Electric|Compound Eyes, +Galvanize, Swarm|||||||
 |Klink|Steel|+Steelworker, Motor Drive, Clear Body|||||||
 |Klink|Steel|+Steelworker, Motor Drive, Clear Body|||||||
 |Klinklang|Steel, +Electric|+Steelworker, Motor Drive, Clear Body|||||||
+|Beheeyem|Psychic, +Electric|+Download|||||||
+|Beartic|Ice|95+10|130|||||50+20|
 |Cryogonal|Ice|+Snow Warning, +Ice Body, Levitate|||||||
-|Shiinotic|Grass, Fairy|+Misty Surge, Effect Spore, Rain Dish|||||||
+|Accelgor||+Technician|||||||
+|Stunfisk||+Dry Skin|||||||
+|Druddigon|Dragon, +Rock||||||||
+|Golurk||+Weak Armor|||||||
+|Bouffalant|Normal,+Fighting|+Fluffy|||||||
+|Mandibuzz (newform)|+Ground,Flying|+Sand Force, +Shield Dust, Weak Armor|65+10||55-10||||
+|Heatmor||+Buglicious, +Sap Sipper|85+20|97+20||||65+10|
+|Mega Delphox||+Soul Heart|||||||
+|Vivillon|Bug + type dep. on form||||||||
+|Pyroar||+Adaptability|||||||
+|Mega Pyroar (2 different than ZA M or F)|Fire, Poison / Fire, Ground|...|||||||
+|Floette Eternal|+Dark, Fairy|+Soul Heart|||||||
+|Gogoat|Grass, +Rock|+Rock Head|||||||
+|Furfrou|Normal + type dep. on form||||||||
+|Aromatisse|Fairy, +Poison|+Stench(broken)|||||||
+|Clawitzer|Water|+Quick Draw|||||||
+|Aurorus|+Dragon,Ice||||||||
+|Carbink||+Illuminate|||||||
+|Gourgeist||+Flash Fire|||||||
+|Avalugg Hisui||+Slush Rush|||184-40|||38+40|
+|Gumshoos||+Strong Jaw, +Adaptability|||||||
+|Lycanroc Day|Rock, +Fighting||+Justified||||||
+|Lycanroc Midnight|Rock, +Dark|+Dark Aura|||||||
+|Shiinotic|Grass, Fairy|+Illuminate, Effect Spore, Rain Dish|||||||
+|Pyukumuku (Magic form)|Water, +Fairy|||||30+55|||
+|Lunala/Solgaleo (-17 HP and Offense)|||||||||
+|Thievul||Pickpocket(thief buff)|70+10|58+20||87+20||90+10|
 |Boltund|Electric|Strong Jaw, None, Competitive|69|90 + 10|60 + 9|90 + 10|60 + 9|121|
+|Sandaconda|Ground, +Steel|+Skill Link|||||||
+|Grapploct||+Swift Swim||||||42+30|
+|Alcremie (stat dep. on form)|||||||||
+|Pincurchin||+Iron Barbs|||||||
 
 ### Unowns
 A: Psychic
@@ -350,6 +390,9 @@ Salted Cream: +30 Speed, -10 other
 Ruby Swirl: +30 Atk, -10 other
 Caramel Swirl: +30 Defenses, -10 other
 Rainbow Swirl: +30 SpAtk, -10 other
+
+## Megas
+...
 
 ## Changed Attacks
 - Mega Punch: 120 Power
