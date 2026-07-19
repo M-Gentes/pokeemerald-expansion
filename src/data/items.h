@@ -5954,7 +5954,7 @@ const struct Item gItems[] =
         .holdEffectParam = 20,
         .description = sMetalCoatDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 30,
     },
