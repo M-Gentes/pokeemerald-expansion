@@ -1,7 +1,7 @@
 # New Abilities and changes
 - case ABILITY_ILLUMINATE:
     if (moveType == TYPE_FAIRY || move == MOVE_FLASH_CANNON || move == MOVE_FLASH || move == MOVE_SOLAR_BEAM || move == MOVE_LIGHT_OF_RUIN || move == MOVE_ZAP_CANNON || move == MOVE_LUSTER_PURGE || move == MOVE_HYPER_BEAM)
-        MulModifier(&modifier, UQ_4_12(1.2));
+        1.2 Multiplier Dmg Boost
 - Solar Power as Past Paradox ability: Boosts both Attack Stats by 1.5 in Sun and get Damage
 - Download as Future Paradox ability: Boosts like Download but another boost by 1.2 in Electric Terrain
 - Stench Priority for Poison moves

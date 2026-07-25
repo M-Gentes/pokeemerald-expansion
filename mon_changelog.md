@@ -170,6 +170,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Hypno|Psychic|Insomnia, +Bad Dreams, Inner Focus|85 + 30||||||
 |Electrode|Electric, +Fire|Soundproof, +Galvanize, Aftermath|60|50+20||80+20||150-10|
 |Marowak|Ground, +Ghost|+Technician|||||||
+|Lickitung, Lickilicky||+Buglicious|||||||
 |Kangaskhan|Normal|+Parental Bond, Scrappy, Inner Focus|||||||
 |Seaking|Water, +Fire|Swift Swim, +Hustle, Lightning Rod||92 + 10||||68 + 10|
 |Jynx|Ice, Psychic|Oblivious, Forewarn, Dry Skin|||35 + 20|115 + 10|||
@@ -381,7 +382,7 @@ Z: Dragon/Psychic
 ?: ???
 
 ### Alcremies
-Normal: +10 SpAtk/Def-SpDef/Speed
+Normal: +10 SpAtk/Def,SpDef/Speed
 Ruby Cream: +30 SpAtk, -10 other
 Matcha Cream: +30 Defenses, -10 other
 Mint Cream: +30 Defenses, -10 other
@@ -418,11 +419,11 @@ Rainbow Swirl: +30 SpAtk, -10 other
 ## Changed Abilities
 - Normalize: Normal-type changed moves are buffed by 50%
 - Stench: +3 Priority on Poison-type Moves
-- Illuminate: boosts SpAtk +2 when hit by Fairy-type Move;  Boosts Fairy-type Moves by 20% (no condition)
+- Illuminate: boosts SpAtk +2 when hit by Fairy-type Move;  Boosts Fairy-type + Light Moves by 20% (no condition)
 - Tangled Feet: Doubles user Atk when confused
 - Flower Gift: Boosts physical AND special Attack and Defense Values now
 - Wind Power: Charged Up Mons boost each next move instead of just Electric Moves
-- Solar Power: tripples Swirlhead Water Attacks in the Sun while also effected by sun -> results in 50% boost
+- Solar Power: Boosts also physical moves (tripples Swirlhead Water Attacks in the Sun while also effected by sun -> results in 50% boost)
 - Keen Eye: 10% Accuracy boost on user's attacks
 - *NEW* Buglicious: Absorbs Bug-type Moves and boosts Atk
 - *NEW* Weather Force: Voltabsorb + 50% boost on weather-type Moves (Water, Rock, Grass, Ice, Flying, Electric) when any weather is active

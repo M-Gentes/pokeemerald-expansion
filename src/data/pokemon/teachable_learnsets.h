@@ -22774,6 +22774,7 @@ static const u16 sMaractusTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
+    MOVE_SHADOW_BALL,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
     MOVE_REST,
