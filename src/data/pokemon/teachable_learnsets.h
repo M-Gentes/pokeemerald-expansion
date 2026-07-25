@@ -17919,6 +17919,7 @@ static const u16 sDrifblimTeachableLearnset[] = {
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
+    MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
