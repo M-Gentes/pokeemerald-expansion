@@ -2349,8 +2349,8 @@ static const u8 sMagneticFluxDescription[] = _(
     "those with Plus or Minus.");
 
 static const u8 sHappyHourDescription[] = _(
-    "Doubles the amount of\n"
-    "Prize Money received.");
+    "Boosts targets Sp. Atk\n"
+    "by two.");
 
 static const u8 sElectricTerrainDescription[] = _(
     "Electrifies the ground for\n"

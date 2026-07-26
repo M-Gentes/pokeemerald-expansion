@@ -10142,7 +10142,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_NOBLE_ROAR] =
     {
-        .effect = EFFECT_NOBLE_ROAR,
+        .effect = EFFECT_ATTACK_DOWN_HIT,
         .power = 80,
         .type = TYPE_NORMAL,
         .accuracy = 100,
