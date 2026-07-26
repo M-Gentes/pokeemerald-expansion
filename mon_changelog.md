@@ -1,4 +1,4 @@
-<img width="64" height="64" alt="grafik" src="https://github.com/user-attachments/assets/d8e8ef2c-ba08-4b4c-8dbe-259558912887" /># Timeless Emerald - Changed Pokémon
+# Timeless Emerald - Changed Pokémon
 
 ## New Pokémon
 Up to Gen 8 SWSH/PLA Pokémon + Megas
