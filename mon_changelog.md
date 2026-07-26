@@ -1,4 +1,4 @@
-# Timeless Emerald - Changed Pokémon
+<img width="64" height="64" alt="grafik" src="https://github.com/user-attachments/assets/d8e8ef2c-ba08-4b4c-8dbe-259558912887" /># Timeless Emerald - Changed Pokémon
 
 ## New Pokémon
 Up to Gen 8 SWSH/PLA Pokémon + Megas
@@ -393,7 +393,24 @@ Caramel Swirl: +30 Defenses, -10 other
 Rainbow Swirl: +30 SpAtk, -10 other
 
 ## Megas
-...
+| Pokémon | Types | Abilities | HP | ATK | DEF | SP. ATK | SP. DEF | INIT |
+|---------|-------|-----------|----|-----|-----|---------|---------|------|
+|Butterfree-Mega|Bug, Psychic|Psychic Surge|60|45|50|130|90|90|
+|Fearow-Mega|Flying!|Moxie|65|120|105|61|61|110|
+|Arbok-Mega|Poison, Dragon|Levitate|90+20|95+40|69|65+10|79|80+20|
+|Parasect-Mega|+Ghost, Grass|Bad Dreams|100+40|95+40|80|60+20|80|30|
+|Venomoth-Mega|Bug, +Ground|Tinted Lens|70+20|65|80+10|100+30|75+25|90+15|
+|Golduck-Mega|Water, Psychic|Beads of Ruin (+SpAtk)|80+20|82+10|78|95+40|80+40|85+20|
+|Machamp-Mega|Fighting|Super Luck|90+90|130+10|80|65|85|55|
+|Victreebel-Mega||+Tinted Lens|||||||
+|Tentracruel-Mega|Water,+Ghost|Huge Power|80+60|70+30|65|80+20|120|100-10|
+|Golem-Mega|+Rock, Dragon|Dragon's Maw|80+20|120+20|130|55+55|65|45|
+|Kingler-Mega||Sheer Force|55+55|130+45|||||
+|Seaking-Mega|Water, Fire|Serene Grace???|80|102+40|65|65|80+10|88+50|
+|Lapras-Mega||Snow Warning|130+65|85+10||85+25|||
+|Omastar-Mega|+Fairy, Water|Illuminate|70|60|125|115+40|70+30|55+30|
+|Kabutops-Mega|+Ghost, Water|Sword of Ruin (+Atk)|60|115+40|105+20|65|70|80+40|
+|Snorlax-Mega|+Grass, Normal|Thick Fat|160+40|110+35||65+35|||
 
 ## Changed Attacks
 - Mega Punch: 120 Power
