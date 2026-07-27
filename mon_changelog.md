@@ -411,6 +411,18 @@ Rainbow Swirl: +30 SpAtk, -10 other
 |Omastar-Mega|+Fairy, Water|Illuminate|70|60|125|115+40|70+30|55+30|
 |Kabutops-Mega|+Ghost, Water|Sword of Ruin (+Atk)|60|115+40|105+20|65|70|80+40|
 |Snorlax-Mega|+Grass, Normal|Thick Fat|160+40|110+35||65+35|||
+|Meganium-Mega|Grass, Fairy|+Triage|80|82+10|100+15|83+60|100+15|80|
+|Typhlosion-Mega (Hisui)|Fire, +Ghost|+Shadow Shield|73+10|84|78|119+20|85+10|95+10|
+|Feraligatr-Mega|Water, Dragon|+Dragons Maw|85|105+55|100+25|79+10|83+10|78|
+|Noctowl-Mega|+Dark, Flying|Dark Aura|100+10|50|50+10|96+30|96+10|70+15|
+|Ledian-Mega|Bug, +Steel|Iron Fist|85+15|95+30|50+10|55|110|85+20|
+|Slowking-Mega|Water, Psychic|Speed Boost|95-10|100+10|80-10|75|110-10|30+120|
+|Forretress-Mega|Bug, Steel|Huge Power|75|90+10|140|60+20|60+50|40+20|
+|Shuckle-Mega|Bug, Rock|Slow Start|20+40|230!|230|10+10|10|5+50|
+|Mantine-Mega|Water, Flying|Quick Draw???|85+10|40|70+10|80+50|140|70+30|
+|Skarmory-Mega||+Tough Claws|||||||
+|Kingdra-Mega|Water, Dragon|Swift Swim, Grim Neigh, Chilling Neigh???|75+10|95+20|95+10|95+20|95+10|85+10|
+|Smeargle-Mega|Normal|Protean|55+15|20+85|35|20+85|45|75|
 
 ## Changed Attacks
 - Mega Punch: 120 Power
