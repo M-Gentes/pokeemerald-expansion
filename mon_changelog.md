@@ -423,6 +423,15 @@ Rainbow Swirl: +30 SpAtk, -10 other
 |Skarmory-Mega||+Tough Claws|||||||
 |Kingdra-Mega|Water, Dragon|Swift Swim, Grim Neigh, Chilling Neigh???|75+10|95+20|95+10|95+20|95+10|85+10|
 |Smeargle-Mega|Normal|Protean|55+15|20+85|35|20+85|45|75|
+|Mightyena-Mega|Dark, Ghost|Dark Aura|70+50|110+30|70|60+10|70+10|70+20|
+|???Swalot-Mega|Poison, Psychic|Earth Eater|120+20|83+20|83+20|83+20|83+20|55|
+|Wailord-Mega|Water, +Flying|Aerilate|170+85|90|45|90|45|60+15|
+|Flygon-Mega|+Bug, Dragon|Buzz Voice|80+20|100+20|80+20|100+30|100+10|100|
+|???Ecliminary|Rock, Psychic|Prism Armor|90|105+10|95+5|55+60|65+35|70+30|
+|Whiscash-Mega|Water, Ground|Galvanize|110+10|88+30|73|86+30|71+10|60+20|
+|Caststorm|Water, Flying|Weather Force|90|110|90|110|90|100|
+|Chimecho-Mega|Psychic, +Fairy|Wind Power|75+50|50|80|105+20|100+10|65+10|
+|Glalie-Mega|Ice, Dark||||||||
 
 ## Changed Attacks
 - Mega Punch: 120 Power
