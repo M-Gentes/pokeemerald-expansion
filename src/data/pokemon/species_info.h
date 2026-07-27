@@ -28441,12 +28441,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_SWALOT_MEGA] =
             {
-                .baseHP = 100 + 20,
-                .baseAttack = 73 + 10,
-                .baseDefense = 83,
+                .baseHP = 100 + 20+20,
+                .baseAttack = 73 + 10+20,
+                .baseDefense = 83+20,
                 .baseSpeed = 55,
-                .baseSpAttack = 73 + 10,
-                .baseSpDefense = 83,
+                .baseSpAttack = 73 + 10+20,
+                .baseSpDefense = 83+20,
                 .types = {TYPE_POISON, TYPE_PSYCHIC},
                 .catchRate = 75,
                 .expYield = 163,
