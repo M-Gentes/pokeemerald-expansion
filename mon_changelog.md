@@ -432,6 +432,18 @@ Rainbow Swirl: +30 SpAtk, -10 other
 |Caststorm|Water, Flying|Weather Force|90|110|90|110|90|100|
 |Chimecho-Mega|Psychic, +Fairy|Wind Power|75+50|50|80|105+20|100+10|65+10|
 |Glalie-Mega|Ice, Dark||||||||
+|Torterra-Mega|Grass, Ground???|Thick Fat|95+50|109+30|105|75+10|85+10|56|
+|Infernape-Mega|Fire, Fighting|Adaptability???|76+20|104+30|71|104+30|71|108+20|
+|Empoleon-Mega|Water, Steel|Supreme Overlord|84|86+20|88+20|111+30|101+10|60+20|
+|Staraptor-Mega||+Scrappy|||||||
+|???-Mega|Normal|???|59|110|40|110|110|110|
+|Kricketune-Mega|Bug, +Dark|Punk Rock|77|85|61+30|85+50|51+10|65+20|
+|Luxay-Mega|Electric, Dark|Strong Jaw|80|120+20|79|95+15|79|70+35|
+|Roserade-Mega|Grass, Poison|Super Luck|60|125+20|65+30|75+20|105|90+30|
+|Drifblim-Mega|Ghost, Flying???|Flare Boost???|150|80|44+30|90+40|54+20|80+10|
+|Honchkrow-Mega|Poison, Flying|Super Luck???|100+10|125+20|52+10|105+10|52+30|71+20|
+|Yan-Mega|Bug, Flying|Aerilate???|86+15|76+20|86+20|116+25|56|95+20|
+|PorygonZ-Mega|Normal|Neuroforce|85+20|80|70|135+20|75+40|90+20|
 
 ## Changed Attacks
 - Mega Punch: 120 Power
