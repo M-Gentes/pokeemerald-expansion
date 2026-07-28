@@ -444,6 +444,19 @@ Rainbow Swirl: +30 SpAtk, -10 other
 |Honchkrow-Mega|Poison, Flying|Super Luck???|100+10|125+20|52+10|105+10|52+30|71+20|
 |Yan-Mega|Bug, Flying|Aerilate???|86+15|76+20|86+20|116+25|56|95+20|
 |PorygonZ-Mega|Normal|Neuroforce|85+20|80|70|135+20|75+40|90+20|
+|Serperior-Mega|Grass, Dragon|Contrary|75+30|75+10|95|75+50|95|113+10|
+|Emboar-Mega||Supreme Overlord|||||||
+|Samurott-Mega(Hisui)|Water, Dark|Sharpness|90|108+30|80+20|100+10|65+10|85|
+|Liepard-Mega|Dark, +Fire|Drought|64|88|50|88+50|50+40|106+10|
+|Audino-Mega||+Fairy Aura|||||||
+|Scolipede-Mega||+Stamina|||||||
+|Maractus-Mega|+Ghost, Grass|Dancer|75+25|86+40|87|106|87|60+35|
+|Scrafty-Mega||Filter/Shed Skin???|||||||
+|Sigilyph-Mega|Psychic, Flying|Simple|72+30|58+30|80+20|103|80+20|97|
+|Vanilluxe-Mega|+Fire, Ice|Flame Body|71+50|95|85+20|110+30|95|79|
+|Klinklang-Mega|Steel, Flying|Steelworker|60+30|100+40|115|70+20|85|90+10|
+|Eelektross-Mega||+Battery|||||||
+|Golurk-Mega||No Guard???|||||||
 
 ## Changed Attacks
 - Mega Punch: 120 Power
