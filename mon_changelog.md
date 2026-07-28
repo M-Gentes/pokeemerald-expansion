@@ -457,6 +457,18 @@ Rainbow Swirl: +30 SpAtk, -10 other
 |Klinklang-Mega|Steel, Flying|Steelworker|60+30|100+40|115|70+20|85|90+10|
 |Eelektross-Mega||+Battery|||||||
 |Golurk-Mega||No Guard???|||||||
+|Chesnaught-Mega||Iron Barbs|88+20|107+30|122+20|74|75+10|64|
+|Delphox-Mega||+Soul Heart|75+20|69|72|114+10|100+20|104+10|
+|Greninja-Mega(Ash)||Battle Bond|72|145|67|153|71|132|
+|Pyroar-Mega M|Fire, Poison|Levitate|86+5|109+30|72+30|68+30|66+30|106+5|
+|Pyroar-Mega F|Fire, Ground|Serene Grace|86+15|68|72|109+30|66+50|106+5|
+|Meowstic-Mega||+Neuroforce|||||||
+|Malamar-Mega||+Mind Power|||||||
+|Barbaracle-Mega||+Skill Link|||||||
+|Dragalge-Mega||Multiscale???|||||||
+|Hawlucha-Mega||+Stamina|||||||
+|Klefki-Mega||+Intrepid Sword|57+40|80+40|91|80+20|87|75|
+|Pumpking||Flash Fire|85+20|110+10|76|65+45|82|56+25|
 
 ## Changed Attacks
 - Mega Punch: 120 Power
