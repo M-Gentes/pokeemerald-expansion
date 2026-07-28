@@ -26576,10 +26576,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_PUMPKING] =
             {
-                .baseHP = 85,
+                .baseHP = 85+20,
                 .baseAttack = 110 + 10,
                 .baseDefense = 76,
-                .baseSpeed = 56,
+                .baseSpeed = 56+25,
                 .baseSpAttack = 65 + 45,
                 .baseSpDefense = 82,
                 .types = {TYPE_GHOST, TYPE_GRASS},
@@ -27916,7 +27916,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 70,
                 .growthRate = GROWTH_SLOW,
                 .eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_1},
-                .abilities = {ABILITY_QUICK_DRAW, ABILITY_MEGA_LAUNCHER, ABILITY_SWIFT_SWIM},
+                .abilities = {ABILITY_BATTLE_BOND},
                 .bodyColor = BODY_COLOR_PURPLE,
                 .flags = SPECIES_FLAG_MEGA_EVOLUTION,
                 .noFlip = FALSE,
@@ -28891,12 +28891,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_PYROAR_MEGA_M] =
             {
-                .baseHP = 86,
-                .baseAttack = 68,
-                .baseDefense = 72,
-                .baseSpeed = 106,
-                .baseSpAttack = 109,
-                .baseSpDefense = 66,
+                .baseHP = 86+5,
+                .baseAttack = 109+30,
+                .baseDefense = 72+30,
+                .baseSpeed = 106+5,
+                .baseSpAttack = 68+30,
+                .baseSpDefense = 66+30,
                 .types = {TYPE_FIRE, TYPE_POISON},
                 .catchRate = 65,
                 .expYield = 177,
@@ -28914,12 +28914,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_PYROAR_MEGA_F] =
             {
-                .baseHP = 86,
+                .baseHP = 86+15,
                 .baseAttack = 68,
                 .baseDefense = 72,
-                .baseSpeed = 106,
-                .baseSpAttack = 109,
-                .baseSpDefense = 66,
+                .baseSpeed = 106+5,
+                .baseSpAttack = 109+30,
+                .baseSpDefense = 66+50,
                 .types = {TYPE_FIRE, TYPE_GROUND},
                 .catchRate = 65,
                 .expYield = 177,
