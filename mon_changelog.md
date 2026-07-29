@@ -352,45 +352,45 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Pincurchin||+Iron Barbs|||||||
 
 ### Unowns
-A: Psychic
-B: Bug/Psychic
-C: Dragon/Psychic
-D: Electric/Psychic
-E: Ground/Psychic
-F: Ghost/Psychic
-G: Ice/Psychic
-H: Electric/Psychic
-I: Ice/Psychic
-J: Fighting/Psychic
-K: Flying/Psychic
-L: Steel/Psychic
-M: Steel/Psychic
-N: Normal/Psychic
-O: Poison/Psychic
-P: Poison/Psychic
-Q: Water/Psychic
-R: Rock/Psychic
-S: Steel/Psychic
-T: Steel/Psychic
-U: Psychic/Psychic
-V: Grass/Psychic
-W: Water/Psychic
-X: Fairy/Psychic
-Y: Dark/Psychic
-Z: Dragon/Psychic
-!: ???
-?: ???
+- A: Psychic
+- B: Bug/Psychic
+- C: Dragon/Psychic
+- D: Electric/Psychic
+- E: Ground/Psychic
+- F: Ghost/Psychic
+- G: Ice/Psychic
+- H: Electric/Psychic
+- I: Ice/Psychic
+- J: Fighting/Psychic
+- K: Flying/Psychic
+- L: Steel/Psychic
+- M: Steel/Psychic
+- N: Normal/Psychic
+- O: Poison/Psychic
+- P: Poison/Psychic
+- Q: Water/Psychic
+- R: Rock/Psychic
+- S: Steel/Psychic
+- T: Steel/Psychic
+- U: Psychic/Psychic
+- V: Grass/Psychic
+- W: Water/Psychic
+- X: Fairy/Psychic
+- Y: Dark/Psychic
+- Z: Dragon/Psychic
+- !: ???
+- ?: ???
 
 ### Alcremies
-Normal: +10 SpAtk/Def,SpDef/Speed
-Ruby Cream: +30 SpAtk, -10 other
-Matcha Cream: +30 Defenses, -10 other
-Mint Cream: +30 Defenses, -10 other
-Lemon Cream: +30 Speed, -10 other
-Salted Cream: +30 Speed, -10 other
-Ruby Swirl: +30 Atk, -10 other
-Caramel Swirl: +30 Defenses, -10 other
-Rainbow Swirl: +30 SpAtk, -10 other
+- Normal: +10 SpAtk/Def,SpDef/Speed
+- Ruby Cream: +30 SpAtk, -10 other
+- Matcha Cream: +30 Defenses, -10 other
+- Mint Cream: +30 Defenses, -10 other
+- Lemon Cream: +30 Speed, -10 other
+- Salted Cream: +30 Speed, -10 other
+- Ruby Swirl: +30 Atk, -10 other
+- Caramel Swirl: +30 Defenses, -10 other
+- Rainbow Swirl: +30 SpAtk, -10 other
 
 ## Megas
 | Pokémon | Types | Abilities | HP | ATK | DEF | SP. ATK | SP. DEF | INIT |
@@ -447,7 +447,7 @@ Rainbow Swirl: +30 SpAtk, -10 other
 |Serperior-Mega|Grass, Dragon|Contrary|75+30|75+10|95|75+50|95|113+10|
 |Emboar-Mega||Supreme Overlord|||||||
 |Samurott-Mega(Hisui)|Water, Dark|Sharpness|90|108+30|80+20|100+10|65+10|85|
-|Liepard-Mega|Dark, +Fire|Drought|64|88|50|88+50|50+40|106+10|
+|Liepard-Mega|Dark, +Fire|+Drought|64|88|50|88+50|50+40|106+10|
 |Audino-Mega||+Fairy Aura|||||||
 |Scolipede-Mega||+Stamina|||||||
 |Maractus-Mega|+Ghost, Grass|Dancer|75+25|86+40|87|106|87|60+35|
@@ -469,6 +469,44 @@ Rainbow Swirl: +30 SpAtk, -10 other
 |Hawlucha-Mega||+Stamina|||||||
 |Klefki-Mega||+Intrepid Sword|57+40|80+40|91|80+20|87|75|
 |Pumpking||Flash Fire|85+20|110+10|76|65+45|82|56+25|
+|Decidueye-Mega(Hisui)||Scrappy|88+10|112+25|80|95+10|95|60+20|
+|Incineroar-Mega||+Competitive???|95+10|115+30|90+10|80+30|90|60+20|
+|Primarina-Mega||Liquid Voice???(Pixilate?)|80+40|74|74+20|126+20|116+10|60+10|
+|Toucannon-Mega|+Fire, Flying|+Mega Launcher??? (No Guard?)|80+25|120+30|75|75+55|75|60-10|
+|Crabominable-Mega||+Moody|||||||
+|Golisopod-Mega||+Defiant|||||||
+|Palossand-Mega||+Stamina|85+30|75|110+20|100+10|75+25|35|
+|Turtonator-Mega||+Quick Draw|60|78|135|91+50|85+50|36|
+|Drampa-Mega||+Weather Force|||||||
+|Rillaboom-Mega|Grass, +Normal|+Punk Rock|100+40|125|90|60+60|70|85|
+|Cinderace-Mega|Fire, +Fighting|Libero|80+60|116+30|75+5|65|75+5|119|
+|Inteleon-Mega|Water, +Dark|Sniper|70+50|85+30|65|125+20|65|120|
+|Corviknight-Mega||Infiltrator|98+40|87+40|105|53+20|85|67|
+|Orbeetle-Mega||+No Guard|60+60|45|110|80+40|120|90|
+|Thievul-Mega||+Technician|80+10|78???|58+10|107+40|92+10|100+20|
+|Drednaw-Mega||Swift Swim|90+60|115+15|90|48+15|68|74+10|
+|Boltund-Mega||Strong Jaw|69|100+50???|60+9|100+20|60+9|121+30|
+|Coalossal-Mega||+Sand Stream|110+50|80+25|120|80+25|90|30|
+|Flapple/Appletun-Mega||Thick Fat|110+60|110+20|80|100+20|60|70|
+|Sandaconda-Mega|Ground, +Flying|+Sand Force|72+60|107+20|125|65+20|70|71|
+|Toxtricity-Mega||Punk Rock|75+60|98+15|70|114+25|70|75|
+|Centiskorch-Mega||+Solar Power|100+50|115+30|65|90+20|90|65|
+|Hatterene-Mega||+Tablets of Ruin (+Def)|57+45|90+35|95|136+20|103|29|
+|Grimmsnarl-Mega||+Vessel of Ruin (+Sp.Def)|95+50|120+25|65|95+25|75|60|
+|Alcremie-Mega|+Ice, Fairy|+Refrigerate|65+60|60|75|110+40|121|64|
+|Falinks-Mega|Fighting, +Steel|+Skill Link|65+30|100|100+30|70|60+30|75-10|
+|Pincurchin-Mega|Electric, +Water|+Water Bubble|48+20|101+10|95|91+20|85|15+50|
+|Copperajah-Mega||+Steely Spirit|122+45|130+25|69|80+30|69|30|
+|Yukaxato-Mega(Meowscarada)|Grass, +Dark|+Serene Grace???|76|70+30|70|110+20|123|81+50|
+|Spicaboro-Mega(Skeledirge)|Fire, +Ghost|Unaware|104+40|110+10|100|75+25|75+25|66|
+|Quaxistador-Mega(Quaquaval)|Water, +Steel|+Steelworker|95|120+15|90+35???|65+20|75+15|85+15???|
+|Spidops-Mega||+Fluffy|60+20|79+50|102+10|52-10|86+10|55+30|
+|Scovillain-Mega||+Flame Body???|85+40|108|65|108+30|65|75+30|
+|Rabsca-Mega||+Rocky Payload|75+75|50|85|115+25|100|45|
+|Revavroom-Mega|Steel, +Dark|+Stamina???(Intimidate?,Speed Boost?)|80+40|119+30|90+10|54|67|90+20|
+|Glimmora-Mega|Rock, Poison???|+Fairy Aura???|83+40|55+10|90+10|130+30|81+10|86|
+|Tatsugiri-Mega||Storm Drain|68|65|90|135|125|102|
+|Baxcalibur-Mega||+Sharpness|115|145+20|92+20|75+40|86+20|87|
 
 ## Changed Attacks
 - Mega Punch: 120 Power
