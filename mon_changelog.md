@@ -134,7 +134,7 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 - MILCERY -> Elemental Stone Items for different Alcremie Forms, Poke Doll for Base form
 
 ## Changed Stats / Types / Abilities
-| Pokémon | Types | Abilities | HP | ATK | DEF | SP. ATK | SP. DEF | INIT |
+| Pokémon | Types | Abilities | HP | ATK | DEF | SP. ATK | SP. DEF | SPEED |
 |---------|-------|-----------|----|-----|-----|---------|---------|------|
 |Unown|differing on Letter|+Adaptability, Levitate|48 + 26|72 + 26|48 + 26|72 + 26|48 + 26|48 + 26|
 |Castform|Normal (weatherbased)|Forecast|70 + 20|70 + 20|70 + 20|70 + 20|70 + 20|70 + 20|
@@ -352,48 +352,229 @@ Up to Gen 8 SWSH/PLA Pokémon + Megas
 |Pincurchin||+Iron Barbs|||||||
 
 ### Unowns
-A: Psychic
-B: Bug/Psychic
-C: Dragon/Psychic
-D: Electric/Psychic
-E: Ground/Psychic
-F: Ghost/Psychic
-G: Ice/Psychic
-H: Electric/Psychic
-I: Ice/Psychic
-J: Fighting/Psychic
-K: Flying/Psychic
-L: Steel/Psychic
-M: Steel/Psychic
-N: Normal/Psychic
-O: Poison/Psychic
-P: Poison/Psychic
-Q: Water/Psychic
-R: Rock/Psychic
-S: Steel/Psychic
-T: Steel/Psychic
-U: Psychic/Psychic
-V: Grass/Psychic
-W: Water/Psychic
-X: Fairy/Psychic
-Y: Dark/Psychic
-Z: Dragon/Psychic
-!: ???
-?: ???
+- A: Psychic
+- B: Bug/Psychic
+- C: Dragon/Psychic
+- D: Electric/Psychic
+- E: Ground/Psychic
+- F: Ghost/Psychic
+- G: Ice/Psychic
+- H: Electric/Psychic
+- I: Ice/Psychic
+- J: Fighting/Psychic
+- K: Flying/Psychic
+- L: Steel/Psychic
+- M: Steel/Psychic
+- N: Normal/Psychic
+- O: Poison/Psychic
+- P: Poison/Psychic
+- Q: Water/Psychic
+- R: Rock/Psychic
+- S: Steel/Psychic
+- T: Steel/Psychic
+- U: Psychic/Psychic
+- V: Grass/Psychic
+- W: Water/Psychic
+- X: Fairy/Psychic
+- Y: Dark/Psychic
+- Z: Dragon/Psychic
+- !: ???
+- ?: ???
 
 ### Alcremies
-Normal: +10 SpAtk/Def,SpDef/Speed
-Ruby Cream: +30 SpAtk, -10 other
-Matcha Cream: +30 Defenses, -10 other
-Mint Cream: +30 Defenses, -10 other
-Lemon Cream: +30 Speed, -10 other
-Salted Cream: +30 Speed, -10 other
-Ruby Swirl: +30 Atk, -10 other
-Caramel Swirl: +30 Defenses, -10 other
-Rainbow Swirl: +30 SpAtk, -10 other
+- Normal: +10 SpAtk/Def,SpDef/Speed
+- Ruby Cream: +30 SpAtk, -10 other
+- Matcha Cream: +30 Defenses, -10 other
+- Mint Cream: +30 Defenses, -10 other
+- Lemon Cream: +30 Speed, -10 other
+- Salted Cream: +30 Speed, -10 other
+- Ruby Swirl: +30 Atk, -10 other
+- Caramel Swirl: +30 Defenses, -10 other
+- Rainbow Swirl: +30 SpAtk, -10 other
 
 ## Megas
-...
+| Pokémon | Types | Abilities | HP | ATK | DEF | SP. ATK | SP. DEF | SPEED |
+|---------|-------|-----------|----|-----|-----|---------|---------|------|
+|Butterfree-Mega|Bug, Psychic|Psychic Surge|60|45|50|130|90|90|
+|Fearow-Mega|Flying!|Moxie|65|120|105|61|61|110|
+|Arbok-Mega|Poison, Dragon|Levitate|90+20|95+40|69|65+10|79|80+20|
+|Parasect-Mega|+Ghost, Grass|Bad Dreams|100+40|95+40|80|60+20|80|30|
+|Venomoth-Mega|Bug, +Ground|Tinted Lens|70+20|65|80+10|100+30|75+25|90+15|
+|Golduck-Mega|Water, Psychic|Beads of Ruin (+SpAtk)|80+20|82+10|78|95+40|80+40|85+20|
+|Machamp-Mega|Fighting|Super Luck|90+90|130+10|80|65|85|55|
+|Victreebel-Mega||+Tinted Lens|||||||
+|Tentracruel-Mega|Water,+Ghost|Huge Power|80+60|70+30|65|80+20|120|100-10|
+|Golem-Mega|+Rock, Dragon|Dragon's Maw|80+20|120+20|130|55+55|65|45|
+|Kingler-Mega||Sheer Force|55+55|130+45|||||
+|Seaking-Mega|Water, Fire|Serene Grace???|80|102+40|65|65|80+10|88+50|
+|Lapras-Mega||Snow Warning|130+65|85+10||85+25|||
+|Omastar-Mega|+Fairy, Water|Illuminate|70|60|125|115+40|70+30|55+30|
+|Kabutops-Mega|+Ghost, Water|Sword of Ruin (+Atk)|60|115+40|105+20|65|70|80+40|
+|Snorlax-Mega|+Grass, Normal|Thick Fat|160+40|110+35||65+35|||
+|Meganium-Mega|Grass, Fairy|+Triage|80|82+10|100+15|83+60|100+15|80|
+|Typhlosion-Mega (Hisui)|Fire, +Ghost|+Shadow Shield|73+10|84|78|119+20|85+10|95+10|
+|Feraligatr-Mega|Water, Dragon|+Dragons Maw|85|105+55|100+25|79+10|83+10|78|
+|Noctowl-Mega|+Dark, Flying|Dark Aura|100+10|50|50+10|96+30|96+10|70+15|
+|Ledian-Mega|Bug, +Steel|Iron Fist|85+15|95+30|50+10|55|110|85+20|
+|Slowking-Mega|Water, Psychic|Speed Boost|95-10|100+10|80-10|75|110-10|30+120|
+|Forretress-Mega|Bug, Steel|Huge Power|75|90+10|140|60+20|60+50|40+20|
+|Shuckle-Mega|Bug, Rock|Slow Start|20+40|230!|230|10+10|10|5+50|
+|Mantine-Mega|Water, Flying|Quick Draw???|85+10|40|70+10|80+50|140|70+30|
+|Skarmory-Mega||+Tough Claws|||||||
+|Kingdra-Mega|Water, Dragon|Swift Swim, Grim Neigh, Chilling Neigh???|75+10|95+20|95+10|95+20|95+10|85+10|
+|Smeargle-Mega|Normal|Protean|55+15|20+85|35|20+85|45|75|
+|Mightyena-Mega|Dark, Ghost|Dark Aura|70+50|110+30|70|60+10|70+10|70+20|
+|???Swalot-Mega|Poison, Psychic|Earth Eater|120+20|83+20|83+20|83+20|83+20|55|
+|Wailord-Mega|Water, +Flying|Aerilate|170+85|90|45|90|45|60+15|
+|Flygon-Mega|+Bug, Dragon|Buzz Voice|80+20|100+20|80+20|100+30|100+10|100|
+|???Ecliminary|Rock, Psychic|Prism Armor|90|105+10|95+5|55+60|65+35|70+30|
+|Whiscash-Mega|Water, Ground|Galvanize|110+10|88+30|73|86+30|71+10|60+20|
+|Caststorm|Water, Flying|Weather Force|90|110|90|110|90|100|
+|Chimecho-Mega|Psychic, +Fairy|Wind Power|75+50|50|80|105+20|100+10|65+10|
+|Glalie-Mega|Ice, Dark||||||||
+|Torterra-Mega|Grass, Ground???|Thick Fat|95+50|109+30|105|75+10|85+10|56|
+|Infernape-Mega|Fire, Fighting|Adaptability???|76+20|104+30|71|104+30|71|108+20|
+|Empoleon-Mega|Water, Steel|Supreme Overlord|84|86+20|88+20|111+30|101+10|60+20|
+|Staraptor-Mega||+Scrappy|||||||
+|???-Mega|Normal|???|59|110|40|110|110|110|
+|Kricketune-Mega|Bug, +Dark|Punk Rock|77|85|61+30|85+50|51+10|65+20|
+|Luxay-Mega|Electric, Dark|Strong Jaw|80|120+20|79|95+15|79|70+35|
+|Roserade-Mega|Grass, Poison|Super Luck|60|125+20|65+30|75+20|105|90+30|
+|Drifblim-Mega|Ghost, Flying???|Flare Boost???|150|80|44+30|90+40|54+20|80+10|
+|Honchkrow-Mega|Poison, Flying|Super Luck???|100+10|125+20|52+10|105+10|52+30|71+20|
+|Yan-Mega|Bug, Flying|Aerilate???|86+15|76+20|86+20|116+25|56|95+20|
+|PorygonZ-Mega|Normal|Neuroforce|85+20|80|70|135+20|75+40|90+20|
+|Serperior-Mega|Grass, Dragon|Contrary|75+30|75+10|95|75+50|95|113+10|
+|Emboar-Mega||Supreme Overlord|||||||
+|Samurott-Mega(Hisui)|Water, Dark|Sharpness|90|108+30|80+20|100+10|65+10|85|
+|Liepard-Mega|Dark, +Fire|+Drought|64|88|50|88+50|50+40|106+10|
+|Audino-Mega||+Fairy Aura|||||||
+|Scolipede-Mega||+Stamina|||||||
+|Maractus-Mega|+Ghost, Grass|Dancer|75+25|86+40|87|106|87|60+35|
+|Scrafty-Mega||Filter/Shed Skin???|||||||
+|Sigilyph-Mega|Psychic, Flying|Simple|72+30|58+30|80+20|103|80+20|97|
+|Vanilluxe-Mega|+Fire, Ice|Flame Body|71+50|95|85+20|110+30|95|79|
+|Klinklang-Mega|Steel, Flying|Steelworker|60+30|100+40|115|70+20|85|90+10|
+|Eelektross-Mega||+Battery|||||||
+|Golurk-Mega||No Guard???|||||||
+|Chesnaught-Mega||Iron Barbs|88+20|107+30|122+20|74|75+10|64|
+|Delphox-Mega||+Soul Heart|75+20|69|72|114+10|100+20|104+10|
+|Greninja-Mega(Ash)||Battle Bond|72|145|67|153|71|132|
+|Pyroar-Mega M|Fire, Poison|Levitate|86+5|109+30|72+30|68+30|66+30|106+5|
+|Pyroar-Mega F|Fire, Ground|Serene Grace|86+15|68|72|109+30|66+50|106+5|
+|Meowstic-Mega||+Neuroforce|||||||
+|Malamar-Mega||+Mind Power|||||||
+|Barbaracle-Mega||+Skill Link|||||||
+|Dragalge-Mega||Multiscale???|||||||
+|Hawlucha-Mega||+Stamina|||||||
+|Klefki-Mega||+Intrepid Sword|57+40|80+40|91|80+20|87|75|
+|Pumpking||Flash Fire|85+20|110+10|76|65+45|82|56+25|
+|Decidueye-Mega(Hisui)||Scrappy|88+10|112+25|80|95+10|95|60+20|
+|Incineroar-Mega||+Competitive???|95+10|115+30|90+10|80+30|90|60+20|
+|Primarina-Mega||Liquid Voice???(Pixilate?)|80+40|74|74+20|126+20|116+10|60+10|
+|Toucannon-Mega|+Fire, Flying|+Mega Launcher??? (No Guard?)|80+25|120+30|75|75+55|75|60-10|
+|Crabominable-Mega||+Moody|||||||
+|Golisopod-Mega||+Defiant|||||||
+|Palossand-Mega||+Stamina|85+30|75|110+20|100+10|75+25|35|
+|Turtonator-Mega||+Quick Draw|60|78|135|91+50|85+50|36|
+|Drampa-Mega||+Weather Force|||||||
+|Rillaboom-Mega|Grass, +Normal|+Punk Rock|100+40|125|90|60+60|70|85|
+|Cinderace-Mega|Fire, +Fighting|Libero|80+60|116+30|75+5|65|75+5|119|
+|Inteleon-Mega|Water, +Dark|Sniper|70+50|85+30|65|125+20|65|120|
+|Corviknight-Mega||Infiltrator|98+40|87+40|105|53+20|85|67|
+|Orbeetle-Mega||+No Guard|60+60|45|110|80+40|120|90|
+|Thievul-Mega||+Technician|80+10|78???|58+10|107+40|92+10|100+20|
+|Drednaw-Mega||Swift Swim|90+60|115+15|90|48+15|68|74+10|
+|Boltund-Mega||Strong Jaw|69|100+50???|60+9|100+20|60+9|121+30|
+|Coalossal-Mega||+Sand Stream|110+50|80+25|120|80+25|90|30|
+|Flapple/Appletun-Mega||Thick Fat|110+60|110+20|80|100+20|60|70|
+|Sandaconda-Mega|Ground, +Flying|+Sand Force|72+60|107+20|125|65+20|70|71|
+|Toxtricity-Mega||Punk Rock|75+60|98+15|70|114+25|70|75|
+|Centiskorch-Mega||+Solar Power|100+50|115+30|65|90+20|90|65|
+|Hatterene-Mega||+Tablets of Ruin (+Def)|57+45|90+35|95|136+20|103|29|
+|Grimmsnarl-Mega||+Vessel of Ruin (+Sp.Def)|95+50|120+25|65|95+25|75|60|
+|Alcremie-Mega|+Ice, Fairy|+Refrigerate|65+60|60|75|110+40|121|64|
+|Falinks-Mega|Fighting, +Steel|+Skill Link|65+30|100|100+30|70|60+30|75-10|
+|Pincurchin-Mega|Electric, +Water|+Water Bubble|48+20|101+10|95|91+20|85|15+50|
+|Copperajah-Mega||+Steely Spirit|122+45|130+25|69|80+30|69|30|
+|Yukaxato-Mega(Meowscarada)|Grass, +Dark|+Serene Grace???|76|70+30|70|110+20|123|81+50|
+|Spicaboro-Mega(Skeledirge)|Fire, +Ghost|Unaware|104+40|110+10|100|75+25|75+25|66|
+|Quaxistador-Mega(Quaquaval)|Water, +Steel|+Steelworker|95|120+15|90+35???|65+20|75+15|85+15???|
+|Spidops-Mega||+Fluffy|60+20|79+50|102+10|52-10|86+10|55+30|
+|Scovillain-Mega||+Flame Body???|85+40|108|65|108+30|65|75+30|
+|Rabsca-Mega||+Rocky Payload|75+75|50|85|115+25|100|45|
+|Revavroom-Mega|Steel, +Dark|+Stamina???(Intimidate?,Speed Boost?)|80+40|119+30|90+10|54|67|90+20|
+|Glimmora-Mega|Rock, Poison???|+Fairy Aura???|83+40|55+10|90+10|130+30|81+10|86|
+|Tatsugiri-Mega||Storm Drain|68|65|90|135|125|102|
+|Baxcalibur-Mega||+Sharpness|115|145+20|92+20|75+40|86+20|87|
+
+## Additional Forms
+| Pokémon | Types | Abilities | HP | ATK | DEF | SP. ATK | SP. DEF | SPEED |
+| ---------- | ---------------- | ------------------------------------ | --- | --- | --- | ----- | ----- | ----- |
+| Yukaxato    | Grass, Psychic  | Overgrow, Filter, Protean                      | 76  | 70  | 70  | 110   | 123   | 81    |
+| Spicaboro   | Fire, Fighting  | Blaze, Flame Body, Moxie                       | 104 | 110 | 100 | 75    | 75    | 66    |
+| Quaxistador | Water, Dark     | Torrent, Super Luck, Steelworker               | 95  | 120 | 90  | 65    | 75    | 85    |
+| Brynxess    | Ice, Psychic    | Pixilate, Refrigerate, Snow Warning            | 95  | 70  | 85  | 135   | 105   | 105   |
+| Apokargo    | Fire, Rock      | Desolate Land   | 100 | 70  | 130 | 110   | 110   | 20    |
+| Quezatu     | Psychic, Flying | Delta Stream       | 85  | 75  | 80  | 115   | 80    | 100   |
+| Relicliffon | Water, Rock     | Primordial Sea | 120 | 110??? | 110 | 75    | 75    | 85    |
+| Keclilisk   | Normal, Dragon  | Color Change, Protean, Filter                  | 130 | 100 | 90  | 110   | 120   | 40    |
+| Dhelvessel  | Ghost, Grass    | Rain Dish, Steelworker                         | 100 | 141 | 100 | 86    | 100   | 50    |
+| Smashbag   | Rock, Flying     | Solar Power, Hustle                  | 100 | 110 | 65  | 35    | 65    | 75    |
+| Clawhill   | Fighting, Fire   | Solar Power, Guts                    | 144 | 130 | 80  | 40    | 50    | 60    |
+| Magicorn   | Psychic, Rock    | Solar Power, Inner Focus             | 100 | 135 | 75  | 90    | 100   | 80    |
+| Magicoat   | Psychic, Ground  | Solar Power, Trace                   | 90  | 90  | 65  | 135   | 120   | 80    |
+| Swirlhead  | Water, Dragon    | Solar Power, Water Absorb            | 100 | 115 | 90  | 135   | 90    | 98    |
+| Terrorking | Fire, Dark       | Drought, Solar Power                 | 110 | 134 | 110 | 100   | 74    | 61    |
+| Ironbloon  | Normal, Flying   | Download, Cute Charm, Soundproof     | 140 | 95  | 75  | 95    | 70    | 95    |
+| Ironhut    | Electric, Poison | Download, Effect Spore | 115 | 85  | 85  | 115   | 85    | 20    |
+| Irontitan  | Fighting, Steel  | Download, Analytic                   | 90  | 120 | 110 | 120   | 90    | 50    |
+| Ironwings  | Grass, Flying    | Download, Intimidate     | 85  | 135 | 80  | 120   | 80    | 110   |
+| Ironwitch  | Ghost, Psychic   | Levitate, Download                   | 60  | 85  | 80  | 115   | 105   | 105   |
+| Ironpanel    | Grass, Electric   | Download, Solar Power                  | 105 | 75  | 105 | 115   | 105   | 70    |
+| Slendersun   | Ghost, Fire       | Solar Power, Chlorophyll               | 100 | 135 | 75  | 75    | 85    | 110   |
+| Ironhole     | Fairy, Dark       | Download, Pressure                     | 90  | 92  | 108 | 122   | 138   | 35    |
+| Dreadbould   | Ghost, Rock       | Solar Power, Infiltrator               | 50  | 122 | 138 | 92    | 108   | 75    |
+| Ironplasma   | Ghost, Electric   | Download, Flame Body                   | 80  | 90  | 90  | 145   | 100   | 85    |
+| Cinderoot    | Grass, Fire       | Solar Power, Flash Fire                | 80  | 65  | 100 | 145   | 120   | 80    |
+| Ironbuzz     | Bug, Poison       | Download, Punk Rock                    | 125 | 98  | 80  | 144   | 80    | 75    |
+| Barkjam      | Electric, Grass   | Solar Power, Technician                | 85  | 128 | 100 | 114   | 70    | 85    |
+| Ironseeker   | Steel, Electric   | Download, Illuminate                   | 125 | 58  | 78  | 116   | 116   | 67    |
+| Lurinskull   | Water, Ghost      | Solar Power, Volt Absorb               | 125 | 126 | 78  | 58    | 76    | 97    |
+| Spikedash    | Normal, Rock      | Solar Power, Keen Eye          | 135 | 146 | 74  | 45    | 65    | 100   |
+| Ironwalks    | Normal, Steel     | Download, Speed Boost          | 95  | 136 | 84  | 55    | 75    | 120   |
+| Nokay        | Psychic, Fighting | Solar Power, Stamina                   | 190 | 118 | 88  | 78    | 58    | 73    |
+| Ironkneel    | Psychic, Steel    | Shadow Tag, Download                   | 160 | 108 | 58  | 73    | 73    | 98    |
+| Threadenin    | Bug, Dark         | Solar Power, Skill Link                | 120 | 130 | 95  | 50    | 95    | 80    |
+| Ironsting    | Electric, Poison  | Download, Sniper                       | 70  | 80  | 100 | 130   | 70    | 120   |
+| Archmussel   | Water, Rock       | Skill Link, Solar Power                | 105 | 135 | 80  | 115   | 80    | 55    |
+| Ironpump     | Water, Poison     | Download, Mega Launcher                | 105 | 80  | 75  | 145   | 75    | 90    |
+| Steamount    | Fire, Water       | Solar Power, Flame Body                | 90  | 100 | 125 | 135   | 80    | 40    |
+| Ironfuse     | Poison, Ground    | Download, Filter                       | 70  | 100 | 70  | 145   | 125   | 60    |
+| Abyssclaw    | Dragon, Dark      | Solar Power, Rough Skin                | 170 | 140 | 40  | 85    | 40    | 95    |
+| Ironsub      | Water, Steel      | Download, Speed Boost     | 75  | 135 | 80  | 95    | 80    | 105   |
+| Glaciarmor   | Ice, Fighting     | Solar Power, Bulletproof               | 75  | 110 | 125 | 100   | 105   | 85    |
+| Ironsuit    | Dragon, Normal    | Download, Soundproof, Overcoat         | 75  | 110 | 125 | 100   | 105   | 85    |
+| Summoncircle | Rock, Fairy       | Solar Power, Power Spot        | 100 | 60  | 125 | 155   | 60    | 70    |
+| Irongate     | Rock, Psychic     | Download, Power Spot           | 100 | 70  | 70  | 125   | 135   | 70    |
+| Cubepunch    | Ice, Fighting     | Iron Fist, Solar Power                   | 105 | 115 | 105 | 65    | 90    | 130   |
+| Ironvision   | Ice, Electric     | Shadow Shield, Download                  | 75  | 65  | 110 | 120   | 110   | 50    |
+| Floatinhunt  | Dragon, Water     | Solar Power, Clear Body, Clear Body    | 88  | 120 | 75  | 100   | 75    | 142   |
+| Ironrocket   | Ghost, Flying     | Download, Infiltrator, Infiltrator     | 88  | 120 | 75  | 100   | 75    | 142   |
+| Pleasodor    | Normal, Fairy     | Solar Power, Thick Fat                 | 125 | 115 | 85  | 59    | 100   | 85    |
+| Ironspray    | Normal, Poison    | Download, Gluttony                     | 110 | 59  | 95  | 120   | 80    | 106   |
+| Sanesect     | Bug, Normal       | Solar Power, Dry Skin, Solar Power     | 100 | 130 | 110 | 60    | 80    | 90    |
+| Ironfection  | Poison, Grass     | Download, Effect Spore, Download       | 100 | 80  | 80  | 130   | 100   | 80    |
+| Infinaga     | Dragon, Fairy     | Solar Power, Marvel Scale, Solar Power | 95  | 60  | 79  | 130   | 125   | 81    |
+| Ironfan      | Water, Flying     | Download, Competitive, Defiant         | 95  | 100 | 89  | 100   | 105   | 81    |
+| Toxspittle   | Poison, Normal    | Solar Power, Dry Skin, Solar Power     | 85  | 70  | 62  | 129   | 94    | 130   |
+| Ironsat      | Electric, Steel   | Download, Solar Power, Download        | 65  | 55  | 92  | 139   | 100   | 119   |
+| Crawlfang    | Poison, Dragon    | Solar Power, Frisk, Solar Power        | 100 | 120 | 80  | 87    | 80    | 123   |
+| Ironboom     | Flying, Normal    | Download, Infiltrator, Download        | 85  | 70  | 95  | 132   | 95    | 123   |
+| Sealstone    | Rock, Ghost       | Solar Power, Dauntless Shield          | 60  | 100 | 140 | 70    | 140   | 60    |
+| Ironsaber    | Steel, Fire       | Download, Intrepid Sword               | 80  | 140 | 75  | 140   | 75    | 60    |
+| Glideburn    | Flying, Fire      | Solar Power, Oblivious, Solar Power    | 78  | 104 | 80  | 111   | 60    | 137   |
+| Ironcubator  | Poison, Fairy     | Download, Corrosion, Download          | 98  | 64  | 95  | 111   | 95    | 107   |
 
 ## Changed Attacks
 - Mega Punch: 120 Power

@@ -14856,7 +14856,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
                 .friendship = 35,
                 .growthRate = GROWTH_SLOW,
                 .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_DRAGON},
-                .abilities = {ABILITY_RIVALRY, ABILITY_MOLD_BREAKER, ABILITY_UNNERVE},
+                .abilities = {ABILITY_SHARPNESS, ABILITY_MOLD_BREAKER, ABILITY_UNNERVE},
                 .bodyColor = BODY_COLOR_YELLOW,
                 .noFlip = FALSE,
             },
@@ -26576,10 +26576,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         [SPECIES_PUMPKING] =
             {
-                .baseHP = 85,
+                .baseHP = 85+20,
                 .baseAttack = 110 + 10,
                 .baseDefense = 76,
-                .baseSpeed = 56,
+                .baseSpeed = 56+25,
                 .baseSpAttack = 65 + 45,
                 .baseSpDefense = 82,
                 .types = {TYPE_GHOST, TYPE_GRASS},
@@ -28441,12 +28441,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_SWALOT_MEGA] =
             {
-                .baseHP = 100 + 20,
-                .baseAttack = 73 + 10,
-                .baseDefense = 83,
+                .baseHP = 100 + 20+20,
+                .baseAttack = 73 + 10+20,
+                .baseDefense = 83+20,
                 .baseSpeed = 55,
-                .baseSpAttack = 73 + 10,
-                .baseSpDefense = 83,
+                .baseSpAttack = 73 + 10+20,
+                .baseSpDefense = 83+20,
                 .types = {TYPE_POISON, TYPE_PSYCHIC},
                 .catchRate = 75,
                 .expYield = 163,
@@ -28891,12 +28891,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_PYROAR_MEGA_M] =
             {
-                .baseHP = 86,
-                .baseAttack = 68,
-                .baseDefense = 72,
-                .baseSpeed = 106,
-                .baseSpAttack = 109,
-                .baseSpDefense = 66,
+                .baseHP = 86+5,
+                .baseAttack = 109+30,
+                .baseDefense = 72+30,
+                .baseSpeed = 106+5,
+                .baseSpAttack = 68+30,
+                .baseSpDefense = 66+30,
                 .types = {TYPE_FIRE, TYPE_POISON},
                 .catchRate = 65,
                 .expYield = 177,
@@ -28914,12 +28914,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
             [SPECIES_PYROAR_MEGA_F] =
             {
-                .baseHP = 86,
+                .baseHP = 86+15,
                 .baseAttack = 68,
                 .baseDefense = 72,
-                .baseSpeed = 106,
-                .baseSpAttack = 109,
-                .baseSpDefense = 66,
+                .baseSpeed = 106+5,
+                .baseSpAttack = 109+30,
+                .baseSpDefense = 66+50,
                 .types = {TYPE_FIRE, TYPE_GROUND},
                 .catchRate = 65,
                 .expYield = 177,
