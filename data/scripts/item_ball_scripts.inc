@@ -619,7 +619,7 @@ VictoryRoad_B1F_EventScript_ItemFullRestore::
 	end
 
 VictoryRoad_B2F_EventScript_ItemFullHeal::
-	finditem ITEM_FULL_HEAL
+	finditem ITEM_FULL_RESTORE
 	end
 
 ArtisanCave_B1F_EventScript_ItemHPUp::

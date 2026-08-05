@@ -116,24 +116,57 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Mats
+	pokemart LilycoveCity_DepartmentStore_5F_Pokemart_Mats
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
 LilycoveCity_DepartmentStore_5F_Pokemart_Mats:
-	.2byte DECOR_SURF_MAT
-	.2byte DECOR_THUNDER_MAT
-	.2byte DECOR_FIRE_BLAST_MAT
-	.2byte DECOR_POWDER_SNOW_MAT
-	.2byte DECOR_ATTRACT_MAT
-	.2byte DECOR_FISSURE_MAT
-	.2byte DECOR_SPIKES_MAT
-	.2byte DECOR_GLITTER_MAT
-	.2byte DECOR_JUMP_MAT
-	.2byte DECOR_SPIN_MAT
-	.2byte DECOR_NONE
+	.2byte ITEM_EVERSTONE
+	.2byte ITEM_RED_NECTAR
+	.2byte ITEM_YELLOW_NECTAR
+	.2byte ITEM_PINK_NECTAR
+	.2byte ITEM_PURPLE_NECTAR
+	.2byte ITEM_FLAME_PLATE
+	.2byte ITEM_SPLASH_PLATE
+	.2byte ITEM_ZAP_PLATE
+	.2byte ITEM_MEADOW_PLATE
+	.2byte ITEM_ICICLE_PLATE
+	.2byte ITEM_FIST_PLATE
+	.2byte ITEM_TOXIC_PLATE
+	.2byte ITEM_EARTH_PLATE
+	.2byte ITEM_SKY_PLATE
+	.2byte ITEM_MIND_PLATE
+	.2byte ITEM_INSECT_PLATE
+	.2byte ITEM_STONE_PLATE
+	.2byte ITEM_SPOOKY_PLATE
+	.2byte ITEM_DRACO_PLATE
+	.2byte ITEM_DREAD_PLATE
+	.2byte ITEM_IRON_PLATE
+	.2byte ITEM_PIXIE_PLATE
+	.2byte ITEM_FIRE_MEMORY
+	.2byte ITEM_WATER_MEMORY
+	.2byte ITEM_ELECTRIC_MEMORY
+	.2byte ITEM_GRASS_MEMORY
+	.2byte ITEM_ICE_MEMORY
+	.2byte ITEM_FIGHTING_MEMORY
+	.2byte ITEM_POISON_MEMORY
+	.2byte ITEM_GROUND_MEMORY
+	.2byte ITEM_FLYING_MEMORY
+	.2byte ITEM_PSYCHIC_MEMORY
+	.2byte ITEM_BUG_MEMORY
+	.2byte ITEM_ROCK_MEMORY
+	.2byte ITEM_GHOST_MEMORY
+	.2byte ITEM_DRAGON_MEMORY
+	.2byte ITEM_DARK_MEMORY
+	.2byte ITEM_STEEL_MEMORY
+	.2byte ITEM_FAIRY_MEMORY
+	.2byte ITEM_DOUSE_DRIVE
+	.2byte ITEM_SHOCK_DRIVE
+	.2byte ITEM_BURN_DRIVE
+	.2byte ITEM_CHILL_DRIVE
+	.2byte ITEM_NONE
 	release
 	end
 

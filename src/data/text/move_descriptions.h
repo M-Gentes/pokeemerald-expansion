@@ -2210,7 +2210,7 @@ static const u8 sTrickOrTreatDescription[] = _(
 
 static const u8 sNobleRoarDescription[] = _(
     "Intimidates the foe, to cut\n"
-    "Attack and Sp. Atk.");
+    "Attack.");
 
 static const u8 sIonDelugeDescription[] = _(
     "Electrifies Normal-type\n"
@@ -2233,8 +2233,8 @@ static const u8 sFreezeDryDescription[] = _(
     "types. May cause freezing.");
 
 static const u8 sDisarmingVoiceDescription[] = _(
-    "Lets out a charming cry\n"
-    "that cannot be evaded.");
+    "Lets out a charming cry,\n"
+    "cannot be evaded, Prio+.");
 
 static const u8 sPartingShotDescription[] = _(
     "Lowers the foe's Attack and\n"
