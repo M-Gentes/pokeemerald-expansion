@@ -142,7 +142,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_Marcel),
+            .party = NO_ITEM_DEFAULT_MOVES(sParty_Marcel),
         },
 
     [TRAINER_ALBERTO] =
@@ -922,7 +922,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_CUSTOM_MOVES(sParty_Braxton),
+            .party = NO_ITEM_CUSTOM_MOVES(sParty_Braxton),
         },
 
     [TRAINER_VINCENT] =
@@ -1078,7 +1078,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_Warren),
+            .party = NO_ITEM_DEFAULT_MOVES(sParty_Warren),
         },
 
     [TRAINER_MARY] =
@@ -5506,7 +5506,7 @@ const struct Trainer gTrainers[] = {
             .items = {},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-            .party = ITEM_DEFAULT_MOVES(sParty_Kara),
+            .party = NO_ITEM_DEFAULT_MOVES(sParty_Kara),
         },
 
     [TRAINER_DANA] =
@@ -8074,7 +8074,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_DEFAULT_MOVES(sParty_Ruben),
+            .party = NO_ITEM_DEFAULT_MOVES(sParty_Ruben),
         },
 
     [TRAINER_KOJI_1] =
@@ -9166,7 +9166,7 @@ const struct Trainer gTrainers[] = {
             .items = {ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE},
             .doubleBattle = FALSE,
             .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-            .party = ITEM_CUSTOM_MOVES(sParty_Leonel),
+            .party = NO_ITEM_CUSTOM_MOVES(sParty_Leonel),
         },
 
     [TRAINER_CALLIE] =
