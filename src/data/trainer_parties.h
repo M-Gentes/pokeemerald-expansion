@@ -133,7 +133,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
         .species = SPECIES_CARVANHA,
     }};
 
-static const struct TrainerMonItemDefaultMoves sParty_Marcel[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_Marcel[] = {
     {
         .iv = 100,
         .lvl = 29,
@@ -4044,7 +4044,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
      .moves = {MOVE_SPIKES, MOVE_TOXIC, MOVE_STEEL_WING, MOVE_WHIRLWIND}},
     {.iv = 210,
      .lvl = 29,
-     .species = SPECIES_NOCTOWL,
+     .species = SPECIES_NOCTUH,
      .heldItem = ITEM_CUSTOMITE,
      .moves = {MOVE_FIERY_WRATH, MOVE_AIR_SLASH, MOVE_ROOST, MOVE_REFLECT}},
     {.iv = 210,
@@ -4546,7 +4546,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Timothy5[] = {
 static const struct TrainerMonItemCustomMoves sParty_Vicky[] = {
     {.iv = 0,
      .lvl = 18,
-     .species = SPECIES_KLEFKI,
+     .species = SPECIES_KLEFKY,
      .heldItem = ITEM_CUSTOMITE,
      .moves = {MOVE_TACKLE, MOVE_ASTONISH, MOVE_SPIKES, MOVE_NONE}}};
 
