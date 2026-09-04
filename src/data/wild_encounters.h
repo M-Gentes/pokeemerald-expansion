@@ -63,7 +63,7 @@ const struct WildPokemon gRoute101_LandMons[] =
 const struct WildPokemonInfo gRoute101_LandMonsInfo = { 20, gRoute101_LandMons };
 const struct WildPokemon gRoute102_LandMons[] =
 {
-    { 3, 3, SPECIES_WINGULL },
+    { 3, 3, SPECIES_HOOTHOOT },
     { 3, 3, SPECIES_PIDOVE },
     { 4, 4, SPECIES_PIDGEY },
     { 4, 4, SPECIES_DUCKLETT },
@@ -73,7 +73,7 @@ const struct WildPokemon gRoute102_LandMons[] =
     { 3, 3, SPECIES_SWABLU },
     { 4, 4, SPECIES_ORICORIO_SENSU },
     { 4, 4, SPECIES_FLETCHLING },
-    { 4, 4, SPECIES_HOOTHOOT },
+    { 4, 4, SPECIES_WINGULL },
     { 3, 3, SPECIES_ROOKIDEE },
 };
 
@@ -538,8 +538,8 @@ const struct WildPokemonInfo gRoute124_FishingMonsInfo = { 30, gRoute124_Fishing
 const struct WildPokemon gPetalburgWoods_LandMons[] =
 {
     { 5, 5, SPECIES_SHROOMISH },
-    { 5, 5, SPECIES_WURMPLE },
-    { 5, 5, SPECIES_POOCHYENA },
+    { 5, 5, SPECIES_TAROUNTULA },
+    { 5, 5, SPECIES_IRONCUBATOR },
     { 6, 6, SPECIES_MANKEY },
     { 5, 5, SPECIES_CATERPIE },
     { 5, 5, SPECIES_WEEDLE },
