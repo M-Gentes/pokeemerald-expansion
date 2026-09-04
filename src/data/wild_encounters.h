@@ -539,7 +539,7 @@ const struct WildPokemon gPetalburgWoods_LandMons[] =
 {
     { 5, 5, SPECIES_SHROOMISH },
     { 5, 5, SPECIES_TAROUNTULA },
-    { 5, 5, SPECIES_IRONCUBATOR },
+    { 5, 5, SPECIES_WURMPLE },
     { 6, 6, SPECIES_MANKEY },
     { 5, 5, SPECIES_CATERPIE },
     { 5, 5, SPECIES_WEEDLE },
